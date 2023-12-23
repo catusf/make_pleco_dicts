@@ -1,0 +1,216 @@
+# Radicals https://github.com/jay-pee/Anki-Chinese-Radicals-Deck-Plus/blob/master/data/source.csv
+一	one	1	
+丨	line	2	
+丶	dot	3	
+丿	slash	4	乀, 乁
+乙	second	5	乚, 乛
+亅	hook	6	
+二	two	7	
+亠	lid	8	
+人	man, human	9	亻
+儿	legs	10	
+入	enter	11	
+八	eight	12	
+冂	open country	13	
+冖	cover	14	
+冫	ice	15	
+几	table	16	
+凵	container, open mouth	17	
+刀	knife, sword	18	刁, 刂
+力	power, force	19	
+勹	wrap, embrace	20	
+匕	spoon	21	
+匚	box	22	
+匸	hiding enclosure	23	
+十	ten, complete	24	
+卜	divination	25	
+卩	kneel	26	
+厂	cliff	27	
+厶	private	28	
+又	right hand	29	
+口	mouth, opening	30	
+囗	enclosure	31	
+土	earth	32	
+士	scholar, bachelor	33	
+夂	go	34	
+夊	go slowly	35	
+夕	evening, sunset	36	
+大	big, very	37	夨
+女	woman, female	38	
+子	child, seed	39	孑, 孒, 孓
+宀	roof	40	
+寸	thumb, inch	41	
+小	small, insignificant	42	
+尢	lame	43	尣
+尸	corpse	44	
+屮	sprout	45	
+山	mountain	46	
+巛	river	47	巜, 川
+工	work	48	
+己	oneself	49	已, 巳
+巾	turban, scarf	50	
+干	pestle	51	
+乡	short, tiny	52	幺
+广	house on cliff	53	
+廴	long stride	54	
+廾	two hands, twenty	55	
+弋	shoot, arrow	56	
+弓	bow	57	
+彐	pig snout	58	彑
+彡	bristle, beard	59	
+彳	step	60	
+心	heart	61	忄
+戈	spear, halberd	62	
+戶	door, house	63	户, 戸
+手	hand	64	扌, 才
+支	branch	65	
+攴	to tap, to knock lightly	66	攵
+文	script, literature	67	
+斗	dipper	68	
+斤	axe	69	
+方	square	70	
+无	negative, no, not	71	
+日	sun, day	72	
+曰	say	73	
+月	moon, month	74	
+木	tree	75	
+欠	owe, lack, yawn	76	
+止	stop	77	
+歹	death, decay	78	
+殳	weapon, lance	79	
+毋	mother, do not	80	毌
+比	compare, compete	81	
+毛	fur, hair	82	
+氏	clan	83	
+气	steam, breath	84	
+水	water	85	氵
+火	fire	86	灬
+爪	claw, nail, talon	87	爫
+父	father	88	
+爻	mix, twine, cross	89	
+丬	split wood	90	爿
+片	slice	91	
+牙	fang	92	
+牛	cow	93	牜
+犬	dog	94	犭
+玄	dark, profound	95	
+玉	jade (king)	96	玊, 王
+瓜	melon	97	
+瓦	tile	98	
+甘	sweet	99	
+生	life	100	
+用	use	101	甩
+曱	field	102	田, 由, 甲, 申, 甴
+疋	bolt of cloth	103	
+疒	sickness	104	
+癶	footsteps	105	
+白	white	106	
+皮	skin	107	
+皿	dish	108	
+目	eye	109	
+矛	spear	110	
+矢	arrow	111	
+石	stone	112	
+示	sign	113	礻
+禸	track	114	
+禾	grain	115	
+穴	cave	116	
+立	stand, erect	117	
+竹	bamboo	118	
+米	rice	119	
+糸	silk	120	糹, 纟
+缶	jar	121	
+网	net	122	罒, 罓
+羊	sheep	123	
+羽	feather	124	
+老	old	125	耂, 考
+而	beard	126	
+耒	plow	127	
+耳	ear	128	
+聿	brush	129	肀
+肉	meat	130	
+臣	minister, official	131	
+自	self	132	
+至	arrive	133	
+臼	mortar	134	
+舌	tongue	135	
+舛	opposite	136	
+舟	boat	137	
+艮	stopping	138	
+色	color, prettiness	139	
+艸	grass	140	艹
+虍	tiger	141	
+虫	insect	142	
+血	blood	143	
+行	go, do	144	
+衣	clothes	145	衤
+襾	west	146	西, 覀
+見	see	147	见
+角	horn	148	
+言	speech	149	訁, 讠
+谷	valley	150	
+豆	bean	151	
+豕	pig	152	
+豸	cat, badger	153	
+貝	shell	154	贝
+赤	red, bare	155	
+走	run	156	赱
+足	foot	157	
+身	body	158	
+車	cart, car	159	车
+辛	bitter	160	
+辰	morning	161	
+辵	walk	162	辶
+邑	town	163	
+酉	wine, alcohol	164	
+釆	divide, distinguish, choose	165	
+里	village, mile	166	
+金	metal, gold	167	釒, 钅
+長	long, grow	168	镸, 长
+門	gate	169	门
+阜	mound, dam	170	阝
+隶	slave, capture	171	
+隹	small bird	172	
+雨	rain	173	
+靑	blue	174	青
+非	wrong	175	
+面	face	176	靣
+革	leather, rawhide	177	
+韋	tanned leather	178	韦
+韭	leek	179	
+音	sound	180	
+頁	leaf	181	页
+凬	wind	182	風, 风
+飛	fly	183	
+食	eat, food	184	飠, 饣
+首	head	185	
+香	fragrant	186	
+馬	horse	187	马
+骨	bone	188	
+高	tall, high	189	髙
+髟	long hair	190	
+鬥	fight	191	
+鬯	herbs, sacrificial wine	192	
+鬲	tripod, cauldron	193	
+鬼	ghost, demon	194	
+魚	fish	195	鱼
+鳥	bird	196	鸟
+鹵	salt	197	
+鹿	deer	198	
+麥	wheat	199	麦
+麻	hemp, flax	200	
+黃	yellow	201	黄
+黍	millet	202	
+黑	black	203	黒
+黹	embroidery, needlework	204	
+黽	frog, amphibian	205	黾
+鼎	tripod	206	
+鼓	drum	207	鼔
+鼠	rat, mouse	208	鼡
+鼻	nose	209	
+斉	even, uniformly	210	齊, 齐
+歯	tooth, molar	211	齒, 齿
+龍	dragon	212	龙
+亀	turtle, tortoise	213	龜, 龟
+龠	flute	214	
+			
