@@ -1,6 +1,7 @@
 import sys
 import json
 import datetime
+
 import readchar
 import hanzidentifier
 from pinyin import pinyin as get_pinyin
@@ -23,7 +24,7 @@ start_datetime = datetime.datetime.now()
 now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 
 MAX_BUILD_ITEMS = 100000
-MAX_BUILD_ITEMS = 1000
+MAX_BUILD_ITEMS = 100
 
 BUILD_DICT_DATA = False
 CONVERT_TO_PLECO = True  #
@@ -51,7 +52,7 @@ PC_CONTAINS_MARK = "CONTAINS"
 
 CHAR_DICT_FILE = "char_dict.json"
 
-char_dict = {}
+# char_dict = {}
 
 print("Open char dictionary data file")
 try:
@@ -132,7 +133,7 @@ def components_from_tree(tree, char):
     return None if len(tree_matches) == 0 else tree_matches
 
 
-char_dict = {}
+# char_dict = {}
 
 if BUILD_DICT_DATA:
     for num, org_char in enumerate(wordlist[:MAX_BUILD_ITEMS]):
@@ -326,9 +327,9 @@ if CONVERT_TO_PLECO:
                 #     char_dict[comp]['meaning'] if char_dict[comp]['meaning'] else ['(No meaning)'])
                 meaning_text = ""
 
+                pinyin = get_pinyin.get(comp)
                 if comp not in char_dict or not char_dict[comp]["meaning"]:
                     meaning_text = "(No meaning)"
-                    pinyin = get_pinyin.get(comp)
                 else:
                     for num, com_meaning in enumerate(char_dict[comp]["meaning"]):
                         meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
@@ -344,6 +345,7 @@ if CONVERT_TO_PLECO:
         string = re.sub(PATTERN_PY, replace_num_pinyin, string)
 
         string = string.replace("\n", PC_NEW_LINE)
+        # print(string)
         fwrite.write(f"{string}\n")
 
     fwrite.close()

@@ -6,6 +6,7 @@ old
 *.html
 *.zip
 *_pleco.txt
+dict/
 
 __pycache__/
 *.py[cod]
