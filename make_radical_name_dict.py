@@ -9,7 +9,6 @@ from pinyin import get as get_pinyin
 from chin_dict.chindict import ChinDict
 import regex as re
 from dragonmapper.transcriptions import numbered_to_accented
-from zmq import has
 from tools_configs import (
     replace_blue,
     pleco_make_blue,
@@ -86,7 +85,7 @@ fwrite.write(f"{string}\n")
 
 # Write item for radicals with names
 string_has_name = (
-    f"{NAME_PAGE}\tyǒu míngzì\t{pleco_make_dark_gray('RADICALS WITH NAMES')}\n"
+    f"{NAME_PAGE}\tyǒu míngzì\t{pleco_make_dark_gray("RADICALS WITH NAMES")}\n"
 )
 
 for rad in radicals:

@@ -5,3 +5,5 @@ hanzidentifier>=1.2.0
 readchar>=4.0.5
 chin-dict>=0.1.4
 regex>=2023.10.3
+hanziconv>=0.3.2
+dragonmapper>=0.2.6
