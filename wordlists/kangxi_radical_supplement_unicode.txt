@@ -1,0 +1,118 @@
+# CJK Radicals Supplement 
+2E80	 ⺀ 	CJK RADICAL REPEAT	• variant of Kangxi Radical 3
+2E81	 ⺁ 	CJK RADICAL CLIFF	• variant of Kangxi Radical 27	→ 5382 厂	→ 20086 𠂆
+2E82	 ⺂ 	CJK RADICAL SECOND ONE	• variant of Kangxi Radical 5	→ 4E5B 乛
+2E83	 ⺃ 	CJK RADICAL SECOND TWO	• variant of Kangxi Radical 5	→ 4E5A 乚
+2E84	 ⺄ 	CJK RADICAL SECOND THREE	• variant of Kangxi Radical 5	→ 4E59 乙
+2E85	 ⺅ 	CJK RADICAL PERSON	• variant of Kangxi Radical 9	• form used on left side	→ 4EBB 亻
+2E86	 ⺆ 	CJK RADICAL BOX	• variant of Kangxi Radical 13	→ 5182 冂
+2E87	 ⺇ 	CJK RADICAL TABLE	• variant of Kangxi Radical 16	→ 51E0 几	→ 20628 𠘨
+2E88	 ⺈ 	CJK RADICAL KNIFE ONE	• variant of Kangxi Radical 18	• form used at top	→ 5200 刀	→ 2008A 𠂊
+2E89	 ⺉ 	CJK RADICAL KNIFE TWO	• variant of Kangxi Radical 18	• form used on right side	→ 5202 刂
+2E8A	 ⺊ 	CJK RADICAL DIVINATION	• variant of Kangxi Radical 25	• form used at top	→ 535C 卜
+2E8B	 ⺋ 	CJK RADICAL SEAL	• variant of Kangxi Radical 26	• form used at bottom	→ 353E 㔾
+2E8C	 ⺌ 	CJK RADICAL SMALL ONE	• variant of Kangxi Radical 42	• form used at top	→ 5C0F 小
+2E8D	 ⺍ 	CJK RADICAL SMALL TWO	• variant of Kangxi Radical 42	• form used at top	→ 5C0F 小	→ 2D544 𭕄
+2E8E	 ⺎ 	CJK RADICAL LAME ONE	• variant of Kangxi Radical 43	→ 5C22 尢	→ 5140 兀
+2E8F	 ⺏ 	CJK RADICAL LAME TWO	• variant of Kangxi Radical 43	→ 5C23 尣
+2E90	 ⺐ 	CJK RADICAL LAME THREE	• variant of Kangxi Radical 43	→ 5C22 尢
+2E91	 ⺑ 	CJK RADICAL LAME FOUR	• variant of Kangxi Radical 43	→ 5C23 尣	→ 21BC2 𡯂
+2E92	 ⺒ 	CJK RADICAL SNAKE	• variant of Kangxi Radical 49	→ 5DF3 巳
+2E93	 ⺓ 	CJK RADICAL THREAD	• variant of Kangxi Radical 52	→ 5E7A 幺
+2E94	 ⺔ 	CJK RADICAL SNOUT ONE	• variant of Kangxi Radical 58	→ 5F51 彑
+2E95	 ⺕ 	CJK RADICAL SNOUT TWO	• variant of Kangxi Radical 58	• actually a form of the radical for hand, despite its resemblance in shape to the radical for snout	→ 5F50 彐	→ 2B739 𫜹
+2E96	 ⺖ 	CJK RADICAL HEART ONE	• variant of Kangxi Radical 61	• form used on left side	→ 5FC4 忄
+2E97	 ⺗ 	CJK RADICAL HEART TWO	• variant of Kangxi Radical 61	• form used at bottom	→ 38FA 㣺	→ 5FC3 心
+2E98	 ⺘ 	CJK RADICAL HAND	• variant of Kangxi Radical 64	• form used on left side	→ 624C 扌
+2E99	 ⺙ 	CJK RADICAL RAP	• variant of Kangxi Radical 66	• form used on right side	→ 6535 攵
+2E9A	 █ 	<RESERVED>	→ 2F46 ⽆ kangxi radical not
+2E9B	 ⺛ 	CJK RADICAL CHOKE	• variant of Kangxi Radical 71	→ 65E1 旡
+2E9C	 ⺜ 	CJK RADICAL SUN	• variant of Kangxi Radical 72	• actually a form of the radical for hat, despite its resemblance in shape to the radical for sun	→ 5183 冃	→ 65E5 日
+2E9D	 ⺝ 	CJK RADICAL MOON	• variant of Kangxi Radical 74	→ 6708 月
+2E9E	 ⺞ 	CJK RADICAL DEATH	• variant of Kangxi Radical 78	→ 6B7A 歺
+2E9F	 ⺟ 	CJK RADICAL MOTHER	• variant of Kangxi Radical 80	≈ 6BCD 母
+2EA0	 ⺠ 	CJK RADICAL CIVILIAN	• variant of Kangxi Radical 83	→ 6C11 民
+2EA1	 ⺡ 	CJK RADICAL WATER ONE	• variant of Kangxi Radical 85	• form used on left side	→ 6C35 氵
+2EA2	 ⺢ 	CJK RADICAL WATER TWO	• variant of Kangxi Radical 85	• form used (rarely) at bottom	→ 6C3A 氺
+2EA3	 ⺣ 	CJK RADICAL FIRE	• variant of Kangxi Radical 86	• form used at bottom	→ 706C 灬
+2EA4	 ⺤ 	CJK RADICAL PAW ONE	• variant of Kangxi Radical 87	• form used at top	→ 722B 爫
+2EA5	 ⺥ 	CJK RADICAL PAW TWO	• variant of Kangxi Radical 87	• form used at top	→ 722B 爫
+2EA6	 ⺦ 	CJK RADICAL SIMPLIFIED HALF TREE TRUNK	• simplified variant of Kangxi Radical 90	→ 4E2C 丬
+2EA7	 ⺧ 	CJK RADICAL COW	• variant of Kangxi Radical 93	→ 725B 牛	→ 20092 𠂒
+2EA8	 ⺨ 	CJK RADICAL DOG	• variant of Kangxi Radical 94	• form used on left side	→ 72AD 犭
+2EA9	 ⺩ 	CJK RADICAL JADE	• variant of Kangxi Radical 96	• form used on left side	→ 738B 王	→ 248E9 𤣩
+2EAA	 ⺪ 	CJK RADICAL BOLT OF CLOTH	• variant of Kangxi Radical 103	• form used on left side	→ 758B 疋	→ 24D14 𤴔
+2EAB	 ⺫ 	CJK RADICAL EYE	• variant of Kangxi Radical 109	• form used at top	→ 76EE 目
+2EAB	 ⺫ 	CJK RADICAL EYE	• variant of Kangxi Radical 122	• form used at top	→ 7F52 罒
+2EAC	 ⺬ 	CJK RADICAL SPIRIT ONE	• variant of Kangxi Radical 113	→ 793A 示
+2EAD	 ⺭ 	CJK RADICAL SPIRIT TWO	• variant of Kangxi Radical 113	→ 793B 礻
+2EAE	 ⺮ 	CJK RADICAL BAMBOO	• variant of Kangxi Radical 118	→ 7AF9 竹	→ 25AD7 𥫗
+2EAF	 ⺯ 	CJK RADICAL SILK	• variant of Kangxi Radical 120	• form used on left side	→ 7CF9 糹
+2EB0	 ⺰ 	CJK RADICAL C-SIMPLIFIED SILK	• simplified Chinese variant of Kangxi Radical 120	• form used on left side	→ 7E9F 纟
+2EB1	 ⺱ 	CJK RADICAL NET ONE	• variant of Kangxi Radical 122	→ 7F53 罓
+2EB2	 ⺲ 	CJK RADICAL NET TWO	• variant of Kangxi Radical 122	→ 2EAB ⺫	→ 7F52 罒	→ 26270 𦉰
+2EB3	 ⺳ 	CJK RADICAL NET THREE	• variant of Kangxi Radical 122	→ 34C1 㓁	→ 7F51 网
+2EB4	 ⺴ 	CJK RADICAL NET FOUR	• variant of Kangxi Radical 122	→ 34C1 㓁	→ 7F51 网
+2EB5	 ⺵ 	CJK RADICAL MESH	• variant of Kangxi Radical 122	→ 2626B 𦉫
+2EB6	 ⺶ 	CJK RADICAL SHEEP	• variant of Kangxi Radical 123	• form used on left side	→ 7F8A 羊
+2EB7	 ⺷ 	CJK RADICAL RAM	• variant of Kangxi Radical 123	• form used at top	→ 7F8A 羊	→ 2634C 𦍌
+2EB8	 ⺸ 	CJK RADICAL EWE	• variant of Kangxi Radical 123	→ 7F8B 羋	→ 2634B 𦍋
+2EB9	 ⺹ 	CJK RADICAL OLD	• variant of Kangxi Radical 125	→ 8002 耂
+2EBA	 ⺺ 	CJK RADICAL BRUSH ONE	• variant of Kangxi Radical 129	→ 8080 肀
+2EBB	 ⺻ 	CJK RADICAL BRUSH TWO	• variant of Kangxi Radical 129	→ 807F 聿
+2EBC	 ⺼ 	CJK RADICAL MEAT	• variant of Kangxi Radical 130	→ 8089 肉
+2EBD	 ⺽ 	CJK RADICAL MORTAR	• variant of Kangxi Radical 134	→ 81FC 臼	→ 26951 𦥑
+2EBE	 ⺾ 	CJK RADICAL GRASS ONE	• simplified variant of Kangxi Radical 140	→ 8279 艹
+2EBF	 ⺿ 	CJK RADICAL GRASS TWO	• variant of Kangxi Radical 140	→ 8279 艹
+2EC0	 ⻀ 	CJK RADICAL GRASS THREE	• variant of Kangxi Radical 140	→ 8279 艹
+2EC1	 ⻁ 	CJK RADICAL TIGER	• variant of Kangxi Radical 141	→ 864E 虎
+2EC2	 ⻂ 	CJK RADICAL CLOTHES	• variant of Kangxi Radical 145	• form used on left side	→ 8864 衤
+2EC3	 ⻃ 	CJK RADICAL WEST ONE	• variant of Kangxi Radical 146	• form used at top	→ 8980 覀
+2EC4	 ⻄ 	CJK RADICAL WEST TWO	• variant of Kangxi Radical 146	• form used on left side	→ 897F 西
+2EC5	 ⻅ 	CJK RADICAL C-SIMPLIFIED SEE	• simplified Chinese variant of Kangxi Radical 147	→ 89C1 见
+2EC6	 ⻆ 	CJK RADICAL SIMPLIFIED HORN	• simplified Chinese variant of Kangxi Radical 148	→ 89D2 角
+2EC7	 ⻇ 	CJK RADICAL HORN	• variant of Kangxi Radical 148	→ 278B2 𧢲
+2EC8	 ⻈ 	CJK RADICAL C-SIMPLIFIED SPEECH	• simplified Chinese variant of Kangxi Radical 149	→ 8BA0 讠
+2EC9	 ⻉ 	CJK RADICAL C-SIMPLIFIED SHELL	• simplified Chinese variant of Kangxi Radical 154	→ 8D1D 贝
+2ECA	 ⻊ 	CJK RADICAL FOOT	• variant of Kangxi Radical 157	• form used on left side	→ 8DB3 足	→ 27FB7 𧾷
+2ECB	 ⻋ 	CJK RADICAL C-SIMPLIFIED CART	• simplified Chinese variant of Kangxi Radical 159	→ 8F66 车
+2ECC	 ⻌ 	CJK RADICAL SIMPLIFIED WALK	• simplified variant of Kangxi Radical 162	→ 8FB6 辶
+2ECD	 ⻍ 	CJK RADICAL WALK ONE	• variant of Kangxi Radical 162	→ 8FB6 辶
+2ECE	 ⻎ 	CJK RADICAL WALK TWO	• variant of Kangxi Radical 162	→ 8FB6 辶
+2ECF	 ⻏ 	CJK RADICAL CITY	• variant of Kangxi Radical 163	• form used on right side	→ 9091 邑
+2ED0	 ⻐ 	CJK RADICAL C-SIMPLIFIED GOLD	• simplified Chinese variant of Kangxi Radical 167	→ 9485 钅
+2ED1	 ⻑ 	CJK RADICAL LONG ONE	• variant of Kangxi Radical 168	→ 9577 長
+2ED2	 ⻒ 	CJK RADICAL LONG TWO	• variant of Kangxi Radical 168	• form used on left side	→ 9578 镸
+2ED3	 ⻓ 	CJK RADICAL C-SIMPLIFIED LONG	• simplified Chinese variant of Kangxi Radical 168	→ 957F 长
+2ED4	 ⻔ 	CJK RADICAL C-SIMPLIFIED GATE	• simplified Chinese variant of Kangxi Radical 169	→ 95E8 门
+2ED5	 ⻕ 	CJK RADICAL MOUND ONE	• variant of Kangxi Radical 170	→ 961C 阜	→ 28E0F 𨸏
+2ED6	 ⻖ 	CJK RADICAL MOUND TWO	• variant of Kangxi Radical 170	• form used on left side	→ 961D 阝
+2ED7	 ⻗ 	CJK RADICAL RAIN	• variant of Kangxi Radical 173	→ 96E8 雨
+2ED8	 ⻘ 	CJK RADICAL BLUE	• variant of Kangxi Radical 174	→ 9752 青
+2ED9	 ⻙ 	CJK RADICAL C-SIMPLIFIED TANNED LEATHER	• simplified Chinese variant of Kangxi Radical 178	→ 97E6 韦
+2EDA	 ⻚ 	CJK RADICAL C-SIMPLIFIED LEAF	• simplified Chinese variant of Kangxi Radical 181	→ 9875 页
+2EDB	 ⻛ 	CJK RADICAL C-SIMPLIFIED WIND	• simplified Chinese variant of Kangxi Radical 182	→ 98CE 风
+2EDC	 ⻜ 	CJK RADICAL C-SIMPLIFIED FLY	• simplified Chinese variant of Kangxi Radical 183	→ 98DE 飞
+2EDD	 ⻝ 	CJK RADICAL EAT ONE	• variant of Kangxi Radical 184	• form used at bottom	→ 98DF 食
+2EDE	 ⻞ 	CJK RADICAL EAT TWO	• variant of Kangxi Radical 184	• form used on left side	→ 2967F 𩙿
+2EDF	 ⻟ 	CJK RADICAL EAT THREE	• variant of Kangxi Radical 184	• form used on left side	→ 98E0 飠
+2EE0	 ⻠ 	CJK RADICAL C-SIMPLIFIED EAT	• simplified Chinese variant of Kangxi Radical 184	• form used on left side	→ 9963 饣
+2EE1	 ⻡ 	CJK RADICAL HEAD	• variant of Kangxi Radical 185	→ 29810 𩠐
+2EE2	 ⻢ 	CJK RADICAL C-SIMPLIFIED HORSE	• simplified Chinese variant of Kangxi Radical 187	→ 9A6C 马
+2EE3	 ⻣ 	CJK RADICAL BONE	• simplified Chinese variant of Kangxi Radical 188	→ 9AA8 骨
+2EE4	 ⻤ 	CJK RADICAL GHOST	• variant of Kangxi Radical 194	→ 9B3C 鬼
+2EE5	 ⻥ 	CJK RADICAL C-SIMPLIFIED FISH	• simplified Chinese variant of Kangxi Radical 195	→ 9C7C 鱼
+2EE6	 ⻦ 	CJK RADICAL C-SIMPLIFIED BIRD	• simplified Chinese variant of Kangxi Radical 196	→ 9E1F 鸟
+2EE7	 ⻧ 	CJK RADICAL C-SIMPLIFIED SALT	• simplified Chinese variant of Kangxi Radical 197	→ 5364 卤
+2EE8	 ⻨ 	CJK RADICAL SIMPLIFIED WHEAT	• simplified variant of Kangxi Radical 199	→ 9EA6 麦
+2EE9	 ⻩ 	CJK RADICAL SIMPLIFIED YELLOW	• simplified variant of Kangxi Radical 201	→ 9EC4 黄
+2EEA	 ⻪ 	CJK RADICAL C-SIMPLIFIED FROG	• simplified Chinese variant of Kangxi Radical 205	→ 9EFE 黾
+2EEB	 ⻫ 	CJK RADICAL J-SIMPLIFIED EVEN	• simplified Japanese variant of Kangxi Radical 210	→ 6589 斉
+2EEC	 ⻬ 	CJK RADICAL C-SIMPLIFIED EVEN	• simplified Chinese variant of Kangxi Radical 210	→ 9F50 齐
+2EED	 ⻭ 	CJK RADICAL J-SIMPLIFIED TOOTH	• simplified Japanese variant of Kangxi Radical 211	→ 6B6F 歯
+2EEE	 ⻮ 	CJK RADICAL C-SIMPLIFIED TOOTH	• simplified Chinese variant of Kangxi Radical 211	→ 9F7F 齿
+2EEF	 ⻯ 	CJK RADICAL J-SIMPLIFIED DRAGON	• simplified Japanese variant of Kangxi Radical 212	→ 7ADC 竜	→ 9F8D 龍
+2EF0	 ⻰ 	CJK RADICAL C-SIMPLIFIED DRAGON	• simplified Chinese variant of Kangxi Radical 212	→ 9F99 龙
+2EF1	 ⻱ 	CJK RADICAL TURTLE	• variant of Kangxi Radical 213	→ 9F9C 龜
+2EF2	 ⻲ 	CJK RADICAL J-SIMPLIFIED TURTLE	• simplified Japanese variant of Kangxi Radical 213	→ 4E80 亀
+2EF3	 ⻳ 	CJK RADICAL C-SIMPLIFIED TURTLE	• simplified Chinese variant of Kangxi Radical 213	≈ 9F9F 龟

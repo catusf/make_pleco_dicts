@@ -1,8 +1,11 @@
 import hanzidentifier
 import os
-import re
+import regex
 import urllib.parse
 import json
+
+from sympy import radsimp
+from dragonmapper.transcriptions import numbered_to_accented
 
 
 TOP_WORDS_50k = "top_50k_words.txt"
@@ -29,11 +32,42 @@ PC_VIDU_OLD_MARK = "Ví dụ:"
 PC_VIDU_NEW_MARK = "VÍ DỤ"
 PC_DIAMOND = "❖"
 PC_ARROW = "»"
-PC_TRIANGLE = "▶"  # ►
+PC_TRIANGLE = "►"  # ▶
+PC_RIGHT_TRIANGLE = "▸"  # ▸
+PC_LEFT_TRIANGLE = "◂"
 PC_DIAMOND_SUIT = "♦"
 PC_HEART_SUIT = "♥"
 PC_CLUB_SUIT = "♣"
 PC_SPADE_SUIT = "♠"
+PC_MIDDLE_DOT = "·"
+
+PC_MEANING_MARK = "MEANING"
+PC_TREE_MARK = "TREE"
+PC_COMPONENTS_MARK = "COMPONENTS"
+PC_APPEARS_MARK = "APPEARS IN"
+
+PATTERN_ZH = (
+    r"([\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Compatibility}\p{Block=CJK_Compatibility_Forms}"
+    r"\p{Block=CJK_Compatibility_Ideographs}\p{Block=CJK_Compatibility_Ideographs_Supplement}"
+    r"\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
+    r"\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Unified_Ideographs_Extension_A}"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_B}\p{Block=CJK_Unified_Ideographs_Extension_C}"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_D}\p{Block=CJK_Unified_Ideographs_Extension_E}"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}])"
+)
+
+PATTERN_ZH_NUM = (
+    r"([\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Compatibility}\p{Block=CJK_Compatibility_Forms}"
+    r"\p{Block=CJK_Compatibility_Ideographs}\p{Block=CJK_Compatibility_Ideographs_Supplement}"
+    r"\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
+    r"\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Unified_Ideographs_Extension_A}"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_B}\p{Block=CJK_Unified_Ideographs_Extension_C}"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_D}\p{Block=CJK_Unified_Ideographs_Extension_E}"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}])"
+    + " (\(\d+\))"
+)
+
+# PATTERN_ZH_NUM = f"({PATTERN_ZH})"
 
 
 def headword_to_url(word):
@@ -52,13 +86,13 @@ def pure_traditional(word):
 
 
 def get_chinese_words(text):
-    headwords = re.findall(PATTERN_ZH, text, flags=re.DOTALL)
+    headwords = regex.findall(PATTERN_ZH, text, flags=regex.DOTALL)
 
     return [word for word in headwords if hanzidentifier.is_simplified(word)]
 
 
 def url_to_headword(url):
-    match = re.search(PATTERN_URL, url)
+    match = regex.search(PATTERN_URL, url)
 
     if not match:
         return None
@@ -97,19 +131,19 @@ def number_in_cirle(number):
 
 
 def remove_redundant_characters(text):
-    return re.sub(PATTERN_REDUNDANT, "", text).replace("''", "'")
+    return regex.sub(PATTERN_REDUNDANT, "", text).replace("''", "'")
 
 
 def remove_chinese_bracket(text):
-    return re.sub("【(.+?)】", r"\1", text)
+    return regex.sub("【(.+?)】", r"\1", text)
 
 
 def remove_traditional_text(text):
-    return re.sub("【.+?】", "", text)
+    return regex.sub("【.+?】", "", text)
 
 
 def remove_see_more_examples(text):
-    return re.sub("Xem thêm \d+ ví dụ nữa", "", text)
+    return regex.sub("Xem thêm \d+ ví dụ nữa", "", text)
 
 
 def pleco_make_bold(text):
@@ -147,3 +181,278 @@ def load_frequent_words(filename):
         lines = [line.strip() for line in fin.readlines()][1:]
 
     return lines
+
+
+def make_list(list_items):
+    if not list_items:
+        return []
+    else:
+        return list_items
+
+
+def replace_blue(match_obj):
+    if match_obj.group(1) is not None:
+        return pleco_make_blue(match_obj.group(1))
+
+
+def replace_num_pinyin(match_obj):
+    if match_obj.group(1) is not None:
+        return pleco_make_italic(numbered_to_accented(match_obj.group(1)))
+
+
+import json
+import re
+
+with open("char_dict.json", "r", encoding="utf-8") as fread:
+    char_dict = json.load(fread)
+
+import json
+import re
+
+with open("char_dict.json", "r", encoding="utf-8") as fread:
+    char_dict = json.load(fread)
+
+
+class Radicals:
+    def __init__(self):
+        self.set_none()
+
+    def is_none(self):
+        return not (self.radical_set and self.radical_list and self.radical_nominals)
+
+    def set_none(self):
+        self.radical_set = {}
+        self.radical_list = []
+        self.radical_nominals = {}
+        # self.radical_variants = {}
+
+        self.radical_set_file = "./wordlists/radical_set.json"
+        self.radical_norminal_file = "./wordlists/radical_radical_norminals.json"
+        self.radical_info_file = "./wordlists/radicals.txt"
+        self.radicals_useful_info_file = "./wordlists/radicals-useful_info.txt"
+        self.kangxi_radical_file = "./wordlists/kangxi_radical_unicode.txt"
+        self.kangxi_radical_supplement_file = "./wordlists/kangxi_radical_supplement_unicode.txt"  # fmt: skip
+
+    def radicals(self):
+        return self.radical_list
+
+    def is_radical_variant(self, radical):
+        return radical in self.radical_nominals
+
+    def variants(self, radical):
+        return self.radical_set[self.norminal(radical)]["variants"]
+
+    def _setup_norminals(self):
+        for symbol in self.radical_set:
+            self.radical_nominals[symbol] = symbol
+            variants = self.radical_set[symbol]["variants"]
+
+            for variant in variants:
+                self.radical_nominals[variant] = symbol
+
+    def norminal(self, variant):
+        return self.radical_nominals[variant]
+
+    def lookup(self, radical):
+        return self.radical_set[self.norminal(radical)]
+
+    def load_radical_data(self):
+        # with open(radical_norminal_file, "r", encoding="utf-8") as file:
+        #     self.radical_nominals = json.load(file)
+
+        self.set_none()
+
+        with open(self.radical_set_file, "r", encoding="utf-8") as file:
+            self.radical_set = json.load(file)
+
+            self.radical_list = sorted(list(self.radical_set))
+
+            for symbol in self.radical_set:
+                self.radical_nominals[symbol] = symbol
+                variants = self.radical_set[symbol]["variants"]
+
+                for variant in variants:
+                    self.radical_nominals[variant] = symbol
+
+    def save_radical_data(self):
+        # with open(self.radical_norminal_file, "w", encoding="utf-8") as file:
+        #     json.dump(self.radical_nominals, file, indent=4, ensure_ascii=False)
+
+        with open(self.radical_set_file, "w", encoding="utf-8") as file:
+            json.dump(self.radical_set, file, indent=4, ensure_ascii=False)
+
+    def load_unicode_data(self):
+        """
+        Loads raw data from Unicode dataand other files, then saves to processed data
+        """
+        self.set_none()
+
+        try:
+            kangxi_unicode_set = {}
+            kangxi_suppl_unicode_set = {}
+
+            with open(self.kangxi_radical_file, "r", encoding="utf-8") as fread:
+                next(fread)
+                kangxi_unicode_set = {}
+
+                for line in fread:
+                    # print(line)
+                    radical_strok_items = line.strip().split("\t")
+                    codepoint, symbol, name, rad_number = radical_strok_items[:4]
+                    symbol = symbol.strip()
+                    number = int(regex.search("(\d+)", rad_number).group(1))
+
+                    if len(radical_strok_items) > 4:
+                        app_ex, app_code, app_sym = radical_strok_items[4].split(" ")
+                        kangxi_unicode_set[number] = {
+                            "symbol": (symbol, codepoint),
+                            "name": name.strip(),
+                            "number": number,
+                            "approx_symbol": set([(app_sym, app_code)]),
+                        }
+
+                    if len(radical_strok_items) > 5:
+                        app_ex1, app_code1, app_sym1 = radical_strok_items[5].split(" ")
+                        kangxi_unicode_set[number]["approx_symbol"].add(
+                            (app_code1, app_sym1)
+                        )
+
+            with open(
+                self.kangxi_radical_supplement_file, "r", encoding="utf-8"
+            ) as fread:
+                next(fread)
+                kangxi_suppl_unicode_set = {}
+
+                for line in fread:
+                    # print(line)
+                    radical_strok_items = line.strip().split("\t")
+                    codepoint, symbol, name, rad_number = radical_strok_items[:4]
+                    symbol = symbol.strip()
+                    number = (
+                        int(match.group(1))
+                        if (match := regex.search("Kangxi Radical (\d+)", rad_number))
+                        else None
+                    )
+
+                    if not number:
+                        print(f"Wrong line {line}")
+                        continue
+
+                    if number not in kangxi_suppl_unicode_set:
+                        kangxi_suppl_unicode_set[number] = set([(symbol, codepoint)])
+                    else:
+                        kangxi_suppl_unicode_set[number].add((symbol, codepoint))
+
+                    index = 4
+                    if len(radical_strok_items) > index:
+                        if radical_strok_items[index].find("form") >= 0:
+                            index += 1
+
+                        # print(items[index])
+                        app_ex, app_code, app_sym = radical_strok_items[index].split(
+                            " "
+                        )
+                        kangxi_suppl_unicode_set[number].add((app_sym, app_code))
+
+                        index += 1
+                    if len(radical_strok_items) > index:
+                        app_ex1, app_code1, app_sym1 = radical_strok_items[index].split(
+                            " "
+                        )
+                        kangxi_suppl_unicode_set[number].add((app_sym1, app_code1))
+                        index += 1
+
+            for number in kangxi_suppl_unicode_set:
+                kangxi_unicode_set[number]["approx_symbol"].update(
+                    kangxi_suppl_unicode_set[number]
+                )
+
+            for number in kangxi_unicode_set:
+                symbol, codepoint = kangxi_unicode_set[number]["symbol"]
+                self.radical_nominals[symbol] = symbol
+                variants = kangxi_unicode_set[number]["approx_symbol"]
+
+                for variant, var_codepoint in variants:
+                    self.radical_nominals[variant] = symbol
+
+            usefull_radical_info = {}
+            # fmt: off
+            with open(self.radicals_useful_info_file, "r", encoding="utf-8") as fread:
+                for line in fread.readlines():
+                    rad, pinyin, define = line.strip().split("\t")
+
+                    notes = match.group(1) if (match := regex.search(r"Notes:(.+?)", define)) else ""
+                    distinguish = match.group(1).split(" ") if (match := regex.search(r"Distinguish From: (.+)", define)) else [] 
+                    variants = list(match.group(1)) if (match := regex.search(r"Variants:(.+?)", define)) else []
+                    rank = match.group(1) if (match := regex.search(r"RANK: (.+?)", define)) else ""
+                    mnemonic = match.group(1) if (match := regex.search(r"Mnemonic:(.+?)", define)) else ""
+
+                    usefull_radical_info[rad] = {
+                        "distinguish": distinguish,
+                        "variants": variants,
+                        "rank": rank,
+                        "mnemonic": mnemonic,
+                        "notes": notes,
+                    }
+                    # print(
+                    #     f"{rad} Notes {notes}\n{distinguish=}\t{variants=}\t{rank=}\t{mnemonic=}"
+                    # )
+                    pass
+
+            self.radical_set = {}
+            # old_radical_set = {}
+            with open(self.radical_info_file, "r", encoding="utf-8") as fread:
+                next(fread)
+
+                for line in fread:
+                    (
+                        number,
+                        char_radical,
+                        strokes,
+                        meaning,
+                        name,
+                        pinyin,
+                        vietnamese,
+                        frequency,
+                        simplified,
+                        examples,
+                    ) = line.strip().split("\t")
+
+                    # items = alternatives.split("/")
+                    rad = char_radical[0]
+                    self.radical_set[self.radical_nominals[rad]] = {
+                        "meaning": meaning,
+                        "number": int(number),
+                        "pinyin": pinyin,
+                        "name": name.strip(),
+                        "strokes": int(strokes),
+                        "frequency": frequency,
+                        "examples": examples,
+                        "useful": {},
+                    }
+
+                    if rad in usefull_radical_info:
+                        self.radical_set[self.radical_nominals[rad]][
+                            "useful"
+                        ] = usefull_radical_info[rad]
+
+            for number in kangxi_unicode_set:
+                symbol, codepoint = kangxi_unicode_set[number]["symbol"]
+                variants = kangxi_unicode_set[number]["approx_symbol"]
+                self.radical_set[symbol]["variants"] = []
+
+                for variant, var_codepoint in variants:
+                    self.radical_set[symbol]["variants"].append(variant)
+
+            self.save_radical_data()
+
+            self.load_radical_data()
+
+            return True
+
+        except IOError as e:
+            print(e)
+            return False
+
+
+# fmt: on

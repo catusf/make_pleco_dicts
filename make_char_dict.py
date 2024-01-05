@@ -1,3 +1,4 @@
+from collections import namedtuple
 import sys
 import json
 import datetime
@@ -5,54 +6,33 @@ import datetime
 import readchar
 import hanzidentifier
 from pinyin import pinyin as get_pinyin
-
+from collections import namedtuple
 from chin_dict.chindict import ChinDict
-import regex as re
+from hanzipy.decomposer import HanziDecomposer
+from hanzipy.dictionary import HanziDictionary
 from dragonmapper.transcriptions import numbered_to_accented
-from tools_configs import (
-    number_in_cirle,
-    pleco_make_blue,
-    pleco_make_dark_gray,
-    pleco_make_italic,
-    pleco_make_link,
-)
+from tools_configs import *
+
+rad_database = Radicals()
+rad_database.load_unicode_data()
+radicals = rad_database.radicals()
+
+if rad_database.is_none():
+    print("Error loading data")
+    exit()
 
 cd = ChinDict()
-
 
 start_datetime = datetime.datetime.now()
 now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 
+MAX_BUILD_ITEMS = 1000
 MAX_BUILD_ITEMS = 100000
-MAX_BUILD_ITEMS = 100
 
 BUILD_DICT_DATA = False
 CONVERT_TO_PLECO = True  #
 
-
-PC_NEW_LINE = chr(0xEAB1)
-PC_HANVIET_MARK = "HÁN VIỆT"
-PC_RELATED_MARK = "LIÊN QUAN"
-PC_VIDU_OLD_MARK = "Ví dụ:"
-PC_VIDU_NEW_MARK = "VÍ DỤ"
-PC_DIAMOND = "❖"
-PC_ARROW = "»"
-PC_TRIANGLE = "▶"  # ►
-PC_DIAMOND_SUIT = "♦"
-PC_HEART_SUIT = "♥"
-PC_CLUB_SUIT = "♣"
-PC_MIDDLE_DOT = "·"
-
-PC_SPADE_SUIT = "♠"
-
-PC_MEANING_MARK = "MEANING"
-PC_TREE_MARK = "TREE"
-PC_COMPONENTS_MARK = "COMPONENTS"
-PC_CONTAINS_MARK = "CONTAINS"
-
 CHAR_DICT_FILE = "char_dict.json"
-
-# char_dict = {}
 
 print("Open char dictionary data file")
 try:
@@ -63,21 +43,24 @@ except:
 
 wordset = set()
 
-with open("dic_words_set.txt", "r", encoding="utf-8") as fread:
-    wordset.update(fread.read())
+# with open("wordlists/dic_words_set.txt", "r", encoding="utf-8") as fread:
+#     wordset.update(fread.read())
 
-radical_set = {}
-with open("./wordlists/radicals.txt", "r", encoding="utf-8") as fread:
+wordset_freq = {}
+
+with open("wordlists/chinese_charfreq_simpl_trad.txt", "r", encoding="utf-8") as fread:
     next(fread)
+    contents = fread.read()
 
-    for line in fread:
-        char_radical, meaning, number, alternatives = line.split("\t")
+    wordset.update(contents)
 
-        radical_set[char_radical] = {
-            "meaning": meaning,
-            "number": number,
-            "alternatives": alternatives.strip(),
-        }
+    if "\n" in wordset:
+        wordset.remove("\n")
+
+    if " " in wordset:
+        wordset.remove(" ")
+
+    wordset_freq = {word: num + 1 for num, word in enumerate(contents.split("\n"))}
 
 
 def keyboard_handler(signum, frame):
@@ -103,151 +86,221 @@ def keyboard_handler(signum, frame):
 
 print(f"{len(wordset)=}")
 
-PATTERN_ZH = (
-    r"([\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Compatibility}\p{Block=CJK_Compatibility_Forms}"
-    r"\p{Block=CJK_Compatibility_Ideographs}\p{Block=CJK_Compatibility_Ideographs_Supplement}"
-    r"\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
-    r"\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Unified_Ideographs_Extension_A}"
-    r"\p{Block=CJK_Unified_Ideographs_Extension_B}\p{Block=CJK_Unified_Ideographs_Extension_C}"
-    r"\p{Block=CJK_Unified_Ideographs_Extension_D}\p{Block=CJK_Unified_Ideographs_Extension_E}"
-    r"\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}])"
-)
-
 PATTERN_PY = r"\[(.+)\]"
-
-wordlist = sorted(list(wordset))
 
 
 def remove_non_chinese(word):
-    if match_chinese := re.findall(PATTERN_ZH, word):
+    if match_chinese := regex.findall(PATTERN_ZH, word):
         return match_chinese[0][0]  # Remove non Chinese characters
     else:
         return ""
 
 
 def components_from_tree(tree, char):
-    tree_matches = re.findall(PATTERN_ZH, tree)
+    tree_matches = regex.findall(PATTERN_ZH, tree)
     if char in tree_matches:
         tree_matches.remove(char)  # Remove parent character
 
     return None if len(tree_matches) == 0 else tree_matches
 
 
-# char_dict = {}
+def get_radicals(char):
+    decomposition = decomposer.decompose(char, decomposition_type=2)
+
+    radicals = decomposition["components"] if decomposition else []
+
+    # Decomposition is same as original char => No components
+    if len(radicals) == 1 and radicals[0] == char:
+        radicals = []
+
+    return radicals
+
+
+searcher = HanziDictionary()
+result = searcher.definition_lookup("龋", script_type="simplified")
+
+decomposer = HanziDecomposer()
+# tree = decomposer.tree("恭")
+wordlist = sorted(list(wordset))
+
+if BUILD_DICT_DATA:
+    char_dict = {}
+
+flog = open("log.txt", "w", encoding="utf-8")
+
+LookupType = namedtuple(
+    "LookupType",
+    ["character", "found", "meaning", "pinyin", "components", "tree"],
+    defaults=("", False, [], "", [], ""),
+)
+
+
+def hanzipy_lookup(char):
+    found = False
+    result = []
+    meanings = []
+    pinyin = ""
+
+    try:
+        result = searcher.definition_lookup(char, script_type="simplified")
+        found = True
+        for x in result:
+            meanings.extend(x["definition"].split("/"))
+
+        pinyin = numbered_to_accented(result[0]["pinyin"])  # get first pinyin
+    except:
+        print("No meaning")
+
+    return found, meanings, pinyin
+
+
+def is_in_char_dict(char):
+    if char in char_dict and char_dict[char]["meaning"]:
+        return True
+    elif rad_database.is_radical_variant(char):
+        norminal = rad_database.norminal(char)
+        return norminal in char_dict and char_dict[norminal]["meaning"]
+    else:
+        return False
+
+
+def lookup_symbol(char):
+    if not char:
+        print(f"Wrong character: {char}")
+        return lookup
+
+    found, meaning, pinyin = hanzipy_lookup(char)
+
+    if not found:
+        if rad_database.is_radical_variant(char):
+            result = rad_database.lookup(char)
+
+            return LookupType(
+                char,
+                found=True,
+                meaning=[result["meaning"]],
+                pinyin=result["pinyin"],
+            )
+        else:
+            return lookup
+
+    decomposition = decomposer.tree(char)
+
+    return LookupType(
+        char,
+        found=True,
+        meaning=meaning,
+        pinyin=pinyin,
+        components=decomposition["components"],
+        tree=decomposition["tree"],
+    )
+
 
 if BUILD_DICT_DATA:
     for num, org_char in enumerate(wordlist[:MAX_BUILD_ITEMS]):
-        # org_char = '海'
         char = remove_non_chinese(org_char)
 
         if not char:
-            print(f"Wrong character: {org_char}")
-
-        if not hanzidentifier.is_simplified(char):
-            continue
-
-        # if char in char_dict:
-        #     continue
-
-        string = ""
-        component_set = {}
-
-        char_result = cd.lookup_char(char)
-        char_tree = char_result.tree(show=False).strip()
-        char_meaning = char_result.meaning
-
-        if char in char_dict and (
-            char_dict[char]["meaning"] and char_dict[char]["components"]
-        ):
-            print(f"Already in dict: {char}")
-
             continue
 
         print(f"{num+1}/{len(wordlist)}: {char}")
 
-        char_pinyin = get_pinyin.get(char)
+        # org_char = "分"
 
-        if char_tree == char:
-            char_tree = ""
+        lookup = lookup_symbol(char)
 
-        tree_components = components_from_tree(char_tree, char)
+        if is_in_char_dict(char):  # fmt: skip
+            print(f"Already in dict: {char}")
 
-        char_radical = (
-            char_result.radical.character if hasattr(char_result, "radical") else ""
-        )
-
-        if not char_meaning:
+        if not lookup.found:
+            flog.write(f"{org_char}\tWrong character\n")
             print(f"Wrong character: {org_char}")
+
             continue
 
         char_dict[char] = {
-            "meaning": char_meaning,
-            "pinyin": char_pinyin,
-            "components": tree_components,
-            "tree": char_tree,
-            "radical": char_radical,
+            "meaning": lookup.meaning,
+            "pinyin": lookup.pinyin,
+            "components": lookup.components,
+            "tree": lookup.tree,
         }
 
-        if tree_components:
-            for comp_char in tree_components:
-                comp_result = cd.lookup_char(comp_char)
-                comp_tree = comp_result.tree(show=False).strip()
-
-                if comp_char in char_dict and (
-                    char_dict[comp_char]["meaning"]
-                    and char_dict[comp_char]["components"]
-                ):
+        if lookup.components:
+            for comp_char in lookup.components:
+                if is_in_char_dict(comp_char):  # fmt: skip
                     print(f"Already in dict: {comp_char}")
+                    # flog.write(f"{org_char}\tAlready in dict\n")
                     continue
 
-                if comp_tree == comp_char:
-                    comp_tree = ""
+                comp_lookup = lookup_symbol(comp_char)
 
-                comp_tree_components = components_from_tree(comp_tree, comp_char)
-
-                pinyin = get_pinyin.get(comp_char)
-                comp_radical = (
-                    comp_result.radical.character
-                    if hasattr(comp_result, "radical")
-                    else ""
-                )
+                if not comp_lookup.found:
+                    flog.write(f"{comp_char}\tWrong character\n")
+                    print(f"Wrong character: {org_char}")
 
                 char_dict[comp_char] = {
-                    "meaning": comp_result.meaning,
-                    "pinyin": pinyin,
-                    "tree": comp_tree,
-                    "radical": comp_radical,
-                    "components": comp_tree_components,
+                    "meaning": comp_lookup.meaning,
+                    "pinyin": comp_lookup.pinyin,
+                    "components": comp_lookup.components,
+                    "tree": comp_lookup.tree,
                 }
-
-    # a = re.search(r"([一-龥]+)(\[.+\])", '/'.join(char_result.meaning))
-    # Sort items in order of appearance in the tree
-    # items = sorted(component_set.items(), key=lambda x: x[1]['order'])
-    # component_list = []
-
-    # for item in items:
-    #     com_char = item[0]
-
-    #     char_dict[com_char] = item[1]['dict']
-    #     component_list.append(com_char)
-
-    # print(string)
-    # string = string.replace('\n', PC_NEW_LINE)
-    # fwrite.write(f'{string}\n')
 
     print(f"{len(char_dict)=}")
     with open(CHAR_DICT_FILE, "w", encoding="utf-8") as fwrite:
         json.dump(char_dict, fwrite, indent=4, ensure_ascii=False, sort_keys=True)
 
+flog.close()
 
-def replace_blue(match_obj):
+s1 = set(char_dict.keys())
+s2 = set(decomposer.characters.keys())
+
+print(f"In char dict but not in hanzipy {len(s1-s2)=}")
+print(f"In hanzipy but not in char dict {len(s2-s1)=}")
+
+
+def replace_chinese_in_tree(match_obj):
     if match_obj.group(1) is not None:
-        return pleco_make_blue(match_obj.group(1))
+        key = match_obj.group(1)
+        pinyin = ""
+        meaning = ""
+
+        if rad_database.is_radical_variant(key):
+            item = rad_database.lookup(key)
+            pinyin = item["pinyin"]
+            meaning = f"{item['meaning']} (#{item['number']})"
+        elif key in char_dict:
+            item = char_dict[key]
+            meaning = item["meaning"][0] if item["meaning"] else "(no meaning)"
+            pinyin = item["pinyin"]
+
+        return f"{pleco_make_blue(key)} {pleco_make_italic(pinyin)} {meaning}"
+        # return pleco_make_blue(match_obj.group(1))
 
 
-def replace_num_pinyin(match_obj):
+def replace_chinese_blue(match_obj):
     if match_obj.group(1) is not None:
-        return pleco_make_italic(numbered_to_accented(match_obj.group(1)))
+        key = match_obj.group(1)
+
+        return f"{pleco_make_blue(key)}"
+
+
+def replace_numbers(match_obj):
+    if match_obj.group(1) is not None:
+        hex_val = hex(int(match_obj.group(1)))
+        return hex_val[2:].upper()
+        # return pleco_make_blue(match_obj.group(1))
+
+
+def find_freq(word):
+    return wordset_freq[word] if word in wordset_freq else BIGNUM
+
+
+def sort_by_freq(list_chars):
+    items = sorted(
+        [(word, find_freq(word)) for word in list_chars], key=lambda x: (x[1], x[0])
+    )
+
+    return [word for word, order in items]
 
 
 if CONVERT_TO_PLECO:
@@ -256,52 +309,47 @@ if CONVERT_TO_PLECO:
 
     fwrite.write("// Character component dictionary\n")
 
-    containing_chars = {}
+    appears_chars = {}
 
+    print(f"Before {len(char_dict)=}")
     for key in sorted(char_dict):
+        if not key or key == "?" or key.isdigit():
+            continue
+
         char = char_dict[key]
         components = char["components"]
 
-        if components:
-            for comp in components:
-                if comp not in containing_chars:
-                    containing_chars[comp] = set([key])
-                else:
-                    containing_chars[comp].add(key)
+        if rad_database.is_radical_variant(key):
+            for v in rad_database.variants(key):
+                if v not in char_dict:
+                    char_dict[v] = char_dict[key]
+
+        for comp in components:
+            if comp.isdigit():
+                continue
+
+            if comp not in appears_chars:
+                appears_chars[comp] = set([key])
+            else:
+                appears_chars[comp].add(key)
+
+    print(f"After {len(char_dict)=}")
 
     for key in sorted(char_dict):
         char = char_dict[key]
         string = ""
 
-        string = f"{key}\t{char['pinyin']}\t"
+        if not key or key == "?" or key.isdigit():
+            continue
+
+        pinyin = char["pinyin"]
         meanings = char["meaning"]
 
-        if key in radical_set:
-            item = radical_set[key]
+        # if not meanings:
+        #     meanings = ["(No meaning)"]
+        #     print(f"No meaning {key} {char}")
 
-            if meanings:
-                for num, text in enumerate(meanings):
-                    at = text.find("radical in")
-                    if at >= 0:
-                        del meanings[num]
-                        break
-
-            if not meanings:
-                meanings = []
-
-            alternatives = (
-                " Alternative(s): " + item["alternatives"]
-                if item["alternatives"]
-                else ""
-            )
-
-            meanings.insert(
-                0, f"{item['meaning']} (radical number {item['number']}){alternatives}"
-            )
-
-        if not meanings:
-            meanings = ["(No meaning)"]
-
+        string = f"{key}\t{pinyin}\t"
         string += f"{pleco_make_dark_gray(PC_MEANING_MARK)}\n"
 
         for num, meaning in enumerate(meanings):
@@ -309,12 +357,15 @@ if CONVERT_TO_PLECO:
 
         string += "\n"
 
-        if "tree" in char and char["tree"]:
+        char_tree = ""
+        if char["tree"]:
             string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
             char_tree = char["tree"]
-            char_tree = re.sub(PATTERN_ZH, replace_blue, char_tree)
 
-            string += f"{char_tree}"
+            char_tree = regex.sub("(\d+)", replace_numbers, char_tree)
+            char_tree = regex.sub(PATTERN_ZH, replace_chinese_in_tree, char_tree)
+
+        string += f"{char_tree}"
 
         string += "\n"
         components = char["components"]
@@ -323,32 +374,51 @@ if CONVERT_TO_PLECO:
             string += f"{pleco_make_dark_gray(PC_COMPONENTS_MARK)}\n"
 
             for comp in components:
-                # comp_meaning = ' / '.join(
-                #     char_dict[comp]['meaning'] if char_dict[comp]['meaning'] else ['(No meaning)'])
-                meaning_text = ""
+                if comp not in char_dict:
+                    flog.write(f"{comp}\tNot in char_dict\n")
+                    print(f"{comp}\tNot in char_dict")
+                    continue
 
-                pinyin = get_pinyin.get(comp)
-                if comp not in char_dict or not char_dict[comp]["meaning"]:
-                    meaning_text = "(No meaning)"
-                else:
-                    for num, com_meaning in enumerate(char_dict[comp]["meaning"]):
-                        meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
+                pinyin = char_dict[comp]["pinyin"]
+
+                meaning_text = ""
+                for num, com_meaning in enumerate(char_dict[comp]["meaning"]):
+                    meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
+
+                if rad_database.is_radical_variant(comp):
+                    item = rad_database.lookup(comp)
+                    variants = sorted(rad_database.variants(comp))
+                    alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if rad_database.variants(comp) else ""  # fmt: skip
+                    alternatives = regex.sub(
+                        PATTERN_ZH, replace_chinese_blue, alternatives
+                    )
+
+                    extra_meaning = f". Radical #{item['number']}. {alternatives}"
+
+                    meaning_text = meaning_text.strip() + extra_meaning
+
+                    pass
 
                 string += f"{PC_ARROW} {pleco_make_link(comp)} {pleco_make_italic(pinyin)} {meaning_text}\n"
 
-        if key in containing_chars and (contains := containing_chars[key]):
-            string += f"{pleco_make_dark_gray(PC_CONTAINS_MARK)}\n"
+        if key in appears_chars and (contains := sort_by_freq(appears_chars[key])):
+            string += f"{pleco_make_dark_gray(PC_APPEARS_MARK)}\n"
 
             for contain in contains:
                 string += f"{pleco_make_blue(contain)} {PC_MIDDLE_DOT} "
 
-        string = re.sub(PATTERN_PY, replace_num_pinyin, string)
+        string = regex.sub(PATTERN_PY, replace_num_pinyin, string)
 
         string = string.replace("\n", PC_NEW_LINE)
         # print(string)
         fwrite.write(f"{string}\n")
 
     fwrite.close()
+
+char_dict_keys = frozenset(char_dict.keys())
+
+print(f"In wordset but not in final list: {len(wordset - char_dict_keys)}")
+print(f"Not in wordset (new components): {len(char_dict_keys - wordset)}")
 
 end_datetime = datetime.datetime.now()
 

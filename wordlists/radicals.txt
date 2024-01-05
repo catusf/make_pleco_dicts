@@ -1,216 +1,215 @@
-# Radicals https://github.com/jay-pee/Anki-Chinese-Radicals-Deck-Plus/blob/master/data/source.csv
-一	one	1	
-丨	line	2	
-丶	dot	3	
-丿	slash	4	乀, 乁
-乙	second	5	乚, 乛
-亅	hook	6	
-二	two	7	
-亠	lid	8	
-人	man, human	9	亻
-儿	legs	10	
-入	enter	11	
-八	eight	12	
-冂	open country	13	
-冖	cover	14	
-冫	ice	15	
-几	table	16	
-凵	container, open mouth	17	
-刀	knife, sword	18	刁, 刂
-力	power, force	19	
-勹	wrap, embrace	20	
-匕	spoon	21	
-匚	box	22	
-匸	hiding enclosure	23	
-十	ten, complete	24	
-卜	divination	25	
-卩	kneel	26	
-厂	cliff	27	
-厶	private	28	
-又	right hand	29	
-口	mouth, opening	30	
-囗	enclosure	31	
-土	earth	32	
-士	scholar, bachelor	33	
-夂	go	34	
-夊	go slowly	35	
-夕	evening, sunset	36	
-大	big, very	37	夨
-女	woman, female	38	
-子	child, seed	39	孑, 孒, 孓
-宀	roof	40	
-寸	thumb, inch	41	
-小	small, insignificant	42	
-尢	lame	43	尣
-尸	corpse	44	
-屮	sprout	45	
-山	mountain	46	
-巛	river	47	巜, 川
-工	work	48	
-己	oneself	49	已, 巳
-巾	turban, scarf	50	
-干	pestle	51	
-乡	short, tiny	52	幺
-广	house on cliff	53	
-廴	long stride	54	
-廾	two hands, twenty	55	
-弋	shoot, arrow	56	
-弓	bow	57	
-彐	pig snout	58	彑
-彡	bristle, beard	59	
-彳	step	60	
-心	heart	61	忄
-戈	spear, halberd	62	
-戶	door, house	63	户, 戸
-手	hand	64	扌, 才
-支	branch	65	
-攴	to tap, to knock lightly	66	攵
-文	script, literature	67	
-斗	dipper	68	
-斤	axe	69	
-方	square	70	
-无	negative, no, not	71	
-日	sun, day	72	
-曰	say	73	
-月	moon, month	74	
-木	tree	75	
-欠	owe, lack, yawn	76	
-止	stop	77	
-歹	death, decay	78	
-殳	weapon, lance	79	
-毋	mother, do not	80	毌
-比	compare, compete	81	
-毛	fur, hair	82	
-氏	clan	83	
-气	steam, breath	84	
-水	water	85	氵
-火	fire	86	灬
-爪	claw, nail, talon	87	爫
-父	father	88	
-爻	mix, twine, cross	89	
-丬	split wood	90	爿
-片	slice	91	
-牙	fang	92	
-牛	cow	93	牜
-犬	dog	94	犭
-玄	dark, profound	95	
-玉	jade (king)	96	玊, 王
-瓜	melon	97	
-瓦	tile	98	
-甘	sweet	99	
-生	life	100	
-用	use	101	甩
-曱	field	102	田, 由, 甲, 申, 甴
-疋	bolt of cloth	103	
-疒	sickness	104	
-癶	footsteps	105	
-白	white	106	
-皮	skin	107	
-皿	dish	108	
-目	eye	109	
-矛	spear	110	
-矢	arrow	111	
-石	stone	112	
-示	sign	113	礻
-禸	track	114	
-禾	grain	115	
-穴	cave	116	
-立	stand, erect	117	
-竹	bamboo	118	
-米	rice	119	
-糸	silk	120	糹, 纟
-缶	jar	121	
-网	net	122	罒, 罓
-羊	sheep	123	
-羽	feather	124	
-老	old	125	耂, 考
-而	beard	126	
-耒	plow	127	
-耳	ear	128	
-聿	brush	129	肀
-肉	meat	130	
-臣	minister, official	131	
-自	self	132	
-至	arrive	133	
-臼	mortar	134	
-舌	tongue	135	
-舛	opposite	136	
-舟	boat	137	
-艮	stopping	138	
-色	color, prettiness	139	
-艸	grass	140	艹
-虍	tiger	141	
-虫	insect	142	
-血	blood	143	
-行	go, do	144	
-衣	clothes	145	衤
-襾	west	146	西, 覀
-見	see	147	见
-角	horn	148	
-言	speech	149	訁, 讠
-谷	valley	150	
-豆	bean	151	
-豕	pig	152	
-豸	cat, badger	153	
-貝	shell	154	贝
-赤	red, bare	155	
-走	run	156	赱
-足	foot	157	
-身	body	158	
-車	cart, car	159	车
-辛	bitter	160	
-辰	morning	161	
-辵	walk	162	辶
-邑	town	163	
-酉	wine, alcohol	164	
-釆	divide, distinguish, choose	165	
-里	village, mile	166	
-金	metal, gold	167	釒, 钅
-長	long, grow	168	镸, 长
-門	gate	169	门
-阜	mound, dam	170	阝
-隶	slave, capture	171	
-隹	small bird	172	
-雨	rain	173	
-靑	blue	174	青
-非	wrong	175	
-面	face	176	靣
-革	leather, rawhide	177	
-韋	tanned leather	178	韦
-韭	leek	179	
-音	sound	180	
-頁	leaf	181	页
-凬	wind	182	風, 风
-飛	fly	183	
-食	eat, food	184	飠, 饣
-首	head	185	
-香	fragrant	186	
-馬	horse	187	马
-骨	bone	188	
-高	tall, high	189	髙
-髟	long hair	190	
-鬥	fight	191	
-鬯	herbs, sacrificial wine	192	
-鬲	tripod, cauldron	193	
-鬼	ghost, demon	194	
-魚	fish	195	鱼
-鳥	bird	196	鸟
-鹵	salt	197	
-鹿	deer	198	
-麥	wheat	199	麦
-麻	hemp, flax	200	
-黃	yellow	201	黄
-黍	millet	202	
-黑	black	203	黒
-黹	embroidery, needlework	204	
-黽	frog, amphibian	205	黾
-鼎	tripod	206	
-鼓	drum	207	鼔
-鼠	rat, mouse	208	鼡
-鼻	nose	209	
-斉	even, uniformly	210	齊, 齐
-歯	tooth, molar	211	齒, 齿
-龍	dragon	212	龙
-亀	turtle, tortoise	213	龜, 龟
-龠	flute	214	
-			
+	Radical forms	Stroke count	Meaning	Colloquial Term	Pīnyīn	Hán-Việt	Frequency	Simplified	Examples
+1	一 	1	one	一字旁 	yī	nhất	42		王、丁、七、三 
+2	丨 	1	line		gǔn	cổn	21		十、中、串、丰 
+3	丶 	1	dot	丶字旁 	zhǔ	chủ	10		丸、凡、丹、户 
+4	丿	1	slash		piě	phiệt	33		乂、乃、久、八 
+5	乙	1	second		yǐ	ất	42		九、乞、也 
+6	亅 	1	hook		jué	quyết	19		了、矛、事 
+7	二 	2	two		èr	nhị	29		貳、于、云、些 
+8	亠 	2	lid	六字头 	tóu	đầu	38		方、亡、亢、交 
+9	人	2	man	单立人 ,单人旁 	rén	nhân (nhân đứng)	794		你、什、仁、仇 
+10	儿 	2	son, legs		ér	nhân (nhân đi)	52	(pr. 兒)	兒、兀、允、元 
+11	入 	2	enter	入字旁 	rù	nhập	28		內、全、兩、汆 
+12	八 	2	eight		bā	bát	44		公、六、兮、穴 
+13	冂 	2	wide	同字匡 	jiōng	Quynh, khuynh	50		冇、冊、冉、肉 
+14	冖 	2	cloth cover	秃宝盖 	mì	mịch	30		冗、冠、冥、運 
+15	冫 	2	ice	两点水 	bīng	băng	115		冬、冰、冶、凉 
+16	几 	2	table	几字旁 	jī	kỷ	38		風、殳、凡、凱 
+17	凵 	2	receptacle	凶字框 	kǎn	khảm	23		凶、凸、凹、齒 
+18	刀 	2	knife	刀字旁 ,立刀旁 	dāo	đao	377		刁、解、分、劍 
+19	力 	2	power		lì	lực	163		加、功、劣、男 
+20	勹 	2	wrap	包字头 	bāo	bao	64		包、勺、勻、勾 
+21	匕 	2	spoon		bǐ	chủy	19		化、北、匙、比 
+22	匚 	2	box	医字框 	fāng	phương	64		匿、區、巨、匠 
+23	匸 	2	hiding enclosure		xǐ/xì	hệ	17		亡、匹、匼、匽 
+24	十 	2	ten		shí	thập	55		千、半、卅、升 
+25	卜 	2	divination		bǔ	bốc	45		下、上、卡、占 
+26	卩	2	seal (device)	单耳刀 	jié	tiết	40		即、卬、卷、夗 
+27	厂 	2	cliff		hǎn[1]	hán	129	(pr. 廠)	厄、原、厚、厰 
+28	厶 	2	private	私字旁 	sī	tư (khư)	40		台、公、去、參、 
+29	又 	2	again		yòu	hựu	91		叉、及、友、取 
+30	口 	3	mouth		kǒu	khẩu	1,146		哎、古、只、品 
+31	囗 	3	enclosure	国字框 	wéi	vi	118		囚、四、國、圍 
+32	土 	3	earth	提土旁 	tǔ	thổ	580		地、圣、圭、堯 
+33	士 	3	scholar		shì	sĩ	24		壬、喜、時、壽 
+34	夂 	3	go		zhǐ	trĩ (truy)	11		各、冬、夆、愛 
+35	夊 	3	go slowly		suī	tuy	23		夌、复、夏 
+36	夕 	3	evening		xī	tịch	34		外、夗、多、岁 
+37	大 	3	big		dà	đại	132		太、天、夭、夯 
+38	女 	3	woman		nǚ	nữ	681		妳、婆、奶、如 
+39	子 	3	child	子字旁 	zǐ	tử	83		孩、學、孔、仔 
+40	宀 	3	roof	宝盖头 	mián	miên	246		家、安、寧、它 
+41	寸 	3	inch		cùn	thốn	40		村、寺、封、射 
+42	小 	3	small	当字头 	xiǎo	tiểu	41		少、尖、當、栄 
+43	尢	3	lame		wāng	uông	66		尤、尷、尬、尩 
+44	尸 	3	corpse		shī	thi	148	(pr. 屍)	屍、尺、尼、尻 
+45	屮 	3	sprout		chè	triệt	38		艸、屯、屰、頓 
+46	山 	3	mountain		shān	sơn	636		嵗、密、峰、幽 
+47	巛	3	river		chuān	xuyên	26		川、州、順、災 
+48	工 	3	work		gōng	công	17		左、巧、功、式 
+49	己 	3	oneself		jǐ	kỷ	20		記、改、忌、龍 
+50	巾 	3	turban	巾字儿 	jīn	cân	295		市、帥、刷、砸 
+51	干 	3	dry		gān	can	9	(pr. 乾、幹)	旱、开、平、年 
+52	幺	3	short thread		yāo	yêu	50		幻、麼、幽、幾 
+53	广 	3	dotted cliff	广字旁 	yǎn	nghiễm	15	(pr. 廣)	庀、庂、庄 
+54	廴 	3	long stride	建之旁 	yǐn	dẫn	9		廵、廷、延 
+55	廾 	3	arch	弄字底 	gǒng	củng	50		廿、弁、弄 
+56	弋 	3	shoot		yì	dặc	15		弌、弍、弎 
+57	弓 	3	bow	弓字旁 	gōng	cung	165		弔、引、弗 
+58	彐	3	snout		jì	ký/kệ	25		彔、彖、彗 
+59	彡 	3	bristle	三撇儿 	shān	sam	62		形、彤、彥 
+60	彳 	3	step	双立人 	chì	sách	215		㣔、彴、彷 
+61	心	4	heart	竖心旁 	xīn	tâm	1,115		必、忉、忌 
+62	戈 	4	halberd		gē	qua	116		戊、戉、戌 
+63	戶	4	door		hù	hộ	44	户 	戹、戼、戽 
+64	手 	4	hand	提手旁 ,看字头 	shǒu	thủ	1,203		才、扎、扐 
+65	支 	4	branch		zhī	chi	26		攰、攱、攲 
+66	攴	4	rap, tap		pū	phộc	296		收、攷、攸 
+67	文 	4	script		wén	văn	26		斉、斌、斐 
+68	斗 	4	dipper		dǒu	đẩu	32		料、斚、斛 
+69	斤 	4	axe		jīn	cân	55		斥、斧、斨 
+70	方 	4	square		fāng	phương	92		㫃、於、㫄 
+71	无	4	not		wú	vô	12		既、旣、旤 
+72	日 	4	sun		rì	nhật	453		旦、旨、早 
+73	曰 	4	say		yuē	viết	37		曲、曳、更 
+74	月 	4	moon		yuè	nguyệt	69		有、朋、服 
+75	木 	4	tree	木字旁 	mù	mộc	1,369		未、末、本 
+76	欠 	4	lack	欠字旁 	qiàn	khiếm	235		次、欣、欥 
+77	止 	4	stop		zhǐ	chỉ	99		正、此、步 
+78	歹	4	death		dǎi	đãi (ngạt)	231		歺、死、歿 
+79	殳 	4	weapon		shū	thù	93		段、殷、殺 
+80	毋	4	do not		wú	vô	16		母、每、毐 
+81	比 	4	compare		bǐ	tỷ	21		毖、毗、毘 
+82	毛 	4	fur		máo	mao	211		毡、毣、毧 
+83	氏 	4	clan		shì	thị	10		氐、民、氓 
+84	气 	4	steam		qì	khí	17	(pr. 氣)	氕、氘、氚 
+85	水	4	water	三点水 	shuǐ	thủy	1,595		永、氷、氾 
+86	火	4	fire	四点底 ,火字旁 	huǒ	hỏa	639		灰、灯、灶 
+87	爪	4	claw	受字头 	zhǎo	trảo	36		爬、爭、爰 
+88	父 	4	father		fù	phụ	10		爸、爹、爺 
+89	爻 	4	Trigrams		yáo	hào	16		爼、爽、爾 
+90	爿	4	split wood	将字旁 	qiáng	tường	48		牀、牁、牂 
+91	片 	4	slice		piàn	phiến	77		版、牉、牌 
+92	牙 	4	fang		yá	nha	9		㸦、㸧、牚 
+93	牛 	4	cow	牛字旁 	niú	ngưu	233		牝、牟、牠 
+94	犬	4	dog	反犬旁 	quǎn	khuyển	444		犮、犯、犰 
+95	玄 	5	profound		xuán	huyền	6		玅、率、玈 
+96	玉	5	jade		yù	ngọc	473		玻、瑪、璧 
+97	瓜 	5	melon		guā	qua	55		瓝、瓞、瓟 
+98	瓦 	5	tile		wǎ	ngõa	174		㼚、瓮、瓫 
+99	甘 	5	sweet		gān	cam	22		甚、甜、甛 
+100	生 	5	life		shēng	sinh	22		甡、產、甥 
+101	用 	5	use		yòng	dụng	10		甩、甫、甬 
+102	田 	5	field		tián	điền	192		由、甲、申 
+103	疋 	5	bolt of cloth	疋字底 	pǐ	thất/sơ	15		疌、疏、疎 
+104	疒 	5	sickness	病字旁 	nè	nạch	526		疔、疚、疝 
+105	癶 	5	footsteps	登字头 	bō	bát	15		癸、癹、発 
+106	白 	5	white		bái	bạch	109		百、皀、皁 
+107	皮 	5	skin		pí	bì	94		皯、皰、皴 
+108	皿 	5	dish		mǐn	mãnh	129		盂、盃、盅 
+109	目	5	eye	目字旁 	mù	mục	647		盯、盱、盲 
+110	矛 	5	spear		máo	mâu	65		矜、矞、矟 
+111	矢 	5	arrow		shǐ	thỉ	64		矣、知、矧 
+112	石 	5	stone		shí	thạch	499		矸、矻、矼 
+113	示	5	spirit	示字旁 	shì	thị (kỳ)	213		礼、礽、社 
+114	禸 	5	track		róu	nhựu	12		禹、禺、离 
+115	禾 	5	grain	禾木旁 	hé	hòa	431		禿、秀、私 
+116	穴 	5	cave		xué	huyệt	298		究、穸、空 
+117	立 	5	stand		lì	lập	101		竑、竒、竘 
+118	竹	6	bamboo	竹字头 	zhú	trúc	953		竺、竽、竿 
+119	米 	6	rice	米字旁 	mǐ	mễ	318		籸、籹、籽 
+120	糸	6	silk	绞丝旁 	mì	mịch	823	纟 	系、糾、紀 
+121	缶 	6	jar		fǒu	phẫu	77		缸、缺、缽 
+122	网 	6	net		wǎng	võng	163		罔、罕、罘 
+123	羊 	6	sheep		yáng	dương	156		羋、羌、美 
+124	羽 	6	feather		yǔ	vũ	220		羿、翀、翁 
+125	老 	6	old	老字头 	lǎo	lão	22		考、者、耆 
+126	而 	6	and		ér	nhi	22		耍、耎、耏 
+127	耒 	6	plough		lěi	lỗi	84		耔、耕、耖 
+128	耳 	6	ear		ěr	nhĩ	172		耴、耵、耷 
+129	聿 	6	brush		yù	duật	19		肄、肆、肅 
+130	肉 	6	meat		ròu	nhục	674	月 	肊、肋、然 
+131	臣 	6	minister		chén	thần	16		臤、臥、臧 
+132	自 	6	self		zì	tự	34		臬、臭、臯 
+133	至 	6	arrive		zhì	chí	24		致、臷、臺 
+134	臼 	6	mortar		jiù	cữu	71		臾、臿、舁 
+135	舌 	6	tongue		shé	thiệt	31		舍、舐、舑 
+136	舛 	6	oppose		chuǎn	suyễn	10		舜、舝、舞 
+137	舟 	6	boat		zhōu	chu	197		舠、舡、舢 
+138	艮 	6	stopping		gèn	cấn	5		良、艱 
+139	色 	6	colour		sè	sắc	21		艳、艴、艵 
+140	艸 	6	grass	草字头 	cǎo	thảo	1,902	⺾ 	艽、艾、芃 
+141	虍 	6	tiger		hū	hô	114		虎、虐、虒 
+142	虫 	6	insect		chóng	trùng	1,067	(pr. 蟲)	虬、虯、虱 
+143	血 	6	blood		xuè	huyết	60		衁、衂、衃 
+144	行 	6	walk enclosure		xíng	hành/hàng	53		衍、衎、衒 
+145	衣 	6	clothes	衣字旁 	yī	y	607		初、表、衫 
+146	襾 	6	cover		yà	á	29		西、要、覂 
+147	見 	7	see		jiàn	kiến	161	见 	規、覓、視 
+148	角 	7	horn		jiǎo	giác	158	⻆ 	觓、觔、觕 
+149	言 	7	speech	言字旁 	yán	ngôn	861	讠 	訂、訃、計 
+150	谷 	7	valley		gǔ	cốc	54		谹、谽、谿 
+151	豆 	7	bean		dòu	đậu	68		豇、豈、豉 
+152	豕 	7	pig		shǐ	thỉ	148		豗、豚、豜 
+153	豸 	7	badger		zhì	trãi	140		豺、豻、豹 
+154	貝 	7	shell		bèi	bối	277	贝 	貞、負、財 
+155	赤 	7	red		chì	xích	31		赦、赧、赨 
+156	走 	7	run		zǒu	tẩu	285		赳、赴、赶 
+157	足 	7	foot	足字旁 	zú	túc	580		趴、趵、趷 
+158	身 	7	body		shēn	thân	97		躬、躭、躰 
+159	車 	7	cart	车字旁 	chē	xa	361	车 	軋、軌、軍 
+160	辛 	7	bitter		xīn	tân	36		辜、辝、辟 
+161	辰 	7	morning		chén	thần/thìn	15		辱、農、辴 
+162	辵 	7	walk	走之底 	chuò	sước	381		边、巡、迂 
+163	邑 	7	city	右耳朵 	yì	ấp	350		邕、邗、邘 
+164	酉 	7	wine		yǒu	dậu	290		酊、酋、酌 
+165	釆 	7	distinguish		biàn	biện	14		采、釉、釋 
+166	里 	7	village		lǐ	lý	14		重、野、量 
+167	金 	8	gold	金字旁 	jīn	kim	806	钅 	釓、釔、釕 
+168	長 	8	long		cháng	trường/trưởng	55	长 	镺、镻、镼 
+169	門 	8	gate	门字框 	mén	môn	246	门 	閂、閃、閆 
+170	阜 	8	mound		fù	phụ	348		阞、阡、阢 
+171	隶 	8	slave		lì	lệ	12		𨽻、隷、隸 
+172	隹 	8	short-tailed bird		zhuī	chuy	233		隻、隼、隽 
+173	雨 	8	rain		yǔ	vũ	298		雩、雪、雯 
+174	靑 	8	blue		qīng	thanh	17		靖、静、靚 
+175	非 	8	wrong		fēi	phi	25		靟、靠、靡 
+176	面 	9	face		miàn	diện	66		靤、靦、靧 
+177	革 	9	leather		gé	cách	305		靭、靮、靳 
+178	韋 	9	tanned leather		wéi	vi	100	韦 	韌、韍、韎 
+179	韭 	9	leek		jiǔ	cửu	20		韰、韲、䪢 
+180	音 	9	sound		yīn	âm	43		竟、章、韵 
+181	頁 	9	leaf		yè	hiệt	372	页 	頂、頃、頄 
+182	風 	9	wind		fēng	phong	182	风 	颩、颭、颮 
+183	飛 	9	fly		fēi	phi	92	飞 	䬡、飜、飝 
+184	食 	9	eat	食字旁 	shí	thực	403	饣 	飡、飢、飣 
+185	首 	9	head		shǒu	thủ	20		馗、䭫、馘 
+186	香 	9	fragrant		xiāng	hương	37		馝、馞、馡 
+187	馬 	10	horse		mǎ	mã	472	马 	馭、馮、馯 
+188	骨 	10	bone		gǔ	cốt	185	⻣ 	骫、骭、骯 
+189	高 	10	tall		gāo	cao	34		髚、髛、𩫛 
+190	髟 	10	hair		biāo	bưu/tiêu	243		髠、髡、髢 
+191	鬥 	10	fight		dòu	đấu	23		鬦、鬧、鬨 
+192	鬯 	10	sacrificial wine		chàng	sưởng	8		鬰、鬱 
+193	鬲 	10	cauldron		lì	cách	73		鬳、鬴、鬵 
+194	鬼 	10	ghost		guǐ	quỷ	141		鬾、魁、魂 
+195	魚 	11	fish		yú	ngư	571	鱼 	魟、魠、魦 
+196	鳥 	11	bird		niǎo	điểu	750	鸟 	鳦、鳧、鳩 
+197	鹵 	11	salt		lǔ	lỗ	44	卤 	鹹、鹺、鹼 
+198	鹿 	11	deer		lù	lộc	104		麀、麁、麂 
+199	麥 	11	wheat		mài	mạch	131	麦 	麨、麩、麪 
+200	麻 	11	hemp		má	ma	34		麼、麾、黁 
+201	黃 	12	yellow		huáng	hoàng	42	黄 	黈、䵍、黌 
+202	黍 	12	millet		shǔ	thử	46		黎、黏、黐 
+203	黑 	12	black		hēi	hắc	172		墨、黓、黔 
+204	黹 	12	embroidery		zhǐ	chỉ	8		黺、黻、黼 
+205	黽 	13	frog		mǐn	mãnh	40	黾 	黿、鼀、鼁 
+206	鼎 	13	tripod		dǐng	đỉnh	14		鼏、鼐、鼒 
+207	鼓 	13	drum		gǔ	cổ	46		鼕、鼖、鼗 
+208	鼠 	13	rat		shǔ	thử	92		鼢、鼥、鼩 
+209	鼻 	14	nose		bí	tị	49		鼽、鼾、齁 
+210	齊 	14	even		qí	tề	18	齐 	齋、齌、齍 
+211	齒 	15	tooth		chǐ	xỉ	162	齿 	齔、齕、齖 
+212	龍 	16	dragon		lóng	long	14	龙 	龏、龑、龔 
+213	龜 	16	turtle		guī	quy	24	龟 	䶰、龝、龞 
+214	龠 	17	flute		yuè	dược	19		龡、龢、龤 

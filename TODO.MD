@@ -4,8 +4,12 @@ TODO
 [X] Extract examples into list
 [X] Make Chinese text blue, and từ loại grey
 [X] Only include items from top_24k and top_100k
-[ ] Use Taiwan MOE dictionary to find opposite words (antonyms)
+[x] Use Taiwan MOE dictionary to find opposite words (antonyms)
 [ ] Check words that have puntuations at the end
+[ ] Add missing radical 丷
+[ ] Check missing radical in definitions such as ⺌
+[ ] Use function to find radical pinyin and meaning, use namedtuple
+[ ] Add variants from Radicals to char_dict
 
 # Steps
 [ ] Convert Thienchuu to same format

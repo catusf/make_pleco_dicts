@@ -1,0 +1,4445 @@
+{
+    "⼀": {
+        "meaning": "one",
+        "number": 1,
+        "pinyin": "yī",
+        "name": "一字旁",
+        "strokes": 1,
+        "frequency": "42",
+        "examples": "王、丁、七、三",
+        "useful": {
+            "distinguish": [
+                "乛",
+                "亠",
+                "冖",
+                "宀"
+            ],
+            "variants": [],
+            "rank": "88.5%",
+            "mnemonic": "",
+            "notes": " Characters are classified here when they have a horizontal stroke and don't fit under any other radicals"
+        },
+        "variants": [
+            "一"
+        ]
+    },
+    "⼁": {
+        "meaning": "line",
+        "number": 2,
+        "pinyin": "gǔn",
+        "name": "",
+        "strokes": 1,
+        "frequency": "21",
+        "examples": "十、中、串、丰",
+        "useful": {
+            "distinguish": [
+                "亅"
+            ],
+            "variants": [],
+            "rank": "66.3%",
+            "mnemonic": "",
+            "notes": " Now simply called shu4 - 竖, which means vertical stroke, see gun3"
+        },
+        "variants": [
+            "丨"
+        ]
+    },
+    "⼂": {
+        "meaning": "dot",
+        "number": 3,
+        "pinyin": "zhǔ",
+        "name": "丶字旁",
+        "strokes": 1,
+        "frequency": "10",
+        "examples": "丸、凡、丹、户",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "63.1%",
+            "mnemonic": "",
+            "notes": ""
+        },
+        "variants": [
+            "⺀",
+            "丶"
+        ]
+    },
+    "⼃": {
+        "meaning": "slash",
+        "number": 4,
+        "pinyin": "piě",
+        "name": "",
+        "strokes": 1,
+        "frequency": "33",
+        "examples": "乂、乃、久、八",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "乀",
+                "乁"
+            ],
+            "rank": "76.3%",
+            "mnemonic": "",
+            "notes": " general stroke, sometimes means falling"
+        },
+        "variants": [
+            "丿"
+        ]
+    },
+    "⼄": {
+        "meaning": "second",
+        "number": 5,
+        "pinyin": "yǐ",
+        "name": "",
+        "strokes": 1,
+        "frequency": "42",
+        "examples": "九、乞、也",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "乚",
+                "乛"
+            ],
+            "rank": "52.7%",
+            "mnemonic": " possibly represents a sprout",
+            "notes": ""
+        },
+        "variants": [
+            "⺂",
+            "乚",
+            "⺃",
+            "乙",
+            "⺄",
+            "乛"
+        ]
+    },
+    "⼅": {
+        "meaning": "hook",
+        "number": 6,
+        "pinyin": "jué",
+        "name": "",
+        "strokes": 1,
+        "frequency": "19",
+        "examples": "了、矛、事",
+        "useful": {
+            "distinguish": [
+                "丨"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": "",
+            "notes": ""
+        },
+        "variants": [
+            "亅"
+        ]
+    },
+    "⼆": {
+        "meaning": "two",
+        "number": 7,
+        "pinyin": "èr",
+        "name": "",
+        "strokes": 2,
+        "frequency": "29",
+        "examples": "貳、于、云、些",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "74.6%",
+            "mnemonic": "",
+            "notes": ""
+        },
+        "variants": [
+            "二"
+        ]
+    },
+    "⼇": {
+        "meaning": "lid",
+        "number": 8,
+        "pinyin": "tóu",
+        "name": "六字头",
+        "strokes": 2,
+        "frequency": "38",
+        "examples": "方、亡、亢、交",
+        "useful": {
+            "distinguish": [
+                "一",
+                "冖",
+                "宀",
+                "乛"
+            ],
+            "variants": [],
+            "rank": "75.3%",
+            "mnemonic": "",
+            "notes": " known in chinese as “点横” or “文字头”. Only a couple characters relate to any concept of cover or lid, a few more relate to the idea of a head as something up above. "
+        },
+        "variants": [
+            "亠"
+        ]
+    },
+    "⼈": {
+        "meaning": "man",
+        "number": 9,
+        "pinyin": "rén",
+        "name": "单立人 ,单人旁",
+        "strokes": 2,
+        "frequency": "794",
+        "examples": "你、什、仁、仇",
+        "useful": {
+            "distinguish": [
+                "入,八"
+            ],
+            "variants": [
+                "亻",
+                "入"
+            ],
+            "rank": "75.3%",
+            "mnemonic": " This is a simple stick figure, or a pair of legs",
+            "notes": " One of the most common radicals, typically used in characters representing human attributes or actions that man undertakes; Modern dictionaries group 人 and 入 together"
+        },
+        "variants": [
+            "人",
+            "亻",
+            "⺅"
+        ]
+    },
+    "⼉": {
+        "meaning": "son, legs",
+        "number": 10,
+        "pinyin": "ér",
+        "name": "",
+        "strokes": 2,
+        "frequency": "52",
+        "examples": "兒、兀、允、元",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "79.1%",
+            "mnemonic": " Depicts the two legs of a person.   Few characters actually represent this meaning.",
+            "notes": " Also known as the LEGS radical due to ancient meaning.  Known now as the short form of 兒."
+        },
+        "variants": [
+            "儿"
+        ]
+    },
+    "⼊": {
+        "meaning": "enter",
+        "number": 11,
+        "pinyin": "rù",
+        "name": "入字旁",
+        "strokes": 2,
+        "frequency": "28",
+        "examples": "內、全、兩、汆",
+        "useful": {
+            "distinguish": [
+                "八,人"
+            ],
+            "variants": [
+                "人"
+            ],
+            "rank": "44.4%",
+            "mnemonic": " The open door of a tent",
+            "notes": " modern dictionaries group 人 and 入 together"
+        },
+        "variants": [
+            "入"
+        ]
+    },
+    "⼋": {
+        "meaning": "eight",
+        "number": 12,
+        "pinyin": "bā",
+        "name": "",
+        "strokes": 2,
+        "frequency": "44",
+        "examples": "公、六、兮、穴",
+        "useful": {
+            "distinguish": [
+                "入,人"
+            ],
+            "variants": [
+                "丷"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " Indicates separation, to split something. Can also have a meaning like 拔 - to pull out",
+            "notes": " Used in some characters with two downward strokes"
+        },
+        "variants": [
+            "八"
+        ]
+    },
+    "⼌": {
+        "meaning": "wide",
+        "number": 13,
+        "pinyin": "jiōng",
+        "name": "同字匡",
+        "strokes": 2,
+        "frequency": "50",
+        "examples": "冇、冊、冉、肉",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": "",
+            "notes": " Also known as DOWN BOX radical"
+        },
+        "variants": [
+            "⺆",
+            "冂"
+        ]
+    },
+    "⼍": {
+        "meaning": "cloth cover",
+        "number": 14,
+        "pinyin": "mì",
+        "name": "秃宝盖",
+        "strokes": 2,
+        "frequency": "30",
+        "examples": "冗、冠、冥、運",
+        "useful": {
+            "distinguish": [
+                "一",
+                "亠",
+                "宀",
+                "乛"
+            ],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": "",
+            "notes": " aka COVER radical"
+        },
+        "variants": [
+            "冖"
+        ]
+    },
+    "⼎": {
+        "meaning": "ice",
+        "number": 15,
+        "pinyin": "bīng",
+        "name": "两点水",
+        "strokes": 2,
+        "frequency": "115",
+        "examples": "冬、冰、冶、凉",
+        "useful": {
+            "distinguish": [
+                "彡，氵"
+            ],
+            "variants": [],
+            "rank": "82.2%",
+            "mnemonic": " possibly a reduction of 仌, sometimes indicates a split",
+            "notes": " All things cold and icy are encompassed by this radical"
+        },
+        "variants": [
+            "冫"
+        ]
+    },
+    "⼏": {
+        "meaning": "table",
+        "number": 16,
+        "pinyin": "jī",
+        "name": "几字旁",
+        "strokes": 2,
+        "frequency": "38",
+        "examples": "風、殳、凡、凱",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "63.1%",
+            "mnemonic": "",
+            "notes": ""
+        },
+        "variants": [
+            "⺇",
+            "𠘨",
+            "几"
+        ]
+    },
+    "⼐": {
+        "meaning": "receptacle",
+        "number": 17,
+        "pinyin": "kǎn",
+        "name": "凶字框",
+        "strokes": 2,
+        "frequency": "23",
+        "examples": "凶、凸、凹、齒",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": " primitive of an open vessel or receptacle",
+            "notes": " aka open box"
+        },
+        "variants": [
+            "凵"
+        ]
+    },
+    "⼑": {
+        "meaning": "knife",
+        "number": 18,
+        "pinyin": "dāo",
+        "name": "刀字旁 ,立刀旁",
+        "strokes": 2,
+        "frequency": "377",
+        "examples": "刁、解、分、劍",
+        "useful": {
+            "distinguish": [
+                "力勹"
+            ],
+            "variants": [
+                "刂",
+                "⺈",
+                "刁"
+            ],
+            "rank": "44.4%",
+            "mnemonic": " picture of a ancient bronze knife",
+            "notes": " Encompasses numerous characters relating to sharpness and actions undertaken with sharp items."
+        },
+        "variants": [
+            "⺉",
+            "⺈",
+            "刂",
+            "𠂊",
+            "刀"
+        ]
+    },
+    "⼒": {
+        "meaning": "power",
+        "number": 19,
+        "pinyin": "lì",
+        "name": "",
+        "strokes": 2,
+        "frequency": "163",
+        "examples": "加、功、劣、男",
+        "useful": {
+            "distinguish": [
+                "刀"
+            ],
+            "variants": [],
+            "rank": "86.1%",
+            "mnemonic": "",
+            "notes": " Used in a variety of characters industrious characters, or those having to do with exertion. aka POWER radical"
+        },
+        "variants": [
+            "力"
+        ]
+    },
+    "⼓": {
+        "meaning": "wrap",
+        "number": 20,
+        "pinyin": "bāo",
+        "name": "包字头",
+        "strokes": 2,
+        "frequency": "64",
+        "examples": "包、勺、勻、勾",
+        "useful": {
+            "distinguish": [
+                "刀,力"
+            ],
+            "variants": [],
+            "rank": "66.3%",
+            "mnemonic": " A figure leaning over to hold or cover something",
+            "notes": " Adds a grouping or enclosing meaning to a number of characters, more often as a component as the actual 部首"
+        },
+        "variants": [
+            "勹"
+        ]
+    },
+    "⼔": {
+        "meaning": "spoon",
+        "number": 21,
+        "pinyin": "bǐ",
+        "name": "",
+        "strokes": 2,
+        "frequency": "19",
+        "examples": "化、北、匙、比",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " picture of a type of spoon or  ladle, possibly an upside down 人 in some characters",
+            "notes": " aka spoon"
+        },
+        "variants": [
+            "匕"
+        ]
+    },
+    "⼕": {
+        "meaning": "box",
+        "number": 22,
+        "pinyin": "fāng",
+        "name": "医字框",
+        "strokes": 2,
+        "frequency": "64",
+        "examples": "匿、區、巨、匠",
+        "useful": {
+            "distinguish": [
+                "匸"
+            ],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": "",
+            "notes": ""
+        },
+        "variants": [
+            "匚"
+        ]
+    },
+    "⼖": {
+        "meaning": "hiding enclosure",
+        "number": 23,
+        "pinyin": "xǐ/xì",
+        "name": "",
+        "strokes": 2,
+        "frequency": "17",
+        "examples": "亡、匹、匼、匽",
+        "useful": {
+            "distinguish": [
+                "匚"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": "",
+            "notes": ""
+        },
+        "variants": [
+            "匸"
+        ]
+    },
+    "⼗": {
+        "meaning": "ten",
+        "number": 24,
+        "pinyin": "shí",
+        "name": "",
+        "strokes": 2,
+        "frequency": "55",
+        "examples": "千、半、卅、升",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "78.4%",
+            "mnemonic": " originally 丨 meaning straight - pronounced zhi - 一 one unit of 丨 pronounced shi",
+            "notes": ""
+        },
+        "variants": [
+            "十"
+        ]
+    },
+    "⼘": {
+        "meaning": "divination",
+        "number": 25,
+        "pinyin": "bǔ",
+        "name": "",
+        "strokes": 2,
+        "frequency": "45",
+        "examples": "下、上、卡、占",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺊"
+            ],
+            "rank": "59.0%",
+            "mnemonic": " represents cracks in a turtle shell which were used for divination",
+            "notes": ""
+        },
+        "variants": [
+            "卜",
+            "⺊"
+        ]
+    },
+    "⼙": {
+        "meaning": "seal (device)",
+        "number": 26,
+        "pinyin": "jié",
+        "name": "单耳刀",
+        "strokes": 2,
+        "frequency": "40",
+        "examples": "即、卬、卷、夗",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺋"
+            ],
+            "rank": "67.7%",
+            "mnemonic": " A kneeling person - in some cases provides the character meaning as well",
+            "notes": " primary form - used on the left side of a character. Most characters don't relate to the characters meaning."
+        },
+        "variants": [
+            "卩",
+            "㔾",
+            "⺋"
+        ]
+    },
+    "⼚": {
+        "meaning": "cliff",
+        "number": 27,
+        "pinyin": "hǎn[1]",
+        "name": "",
+        "strokes": 2,
+        "frequency": "129",
+        "examples": "厄、原、厚、厰",
+        "useful": {
+            "distinguish": [
+                "广,疒,⺁"
+            ],
+            "variants": [],
+            "rank": "79.1%",
+            "mnemonic": "",
+            "notes": " aka SLOPE radical"
+        },
+        "variants": [
+            "⺁",
+            "𠂆",
+            "厂"
+        ]
+    },
+    "⼛": {
+        "meaning": "private",
+        "number": 28,
+        "pinyin": "sī",
+        "name": "私字旁",
+        "strokes": 2,
+        "frequency": "40",
+        "examples": "台、公、去、參、",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": " Originally a picture of a tightly wound coccoon.  Some interperetations view it as a mouth whispering",
+            "notes": " Used in many characters related to silk"
+        },
+        "variants": [
+            "厶"
+        ]
+    },
+    "⼜": {
+        "meaning": "again",
+        "number": 29,
+        "pinyin": "yòu",
+        "name": "",
+        "strokes": 2,
+        "frequency": "91",
+        "examples": "叉、及、友、取",
+        "useful": {
+            "distinguish": [
+                "攵,文"
+            ],
+            "variants": [],
+            "rank": "76.3%",
+            "mnemonic": " primitive representing the right hand",
+            "notes": " Like 手, this character also signifies things done by man or with one's hand.  Perhaps because of the higher value placed on the right hand in Chinese culture the meanings here may be of similar value, such as offering friendship (友) or turning against (反).  Modern meaning from sound loan, also called the AGAIN radical"
+        },
+        "variants": [
+            "又"
+        ]
+    },
+    "⼝": {
+        "meaning": "mouth",
+        "number": 30,
+        "pinyin": "kǒu",
+        "name": "",
+        "strokes": 3,
+        "frequency": "1,146",
+        "examples": "哎、古、只、品",
+        "useful": {
+            "distinguish": [
+                "囗"
+            ],
+            "variants": [],
+            "rank": "99.3%",
+            "mnemonic": " This is a simple picture of an open mouth",
+            "notes": " Used in characters involving things done with one's mouth, eating, speaking, drinking, etc."
+        },
+        "variants": [
+            "口"
+        ]
+    },
+    "⼞": {
+        "meaning": "enclosure",
+        "number": 31,
+        "pinyin": "wéi",
+        "name": "国字框",
+        "strokes": 3,
+        "frequency": "118",
+        "examples": "囚、四、國、圍",
+        "useful": {
+            "distinguish": [
+                "口"
+            ],
+            "variants": [],
+            "rank": "81.2%",
+            "mnemonic": " Represents a wall surrounding something",
+            "notes": " This radical always surrounds or contains other components, that action generally providing a strong clue to the meaning of the character.  Also known as Surround radical"
+        },
+        "variants": [
+            "囗"
+        ]
+    },
+    "⼟": {
+        "meaning": "earth",
+        "number": 32,
+        "pinyin": "tǔ",
+        "name": "提土旁",
+        "strokes": 3,
+        "frequency": "580",
+        "examples": "地、圣、圭、堯",
+        "useful": {
+            "distinguish": [
+                "士"
+            ],
+            "variants": [
+                "士"
+            ],
+            "rank": "96.5%",
+            "mnemonic": " a lump of clay on a  potter's wheel or a cross in the earth",
+            "notes": " Earthly attributes and forces tend to be represented under this radical.  Merged with 士 in many dictionaries"
+        },
+        "variants": [
+            "土"
+        ]
+    },
+    "⼠": {
+        "meaning": "scholar",
+        "number": 33,
+        "pinyin": "shì",
+        "name": "",
+        "strokes": 3,
+        "frequency": "24",
+        "examples": "壬、喜、時、壽",
+        "useful": {
+            "distinguish": [
+                "土"
+            ],
+            "variants": [
+                "土"
+            ],
+            "rank": "63.1%",
+            "mnemonic": " The story goes that a scholar (士) took ten (十) things and organized them into one (一); possibly a modification of 大",
+            "notes": " This radical is used in characters for desirable human attributes or conditions. Merged with 土 in many dictionaries"
+        },
+        "variants": [
+            "士"
+        ]
+    },
+    "⼡": {
+        "meaning": "go",
+        "number": 34,
+        "pinyin": "zhǐ",
+        "name": "",
+        "strokes": 3,
+        "frequency": "11",
+        "examples": "各、冬、夆、愛",
+        "useful": {
+            "distinguish": [
+                "夕,夊,歹"
+            ],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " A footprint",
+            "notes": ""
+        },
+        "variants": [
+            "夂"
+        ]
+    },
+    "⼢": {
+        "meaning": "go slowly",
+        "number": 35,
+        "pinyin": "suī",
+        "name": "",
+        "strokes": 3,
+        "frequency": "23",
+        "examples": "夌、复、夏",
+        "useful": {
+            "distinguish": [
+                "夕,夂,歹"
+            ],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " A footprint",
+            "notes": " This radical only appears in two common characters - the traditional radical was merged with 夂"
+        },
+        "variants": [
+            "夊"
+        ]
+    },
+    "⼣": {
+        "meaning": "evening",
+        "number": 36,
+        "pinyin": "xī",
+        "name": "",
+        "strokes": 3,
+        "frequency": "34",
+        "examples": "外、夗、多、岁",
+        "useful": {
+            "distinguish": [
+                "夂,夊,歹"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " depicts the moon, representing evening",
+            "notes": " Subjects such as dreams and night are categorized here"
+        },
+        "variants": [
+            "夕"
+        ]
+    },
+    "⼤": {
+        "meaning": "big",
+        "number": 37,
+        "pinyin": "dà",
+        "name": "",
+        "strokes": 3,
+        "frequency": "132",
+        "examples": "太、天、夭、夯",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "88.5%",
+            "mnemonic": " A man with arms and legs spread, trying to convey something large",
+            "notes": ""
+        },
+        "variants": [
+            "大"
+        ]
+    },
+    "⼥": {
+        "meaning": "woman",
+        "number": 38,
+        "pinyin": "nǚ",
+        "name": "",
+        "strokes": 3,
+        "frequency": "681",
+        "examples": "妳、婆、奶、如",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "95.4%",
+            "mnemonic": " A woman with crossed legs, or possibly breasts",
+            "notes": " Generally included in all things feminine, also characters relating to marriage and courtship."
+        },
+        "variants": [
+            "女"
+        ]
+    },
+    "⼦": {
+        "meaning": "child",
+        "number": 39,
+        "pinyin": "zǐ",
+        "name": "子字旁",
+        "strokes": 3,
+        "frequency": "83",
+        "examples": "孩、學、孔、仔",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "82.2%",
+            "mnemonic": " A baby with arms & head",
+            "notes": " Generally appears in characters relating to life and a child's role in the family"
+        },
+        "variants": [
+            "子"
+        ]
+    },
+    "⼧": {
+        "meaning": "roof",
+        "number": 40,
+        "pinyin": "mián",
+        "name": "宝盖头",
+        "strokes": 3,
+        "frequency": "246",
+        "examples": "家、安、寧、它",
+        "useful": {
+            "distinguish": [
+                "一",
+                "亠",
+                "冖",
+                "乛"
+            ],
+            "variants": [],
+            "rank": "93.4%",
+            "mnemonic": " The dot on top may represent a chimney, the edges eaves.",
+            "notes": " The roof radical can represent various things relating to hearth and home."
+        },
+        "variants": [
+            "宀"
+        ]
+    },
+    "⼨": {
+        "meaning": "inch",
+        "number": 41,
+        "pinyin": "cùn",
+        "name": "",
+        "strokes": 3,
+        "frequency": "40",
+        "examples": "村、寺、封、射",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "72.5%",
+            "mnemonic": " A hand with finger and thumb measuring something, though the dot could be the thumb itself",
+            "notes": " Often used in characters having to do with investigation or measurement of things, also attentiveness and direction"
+        },
+        "variants": [
+            "寸"
+        ]
+    },
+    "⼩": {
+        "meaning": "small",
+        "number": 42,
+        "pinyin": "xiǎo",
+        "name": "当字头",
+        "strokes": 3,
+        "frequency": "41",
+        "examples": "少、尖、當、栄",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺌"
+            ],
+            "rank": "63.1%",
+            "mnemonic": " split 八 and make it small",
+            "notes": ""
+        },
+        "variants": [
+            "𭕄",
+            "⺍",
+            "⺌",
+            "小"
+        ]
+    },
+    "⼪": {
+        "meaning": "lame",
+        "number": 43,
+        "pinyin": "wāng",
+        "name": "",
+        "strokes": 3,
+        "frequency": "66",
+        "examples": "尤、尷、尬、尩",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "尣",
+                "兀"
+            ],
+            "rank": "52.7%",
+            "mnemonic": " This depicts two legs of different lengths to represent lameness.  The horizontal stroke emphasizes the difference, and may represent arms",
+            "notes": ""
+        },
+        "variants": [
+            "⺐",
+            "尣",
+            "5C22",
+            "兀",
+            "𡯂",
+            "⺎",
+            "尢",
+            "⺏",
+            "⺑",
+            "𡯁"
+        ]
+    },
+    "⼫": {
+        "meaning": "corpse",
+        "number": 44,
+        "pinyin": "shī",
+        "name": "",
+        "strokes": 3,
+        "frequency": "148",
+        "examples": "屍、尺、尼、尻",
+        "useful": {
+            "distinguish": [
+                "戶"
+            ],
+            "variants": [],
+            "rank": "85.0%",
+            "mnemonic": " A sitting person facing left (possibly laying)",
+            "notes": ""
+        },
+        "variants": [
+            "尸"
+        ]
+    },
+    "⼬": {
+        "meaning": "sprout",
+        "number": 45,
+        "pinyin": "chè",
+        "name": "",
+        "strokes": 3,
+        "frequency": "38",
+        "examples": "艸、屯、屰、頓",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " This is a picture of a sprout",
+            "notes": " Rare, but worthwhile remembering, as it links to more common words like 出, which is a picture of a 屮 growing out of a 凵"
+        },
+        "variants": [
+            "屮"
+        ]
+    },
+    "⼭": {
+        "meaning": "mountain",
+        "number": 46,
+        "pinyin": "shān",
+        "name": "",
+        "strokes": 3,
+        "frequency": "636",
+        "examples": "嵗、密、峰、幽",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "89.5%",
+            "mnemonic": " Picture of a mountain",
+            "notes": " Almost every character under the mountain radical is used for describing landscape features or heights"
+        },
+        "variants": [
+            "山"
+        ]
+    },
+    "⼮": {
+        "meaning": "river",
+        "number": 47,
+        "pinyin": "chuān",
+        "name": "",
+        "strokes": 3,
+        "frequency": "26",
+        "examples": "川、州、順、災",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "川",
+                "巜"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " Picture of moving water",
+            "notes": ""
+        },
+        "variants": [
+            "巛"
+        ]
+    },
+    "⼯": {
+        "meaning": "work",
+        "number": 48,
+        "pinyin": "gōng",
+        "name": "",
+        "strokes": 3,
+        "frequency": "17",
+        "examples": "左、巧、功、式",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": " Depicts a carpenter's square.",
+            "notes": ""
+        },
+        "variants": [
+            "工"
+        ]
+    },
+    "⼰": {
+        "meaning": "oneself",
+        "number": 49,
+        "pinyin": "jǐ",
+        "name": "",
+        "strokes": 3,
+        "frequency": "20",
+        "examples": "記、改、忌、龍",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "已",
+                "巳"
+            ],
+            "rank": "44.4%",
+            "mnemonic": " represents the back and forth motion of the warp string in weaving",
+            "notes": ""
+        },
+        "variants": [
+            "己",
+            "巳",
+            "⺒"
+        ]
+    },
+    "⼱": {
+        "meaning": "turban",
+        "number": 50,
+        "pinyin": "jīn",
+        "name": "巾字儿",
+        "strokes": 3,
+        "frequency": "295",
+        "examples": "市、帥、刷、砸",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "87.8%",
+            "mnemonic": " cloth hanging down, possibly from a loom",
+            "notes": " The characters under this radical usually represent things made of large expanses of cloth, though smaller items such as headpieces and handkerchiefs are sometimes covered as well."
+        },
+        "variants": [
+            "巾"
+        ]
+    },
+    "⼲": {
+        "meaning": "dry",
+        "number": 51,
+        "pinyin": "gān",
+        "name": "",
+        "strokes": 3,
+        "frequency": "9",
+        "examples": "旱、开、平、年",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " Etymology indicates this is a pestle, but could also be construed as a shield primitive",
+            "notes": ""
+        },
+        "variants": [
+            "干"
+        ]
+    },
+    "⼳": {
+        "meaning": "short thread",
+        "number": 52,
+        "pinyin": "yāo",
+        "name": "",
+        "strokes": 3,
+        "frequency": "50",
+        "examples": "幻、麼、幽、幾",
+        "useful": {
+            "distinguish": [
+                "糸,",
+                "纟"
+            ],
+            "variants": [
+                "乡"
+            ],
+            "rank": "35.0%",
+            "mnemonic": " evolved from a depiction of coiled silk thread",
+            "notes": " Also known as the SLENDER radical. Seems to relate to that which is seemingly small or slight yet quite the opposite in reality."
+        },
+        "variants": [
+            "幺",
+            "⺓"
+        ]
+    },
+    "⼴": {
+        "meaning": "dotted cliff",
+        "number": 53,
+        "pinyin": "yǎn",
+        "name": "广字旁",
+        "strokes": 3,
+        "frequency": "15",
+        "examples": "庀、庂、庄",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "86.8%",
+            "mnemonic": " This is a picture of a simple shelter, simplification gave the standalone 部首 a new meaning",
+            "notes": " Traditional form with this specific pronunciation/meaning is a different character. Generally in characters relating to different sorts of structures"
+        },
+        "variants": [
+            "广"
+        ]
+    },
+    "⼵": {
+        "meaning": "long stride",
+        "number": 54,
+        "pinyin": "yǐn",
+        "name": "建之旁",
+        "strokes": 3,
+        "frequency": "9",
+        "examples": "廵、廷、延",
+        "useful": {
+            "distinguish": [
+                "辶,",
+                "⻎,",
+                "⻍"
+            ],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " Depicts a man marching out",
+            "notes": " References only three common modern characters"
+        },
+        "variants": [
+            "廴"
+        ]
+    },
+    "⼶": {
+        "meaning": "arch",
+        "number": 55,
+        "pinyin": "gǒng",
+        "name": "弄字底",
+        "strokes": 3,
+        "frequency": "50",
+        "examples": "廿、弁、弄",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " Rough drawing of two joined hands",
+            "notes": ""
+        },
+        "variants": [
+            "廾"
+        ]
+    },
+    "⼷": {
+        "meaning": "shoot",
+        "number": 56,
+        "pinyin": "yì",
+        "name": "",
+        "strokes": 3,
+        "frequency": "15",
+        "examples": "弌、弍、弎",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " Depicts an ancient weapon described as a retrievable arrow with a string attached",
+            "notes": " Also known as the dart radical"
+        },
+        "variants": [
+            "弋"
+        ]
+    },
+    "⼸": {
+        "meaning": "bow",
+        "number": 57,
+        "pinyin": "gōng",
+        "name": "弓字旁",
+        "strokes": 3,
+        "frequency": "165",
+        "examples": "弔、引、弗",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "78.4%",
+            "mnemonic": " a bow",
+            "notes": " As a bow must be stretched to be shot, characters under this radical tend to deal with elasticity and shooting things"
+        },
+        "variants": [
+            "弓"
+        ]
+    },
+    "⼹": {
+        "meaning": "snout",
+        "number": 58,
+        "pinyin": "jì",
+        "name": "",
+        "strokes": 3,
+        "frequency": "25",
+        "examples": "彔、彖、彗",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "彑"
+            ],
+            "rank": "44.4%",
+            "mnemonic": " tusks and nose of a pig",
+            "notes": " There is a third alternate form of this radical which doesn't appear to be encoded in unicode"
+        },
+        "variants": [
+            "⺔",
+            "彑",
+            "⺕",
+            "𫜹",
+            "彐"
+        ]
+    },
+    "⼺": {
+        "meaning": "bristle",
+        "number": 59,
+        "pinyin": "shān",
+        "name": "三撇儿",
+        "strokes": 3,
+        "frequency": "62",
+        "examples": "形、彤、彥",
+        "useful": {
+            "distinguish": [
+                "氵,",
+                "冫"
+            ],
+            "variants": [],
+            "rank": "67.7%",
+            "mnemonic": " Typically represents hair, sometimes rays or three",
+            "notes": " This radical shows up in characters relating to stripes or imagery, and occasionally to hair.  Also referred to as the bristle radical"
+        },
+        "variants": [
+            "彡"
+        ]
+    },
+    "⼻": {
+        "meaning": "step",
+        "number": 60,
+        "pinyin": "chì",
+        "name": "双立人",
+        "strokes": 3,
+        "frequency": "215",
+        "examples": "㣔、彴、彷",
+        "useful": {
+            "distinguish": [
+                "亻"
+            ],
+            "variants": [],
+            "rank": "82.2%",
+            "mnemonic": " This is the 亻radical with an extra stroke, likely representing movement.",
+            "notes": " Unlike 辶部 which relates to the greater journey, this 部首 focuses on smaller actions and relates the details of the trip"
+        },
+        "variants": [
+            "彳"
+        ]
+    },
+    "⼼": {
+        "meaning": "heart",
+        "number": 61,
+        "pinyin": "xīn",
+        "name": "竖心旁",
+        "strokes": 4,
+        "frequency": "1,115",
+        "examples": "必、忉、忌",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "忄",
+                "⺗"
+            ],
+            "rank": "94.0%",
+            "mnemonic": " heart lung",
+            "notes": " Used in characters relating to emotions."
+        },
+        "variants": [
+            "心",
+            "忄",
+            "㣺",
+            "⺖",
+            "⺗"
+        ]
+    },
+    "⼽": {
+        "meaning": "halberd",
+        "number": 62,
+        "pinyin": "gē",
+        "name": "",
+        "strokes": 4,
+        "frequency": "116",
+        "examples": "戊、戉、戌",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "戈"
+            ],
+            "rank": "71.5%",
+            "mnemonic": " This is likely a picture of an ancient weapon called a ge1 which can be seen in museums.  Some suggest it could represent any long handled instrument such as a hoe or axe.",
+            "notes": " Often lends a military or combative meaning to its characters"
+        },
+        "variants": [
+            "戈"
+        ]
+    },
+    "⼾": {
+        "meaning": "door",
+        "number": 63,
+        "pinyin": "hù",
+        "name": "",
+        "strokes": 4,
+        "frequency": "44",
+        "examples": "戹、戼、戽",
+        "useful": {},
+        "variants": [
+            "戶"
+        ]
+    },
+    "⼿": {
+        "meaning": "hand",
+        "number": 64,
+        "pinyin": "shǒu",
+        "name": "提手旁 ,看字头",
+        "strokes": 4,
+        "frequency": "1,203",
+        "examples": "才、扎、扐",
+        "useful": {
+            "distinguish": [
+                "毛"
+            ],
+            "variants": [
+                "扌",
+                "才"
+            ],
+            "rank": "74.6%",
+            "mnemonic": " Represents the palm of the hand, possibly the lines of the palm",
+            "notes": " Typically signifies actions executed by one's hand."
+        },
+        "variants": [
+            "扌",
+            "⺘",
+            "手"
+        ]
+    },
+    "⽀": {
+        "meaning": "branch",
+        "number": 65,
+        "pinyin": "zhī",
+        "name": "",
+        "strokes": 4,
+        "frequency": "26",
+        "examples": "攰、攱、攲",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " Hand 又 holding a branch",
+            "notes": ""
+        },
+        "variants": [
+            "支"
+        ]
+    },
+    "⽁": {
+        "meaning": "rap, tap",
+        "number": 66,
+        "pinyin": "pū",
+        "name": "",
+        "strokes": 4,
+        "frequency": "296",
+        "examples": "收、攷、攸",
+        "useful": {
+            "distinguish": [
+                "文"
+            ],
+            "variants": [
+                "攵"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " primitive of a hand 又 holding a tool 卜",
+            "notes": " As the hand is engaged in knocking, a number of the characters under this radical relate to actions one may make with their hands"
+        },
+        "variants": [
+            "攴",
+            "⺙",
+            "攵"
+        ]
+    },
+    "⽂": {
+        "meaning": "script",
+        "number": 67,
+        "pinyin": "wén",
+        "name": "",
+        "strokes": 4,
+        "frequency": "26",
+        "examples": "斉、斌、斐",
+        "useful": {
+            "distinguish": [
+                "攵",
+                "又"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " a tatto on a chest inside cloths",
+            "notes": ""
+        },
+        "variants": [
+            "文"
+        ]
+    },
+    "⽃": {
+        "meaning": "dipper",
+        "number": 68,
+        "pinyin": "dǒu",
+        "name": "",
+        "strokes": 4,
+        "frequency": "32",
+        "examples": "料、斚、斛",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " This is a picture of a dipper, measuring out grains represented by the two dots.",
+            "notes": " Stands on it's own as a radical, but traditional variant of this character is 鬥, Radical 191. See dou3"
+        },
+        "variants": [
+            "斗"
+        ]
+    },
+    "⽄": {
+        "meaning": "axe",
+        "number": 69,
+        "pinyin": "jīn",
+        "name": "",
+        "strokes": 4,
+        "frequency": "55",
+        "examples": "斥、斧、斨",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "63.1%",
+            "mnemonic": " an axe over or penetrating into an object (the left-most stroke)",
+            "notes": " Characters with this radical relate to breaking or dividing actions/concepts"
+        },
+        "variants": [
+            "斤"
+        ]
+    },
+    "⽅": {
+        "meaning": "square",
+        "number": 70,
+        "pinyin": "fāng",
+        "name": "",
+        "strokes": 4,
+        "frequency": "92",
+        "examples": "㫃、於、㫄",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " a man 人 carrying a load 工 which must be balanced ",
+            "notes": " In a number of 字 relating to flags and banners, otherwise doesn't seem to relate to many character's meaning"
+        },
+        "variants": [
+            "方"
+        ]
+    },
+    "⽆": {
+        "meaning": "not",
+        "number": 71,
+        "pinyin": "wú",
+        "name": "",
+        "strokes": 4,
+        "frequency": "12",
+        "examples": "既、旣、旤",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "旡"
+            ],
+            "rank": "20.1%",
+            "mnemonic": "",
+            "notes": " This variant was introduced with simplified characters, traditional form represents a dancer"
+        },
+        "variants": [
+            "旡",
+            "无",
+            "⺛"
+        ]
+    },
+    "⽇": {
+        "meaning": "sun",
+        "number": 72,
+        "pinyin": "rì",
+        "name": "",
+        "strokes": 4,
+        "frequency": "453",
+        "examples": "旦、旨、早",
+        "useful": {
+            "distinguish": [
+                "曰,",
+                "白,",
+                "臼"
+            ],
+            "variants": [
+                "⺜"
+            ],
+            "rank": "94.7%",
+            "mnemonic": " primitive of the sun, possibly represents the two halves of a day",
+            "notes": " As the sun is the original source of heat and light as well as time keeping such characters are found to use this radical"
+        },
+        "variants": [
+            "⺜",
+            "日",
+            "冃"
+        ]
+    },
+    "⽈": {
+        "meaning": "say",
+        "number": 73,
+        "pinyin": "yuē",
+        "name": "",
+        "strokes": 4,
+        "frequency": "37",
+        "examples": "曲、曳、更",
+        "useful": {
+            "distinguish": [
+                "日,",
+                "白,",
+                "臼"
+            ],
+            "variants": [],
+            "rank": "67.7%",
+            "mnemonic": " a mouth with something - words - in it",
+            "notes": " Most 字 under this radical have little to do with speaking"
+        },
+        "variants": [
+            "曰"
+        ]
+    },
+    "⽉": {
+        "meaning": "moon",
+        "number": 74,
+        "pinyin": "yuè",
+        "name": "",
+        "strokes": 4,
+        "frequency": "69",
+        "examples": "有、朋、服",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺝"
+            ],
+            "rank": "67.7%",
+            "mnemonic": " primitive of the crescent moon",
+            "notes": " Be careful to distinguish this from the meat radical, which looks identical. Often used in characters associated with friendship or romance"
+        },
+        "variants": [
+            "⺝",
+            "月"
+        ]
+    },
+    "⽊": {
+        "meaning": "tree",
+        "number": 75,
+        "pinyin": "mù",
+        "name": "木字旁",
+        "strokes": 4,
+        "frequency": "1,369",
+        "examples": "未、末、本",
+        "useful": {
+            "distinguish": [
+                "禾,",
+                "釆,",
+                "米"
+            ],
+            "variants": [
+                "朩"
+            ],
+            "rank": "98.9%",
+            "mnemonic": " Primitive, Something like a banyan tree with branches and above ground roots on the bottom",
+            "notes": " Another very common radical, a large portion of the characters using this radical are items manufactured from wood. Also used for trees and fruits"
+        },
+        "variants": [
+            "木"
+        ]
+    },
+    "⽋": {
+        "meaning": "lack",
+        "number": 76,
+        "pinyin": "qiàn",
+        "name": "欠字旁",
+        "strokes": 4,
+        "frequency": "235",
+        "examples": "次、欣、欥",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "71.5%",
+            "mnemonic": " a man yawning - think of the upper part as a hand covering the mouth while in the act",
+            "notes": " The mouth is involved in yawning, and it's also involved in many other emotional displays and vocal actions, many of which are categorized under this 部首"
+        },
+        "variants": [
+            "欠"
+        ]
+    },
+    "⽌": {
+        "meaning": "stop",
+        "number": 77,
+        "pinyin": "zhǐ",
+        "name": "",
+        "strokes": 4,
+        "frequency": "99",
+        "examples": "正、此、步",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "63.1%",
+            "mnemonic": " This is a primitive of a foot",
+            "notes": ""
+        },
+        "variants": [
+            "止"
+        ]
+    },
+    "⽍": {
+        "meaning": "death",
+        "number": 78,
+        "pinyin": "dǎi",
+        "name": "",
+        "strokes": 4,
+        "frequency": "231",
+        "examples": "歺、死、歿",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "歺"
+            ],
+            "rank": "67.7%",
+            "mnemonic": " A chip or remnant of a scapula bone 骨",
+            "notes": ""
+        },
+        "variants": [
+            "⺞",
+            "歹",
+            "歺"
+        ]
+    },
+    "⽎": {
+        "meaning": "weapon",
+        "number": 79,
+        "pinyin": "shū",
+        "name": "",
+        "strokes": 4,
+        "frequency": "93",
+        "examples": "段、殷、殺",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": " A hand 又 holding a weapon, probably a club",
+            "notes": " Also known as the KILL radical.  A number of actions of violence are categorized under this 部首. In context usually means -ing"
+        },
+        "variants": [
+            "殳"
+        ]
+    },
+    "⽏": {
+        "meaning": "do not",
+        "number": 80,
+        "pinyin": "wú",
+        "name": "",
+        "strokes": 4,
+        "frequency": "16",
+        "examples": "母、每、毐",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "母",
+                "毌"
+            ],
+            "rank": "35.0%",
+            "mnemonic": " a woman with bound breasts - untouchable",
+            "notes": " Removed from modern simplified radical tables"
+        },
+        "variants": [
+            "母",
+            "⺟",
+            "毋"
+        ]
+    },
+    "⽐": {
+        "meaning": "compare",
+        "number": 81,
+        "pinyin": "bǐ",
+        "name": "",
+        "strokes": 4,
+        "frequency": "21",
+        "examples": "毖、毗、毘",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " Two people or objects side by side for comparison",
+            "notes": ""
+        },
+        "variants": [
+            "比"
+        ]
+    },
+    "⽑": {
+        "meaning": "fur",
+        "number": 82,
+        "pinyin": "máo",
+        "name": "",
+        "strokes": 4,
+        "frequency": "211",
+        "examples": "毡、毣、毧",
+        "useful": {
+            "distinguish": [
+                "手"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " a feather",
+            "notes": " This radical relates to fur and feathers as garments, and by extension most types of garments"
+        },
+        "variants": [
+            "毛"
+        ]
+    },
+    "⽒": {
+        "meaning": "clan",
+        "number": 83,
+        "pinyin": "shì",
+        "name": "",
+        "strokes": 4,
+        "frequency": "10",
+        "examples": "氐、民、氓",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a man bowing",
+            "notes": ""
+        },
+        "variants": [
+            "氏",
+            "⺠",
+            "民"
+        ]
+    },
+    "⽓": {
+        "meaning": "steam",
+        "number": 84,
+        "pinyin": "qì",
+        "name": "",
+        "strokes": 4,
+        "frequency": "17",
+        "examples": "氕、氘、氚",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "72.5%",
+            "mnemonic": " a man blowing air from his mouth",
+            "notes": ""
+        },
+        "variants": [
+            "气"
+        ]
+    },
+    "⽔": {
+        "meaning": "water",
+        "number": 85,
+        "pinyin": "shuǐ",
+        "name": "三点水",
+        "strokes": 4,
+        "frequency": "1,595",
+        "examples": "永、氷、氾",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "氵",
+                "氺"
+            ],
+            "rank": "52.7%",
+            "mnemonic": " A drawing of waves",
+            "notes": " The standalone version of the radical typically is not used as a character component, see 氵"
+        },
+        "variants": [
+            "⺢",
+            "⺡",
+            "水",
+            "氵",
+            "氺"
+        ]
+    },
+    "⽕": {
+        "meaning": "fire",
+        "number": 86,
+        "pinyin": "huǒ",
+        "name": "四点底 ,火字旁",
+        "strokes": 4,
+        "frequency": "639",
+        "examples": "灰、灯、灶",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "灬"
+            ],
+            "rank": "95.1%",
+            "mnemonic": " drawing of fire",
+            "notes": " Represents characters having to do with fire, heat, and cooking"
+        },
+        "variants": [
+            "火",
+            "⺣",
+            "灬"
+        ]
+    },
+    "⽖": {
+        "meaning": "claw",
+        "number": 87,
+        "pinyin": "zhǎo",
+        "name": "受字头",
+        "strokes": 4,
+        "frequency": "36",
+        "examples": "爬、爭、爰",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "爫"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " Hand or claw 爫爪 grabbing something from above",
+            "notes": ""
+        },
+        "variants": [
+            "爪",
+            "⺤",
+            "⺥",
+            "爫"
+        ]
+    },
+    "⽗": {
+        "meaning": "father",
+        "number": 88,
+        "pinyin": "fù",
+        "name": "",
+        "strokes": 4,
+        "frequency": "10",
+        "examples": "爸、爹、爺",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " Hand, sound borrowed from 斧",
+            "notes": ""
+        },
+        "variants": [
+            "父"
+        ]
+    },
+    "⽘": {
+        "meaning": "Trigrams",
+        "number": 89,
+        "pinyin": "yáo",
+        "name": "",
+        "strokes": 4,
+        "frequency": "16",
+        "examples": "爼、爽、爾",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " Indicates strokes, marked or cut",
+            "notes": ""
+        },
+        "variants": [
+            "爻"
+        ]
+    },
+    "⽙": {
+        "meaning": "split wood",
+        "number": 90,
+        "pinyin": "qiáng",
+        "name": "将字旁",
+        "strokes": 4,
+        "frequency": "48",
+        "examples": "牀、牁、牂",
+        "useful": {
+            "distinguish": [
+                "片"
+            ],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " right hand table/board",
+            "notes": ""
+        },
+        "variants": [
+            "⺦",
+            "丬",
+            "爿"
+        ]
+    },
+    "⽚": {
+        "meaning": "slice",
+        "number": 91,
+        "pinyin": "piàn",
+        "name": "",
+        "strokes": 4,
+        "frequency": "77",
+        "examples": "版、牉、牌",
+        "useful": {
+            "distinguish": [
+                "爿"
+            ],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " A table with legs (possibly a bed), i.e. the reverse of 爿, which also represents a table. A place where documents are created.",
+            "notes": " This radical is primarily used for representing various types of documents"
+        },
+        "variants": [
+            "片"
+        ]
+    },
+    "⽛": {
+        "meaning": "fang",
+        "number": 92,
+        "pinyin": "yá",
+        "name": "",
+        "strokes": 4,
+        "frequency": "9",
+        "examples": "㸦、㸧、牚",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " This is a picture of teeth",
+            "notes": " Usually loans it's sound to other characters"
+        },
+        "variants": [
+            "牙"
+        ]
+    },
+    "⽜": {
+        "meaning": "cow",
+        "number": 93,
+        "pinyin": "niú",
+        "name": "牛字旁",
+        "strokes": 4,
+        "frequency": "233",
+        "examples": "牝、牟、牠",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "牜",
+                "⺧"
+            ],
+            "rank": "59.0%",
+            "mnemonic": " A cow with horns and ears",
+            "notes": ""
+        },
+        "variants": [
+            "𠂒",
+            "⺧",
+            "牛"
+        ]
+    },
+    "⽝": {
+        "meaning": "dog",
+        "number": 94,
+        "pinyin": "quǎn",
+        "name": "反犬旁",
+        "strokes": 4,
+        "frequency": "444",
+        "examples": "犮、犯、犰",
+        "useful": {
+            "distinguish": [
+                "大太"
+            ],
+            "variants": [
+                "犭"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " This is a picture of a dog - rotate in the same direction as other animal radicals such as 龜 and the similarity becomes clearer",
+            "notes": " The dog radical is often used for medium sized animals and dog-like personality traits, leaning towards the fiercer traits"
+        },
+        "variants": [
+            "犬",
+            "犭",
+            "⺨"
+        ]
+    },
+    "⽞": {
+        "meaning": "profound",
+        "number": 95,
+        "pinyin": "xuán",
+        "name": "",
+        "strokes": 5,
+        "frequency": "6",
+        "examples": "玅、率、玈",
+        "useful": {
+            "distinguish": [
+                "幺,纟"
+            ],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a piece of yarn 糸 being dyed black",
+            "notes": ""
+        },
+        "variants": [
+            "玄"
+        ]
+    },
+    "⽟": {
+        "meaning": "jade",
+        "number": 96,
+        "pinyin": "yù",
+        "name": "",
+        "strokes": 5,
+        "frequency": "473",
+        "examples": "玻、瑪、璧",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "王"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " Originally represented jade disks on a string.",
+            "notes": " This variant is infrequently used.  Typically found in characters having to do with precious/valuable things, stones in particular"
+        },
+        "variants": [
+            "王",
+            "⺩",
+            "玉",
+            "𤣩"
+        ]
+    },
+    "⽠": {
+        "meaning": "melon",
+        "number": 97,
+        "pinyin": "guā",
+        "name": "",
+        "strokes": 5,
+        "frequency": "55",
+        "examples": "瓝、瓞、瓟",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " A sprawling plant, the gourd is the hook at the bottom",
+            "notes": ""
+        },
+        "variants": [
+            "瓜"
+        ]
+    },
+    "⽡": {
+        "meaning": "tile",
+        "number": 98,
+        "pinyin": "wǎ",
+        "name": "",
+        "strokes": 5,
+        "frequency": "174",
+        "examples": "㼚、瓮、瓫",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " A curved interlocking roof tile",
+            "notes": " The few characters under this radical were all originally earthenware items."
+        },
+        "variants": [
+            "瓦"
+        ]
+    },
+    "⽢": {
+        "meaning": "sweet",
+        "number": 99,
+        "pinyin": "gān",
+        "name": "",
+        "strokes": 5,
+        "frequency": "22",
+        "examples": "甚、甜、甛",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " something sweet in the mouth 口",
+            "notes": ""
+        },
+        "variants": [
+            "甘"
+        ]
+    },
+    "⽣": {
+        "meaning": "life",
+        "number": 100,
+        "pinyin": "shēng",
+        "name": "",
+        "strokes": 5,
+        "frequency": "22",
+        "examples": "甡、產、甥",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a plant 屮 sprouting from the ground 土",
+            "notes": ""
+        },
+        "variants": [
+            "生"
+        ]
+    },
+    "⽤": {
+        "meaning": "use",
+        "number": 101,
+        "pinyin": "yòng",
+        "name": "",
+        "strokes": 5,
+        "frequency": "10",
+        "examples": "甩、甫、甬",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "甩"
+            ],
+            "rank": "35.0%",
+            "mnemonic": " Likely represents a container",
+            "notes": ""
+        },
+        "variants": [
+            "用"
+        ]
+    },
+    "⽥": {
+        "meaning": "field",
+        "number": 102,
+        "pinyin": "tián",
+        "name": "",
+        "strokes": 5,
+        "frequency": "192",
+        "examples": "由、甲、申",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "由",
+                "甲",
+                "申",
+                "电"
+            ],
+            "rank": "76.3%",
+            "mnemonic": " represents a rice paddy",
+            "notes": ""
+        },
+        "variants": [
+            "田"
+        ]
+    },
+    "⽦": {
+        "meaning": "bolt of cloth",
+        "number": 103,
+        "pinyin": "pǐ",
+        "name": "疋字底",
+        "strokes": 5,
+        "frequency": "15",
+        "examples": "疌、疏、疎",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺪"
+            ],
+            "rank": "5.2%",
+            "mnemonic": "",
+            "notes": " generally superseded by 匹"
+        },
+        "variants": [
+            "𤴔",
+            "⺪",
+            "疋"
+        ]
+    },
+    "⽧": {
+        "meaning": "sickness",
+        "number": 104,
+        "pinyin": "nè",
+        "name": "病字旁",
+        "strokes": 5,
+        "frequency": "526",
+        "examples": "疔、疚、疝",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "92.3%",
+            "mnemonic": " A sick person stretched out on a bed (on the left - 丬)",
+            "notes": " If the character represents some disease or affliction then odds are good that this is the 部首"
+        },
+        "variants": [
+            "疒"
+        ]
+    },
+    "⽨": {
+        "meaning": "footsteps",
+        "number": 105,
+        "pinyin": "bō",
+        "name": "登字头",
+        "strokes": 5,
+        "frequency": "15",
+        "examples": "癸、癹、発",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " Two feet - 止 - back-to-back",
+            "notes": " This radical only links to three characters in modern usage - 發，噔，and 癸"
+        },
+        "variants": [
+            "癶"
+        ]
+    },
+    "⽩": {
+        "meaning": "white",
+        "number": 106,
+        "pinyin": "bái",
+        "name": "",
+        "strokes": 5,
+        "frequency": "109",
+        "examples": "百、皀、皁",
+        "useful": {
+            "distinguish": [
+                "日,",
+                "曰,",
+                "臼,",
+                "目"
+            ],
+            "variants": [],
+            "rank": "67.7%",
+            "mnemonic": " A modification of the sun - 日 - to represent white",
+            "notes": " Associated with the idea of purity and brightness in many 字"
+        },
+        "variants": [
+            "白"
+        ]
+    },
+    "⽪": {
+        "meaning": "skin",
+        "number": 107,
+        "pinyin": "pí",
+        "name": "",
+        "strokes": 5,
+        "frequency": "94",
+        "examples": "皯、皰、皴",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " A hand 又 flaying an animal hide",
+            "notes": " In a number of characters relating to different skin attributes/conditions as well as a number of different articles of clothing which once may have been made from hides"
+        },
+        "variants": [
+            "皮"
+        ]
+    },
+    "⽫": {
+        "meaning": "dish",
+        "number": 108,
+        "pinyin": "mǐn",
+        "name": "",
+        "strokes": 5,
+        "frequency": "129",
+        "examples": "盂、盃、盅",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "79.1%",
+            "mnemonic": " Primitive of a tub or plate",
+            "notes": " Numerous types of receptacles and their uses are categorized under this 部首"
+        },
+        "variants": [
+            "皿"
+        ]
+    },
+    "⽬": {
+        "meaning": "eye",
+        "number": 109,
+        "pinyin": "mù",
+        "name": "目字旁",
+        "strokes": 5,
+        "frequency": "647",
+        "examples": "盯、盱、盲",
+        "useful": {
+            "distinguish": [
+                "日,",
+                "曰,",
+                "臼"
+            ],
+            "variants": [],
+            "rank": "91.6%",
+            "mnemonic": " This is a picture of an eye (on its' side)",
+            "notes": " Used in characters which relate to seeing (or not seeing)"
+        },
+        "variants": [
+            "目",
+            "⺫"
+        ]
+    },
+    "⽭": {
+        "meaning": "spear",
+        "number": 110,
+        "pinyin": "máo",
+        "name": "",
+        "strokes": 5,
+        "frequency": "65",
+        "examples": "矜、矞、矟",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " A saw lance made of flint disks",
+            "notes": ""
+        },
+        "variants": [
+            "矛"
+        ]
+    },
+    "⽮": {
+        "meaning": "arrow",
+        "number": 111,
+        "pinyin": "shǐ",
+        "name": "",
+        "strokes": 5,
+        "frequency": "64",
+        "examples": "矣、知、矧",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "63.1%",
+            "mnemonic": " A picture - the point is at the top, feathers and knock below",
+            "notes": ""
+        },
+        "variants": [
+            "矢"
+        ]
+    },
+    "⽯": {
+        "meaning": "stone",
+        "number": 112,
+        "pinyin": "shí",
+        "name": "",
+        "strokes": 5,
+        "frequency": "499",
+        "examples": "矸、矻、矼",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "94.4%",
+            "mnemonic": " 口 represents a rock which has rolled to the bottom of a cliff",
+            "notes": " Used in characters for hard, rocklike things"
+        },
+        "variants": [
+            "石"
+        ]
+    },
+    "⽰": {
+        "meaning": "spirit",
+        "number": 113,
+        "pinyin": "shì",
+        "name": "示字旁",
+        "strokes": 5,
+        "frequency": "213",
+        "examples": "礼、礽、社",
+        "useful": {
+            "distinguish": [
+                "衤"
+            ],
+            "variants": [
+                "礻"
+            ],
+            "rank": "5.2%",
+            "mnemonic": " image of an altar",
+            "notes": " Also known as the SIGN radical - think divine or mystical signs.This form is not common as a character component.  Considered a separate radical from 礻in some modern simplified tables."
+        },
+        "variants": [
+            "礻",
+            "示",
+            "⺭",
+            "⺬"
+        ]
+    },
+    "⽱": {
+        "meaning": "track",
+        "number": 114,
+        "pinyin": "róu",
+        "name": "",
+        "strokes": 5,
+        "frequency": "12",
+        "examples": "禹、禺、离",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " typically indicates a rump and tail",
+            "notes": ""
+        },
+        "variants": [
+            "禸"
+        ]
+    },
+    "⽲": {
+        "meaning": "grain",
+        "number": 115,
+        "pinyin": "hé",
+        "name": "禾木旁",
+        "strokes": 5,
+        "frequency": "431",
+        "examples": "禿、秀、私",
+        "useful": {
+            "distinguish": [
+                "釆,",
+                "米,",
+                "木"
+            ],
+            "variants": [],
+            "rank": "90.9%",
+            "mnemonic": " represents a sheath of grain with a sagging head",
+            "notes": " Characters relating to farming, harvesting, and of course grains contain this radical"
+        },
+        "variants": [
+            "禾"
+        ]
+    },
+    "⽳": {
+        "meaning": "cave",
+        "number": 116,
+        "pinyin": "xué",
+        "name": "",
+        "strokes": 5,
+        "frequency": "298",
+        "examples": "究、穸、空",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                " "
+            ],
+            "rank": "82.2%",
+            "mnemonic": " a house 宀 with an entrance 入",
+            "notes": " This radical is used for cave-like things and investigation"
+        },
+        "variants": [
+            "穴"
+        ]
+    },
+    "⽴": {
+        "meaning": "stand",
+        "number": 117,
+        "pinyin": "lì",
+        "name": "",
+        "strokes": 5,
+        "frequency": "101",
+        "examples": "竑、竒、竘",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "67.7%",
+            "mnemonic": " This is a image of a man standing on the ground, arms raised",
+            "notes": ""
+        },
+        "variants": [
+            "立"
+        ]
+    },
+    "⽵": {
+        "meaning": "bamboo",
+        "number": 118,
+        "pinyin": "zhú",
+        "name": "竹字头",
+        "strokes": 6,
+        "frequency": "953",
+        "examples": "竺、竽、竿",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺮"
+            ],
+            "rank": "5.2%",
+            "mnemonic": " Two bamboo stalks with leaves",
+            "notes": " Items which are or once were fashioned of bamboo are found under this radical. This full 字 isn't actually used as a component, see ⺮"
+        },
+        "variants": [
+            "竹",
+            "⺮",
+            "𥫗"
+        ]
+    },
+    "⽶": {
+        "meaning": "rice",
+        "number": 119,
+        "pinyin": "mǐ",
+        "name": "米字旁",
+        "strokes": 6,
+        "frequency": "318",
+        "examples": "籸、籹、籽",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "85.0%",
+            "mnemonic": " Originally a picture of rice growing in a paddie, the horizontal line is the water line",
+            "notes": " Products of rice and their qualities are covered here, but also characters having to do with business practices and quality grades"
+        },
+        "variants": [
+            "米"
+        ]
+    },
+    "⽷": {
+        "meaning": "silk",
+        "number": 120,
+        "pinyin": "mì",
+        "name": "绞丝旁",
+        "strokes": 6,
+        "frequency": "823",
+        "examples": "系、糾、紀",
+        "useful": {
+            "distinguish": [
+                "幺,",
+                "玄"
+            ],
+            "variants": [
+                "纟",
+                "糹"
+            ],
+            "rank": "72.5%",
+            "mnemonic": " twisted string",
+            "notes": " Characters having to do with rope, threads, as well as actions having to do with the manufacturing of fabrics use this radical"
+        },
+        "variants": [
+            "⺯",
+            "⺰",
+            "糸",
+            "糹",
+            "纟"
+        ]
+    },
+    "⽸": {
+        "meaning": "jar",
+        "number": 121,
+        "pinyin": "fǒu",
+        "name": "",
+        "strokes": 6,
+        "frequency": "77",
+        "examples": "缸、缺、缽",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " pot with a lid",
+            "notes": " Earthenware vessels, jars, and their attributes use this radical"
+        },
+        "variants": [
+            "缶"
+        ]
+    },
+    "⽹": {
+        "meaning": "net",
+        "number": 122,
+        "pinyin": "wǎng",
+        "name": "",
+        "strokes": 6,
+        "frequency": "163",
+        "examples": "罔、罕、罘",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "罒",
+                "⺳",
+                "罓"
+            ],
+            "rank": "5.2%",
+            "mnemonic": "",
+            "notes": " As nets are used to trap some thing or even a person, the characters under this radical generally relate to that concept, in particular a few characters relate to crime.  Traditional form for this pronunciation is 惘, not a radical though - see 罔"
+        },
+        "variants": [
+            "罓",
+            "⺵",
+            "㓁",
+            "⺳",
+            "⺫",
+            "⺱",
+            "网",
+            "罒",
+            "⺲",
+            "⺴",
+            "𦉫"
+        ]
+    },
+    "⽺": {
+        "meaning": "sheep",
+        "number": 123,
+        "pinyin": "yáng",
+        "name": "",
+        "strokes": 6,
+        "frequency": "156",
+        "examples": "羋、羌、美",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺶",
+                "羋",
+                "⺷"
+            ],
+            "rank": "52.7%",
+            "mnemonic": " This is an image of a goat/sheep, horns, ears, and legs",
+            "notes": " For whatever reason, 羊 is often used as the radical virtuous or noble attributes.  Also used as the radical for a variety of grazing animals."
+        },
+        "variants": [
+            "⺷",
+            "⺶",
+            "𦍋",
+            "⺸",
+            "羋",
+            "𦍌",
+            "羊"
+        ]
+    },
+    "⽻": {
+        "meaning": "feather",
+        "number": 124,
+        "pinyin": "yǔ",
+        "name": "",
+        "strokes": 6,
+        "frequency": "220",
+        "examples": "羿、翀、翁",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "羽"
+            ],
+            "rank": "75.3%",
+            "mnemonic": " This is an image of wings",
+            "notes": " Birdlike attributes, and more specifically attributes of a bird's plumage are represented by this radical."
+        },
+        "variants": [
+            "羽"
+        ]
+    },
+    "⽼": {
+        "meaning": "old",
+        "number": 125,
+        "pinyin": "lǎo",
+        "name": "老字头",
+        "strokes": 6,
+        "frequency": "22",
+        "examples": "考、者、耆",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "耂"
+            ],
+            "rank": "44.4%",
+            "mnemonic": " an old man with long hair leaning on a cane 匕",
+            "notes": " Used in characters conveying age. Not actually used as a radical, see variant"
+        },
+        "variants": [
+            "耂",
+            "老",
+            "⺹"
+        ]
+    },
+    "⽽": {
+        "meaning": "and",
+        "number": 126,
+        "pinyin": "ér",
+        "name": "",
+        "strokes": 6,
+        "frequency": "22",
+        "examples": "耍、耎、耏",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " possibly represents a beard",
+            "notes": ""
+        },
+        "variants": [
+            "而"
+        ]
+    },
+    "⽾": {
+        "meaning": "plough",
+        "number": 127,
+        "pinyin": "lěi",
+        "name": "",
+        "strokes": 6,
+        "frequency": "84",
+        "examples": "耔、耕、耖",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " A plow handle of wood and originally 3 cross lines indicating the furrows made",
+            "notes": " The few characters under this radical generally relate to cultivation of crops"
+        },
+        "variants": [
+            "耒"
+        ]
+    },
+    "⽿": {
+        "meaning": "ear",
+        "number": 128,
+        "pinyin": "ěr",
+        "name": "",
+        "strokes": 6,
+        "frequency": "172",
+        "examples": "耴、耵、耷",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "76.3%",
+            "mnemonic": " This is a picture of an ear",
+            "notes": " Typically associated with characters having to do with listening and comprehending"
+        },
+        "variants": [
+            "耳"
+        ]
+    },
+    "⾀": {
+        "meaning": "brush",
+        "number": 129,
+        "pinyin": "yù",
+        "name": "",
+        "strokes": 6,
+        "frequency": "19",
+        "examples": "肄、肆、肅",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "肀",
+                "⺻"
+            ],
+            "rank": "35.0%",
+            "mnemonic": " a hand with a brush, drawing a pair of lines",
+            "notes": ""
+        },
+        "variants": [
+            "⺺",
+            "⺻",
+            "肀",
+            "聿"
+        ]
+    },
+    "⾁": {
+        "meaning": "meat",
+        "number": 130,
+        "pinyin": "ròu",
+        "name": "",
+        "strokes": 6,
+        "frequency": "674",
+        "examples": "肊、肋、然",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⺼",
+                "⺝"
+            ],
+            "rank": "20.1%",
+            "mnemonic": " ribs of an animal",
+            "notes": " Fleshy things and body parts are represented by this radical.  An additional variant of the flesh radical is the top half of 炙, representing meat over a fire. This variant can be seen in several characters"
+        },
+        "variants": [
+            "肉",
+            "⺼"
+        ]
+    },
+    "⾂": {
+        "meaning": "minister",
+        "number": 131,
+        "pinyin": "chén",
+        "name": "",
+        "strokes": 6,
+        "frequency": "16",
+        "examples": "臤、臥、臧",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " a sideways version of an eye or a head",
+            "notes": ""
+        },
+        "variants": [
+            "臣"
+        ]
+    },
+    "⾃": {
+        "meaning": "self",
+        "number": 132,
+        "pinyin": "zì",
+        "name": "",
+        "strokes": 6,
+        "frequency": "34",
+        "examples": "臬、臭、臯",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " primitive of a nose - one points to their nose when pointing at themselves",
+            "notes": ""
+        },
+        "variants": [
+            "自"
+        ]
+    },
+    "⾄": {
+        "meaning": "arrive",
+        "number": 133,
+        "pinyin": "zhì",
+        "name": "",
+        "strokes": 6,
+        "frequency": "24",
+        "examples": "致、臷、臺",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " an upside down arrow 矢 stuck in the ground where it (arrived) at after being shot",
+            "notes": ""
+        },
+        "variants": [
+            "至"
+        ]
+    },
+    "⾅": {
+        "meaning": "mortar",
+        "number": 134,
+        "pinyin": "jiù",
+        "name": "",
+        "strokes": 6,
+        "frequency": "71",
+        "examples": "臾、臿、舁",
+        "useful": {
+            "distinguish": [
+                "日,",
+                "曰,",
+                "白"
+            ],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " Picture of a large wood mortar for pounding rice flour ( Usu in Japanese - still in use today for making Mochi)",
+            "notes": " There is a variant form of this radical with 8 or 10 strokes, this variant seems to have different types of concepts placed into a mortar, such as 舉, 興, 輿 and 釁"
+        },
+        "variants": [
+            "臼",
+            "⺽",
+            "𦥑"
+        ]
+    },
+    "⾆": {
+        "meaning": "tongue",
+        "number": 135,
+        "pinyin": "shé",
+        "name": "",
+        "strokes": 6,
+        "frequency": "31",
+        "examples": "舍、舐、舑",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " A tongue sticking out of a mouth 口",
+            "notes": " Most of the characters under this radical do relate to things done with the tongue, a variant radical is 舍, which appears in words relating to housing"
+        },
+        "variants": [
+            "舌"
+        ]
+    },
+    "⾇": {
+        "meaning": "oppose",
+        "number": 136,
+        "pinyin": "chuǎn",
+        "name": "",
+        "strokes": 6,
+        "frequency": "10",
+        "examples": "舜、舝、舞",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " two feet opposed",
+            "notes": ""
+        },
+        "variants": [
+            "舛"
+        ]
+    },
+    "⾈": {
+        "meaning": "boat",
+        "number": 137,
+        "pinyin": "zhōu",
+        "name": "",
+        "strokes": 6,
+        "frequency": "197",
+        "examples": "舠、舡、舢",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "72.5%",
+            "mnemonic": " A primitive of a boat",
+            "notes": " If this is the radical, then the character more than likely has a nautical nature"
+        },
+        "variants": [
+            "舟"
+        ]
+    },
+    "⾉": {
+        "meaning": "stopping",
+        "number": 138,
+        "pinyin": "gèn",
+        "name": "",
+        "strokes": 6,
+        "frequency": "5",
+        "examples": "良、艱",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " A man 匕 with an eye 目 on top, originally just the mirror of 見",
+            "notes": ""
+        },
+        "variants": [
+            "艮"
+        ]
+    },
+    "⾊": {
+        "meaning": "colour",
+        "number": 139,
+        "pinyin": "sè",
+        "name": "",
+        "strokes": 6,
+        "frequency": "21",
+        "examples": "艳、艴、艵",
+        "useful": {
+            "distinguish": [
+                "邑"
+            ],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " The top portion is thought to be derived from 人, the bottom derived from the character for seal - 卩, so color is the thing a man chooses when he places his seal",
+            "notes": ""
+        },
+        "variants": [
+            "色"
+        ]
+    },
+    "⾋": {
+        "meaning": "grass",
+        "number": 140,
+        "pinyin": "cǎo",
+        "name": "草字头",
+        "strokes": 6,
+        "frequency": "1,902",
+        "examples": "艽、艾、芃",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "艹"
+            ],
+            "rank": "0.0%",
+            "mnemonic": " Two plants of grass",
+            "notes": " AKA 草字頭, the grass radical covers most all flora and fauna, as well as things like medicine, arts, and crafts which come from manipulating the natural world."
+        },
+        "variants": [
+            "⻀",
+            "艸",
+            "艹",
+            "⺿",
+            "⺾"
+        ]
+    },
+    "⾌": {
+        "meaning": "tiger",
+        "number": 141,
+        "pinyin": "hū",
+        "name": "",
+        "strokes": 6,
+        "frequency": "114",
+        "examples": "虎、虐、虒",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "虎"
+            ],
+            "rank": "52.7%",
+            "mnemonic": " A tigers head pointing left",
+            "notes": ""
+        },
+        "variants": [
+            "虎",
+            "⻁",
+            "虍"
+        ]
+    },
+    "⾍": {
+        "meaning": "insect",
+        "number": 142,
+        "pinyin": "chóng",
+        "name": "",
+        "strokes": 6,
+        "frequency": "1,067",
+        "examples": "虬、虯、虱",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "93.0%",
+            "mnemonic": " picture of a snake",
+            "notes": " This radical covers all things of the insect kingdom along with the insect-like crustacea.  Originally a snake, this character eventually came to represent insects. This is an alternate of 蟲"
+        },
+        "variants": [
+            "虫"
+        ]
+    },
+    "⾎": {
+        "meaning": "blood",
+        "number": 143,
+        "pinyin": "xuè",
+        "name": "",
+        "strokes": 6,
+        "frequency": "60",
+        "examples": "衁、衂、衃",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " A bowl 皿 of blood",
+            "notes": ""
+        },
+        "variants": [
+            "血"
+        ]
+    },
+    "⾏": {
+        "meaning": "walk enclosure",
+        "number": 144,
+        "pinyin": "xíng",
+        "name": "",
+        "strokes": 6,
+        "frequency": "53",
+        "examples": "衍、衎、衒",
+        "useful": {
+            "distinguish": [
+                "彳"
+            ],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": " step 彳 + step 亍 = go 行",
+            "notes": " When this radical is used some other character component is always inserted between 彳 and 亍"
+        },
+        "variants": [
+            "行"
+        ]
+    },
+    "⾐": {
+        "meaning": "clothes",
+        "number": 145,
+        "pinyin": "yī",
+        "name": "衣字旁",
+        "strokes": 6,
+        "frequency": "607",
+        "examples": "初、表、衫",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "衤"
+            ],
+            "rank": "79.1%",
+            "mnemonic": " cloth top indicating shoulders and head, bottom indicating flaps or folds",
+            "notes": " Used for different articles of clothing as well as specific parts of garments"
+        },
+        "variants": [
+            "衤",
+            "⻂",
+            "衣"
+        ]
+    },
+    "⾑": {
+        "meaning": "cover",
+        "number": 146,
+        "pinyin": "yà",
+        "name": "",
+        "strokes": 6,
+        "frequency": "29",
+        "examples": "西、要、覂",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "西",
+                "覀"
+            ],
+            "rank": "0.0%",
+            "mnemonic": " a picture of a stopper in a jar",
+            "notes": ""
+        },
+        "variants": [
+            "覀",
+            "⻄",
+            "⻃",
+            "襾",
+            "西"
+        ]
+    },
+    "⾒": {
+        "meaning": "see",
+        "number": 147,
+        "pinyin": "jiàn",
+        "name": "",
+        "strokes": 7,
+        "frequency": "161",
+        "examples": "規、覓、視",
+        "useful": {},
+        "variants": [
+            "見",
+            "见",
+            "⻅"
+        ]
+    },
+    "⾓": {
+        "meaning": "horn",
+        "number": 148,
+        "pinyin": "jiǎo",
+        "name": "",
+        "strokes": 7,
+        "frequency": "158",
+        "examples": "觓、觔、觕",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⻇"
+            ],
+            "rank": "35.0%",
+            "mnemonic": " image of an animal horn",
+            "notes": ""
+        },
+        "variants": [
+            "𧢲",
+            "⻆",
+            "⻇",
+            "角"
+        ]
+    },
+    "⾔": {
+        "meaning": "speech",
+        "number": 149,
+        "pinyin": "yán",
+        "name": "言字旁",
+        "strokes": 7,
+        "frequency": "861",
+        "examples": "訂、訃、計",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "66.3%",
+            "mnemonic": " a mouth and tongue with words on it",
+            "notes": ""
+        },
+        "variants": [
+            "讠",
+            "言",
+            "⻈"
+        ]
+    },
+    "⾕": {
+        "meaning": "valley",
+        "number": 150,
+        "pinyin": "gǔ",
+        "name": "",
+        "strokes": 7,
+        "frequency": "54",
+        "examples": "谹、谽、谿",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " water flowing forth 八八 from an opening 口",
+            "notes": ""
+        },
+        "variants": [
+            "谷"
+        ]
+    },
+    "⾖": {
+        "meaning": "bean",
+        "number": 151,
+        "pinyin": "dòu",
+        "name": "",
+        "strokes": 7,
+        "frequency": "68",
+        "examples": "豇、豈、豉",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a steamed rice container on a stand - loaned it's sound",
+            "notes": " Few characters are categorized under this radical, most have no clear relationship to beans"
+        },
+        "variants": [
+            "豆"
+        ]
+    },
+    "⾗": {
+        "meaning": "pig",
+        "number": 152,
+        "pinyin": "shǐ",
+        "name": "",
+        "strokes": 7,
+        "frequency": "148",
+        "examples": "豗、豚、豜",
+        "useful": {
+            "distinguish": [
+                "豸,",
+                "犭"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " This is a picture, head is replaced by the horizontal line on top",
+            "notes": " Mostly covers swine related terminology"
+        },
+        "variants": [
+            "豕"
+        ]
+    },
+    "⾘": {
+        "meaning": "badger",
+        "number": 153,
+        "pinyin": "zhì",
+        "name": "",
+        "strokes": 7,
+        "frequency": "140",
+        "examples": "豺、豻、豹",
+        "useful": {
+            "distinguish": [
+                "豕,",
+                "犭"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " primitive of a small animal, possibly a reptile",
+            "notes": " Tends to cover a variety of wild and mythical animals, with the large cats seeing heavy representation"
+        },
+        "variants": [
+            "豸"
+        ]
+    },
+    "⾙": {
+        "meaning": "shell",
+        "number": 154,
+        "pinyin": "bèi",
+        "name": "",
+        "strokes": 7,
+        "frequency": "277",
+        "examples": "貞、負、財",
+        "useful": {},
+        "variants": [
+            "貝",
+            "贝",
+            "⻉"
+        ]
+    },
+    "⾚": {
+        "meaning": "red",
+        "number": 155,
+        "pinyin": "chì",
+        "name": "",
+        "strokes": 7,
+        "frequency": "31",
+        "examples": "赦、赧、赨",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " 土 in this character was originally 大, representing a person over a fire - 火, put them together and you have a red blushing or angry person",
+            "notes": ""
+        },
+        "variants": [
+            "赤"
+        ]
+    },
+    "⾛": {
+        "meaning": "run",
+        "number": 156,
+        "pinyin": "zǒu",
+        "name": "",
+        "strokes": 7,
+        "frequency": "285",
+        "examples": "赳、赴、赶",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "72.5%",
+            "mnemonic": " a man 土大 with foot 止",
+            "notes": " Many characters relating to human motion through walking, running use this radical"
+        },
+        "variants": [
+            "走"
+        ]
+    },
+    "⾜": {
+        "meaning": "foot",
+        "number": 157,
+        "pinyin": "zú",
+        "name": "足字旁",
+        "strokes": 7,
+        "frequency": "580",
+        "examples": "趴、趵、趷",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⻊"
+            ],
+            "rank": "5.2%",
+            "mnemonic": " a foot and a leg",
+            "notes": " Used for actions done with the foot"
+        },
+        "variants": [
+            "𧾷",
+            "⻊",
+            "足"
+        ]
+    },
+    "⾝": {
+        "meaning": "body",
+        "number": 158,
+        "pinyin": "shēn",
+        "name": "",
+        "strokes": 7,
+        "frequency": "97",
+        "examples": "躬、躭、躰",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " a body with stomach and leg walking",
+            "notes": " This radical represents things having to do with the body or actions one might take with it."
+        },
+        "variants": [
+            "身"
+        ]
+    },
+    "⾞": {
+        "meaning": "cart",
+        "number": 159,
+        "pinyin": "chē",
+        "name": "车字旁",
+        "strokes": 7,
+        "frequency": "361",
+        "examples": "軋、軌、軍",
+        "useful": {},
+        "variants": [
+            "车",
+            "⻋",
+            "車"
+        ]
+    },
+    "⾟": {
+        "meaning": "bitter",
+        "number": 160,
+        "pinyin": "xīn",
+        "name": "",
+        "strokes": 7,
+        "frequency": "36",
+        "examples": "辜、辝、辟",
+        "useful": {
+            "distinguish": [
+                "幸"
+            ],
+            "variants": [],
+            "rank": "52.7%",
+            "mnemonic": " The lower part (below 亠) means 'to oppose', 亠 in this context may mean superiors or that above. Another interperation is this is an upside down person, with all the negative connotations of a person who may be in that position",
+            "notes": " Duplicated in many characters, like 辩.  It's bitter connotations reveal themselves in many characters, as do the connotations of hard work and suffering."
+        },
+        "variants": [
+            "辛"
+        ]
+    },
+    "⾠": {
+        "meaning": "morning",
+        "number": 161,
+        "pinyin": "chén",
+        "name": "",
+        "strokes": 7,
+        "frequency": "15",
+        "examples": "辱、農、辴",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " A man handling an Egyptian hoe",
+            "notes": ""
+        },
+        "variants": [
+            "辰"
+        ]
+    },
+    "⾡": {
+        "meaning": "walk",
+        "number": 162,
+        "pinyin": "chuò",
+        "name": "走之底",
+        "strokes": 7,
+        "frequency": "381",
+        "examples": "边、巡、迂",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "辶",
+                "⻎",
+                "⻍"
+            ],
+            "rank": "5.2%",
+            "mnemonic": "  辶辵 foot prints 止 on a road 彳",
+            "notes": " This form is not used, see 辶"
+        },
+        "variants": [
+            "辵",
+            "⻌",
+            "辶",
+            "⻎",
+            "⻍"
+        ]
+    },
+    "⾢": {
+        "meaning": "city",
+        "number": 163,
+        "pinyin": "yì",
+        "name": "右耳朵",
+        "strokes": 7,
+        "frequency": "350",
+        "examples": "邕、邗、邘",
+        "useful": {
+            "distinguish": [
+                "色"
+            ],
+            "variants": [
+                "⻏",
+                "/",
+                "阝"
+            ],
+            "rank": "5.2%",
+            "mnemonic": " A city with buildings - 口, and subservient people -卩 ",
+            "notes": ""
+        },
+        "variants": [
+            "⻏",
+            "邑"
+        ]
+    },
+    "⾣": {
+        "meaning": "wine",
+        "number": 164,
+        "pinyin": "yǒu",
+        "name": "",
+        "strokes": 7,
+        "frequency": "290",
+        "examples": "酊、酋、酌",
+        "useful": {
+            "distinguish": [
+                "西"
+            ],
+            "variants": [],
+            "rank": "86.8%",
+            "mnemonic": " This is a picture of a jug.  Another ancient form was 丣, representing the handles of a sealed wine jug.",
+            "notes": " Used in characters relating to alcohol, celebration, and other reasons one might turn to the bottle.  Also in a few characters relating to cooking and fermented foodstuffs"
+        },
+        "variants": [
+            "酉"
+        ]
+    },
+    "⾤": {
+        "meaning": "distinguish",
+        "number": 165,
+        "pinyin": "biàn",
+        "name": "",
+        "strokes": 7,
+        "frequency": "14",
+        "examples": "采、釉、釋",
+        "useful": {
+            "distinguish": [
+                "米,",
+                "禾,",
+                "木"
+            ],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " Represents sorting the rocks out of rice",
+            "notes": " Used in few characters, among others, those for weight, quantity, and distance"
+        },
+        "variants": [
+            "釆"
+        ]
+    },
+    "⾥": {
+        "meaning": "village",
+        "number": 166,
+        "pinyin": "lǐ",
+        "name": "",
+        "strokes": 7,
+        "frequency": "14",
+        "examples": "重、野、量",
+        "useful": {
+            "distinguish": [
+                "cai3"
+            ],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " a measurement or combination of land 土 and fields 田",
+            "notes": ""
+        },
+        "variants": [
+            "里"
+        ]
+    },
+    "⾦": {
+        "meaning": "gold",
+        "number": 167,
+        "pinyin": "jīn",
+        "name": "金字旁",
+        "strokes": 8,
+        "frequency": "806",
+        "examples": "釓、釔、釕",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " This represents a cast musical metal bell of the ancient variety seen in China, with bumps on the outside",
+            "notes": " Many characters relating to metal, metal objects, and valuable items use this radical"
+        },
+        "variants": [
+            "金",
+            "⻐",
+            "钅"
+        ]
+    },
+    "⾧": {
+        "meaning": "long",
+        "number": 168,
+        "pinyin": "cháng",
+        "name": "",
+        "strokes": 8,
+        "frequency": "55",
+        "examples": "镺、镻、镼",
+        "useful": {},
+        "variants": [
+            "镸",
+            "⻒",
+            "長",
+            "⻑",
+            "⻓",
+            "长"
+        ]
+    },
+    "⾨": {
+        "meaning": "gate",
+        "number": 169,
+        "pinyin": "mén",
+        "name": "门字框",
+        "strokes": 8,
+        "frequency": "246",
+        "examples": "閂、閃、閆",
+        "useful": {},
+        "variants": [
+            "⻔",
+            "門",
+            "门"
+        ]
+    },
+    "⾩": {
+        "meaning": "mound",
+        "number": 170,
+        "pinyin": "fù",
+        "name": "",
+        "strokes": 8,
+        "frequency": "348",
+        "examples": "阞、阡、阢",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "阝"
+            ],
+            "rank": "5.2%",
+            "mnemonic": " Represents steps coming down from a city, or possiby a wall",
+            "notes": " Rare variant.  If one things of something like the great wall as the ultimate mound, a lot of the characters under this radical make quite a bit of sense"
+        },
+        "variants": [
+            "𨸏",
+            "⻖",
+            "阝",
+            "⻕",
+            "阜"
+        ]
+    },
+    "⾪": {
+        "meaning": "slave",
+        "number": 171,
+        "pinyin": "lì",
+        "name": "",
+        "strokes": 8,
+        "frequency": "12",
+        "examples": "𨽻、隷、隸",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " a subordinate who has a futile 柰 life with a broom 隶",
+            "notes": ""
+        },
+        "variants": [
+            "隶"
+        ]
+    },
+    "⾫": {
+        "meaning": "short-tailed bird",
+        "number": 172,
+        "pinyin": "zhuī",
+        "name": "",
+        "strokes": 8,
+        "frequency": "233",
+        "examples": "隻、隼、隽",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "72.5%",
+            "mnemonic": " A small bird, wings outstretched",
+            "notes": " Smaller birds are under this radical, as are a lot of characters which don't immediately make one think of birds."
+        },
+        "variants": [
+            "隹"
+        ]
+    },
+    "⾬": {
+        "meaning": "rain",
+        "number": 173,
+        "pinyin": "yǔ",
+        "name": "",
+        "strokes": 8,
+        "frequency": "298",
+        "examples": "雩、雪、雯",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "⻗"
+            ],
+            "rank": "81.2%",
+            "mnemonic": " Rain drops falling from sky",
+            "notes": " Characters representing various climate and weather conditions are represented here"
+        },
+        "variants": [
+            "雨",
+            "⻗"
+        ]
+    },
+    "⾭": {
+        "meaning": "blue",
+        "number": 174,
+        "pinyin": "qīng",
+        "name": "",
+        "strokes": 8,
+        "frequency": "17",
+        "examples": "靖、静、靚",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "青"
+            ],
+            "rank": "0.0%",
+            "mnemonic": " grass 生 around a well 井 (not 月)",
+            "notes": ""
+        },
+        "variants": [
+            "靑",
+            "⻘",
+            "青"
+        ]
+    },
+    "⾮": {
+        "meaning": "wrong",
+        "number": 175,
+        "pinyin": "fēi",
+        "name": "",
+        "strokes": 8,
+        "frequency": "25",
+        "examples": "靟、靠、靡",
+        "useful": {
+            "distinguish": [
+                "韭"
+            ],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " outward turned (broken) wings which do not function",
+            "notes": ""
+        },
+        "variants": [
+            "非"
+        ]
+    },
+    "⾯": {
+        "meaning": "face",
+        "number": 176,
+        "pinyin": "miàn",
+        "name": "",
+        "strokes": 9,
+        "frequency": "66",
+        "examples": "靤、靦、靧",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " a face with an eye 目 in the middle",
+            "notes": ""
+        },
+        "variants": [
+            "面"
+        ]
+    },
+    "⾰": {
+        "meaning": "leather",
+        "number": 177,
+        "pinyin": "gé",
+        "name": "",
+        "strokes": 9,
+        "frequency": "305",
+        "examples": "靭、靮、靳",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "67.7%",
+            "mnemonic": " Represents a spread out animal skin",
+            "notes": " Leather goods are categorized under this radical"
+        },
+        "variants": [
+            "革"
+        ]
+    },
+    "⾱": {
+        "meaning": "tanned leather",
+        "number": 178,
+        "pinyin": "wéi",
+        "name": "",
+        "strokes": 9,
+        "frequency": "100",
+        "examples": "韌、韍、韎",
+        "useful": {},
+        "variants": [
+            "韦",
+            "韋",
+            "⻙"
+        ]
+    },
+    "⾲": {
+        "meaning": "leek",
+        "number": 179,
+        "pinyin": "jiǔ",
+        "name": "",
+        "strokes": 9,
+        "frequency": "20",
+        "examples": "韰、韲、䪢",
+        "useful": {
+            "distinguish": [
+                "非"
+            ],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " an ideograph of leeks",
+            "notes": ""
+        },
+        "variants": [
+            "韭"
+        ]
+    },
+    "⾳": {
+        "meaning": "sound",
+        "number": 180,
+        "pinyin": "yīn",
+        "name": "",
+        "strokes": 9,
+        "frequency": "43",
+        "examples": "竟、章、韵",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " a mouth with something in it and a tongue sticking out with something on it",
+            "notes": ""
+        },
+        "variants": [
+            "音"
+        ]
+    },
+    "⾴": {
+        "meaning": "leaf",
+        "number": 181,
+        "pinyin": "yè",
+        "name": "",
+        "strokes": 9,
+        "frequency": "372",
+        "examples": "頂、頃、頄",
+        "useful": {},
+        "variants": [
+            "页",
+            "⻚",
+            "頁"
+        ]
+    },
+    "⾵": {
+        "meaning": "wind",
+        "number": 182,
+        "pinyin": "fēng",
+        "name": "",
+        "strokes": 9,
+        "frequency": "182",
+        "examples": "颩、颭、颮",
+        "useful": {},
+        "variants": [
+            "风",
+            "⻛",
+            "風"
+        ]
+    },
+    "⾶": {
+        "meaning": "fly",
+        "number": 183,
+        "pinyin": "fēi",
+        "name": "",
+        "strokes": 9,
+        "frequency": "92",
+        "examples": "䬡、飜、飝",
+        "useful": {},
+        "variants": [
+            "⻜",
+            "飞",
+            "飛"
+        ]
+    },
+    "⾷": {
+        "meaning": "eat",
+        "number": 184,
+        "pinyin": "shí",
+        "name": "食字旁",
+        "strokes": 9,
+        "frequency": "403",
+        "examples": "飡、飢、飣",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a man's mouth 亼 over a bowl of rice on a stand 皀 (the two dots combine). Note the lower part is not 艮",
+            "notes": " Many types of food and mealtime activities are encompassed by characters with this radical"
+        },
+        "variants": [
+            "⻝",
+            "食",
+            "⻞",
+            "𩙿",
+            "⻟",
+            "飠",
+            "⻠",
+            "饣"
+        ]
+    },
+    "⾸": {
+        "meaning": "head",
+        "number": 185,
+        "pinyin": "shǒu",
+        "name": "",
+        "strokes": 9,
+        "frequency": "20",
+        "examples": "馗、䭫、馘",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a head like 頁 but with hair on top",
+            "notes": ""
+        },
+        "variants": [
+            "首",
+            "⻡",
+            "𩠐"
+        ]
+    },
+    "⾹": {
+        "meaning": "fragrant",
+        "number": 186,
+        "pinyin": "xiāng",
+        "name": "",
+        "strokes": 9,
+        "frequency": "37",
+        "examples": "馝、馞、馡",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " represents nice food going in the mouth",
+            "notes": ""
+        },
+        "variants": [
+            "香"
+        ]
+    },
+    "⾺": {
+        "meaning": "horse",
+        "number": 187,
+        "pinyin": "mǎ",
+        "name": "",
+        "strokes": 10,
+        "frequency": "472",
+        "examples": "馭、馮、馯",
+        "useful": {},
+        "variants": [
+            "⻢",
+            "馬",
+            "马"
+        ]
+    },
+    "⾻": {
+        "meaning": "bone",
+        "number": 188,
+        "pinyin": "gǔ",
+        "name": "",
+        "strokes": 10,
+        "frequency": "185",
+        "examples": "骫、骭、骯",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " scapula with the meat radical (moon variant)",
+            "notes": " Characters under this radical cover various body parts, and not surprisingly, bones.  Things associated with bones are also covered such as 骯髒 and 骴. Simplification has occasionally replaced 骨 with the standing meat radical (月)"
+        },
+        "variants": [
+            "骨",
+            "⻣"
+        ]
+    },
+    "⾼": {
+        "meaning": "tall",
+        "number": 189,
+        "pinyin": "gāo",
+        "name": "",
+        "strokes": 10,
+        "frequency": "34",
+        "examples": "髚、髛、𩫛",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " represents a high building",
+            "notes": ""
+        },
+        "variants": [
+            "高"
+        ]
+    },
+    "⾽": {
+        "meaning": "hair",
+        "number": 190,
+        "pinyin": "biāo",
+        "name": "",
+        "strokes": 10,
+        "frequency": "243",
+        "examples": "髠、髡、髢",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " 長 long hair and 彡 more hair",
+            "notes": " Not surprisingly, shows up in characters describing all things hairy"
+        },
+        "variants": [
+            "髟"
+        ]
+    },
+    "⾾": {
+        "meaning": "fight",
+        "number": 191,
+        "pinyin": "dòu",
+        "name": "",
+        "strokes": 10,
+        "frequency": "23",
+        "examples": "鬦、鬧、鬨",
+        "useful": {},
+        "variants": [
+            "鬥"
+        ]
+    },
+    "⾿": {
+        "meaning": "sacrificial wine",
+        "number": 192,
+        "pinyin": "chàng",
+        "name": "",
+        "strokes": 10,
+        "frequency": "8",
+        "examples": "鬰、鬱",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " a container of rice",
+            "notes": ""
+        },
+        "variants": [
+            "鬯"
+        ]
+    },
+    "⿀": {
+        "meaning": "cauldron",
+        "number": 193,
+        "pinyin": "lì",
+        "name": "",
+        "strokes": 10,
+        "frequency": "73",
+        "examples": "鬳、鬴、鬵",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " three legged cauldron",
+            "notes": ""
+        },
+        "variants": [
+            "鬲"
+        ]
+    },
+    "⿁": {
+        "meaning": "ghost",
+        "number": 194,
+        "pinyin": "guǐ",
+        "name": "",
+        "strokes": 10,
+        "frequency": "141",
+        "examples": "鬾、魁、魂",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "59.0%",
+            "mnemonic": " A man (goblin) with an ugly head and a tail",
+            "notes": " Otherworldy things tend to be represented by this radical"
+        },
+        "variants": [
+            "⻤",
+            "鬼"
+        ]
+    },
+    "⿂": {
+        "meaning": "fish",
+        "number": 195,
+        "pinyin": "yú",
+        "name": "",
+        "strokes": 11,
+        "frequency": "571",
+        "examples": "魟、魠、魦",
+        "useful": {},
+        "variants": [
+            "鱼",
+            "魚",
+            "⻥"
+        ]
+    },
+    "⿃": {
+        "meaning": "bird",
+        "number": 196,
+        "pinyin": "niǎo",
+        "name": "",
+        "strokes": 11,
+        "frequency": "750",
+        "examples": "鳦、鳧、鳩",
+        "useful": {},
+        "variants": [
+            "⻦",
+            "鸟",
+            "鳥"
+        ]
+    },
+    "⿄": {
+        "meaning": "salt",
+        "number": 197,
+        "pinyin": "lǔ",
+        "name": "",
+        "strokes": 11,
+        "frequency": "44",
+        "examples": "鹹、鹺、鹼",
+        "useful": {},
+        "variants": [
+            "鹵",
+            "⻧",
+            "卤"
+        ]
+    },
+    "⿅": {
+        "meaning": "deer",
+        "number": 198,
+        "pinyin": "lù",
+        "name": "",
+        "strokes": 11,
+        "frequency": "104",
+        "examples": "麀、麁、麂",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.1%",
+            "mnemonic": " primitive of an antlered deer - see seal characters",
+            "notes": " Denotes the most attractive aspects of the wilderness and wild things"
+        },
+        "variants": [
+            "鹿"
+        ]
+    },
+    "⿆": {
+        "meaning": "wheat",
+        "number": 199,
+        "pinyin": "mài",
+        "name": "",
+        "strokes": 11,
+        "frequency": "131",
+        "examples": "麨、麩、麪",
+        "useful": {},
+        "variants": [
+            "⻨",
+            "麦",
+            "麥"
+        ]
+    },
+    "⿇": {
+        "meaning": "hemp",
+        "number": 200,
+        "pinyin": "má",
+        "name": "",
+        "strokes": 11,
+        "frequency": "34",
+        "examples": "麼、麾、黁",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " hemp (from 痲) in the barn  广 - separate etymology from 林",
+            "notes": ""
+        },
+        "variants": [
+            "麻"
+        ]
+    },
+    "⿈": {
+        "meaning": "yellow",
+        "number": 201,
+        "pinyin": "huáng",
+        "name": "",
+        "strokes": 12,
+        "frequency": "42",
+        "examples": "黈、䵍、黌",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " a man 大 with a (yellow) pendant, now 璜",
+            "notes": ""
+        },
+        "variants": [
+            "⻩",
+            "黃",
+            "黄"
+        ]
+    },
+    "⿉": {
+        "meaning": "millet",
+        "number": 202,
+        "pinyin": "shǔ",
+        "name": "",
+        "strokes": 12,
+        "frequency": "46",
+        "examples": "黎、黏、黐",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "5.2%",
+            "mnemonic": " grain 禾 that grows by water 水",
+            "notes": ""
+        },
+        "variants": [
+            "黍"
+        ]
+    },
+    "⿊": {
+        "meaning": "black",
+        "number": 203,
+        "pinyin": "hēi",
+        "name": "",
+        "strokes": 12,
+        "frequency": "172",
+        "examples": "墨、黓、黔",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "黒"
+            ],
+            "rank": "84.3%",
+            "mnemonic": " black from charcoal grain in an air tight container over a fire, in early forms the bottom half was more clearly 炎",
+            "notes": " Primary form.  Opposite of 白, blackness can often add dark connotations to many characters"
+        },
+        "variants": [
+            "黑"
+        ]
+    },
+    "⿋": {
+        "meaning": "embroidery",
+        "number": 204,
+        "pinyin": "zhǐ",
+        "name": "",
+        "strokes": 12,
+        "frequency": "8",
+        "examples": "黺、黻、黼",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " primitive of embroidery",
+            "notes": ""
+        },
+        "variants": [
+            "黹"
+        ]
+    },
+    "⿌": {
+        "meaning": "frog",
+        "number": 205,
+        "pinyin": "mǐn",
+        "name": "",
+        "strokes": 13,
+        "frequency": "40",
+        "examples": "黿、鼀、鼁",
+        "useful": {},
+        "variants": [
+            "黾",
+            "⻪",
+            "黽"
+        ]
+    },
+    "⿍": {
+        "meaning": "tripod",
+        "number": 206,
+        "pinyin": "dǐng",
+        "name": "",
+        "strokes": 13,
+        "frequency": "14",
+        "examples": "鼏、鼐、鼒",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " a bronze tripod with two ears",
+            "notes": ""
+        },
+        "variants": [
+            "鼎"
+        ]
+    },
+    "⿎": {
+        "meaning": "drum",
+        "number": 207,
+        "pinyin": "gǔ",
+        "name": "",
+        "strokes": 13,
+        "frequency": "46",
+        "examples": "鼕、鼖、鼗",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "35.0%",
+            "mnemonic": " a drum 口 left and right ends with base and feathers on top 土 hit with stick 支",
+            "notes": ""
+        },
+        "variants": [
+            "鼓"
+        ]
+    },
+    "⿏": {
+        "meaning": "rat",
+        "number": 208,
+        "pinyin": "shǔ",
+        "name": "",
+        "strokes": 13,
+        "frequency": "92",
+        "examples": "鼢、鼥、鼩",
+        "useful": {
+            "distinguish": [],
+            "variants": [
+                "鼡"
+            ],
+            "rank": "66.3%",
+            "mnemonic": " A mouse with legs tail and whiskers",
+            "notes": ""
+        },
+        "variants": [
+            "鼠"
+        ]
+    },
+    "⿐": {
+        "meaning": "nose",
+        "number": 209,
+        "pinyin": "bí",
+        "name": "",
+        "strokes": 14,
+        "frequency": "49",
+        "examples": "鼽、鼾、齁",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "44.4%",
+            "mnemonic": " synonym for 自 nose",
+            "notes": ""
+        },
+        "variants": [
+            "鼻"
+        ]
+    },
+    "⿑": {
+        "meaning": "even",
+        "number": 210,
+        "pinyin": "qí",
+        "name": "",
+        "strokes": 14,
+        "frequency": "18",
+        "examples": "齋、齌、齍",
+        "useful": {},
+        "variants": [
+            "齊",
+            "齐",
+            "⻫",
+            "⻬",
+            "斉"
+        ]
+    },
+    "⿒": {
+        "meaning": "tooth",
+        "number": 211,
+        "pinyin": "chǐ",
+        "name": "",
+        "strokes": 15,
+        "frequency": "162",
+        "examples": "齔、齕、齖",
+        "useful": {},
+        "variants": [
+            "⻮",
+            "齒",
+            "⻭",
+            "齿",
+            "歯"
+        ]
+    },
+    "⿓": {
+        "meaning": "dragon",
+        "number": 212,
+        "pinyin": "lóng",
+        "name": "",
+        "strokes": 16,
+        "frequency": "14",
+        "examples": "龏、龑、龔",
+        "useful": {},
+        "variants": [
+            "⻰",
+            "龙",
+            "⻯",
+            "龍",
+            "竜"
+        ]
+    },
+    "⿔": {
+        "meaning": "turtle",
+        "number": 213,
+        "pinyin": "guī",
+        "name": "",
+        "strokes": 16,
+        "frequency": "24",
+        "examples": "䶰、龝、龞",
+        "useful": {},
+        "variants": [
+            "⻳",
+            "龟",
+            "⻲",
+            "亀",
+            "⻱",
+            "龜"
+        ]
+    },
+    "⿕": {
+        "meaning": "flute",
+        "number": 214,
+        "pinyin": "yuè",
+        "name": "",
+        "strokes": 17,
+        "frequency": "19",
+        "examples": "龡、龢、龤",
+        "useful": {
+            "distinguish": [],
+            "variants": [],
+            "rank": "20.0%",
+            "mnemonic": " a mouth blowing 亼 a flute with holes 口, possibly pan-pipes",
+            "notes": ""
+        },
+        "variants": [
+            "龠"
+        ]
+    }
+}
