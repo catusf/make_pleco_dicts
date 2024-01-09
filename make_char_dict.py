@@ -320,7 +320,7 @@ if CONVERT_TO_PLECO:
         components = char["components"]
 
         if rad_database.is_radical_variant(key):
-            for v in rad_database.variants(key):
+            for v in rad_database.get_variants(key):
                 if v not in char_dict:
                     char_dict[v] = char_dict[key]
 
@@ -387,8 +387,8 @@ if CONVERT_TO_PLECO:
 
                 if rad_database.is_radical_variant(comp):
                     item = rad_database.lookup(comp)
-                    variants = sorted(rad_database.variants(comp))
-                    alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if rad_database.variants(comp) else ""  # fmt: skip
+                    variants = sorted(rad_database.get_variants(comp))
+                    alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if rad_database.get_variants(comp) else ""  # fmt: skip
                     alternatives = regex.sub(
                         PATTERN_ZH, replace_chinese_blue, alternatives
                     )

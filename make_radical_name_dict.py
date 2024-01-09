@@ -90,7 +90,7 @@ string_has_name = (
 
 for rad in radicals:
     # fmt: off
-    variants = rad_database.variants(rad)
+    variants = rad_database.get_variants(rad)
     data = rad_database.lookup(rad)
     meaning = data["meaning"]
     pinyin = data["pinyin"]

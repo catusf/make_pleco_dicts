@@ -231,13 +231,19 @@ class Radicals:
         self.kangxi_radical_file = "./wordlists/kangxi_radical_unicode.txt"
         self.kangxi_radical_supplement_file = "./wordlists/kangxi_radical_supplement_unicode.txt"  # fmt: skip
 
+    # Gets the radicals
     def radicals(self):
         return self.radical_list
+
+    # Gets all variants of the radicals
+    def variants(self):
+        return self.radical_nominals.keys()
 
     def is_radical_variant(self, radical):
         return radical in self.radical_nominals
 
-    def variants(self, radical):
+    # Get variant forms of a radical/variant
+    def get_variants(self, radical):
         return self.radical_set[self.norminal(radical)]["variants"]
 
     def _setup_norminals(self):
@@ -260,6 +266,8 @@ class Radicals:
 
         self.set_none()
 
+        # exceptions = {"⼋": ["丷"]}
+
         with open(self.radical_set_file, "r", encoding="utf-8") as file:
             self.radical_set = json.load(file)
 
@@ -269,12 +277,19 @@ class Radicals:
                 self.radical_nominals[symbol] = symbol
                 variants = self.radical_set[symbol]["variants"]
 
+                # if symbol in exceptions:
+                #     variants.extend(exceptions[symbol])
+
                 for variant in variants:
                     self.radical_nominals[variant] = symbol
 
     def save_radical_data(self):
         # with open(self.radical_norminal_file, "w", encoding="utf-8") as file:
         #     json.dump(self.radical_nominals, file, indent=4, ensure_ascii=False)
+        for rad in self.radical_set:
+            self.radical_set[rad]["variants"] = sorted(
+                self.radical_set[rad]["variants"]
+            )
 
         with open(self.radical_set_file, "w", encoding="utf-8") as file:
             json.dump(self.radical_set, file, indent=4, ensure_ascii=False)
