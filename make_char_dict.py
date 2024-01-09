@@ -29,7 +29,7 @@ now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 MAX_BUILD_ITEMS = 1000
 MAX_BUILD_ITEMS = 100000
 
-BUILD_DICT_DATA = True
+BUILD_DICT_DATA = False
 CONVERT_TO_PLECO = True  #
 
 CHAR_DICT_FILE = "char_dict.json"
@@ -379,6 +379,9 @@ if CONVERT_TO_PLECO:
                     print(f"{comp}\tNot in char_dict")
                     continue
 
+                if key == comp:
+                    continue
+
                 pinyin = char_dict[comp]["pinyin"]
 
                 meaning_text = ""
@@ -402,10 +405,15 @@ if CONVERT_TO_PLECO:
                 string += f"{PC_ARROW} {pleco_make_link(comp)} {pleco_make_italic(pinyin)} {meaning_text}\n"
 
         if key in appears_chars and (contains := sort_by_freq(appears_chars[key])):
-            string += f"{pleco_make_dark_gray(PC_APPEARS_MARK)}\n"
+            if key in contains:
+                contains.remove(key)
 
-            for contain in contains:
-                string += f"{pleco_make_blue(contain)} {PC_MIDDLE_DOT} "
+            if contains:
+                blue_chars = [pleco_make_link(char) for char in contains]
+
+                string += f"{pleco_make_dark_gray(PC_APPEARS_MARK)}\n"
+
+                string += f"{PC_MIDDLE_DOT.join(blue_chars)}"
 
         string = regex.sub(PATTERN_PY, replace_num_pinyin, string)
 
