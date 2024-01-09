@@ -1,0 +1,128 @@
+// Food List 簡－繁 
+面条	miàntiáo	Chinese noodles
+炒面	chǎomiàn	Chow mein
+汤面	tāngmiàn	Noodle soup
+炸酱面	zhájiàngmiàn	Zhajiangmian
+拉面	lamian	Lamian
+米饭		White Rice
+炒饭		Fried Rice
+东坡肉	Dōngpō ròu	Braised pork
+咕咾肉	gǔlǎoròu	sweet and meetha
+回锅肉	huíguōròu	Twice cooked pork
+叉烧	chāshāo	Char siu
+皮蛋	pídàn	Century egg
+鴨頭	yātóu	Duck's head
+宫保鸡丁	gōngbǎo jīdīng	Kung Pao chicken
+北京烤鸭	Běijīng kǎoyā	Peking Duck
+卤蛋	lǔdàn	Soy egg
+茶叶蛋	cháyèdàn	Tea egg
+罗汉斋	luóhàn zhāi	Buddha's delight
+酱菜	jiàngcài	Pickled vegetables
+炖	dùn	Double steaming/double boiling
+红烧	hóngshāo	Red cooking
+包子	bāozǐ	Baozi
+点心	diǎnxīn	Dim sum
+锅贴	guōtiē	Guotie
+饺子	jiǎozǐ	Jiaozi
+馒头	mántóu	Mantou
+餛飩	húntún	Wonton
+小笼包	xiǎolóngbāo	Xiaolongbao
+粽子	zòngzǐ	Zongzi
+长寿包	chángshòubāo	Longevity buns
+葱油饼	cōngyóubǐng	Cong you bing
+月饼	yuèbǐng	Mooncake
+沙琪玛	shāqímǎ	Sachima
+烧饼	shāobǐng	Shaobing
+油条	yóutiáo	Youtiao
+粥	zhōu	Congee
+酸辣汤	suānlàtāng	Hot and sour soup
+火锅	huǒguō	Hot pot
+糖水	tángshuǐ	Tong sui
+八公山豆腐	bāgōngshān dòufǔ	Bang Tofu
+明珠酥鲍	míngzhū sūbào	Bright Pearl Abalone
+虫草炖老鸭	chóngcǎo dùn lǎoyā	Caterpillar Fungus Duck
+蟹连鱼肚	xièlián yúdù	Crab and Fish Stomachs
+海棠酥	hǎitángsū	Crab-apple Flower Cake
+干锅素肉	gānguō sùròu	Dried Pot Tofu
+五彩鱼片	wǔcǎi yúpiàn	Five Colours Fish Cake
+花菇田鸡	huāgū tiánjī	Flower Mushroom Frog
+南瓜蒸饺	nánguā zhēngjiǎo	Fried Pumpkin Dumplings
+豆腐渣丸子	dòufǔzhā wánzi	Fried Tofu Curd Balls
+符离集烧鸡	fúlíjí shāojī	Fuli Roast Chicken
+姜母鸭	jiāng mǔyā	Ginger Duck
+稻香排骨	dàoxiāng páigǔ	Hay Wrapped Fragrant Ribs
+玉兔海参	yùtù hǎishēn	Jade Rabbit Sea Cucumber
+莲蓬鱼	liánpéng yú	Lotus Seed Pod Fish
+凤尾虾排	fèngwěi xiāpái	Phoenix Tail Shrimp
+土豆炸饺	tǔdòu zhájiǎo	Potato Croquet
+银鱼煎蛋	yínyú jiāndàn	Silver Fish Fried Egg
+红烧臭鱖鱼	hóngshāo chòu guìyú	Soy Braised Mandarin Fish
+北京烤鸭	Běijīng kǎoyā	Peking Duck
+炸酱面	zhájiàngmiàn	Zhajiangmian
+馅饼	xiànbǐng	Xianbing
+油条	yóutiáo	Crullers
+焖鲍鱼	mèn bàoyú	Braised abalone
+刨冰	páobīng	Shaved ice
+干炒牛河	gānchǎo niúhé	Beef chow fun
+燕窝	yànwō	Bird's nest soup
+芝麻糊	zhīmahú	Black sesame soup
+海皇羹	hǎihuáng gēng	Cantonese seafood soup
+叉烧	chāshāo	Char siu
+炸子鸡	zházǐjī	Crispy fried chicken
+陈皮芋头鸭	chénpí yùtóuyā	Duck with taro
+龟苓膏	guīlínggāo	Guilinggao
+煲仔饭	bāozǎifàn	Little pan rice
+红豆沙	hóngdòushā	Red bean soup
+乳鸽	rǔgē	Roast squab
+烧乳猪	shāo rǔzhū	Roast suckling pig
+海参	hǎishēn	Sea cucumber
+海鲜雀巢	hǎixiān quècháo	Seafood with bird's nest
+鱼翅汤	yúchì tāng	Shark fin soup
+银耳汤	yín'ěr tāng	Snow fungus soup
+生炒排骨	shēngchǎo páigǔ	Sour spare ribs
+南北杏西洋菜猪骨汤	nánběixìng xīyángcài zhūgǔ tāng	Spare ribs soup with watercress and apricot kernels
+白切鸡	báiqièjī	White cut chicken
+冬瓜汤	dōngguā tāng	Winter melon soup
+云吞面	yúntūnmiàn	Wonton noodles
+扬州炒饭	Yángzhōu chǎofàn	Yeung Chow fried rice
+油条	yóutiáo	Youtiao
+炸两	zháliǎng	Zhaliang
+鱼生	yúshēng	Yusheng
+薄饼	báobǐng	Popiah
+佛跳墙	fótiàoqiáng	Buddha jumps over the wall
+福建式炒饭	Fújiàn shì chǎofàn	Fried rice in Fujian style
+蚵仔煎	hézǎijiān	Oyster omelette
+薄饼	báobǐng	Popiah
+燕皮	yànpí	Yanpi
+海南鸡饭	Hǎinán jīfàn	Hainanese chicken rice
+文昌鸡	Wénchāng jī	Wenchang chicken
+重庆辣子鸡	Chóngqìng làzǐjī	Chongqing spicy deep-fried chicken
+担担面	dàndànmiàn	Dandan noodles
+夫妻肺片	fūqī fèipiàn	Fuqi Feipian
+四川火锅	Sìchuān huǒguō	Sichuan hotpot
+宫保鸡丁	gōngbǎo jīdīng	Kung Pao chicken
+麻婆豆腐	mápó dòufǔ	Mapo tofu
+水煮	shuǐzhǔ	Shuizhu
+回锅肉	huíguōròu	Twice cooked pork
+樟茶鸭	zhāngchá yā	Zhangcha duck
+过桥米线	guòqiáo mǐxiàn	Over Bridge Rice Noodles
+叫化鸡	jiàohuā jī	Beggar's Chicken
+干菜焖肉	gāncài mènròu	Braised Sliced Pork with Preserved Vegetables
+糟鸡	zāojī	Cold Chicken Cooked in Wine
+东坡肉	dōngpō ròu	Dongpo Braised Pork
+清汤鱼圆	qīngtāng yúyuán	Fish Ball in Light Soup
+生爆鳝片	shēngbào shànpiàn	Fried Eel Slices
+椒盐乳鸽	jiāoyán rǔgē	Fried Pigeon with Spiced Salt
+龙井虾仁	Lóngjǐng xiārén	Fried Shrimps with Longjing Tea
+干炸响铃	gānzhá xiǎnglíng	Fried Stuffed Bean Curd Paste
+糖醋里脊	tángcù lǐji	Fried Sweet and Sour Pork
+杭州酱鸭	Hángzhōu jiàngyā	Hangzhou-Style Duck Pickled in Soy Sauce
+笋干老鸭煲	sǔngān lǎoyā bāo	Old Duck Stewed with Bamboo Root & Ham
+卤鸭	lǔ yā	Red-Stewed Duck
+火腿蚕豆	huǒtuǐ cándòu	Sauteed Broad Beans with Ham
+油爆虾	yóubào xiā	Sauteed Shrimps
+番茄锅巴	fānqié guōbā	Sizzling Rice in Tomato Sauce
+荷叶粉蒸肉	héyèfěn zhēngròu	Steamed Pork with Rice Flour in Lotus Leaf
+油焖春笋	yóumèn chūnsǔn	Stewed Spring Bamboo Shoots
+栗子炒子鸡	lìzi chǎo zǐjī	Stir-Fried Spring Chicken with Chestnuts
+西湖醋鱼	xīhú cùyú	West Lake Fish in Vinegar Sauce

@@ -1,0 +1,299 @@
+// Food Vocabulary
+丁	dīng	ManRELATED - 宫保鸡丁 gōngbǎojīdīng Kung Pao chicken
+东	dōng	EastRELATED - 东坡肉 dōngpōròu Dongpo Braised Pork
+两	liǎng	twoRELATED - 炸两 zhàliǎng Zhaliang
+丸	wán	circleRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls
+乳	rǔ	milkRELATED - 乳鸽 rǔgē Roast squab - 椒盐乳鸽 jiāoyánrǔgē Fried Pigeon with Spiced Salt - 烧乳猪 shāorǔzhū Roast suckling pig
+云	yún	cloudRELATED - 云吞面 yúntūnmiàn Wonton noodles
+五	wǔ	fiveRELATED - 五彩鱼片 wǔcǎiyúpiàn Five Colours Fish Cake
+井	jǐng	wellRELATED - 龙井虾仁 lóngjǐngxiārén Fried Shrimps with Longjing Tea
+京	jīng	BeijingRELATED - 北京烤鸭 běijīngkǎoyā Peking Duck
+仁	rén	BenevolenceRELATED - 龙井虾仁 lóngjǐngxiārén Fried Shrimps with Longjing Tea
+仔	zǐ	youngRELATED - 煲仔饭 bāozǐfàn Little pan rice - 蚵仔煎 hézǐjiān Oyster omelette
+佛	fó	BuddhaRELATED - 佛跳墙 fótiàoqiáng Buddha jumps over the wall
+保	bǎo	SaveRELATED - 宫保鸡丁 gōngbǎojīdīng Kung Pao chicken
+兔	tù	rabbitRELATED - 玉兔海参 yùtùhǎicān Jade Rabbit Sea Cucumber
+八	bā	eightRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu
+公	gōng	maleRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu
+冬	dōng	winterRELATED - 冬瓜汤 dōngguātāng Winter melon soup
+冰	bīng	iceRELATED - 刨冰 bàobīng Shaved ice
+凤	fèng	phoenixRELATED - 凤尾虾排 fèngwěixiāpái Phoenix Tail Shrimp
+切	qiē	cutRELATED - 白切鸡 báiqiējī White cut chicken
+刨	bào	planeRELATED - 刨冰 bàobīng Shaved ice
+包	bāo	BagRELATED - 包子 bāozǐ Baozi - 小笼包 xiǎolóngbāo Xiaolongbao - 长寿包 chángshòubāo Longevity buns
+化	huà	changeRELATED - 叫化鸡 jiàohuàjī Beggar's Chicken
+北	běi	northRELATED - 北京烤鸭 běijīngkǎoyā Peking Duck - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels
+南	nán	SouthRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels - 南瓜蒸饺 nánguāzhēngjiǎo Fried Pumpkin Dumplings - 海南鸡饭 hǎinánjīfàn Hainanese chicken rice
+卤	lǔ	halogenRELATED - 卤蛋 lǔdàn Soy egg - 卤鸭 lǔyā Red-Stewed Duck
+参	cān	ginsengRELATED - 海参 hǎicān Sea cucumber - 玉兔海参 yùtùhǎicān Jade Rabbit Sea Cucumber
+叉	chā	crossRELATED - 叉烧 chāshāo Char siu
+叫	jiào	CallRELATED - 叫化鸡 jiàohuàjī Beggar's Chicken
+叶	yè	leafRELATED - 茶叶蛋 cháyèdàn Tea egg - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+吞	tūn	swallowRELATED - 云吞面 yúntūnmiàn Wonton noodles
+咕	gū	GooRELATED - 咕咾肉 gūlǎoròu sweet and meetha
+咾	lǎo	HeyRELATED - 咕咾肉 gūlǎoròu sweet and meetha
+响	xiǎng	ringRELATED - 干炸响铃 gānzhàxiǎnglíng Fried Stuffed Bean Curd Paste
+四	sì	FourRELATED - 四川火锅 sìchuānhuǒguō Sichuan hotpot
+回	húi	timesRELATED - 回锅肉 húiguōròu Twice cooked pork
+圆	yuán	roundRELATED - 清汤鱼圆 qīngtāngyúyuán Fish Ball in Light Soup
+土	tǔ	soilRELATED - 土豆炸饺 tǔdòuzhàjiǎo Potato Croquet
+坡	pō	slopeRELATED - 东坡肉 dōngpōròu Dongpo Braised Pork
+墙	qiáng	wallRELATED - 佛跳墙 fótiàoqiáng Buddha jumps over the wall
+夫	fū	husbandRELATED - 夫妻肺片 fūqīfèipiàn Fuqi Feipian
+头	tóu	headRELATED - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro - 馒头 mántóu Mantou
+妻	qī	wifeRELATED - 夫妻肺片 fūqīfèipiàn Fuqi Feipian
+姜	jiāng	gingerRELATED - 姜母鸭 jiāngmǔyā Ginger Duck
+婆	pó	PoRELATED - 麻婆豆腐 mápódòufǔ Mapo tofu
+子	zǐ	ChildRELATED - 包子 bāozǐ Baozi - 栗子炒子鸡 lìzǐchǎozǐjī Stir-Fried Spring Chicken with Chestnuts - 炸子鸡 zhàzǐjī Crispy fried chicken - 粽子 zòngzǐ Zongzi - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken - 饺子 jiǎozǐ Jiaozi
+宫	gōng	palaceRELATED - 宫保鸡丁 gōngbǎojīdīng Kung Pao chicken
+寿	shòu	lifeRELATED - 长寿包 chángshòubāo Longevity buns
+小	xiǎo	SmallRELATED - 小笼包 xiǎolóngbāo Xiaolongbao
+尾	wěi	tailRELATED - 凤尾虾排 fèngwěixiāpái Phoenix Tail Shrimp
+山	shān	MountainRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu
+川	chuān	riverRELATED - 四川火锅 sìchuānhuǒguō Sichuan hotpot
+州	zhōu	stateRELATED - 扬州炒饭 yángzhōuchǎofàn Yeung Chow fried rice - 杭州酱鸭 hángzhōujiàngyā Hangzhou-Style Duck Pickled in Soy Sauce
+巢	cháo	nestRELATED - 海鲜雀巢 hǎixiānquècháo Seafood with bird's nest
+巴	bā	-barRELATED - 番茄锅巴 fānqiéguōbā Sizzling Rice in Tomato Sauce
+干	gān	DryRELATED - 干炒牛河 gānchǎoníuhé Beef chow fun - 干炸响铃 gānzhàxiǎnglíng Fried Stuffed Bean Curd Paste - 干菜焖肉 gāncàimènròu Braised Sliced Pork with Preserved Vegetables - 干锅素肉 gānguōsùròu Dried Pot Tofu - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham
+庆	qìng	celebrateRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken
+建	jiàn	establishRELATED - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style
+式	shì	ModeRELATED - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style
+彩	cǎi	colorRELATED - 五彩鱼片 wǔcǎiyúpiàn Five Colours Fish Cake
+心	xīn	HeartRELATED - 点心 diǎnxīn Dim sum
+扬	yáng	YangRELATED - 扬州炒饭 yángzhōuchǎofàn Yeung Chow fried rice
+担	dàn	bearRELATED - 担担面 dàndànmiàn Dandan noodles
+拉	lā	pullRELATED - 拉面 lāmiàn Lamian
+排	pái	RowRELATED - 凤尾虾排 fèngwěixiāpái Phoenix Tail Shrimp - 生炒排骨 shēngchǎopáigǔ Sour spare ribs - 稻香排骨 dàoxiāngpáigǔ Hay Wrapped Fragrant Ribs
+文	wén	artsRELATED - 文昌鸡 wénchāngjī Wenchang chicken
+斋	zhāi	fastRELATED - 罗汉斋 luōhànzhāi Buddha's delight
+昌	chāng	ChangRELATED - 文昌鸡 wénchāngjī Wenchang chicken
+明	míng	brightRELATED - 明珠酥鲍 míngzhūsūbào Bright Pearl Abalone
+春	chūn	springRELATED - 油焖春笋 yóumènchūnsǔn Stewed Spring Bamboo Shoots
+月	yuè	moonRELATED - 月饼 yuèbǐng Mooncake
+杏	xìng	apricotRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels
+条	tiáo	stripRELATED - 油条 yóutiáo Youtiao - 面条 miàntiáo Chinese noodles
+杭	háng	HangzhouRELATED - 杭州酱鸭 hángzhōujiàngyā Hangzhou-Style Duck Pickled in Soy Sauce
+栗	lì	chestnutRELATED - 栗子炒子鸡 lìzǐchǎozǐjī Stir-Fried Spring Chicken with Chestnuts
+桥	qiáo	bridgeRELATED - 过桥米线 guòqiáomǐxiàn Over Bridge Rice Noodles
+棠	táng	TangRELATED - 海棠酥 hǎitángsū Crab-apple Flower Cake
+椒	jiāo	pepperRELATED - 椒盐乳鸽 jiāoyánrǔgē Fried Pigeon with Spiced Salt
+樟	zhāng	camphorRELATED - 樟茶鸭 zhāngcháyā Zhangcha duck
+母	mǔ	motherRELATED - 姜母鸭 jiāngmǔyā Ginger Duck
+水	shǔi	waterRELATED - 水煮 shǔizhǔ Shuizhu - 糖水 tángshǔi Tong sui
+汉	hàn	ChineseRELATED - 罗汉斋 luōhànzhāi Buddha's delight
+汤	tāng	SoupRELATED - 冬瓜汤 dōngguātāng Winter melon soup - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels - 汤面 tāngmiàn Noodle soup - 清汤鱼圆 qīngtāngyúyuán Fish Ball in Light Soup - 酸辣汤 suānlàtāng Hot and sour soup - 银耳汤 yíněrtāng Snow fungus soup - 鱼翅汤 yúchìtāng Shark fin soup
+沙	shā	sandRELATED - 沙琪玛 shāqímǎ Sachima - 红豆沙 hóngdòushā Red bean soup
+河	hé	riverRELATED - 干炒牛河 gānchǎoníuhé Beef chow fun
+油	yóu	OilRELATED - 油条 yóutiáo Youtiao - 油焖春笋 yóumènchūnsǔn Stewed Spring Bamboo Shoots - 油爆虾 yóubàoxiā Sauteed Shrimps - 葱油饼 cōngyóubǐng Cong you bing
+洋	yáng	foreignRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels
+海	hǎi	OceanRELATED - 海南鸡饭 hǎinánjīfàn Hainanese chicken rice - 海参 hǎicān Sea cucumber - 海棠酥 hǎitángsū Crab-apple Flower Cake - 海皇羹 hǎihuánggēng Cantonese seafood soup - 海鲜雀巢 hǎixiānquècháo Seafood with bird's nest - 玉兔海参 yùtùhǎicān Jade Rabbit Sea Cucumber
+清	qīng	clearRELATED - 清汤鱼圆 qīngtāngyúyuán Fish Ball in Light Soup
+渣	zhā	slagRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls
+湖	hú	lakeRELATED - 西湖醋鱼 xīhúcùyú West Lake Fish in Vinegar Sauce
+火	huǒ	fireRELATED - 四川火锅 sìchuānhuǒguō Sichuan hotpot - 火腿蚕豆 huǒtǔicándòu Sauteed Broad Beans with Ham - 火锅 huǒguō Hot pot
+炒	chǎo	sauteRELATED - 干炒牛河 gānchǎoníuhé Beef chow fun - 扬州炒饭 yángzhōuchǎofàn Yeung Chow fried rice - 栗子炒子鸡 lìzǐchǎozǐjī Stir-Fried Spring Chicken with Chestnuts - 炒面 chǎomiàn Chow mein - 炒饭 chǎofàn Fried Rice - 生炒排骨 shēngchǎopáigǔ Sour spare ribs - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style
+炖	tún	Double steaming/double boilingRELATED - 炖 tún Double steaming/double boiling - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck
+炸	zhà	fryRELATED - 土豆炸饺 tǔdòuzhàjiǎo Potato Croquet - 干炸响铃 gānzhàxiǎnglíng Fried Stuffed Bean Curd Paste - 炸两 zhàliǎng Zhaliang - 炸子鸡 zhàzǐjī Crispy fried chicken - 炸酱面 zhàjiàngmiàn Zhajiangmian
+点	diǎn	pointRELATED - 点心 diǎnxīn Dim sum
+烤	kǎo	bakeRELATED - 北京烤鸭 běijīngkǎoyā Peking Duck
+烧	shāo	burnRELATED - 叉烧 chāshāo Char siu - 烧乳猪 shāorǔzhū Roast suckling pig - 烧饼 shāobǐng Shaobing - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken - 红烧 hóngshāo Red cooking - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish
+焖	mèn	stewRELATED - 干菜焖肉 gāncàimènròu Braised Sliced Pork with Preserved Vegetables - 油焖春笋 yóumènchūnsǔn Stewed Spring Bamboo Shoots - 焖鲍鱼 mènbàoyú Braised abalone
+煎	jiān	fryRELATED - 蚵仔煎 hézǐjiān Oyster omelette - 银鱼煎蛋 yínyújiāndàn Silver Fish Fried Egg
+煮	zhǔ	cookRELATED - 水煮 shǔizhǔ Shuizhu
+煲	bāo	potRELATED - 煲仔饭 bāozǐfàn Little pan rice - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham
+燕	yàn	YanRELATED - 燕皮 yànpí Yanpi - 燕窝 yànwō Bird's nest soup
+爆	bào	burstRELATED - 油爆虾 yóubàoxiā Sauteed Shrimps - 生爆鳝片 shēngbàoshànpiàn Fried Eel Slices
+片	piàn	pieceRELATED - 五彩鱼片 wǔcǎiyúpiàn Five Colours Fish Cake - 夫妻肺片 fūqīfèipiàn Fuqi Feipian - 生爆鳝片 shēngbàoshànpiàn Fried Eel Slices
+牛	níu	oxRELATED - 干炒牛河 gānchǎoníuhé Beef chow fun
+猪	zhū	pigRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels - 烧乳猪 shāorǔzhū Roast suckling pig
+玉	yù	ballRELATED - 玉兔海参 yùtùhǎicān Jade Rabbit Sea Cucumber
+玛	mǎ	MaRELATED - 沙琪玛 shāqímǎ Sachima
+珠	zhū	beadsRELATED - 明珠酥鲍 míngzhūsūbào Bright Pearl Abalone
+琪	qí	QiRELATED - 沙琪玛 shāqímǎ Sachima
+瓜	guā	melonRELATED - 冬瓜汤 dōngguātāng Winter melon soup - 南瓜蒸饺 nánguāzhēngjiǎo Fried Pumpkin Dumplings
+生	shēng	bornRELATED - 生炒排骨 shēngchǎopáigǔ Sour spare ribs - 生爆鳝片 shēngbàoshànpiàn Fried Eel Slices - 鱼生 yúshēng Yusheng
+田	tián	fieldRELATED - 花菇田鸡 huāgūtiánjī Flower Mushroom Frog
+番	fān	numberRELATED - 番茄锅巴 fānqiéguōbā Sizzling Rice in Tomato Sauce
+白	bái	whiteRELATED - 白切鸡 báiqiējī White cut chicken
+皇	huáng	emperorRELATED - 海皇羹 hǎihuánggēng Cantonese seafood soup
+皮	pí	SkinRELATED - 燕皮 yànpí Yanpi - 皮蛋 pídàn Century egg - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro
+盐	yán	SaltRELATED - 椒盐乳鸽 jiāoyánrǔgē Fried Pigeon with Spiced Salt
+福	fú	blessingRELATED - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style
+离	lí	LeaveRELATED - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken
+稻	dào	riceRELATED - 稻香排骨 dàoxiāngpáigǔ Hay Wrapped Fragrant Ribs
+窝	wō	nestRELATED - 燕窝 yànwō Bird's nest soup
+笋	sǔn	bamboo shootsRELATED - 油焖春笋 yóumènchūnsǔn Stewed Spring Bamboo Shoots - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham
+符	fú	symbolRELATED - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken
+笼	lóng	cageRELATED - 小笼包 xiǎolóngbāo Xiaolongbao
+米	mǐ	riceRELATED - 米饭 mǐfàn White Rice - 过桥米线 guòqiáomǐxiàn Over Bridge Rice Noodles
+粉	fěn	pinkRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+粥	zhōu	CongeeRELATED - 粥 zhōu Congee
+粽	zòng	ZongRELATED - 粽子 zòngzǐ Zongzi
+糊	hú	pasteRELATED - 芝麻糊 zhīmáhú Black sesame soup
+糖	táng	sugarRELATED - 糖水 tángshǔi Tong sui - 糖醋里脊 tángcùlǐjí Fried Sweet and Sour Pork
+糟	zāo	BadRELATED - 糟鸡 zāojī Cold Chicken Cooked in Wine
+素	sù	whiteRELATED - 干锅素肉 gānguōsùròu Dried Pot Tofu
+红	hóng	redRELATED - 红烧 hóngshāo Red cooking - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish - 红豆沙 hóngdòushā Red bean soup
+线	xiàn	WireRELATED - 过桥米线 guòqiáomǐxiàn Over Bridge Rice Noodles
+罗	luō	LuoRELATED - 罗汉斋 luōhànzhāi Buddha's delight
+羹	gēng	soupRELATED - 海皇羹 hǎihuánggēng Cantonese seafood soup
+翅	chì	wingRELATED - 鱼翅汤 yúchìtāng Shark fin soup
+老	lǎo	oldRELATED - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck
+耳	ěr	earRELATED - 银耳汤 yíněrtāng Snow fungus soup
+肉	ròu	meatRELATED - 东坡肉 dōngpōròu Dongpo Braised Pork - 咕咾肉 gūlǎoròu sweet and meetha - 回锅肉 húiguōròu Twice cooked pork - 干菜焖肉 gāncàimènròu Braised Sliced Pork with Preserved Vegetables - 干锅素肉 gānguōsùròu Dried Pot Tofu - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+肚	dù	BellyRELATED - 蟹连鱼肚 xièliányúdù Crab and Fish Stomachs
+肺	fèi	lungRELATED - 夫妻肺片 fūqīfèipiàn Fuqi Feipian
+脊	jí	ridgeRELATED - 糖醋里脊 tángcùlǐjí Fried Sweet and Sour Pork
+腐	fǔ	RottenRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls - 麻婆豆腐 mápódòufǔ Mapo tofu
+腿	tǔi	legRELATED - 火腿蚕豆 huǒtǔicándòu Sauteed Broad Beans with Ham
+膏	gāo	pasteRELATED - 龟苓膏 gūilínggāo Guilinggao
+臭	chòu	SmellyRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish
+芋	yù	potatoRELATED - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro
+芝	zhī	grassRELATED - 芝麻糊 zhīmáhú Black sesame soup
+花	huā	flowerRELATED - 花菇田鸡 huāgūtiánjī Flower Mushroom Frog
+苓	líng	LingRELATED - 龟苓膏 gūilínggāo Guilinggao
+茄	qié	eggplantRELATED - 番茄锅巴 fānqiéguōbā Sizzling Rice in Tomato Sauce
+茶	chá	TeaRELATED - 樟茶鸭 zhāngcháyā Zhangcha duck - 茶叶蛋 cháyèdàn Tea egg
+草	cǎo	GrassRELATED - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck
+荷	hé	loadRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+莲	lián	lotusRELATED - 莲蓬鱼 liánpéngyú Lotus Seed Pod Fish
+菇	gū	mushroomRELATED - 花菇田鸡 huāgūtiánjī Flower Mushroom Frog
+菜	cài	vegetableRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels - 干菜焖肉 gāncàimènròu Braised Sliced Pork with Preserved Vegetables - 酱菜 jiàngcài Pickled vegetables
+葱	cōng	onionRELATED - 葱油饼 cōngyóubǐng Cong you bing
+蒸	zhēng	SteamRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Fried Pumpkin Dumplings - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+蓬	péng	PengRELATED - 莲蓬鱼 liánpéngyú Lotus Seed Pod Fish
+薄	bó	ThinRELATED - 薄饼 bóbǐng Popiah
+虫	chóng	insectRELATED - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck
+虾	xiā	shrimpRELATED - 凤尾虾排 fèngwěixiāpái Phoenix Tail Shrimp - 油爆虾 yóubàoxiā Sauteed Shrimps - 龙井虾仁 lóngjǐngxiārén Fried Shrimps with Longjing Tea
+蚕	cán	silkwormRELATED - 火腿蚕豆 huǒtǔicándòu Sauteed Broad Beans with Ham
+蚵	hé	oysterRELATED - 蚵仔煎 hézǐjiān Oyster omelette
+蛋	dàn	EggRELATED - 卤蛋 lǔdàn Soy egg - 皮蛋 pídàn Century egg - 茶叶蛋 cháyèdàn Tea egg - 银鱼煎蛋 yínyújiāndàn Silver Fish Fried Egg
+蟹	xiè	crabRELATED - 蟹连鱼肚 xièliányúdù Crab and Fish Stomachs
+西	xī	WestRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels - 西湖醋鱼 xīhúcùyú West Lake Fish in Vinegar Sauce
+豆	dòu	beansRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu - 土豆炸饺 tǔdòuzhàjiǎo Potato Croquet - 火腿蚕豆 huǒtǔicándòu Sauteed Broad Beans with Ham - 红豆沙 hóngdòushā Red bean soup - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls - 麻婆豆腐 mápódòufǔ Mapo tofu
+贴	tiē	stickRELATED - 锅贴 guōtiē Guotie
+跳	tiào	JumpRELATED - 佛跳墙 fótiàoqiáng Buddha jumps over the wall
+辣	là	hotRELATED - 酸辣汤 suānlàtāng Hot and sour soup - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken
+过	guò	PassRELATED - 过桥米线 guòqiáomǐxiàn Over Bridge Rice Noodles
+连	lián	evenRELATED - 蟹连鱼肚 xièliányúdù Crab and Fish Stomachs
+酥	sū	crispyRELATED - 明珠酥鲍 míngzhūsūbào Bright Pearl Abalone - 海棠酥 hǎitángsū Crab-apple Flower Cake
+酱	jiàng	SauceRELATED - 杭州酱鸭 hángzhōujiàngyā Hangzhou-Style Duck Pickled in Soy Sauce - 炸酱面 zhàjiàngmiàn Zhajiangmian - 酱菜 jiàngcài Pickled vegetables
+酸	suān	acidRELATED - 酸辣汤 suānlàtāng Hot and sour soup
+醋	cù	vinegarRELATED - 糖醋里脊 tángcùlǐjí Fried Sweet and Sour Pork - 西湖醋鱼 xīhúcùyú West Lake Fish in Vinegar Sauce
+里	lǐ	insideRELATED - 糖醋里脊 tángcùlǐjí Fried Sweet and Sour Pork
+重	zhòng	HeavyRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken
+铃	líng	bellRELATED - 干炸响铃 gānzhàxiǎnglíng Fried Stuffed Bean Curd Paste
+银	yín	silverRELATED - 银耳汤 yíněrtāng Snow fungus soup - 银鱼煎蛋 yínyújiāndàn Silver Fish Fried Egg
+锅	guō	potRELATED - 四川火锅 sìchuānhuǒguō Sichuan hotpot - 回锅肉 húiguōròu Twice cooked pork - 干锅素肉 gānguōsùròu Dried Pot Tofu - 火锅 huǒguō Hot pot - 番茄锅巴 fānqiéguōbā Sizzling Rice in Tomato Sauce - 锅贴 guōtiē Guotie
+长	cháng	longRELATED - 长寿包 chángshòubāo Longevity buns
+陈	chén	ListRELATED - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro
+雀	què	sparrowRELATED - 海鲜雀巢 hǎixiānquècháo Seafood with bird's nest
+集	jí	setRELATED - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken
+面	miàn	noodleRELATED - 云吞面 yúntūnmiàn Wonton noodles - 担担面 dàndànmiàn Dandan noodles - 拉面 lāmiàn Lamian - 汤面 tāngmiàn Noodle soup - 炒面 chǎomiàn Chow mein - 炸酱面 zhàjiàngmiàn Zhajiangmian - 面条 miàntiáo Chinese noodles
+頭	tóu	headRELATED - 鴨頭 yātóu Duck's head
+飩	tún	tonRELATED - 餛飩 húntún Wonton
+餛	hún	DumplingsRELATED - 餛飩 húntún Wonton
+饭	fàn	mealRELATED - 扬州炒饭 yángzhōuchǎofàn Yeung Chow fried rice - 海南鸡饭 hǎinánjīfàn Hainanese chicken rice - 炒饭 chǎofàn Fried Rice - 煲仔饭 bāozǐfàn Little pan rice - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style - 米饭 mǐfàn White Rice
+饺	jiǎo	dumplingRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Fried Pumpkin Dumplings - 土豆炸饺 tǔdòuzhàjiǎo Potato Croquet - 饺子 jiǎozǐ Jiaozi
+饼	bǐng	cakeRELATED - 月饼 yuèbǐng Mooncake - 烧饼 shāobǐng Shaobing - 葱油饼 cōngyóubǐng Cong you bing - 薄饼 bóbǐng Popiah - 馅饼 xiànbǐng Xianbing
+馅	xiàn	fillingRELATED - 馅饼 xiànbǐng Xianbing
+馒	mán	steamed breadRELATED - 馒头 mántóu Mantou
+香	xiāng	fragrantRELATED - 稻香排骨 dàoxiāngpáigǔ Hay Wrapped Fragrant Ribs
+骨	gǔ	BoneRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels - 生炒排骨 shēngchǎopáigǔ Sour spare ribs - 稻香排骨 dàoxiāngpáigǔ Hay Wrapped Fragrant Ribs
+鱖	gùi	SalmonRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish
+鱼	yú	fishRELATED - 五彩鱼片 wǔcǎiyúpiàn Five Colours Fish Cake - 清汤鱼圆 qīngtāngyúyuán Fish Ball in Light Soup - 焖鲍鱼 mènbàoyú Braised abalone - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish - 莲蓬鱼 liánpéngyú Lotus Seed Pod Fish - 蟹连鱼肚 xièliányúdù Crab and Fish Stomachs - 西湖醋鱼 xīhúcùyú West Lake Fish in Vinegar Sauce - 银鱼煎蛋 yínyújiāndàn Silver Fish Fried Egg - 鱼生 yúshēng Yusheng - 鱼翅汤 yúchìtāng Shark fin soup
+鲍	bào	abaloneRELATED - 明珠酥鲍 míngzhūsūbào Bright Pearl Abalone - 焖鲍鱼 mènbàoyú Braised abalone
+鲜	xiān	freshRELATED - 海鲜雀巢 hǎixiānquècháo Seafood with bird's nest
+鳝	shàn	eelRELATED - 生爆鳝片 shēngbàoshànpiàn Fried Eel Slices
+鴨	yā	duckRELATED - 鴨頭 yātóu Duck's head
+鸡	jī	chickenRELATED - 叫化鸡 jiàohuàjī Beggar's Chicken - 宫保鸡丁 gōngbǎojīdīng Kung Pao chicken - 文昌鸡 wénchāngjī Wenchang chicken - 栗子炒子鸡 lìzǐchǎozǐjī Stir-Fried Spring Chicken with Chestnuts - 海南鸡饭 hǎinánjīfàn Hainanese chicken rice - 炸子鸡 zhàzǐjī Crispy fried chicken - 白切鸡 báiqiējī White cut chicken - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken - 糟鸡 zāojī Cold Chicken Cooked in Wine - 花菇田鸡 huāgūtiánjī Flower Mushroom Frog - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken
+鸭	yā	duckRELATED - 北京烤鸭 běijīngkǎoyā Peking Duck - 卤鸭 lǔyā Red-Stewed Duck - 姜母鸭 jiāngmǔyā Ginger Duck - 杭州酱鸭 hángzhōujiàngyā Hangzhou-Style Duck Pickled in Soy Sauce - 樟茶鸭 zhāngcháyā Zhangcha duck - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro
+鸽	gē	pigeonRELATED - 乳鸽 rǔgē Roast squab - 椒盐乳鸽 jiāoyánrǔgē Fried Pigeon with Spiced Salt
+麻	má	numbRELATED - 芝麻糊 zhīmáhú Black sesame soup - 麻婆豆腐 mápódòufǔ Mapo tofu
+龙	lóng	dragonRELATED - 龙井虾仁 lóngjǐngxiārén Fried Shrimps with Longjing Tea
+龟	gūi	turtleRELATED - 龟苓膏 gūilínggāo Guilinggao
+丸子	wánzǐ	ballRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls
+乳猪	rǔzhū	suckling pigRELATED - 烧乳猪 shāorǔzhū Roast suckling pig
+乳鸽	rǔgē	Roast squabRELATED - 椒盐乳鸽 jiāoyánrǔgē Fried Pigeon with Spiced Salt
+五彩	wǔcǎi	colorfulRELATED - 五彩鱼片 wǔcǎiyúpiàn Five Colours Fish Cake
+公山	gōngshān	KongsanRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu
+凤尾	fèngwěi	Phoenix tailRELATED - 凤尾虾排 fèngwěixiāpái Phoenix Tail Shrimp
+南北	nánběi	north and southRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels
+南瓜	nánguā	pumpkinRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Fried Pumpkin Dumplings
+叫化	jiàohuà	BeggarRELATED - 叫化鸡 jiàohuàjī Beggar's Chicken
+响铃	xiǎnglíng	Ring the bellRELATED - 干炸响铃 gānzhàxiǎnglíng Fried Stuffed Bean Curd Paste
+土豆	tǔdòu	PotatoRELATED - 土豆炸饺 tǔdòuzhàjiǎo Potato Croquet
+夫妻	fūqī	coupleRELATED - 夫妻肺片 fūqīfèipiàn Fuqi Feipian
+子鸡	zǐjī	ChickenRELATED - 栗子炒子鸡 lìzǐchǎozǐjī Stir-Fried Spring Chicken with Chestnuts
+干炸	gānzhà	Dry friedRELATED - 干炸响铃 gānzhàxiǎnglíng Fried Stuffed Bean Curd Paste
+干菜	gāncài	dried vegetableRELATED - 干菜焖肉 gāncàimènròu Braised Sliced Pork with Preserved Vegetables
+扬州	yángzhōu	YangzhouRELATED - 扬州炒饭 yángzhōuchǎofàn Yeung Chow fried rice
+排骨	páigǔ	RibsRELATED - 生炒排骨 shēngchǎopáigǔ Sour spare ribs - 稻香排骨 dàoxiāngpáigǔ Hay Wrapped Fragrant Ribs
+明珠	míngzhū	PearlRELATED - 明珠酥鲍 míngzhūsūbào Bright Pearl Abalone
+春笋	chūnsǔn	spring bamboo shootsRELATED - 油焖春笋 yóumènchūnsǔn Stewed Spring Bamboo Shoots
+杭州	hángzhōu	HangzhouRELATED - 杭州酱鸭 hángzhōujiàngyā Hangzhou-Style Duck Pickled in Soy Sauce
+栗子	lìzǐ	chestnutRELATED - 栗子炒子鸡 lìzǐchǎozǐjī Stir-Fried Spring Chicken with Chestnuts
+椒盐	jiāoyán	salt and pepperRELATED - 椒盐乳鸽 jiāoyánrǔgē Fried Pigeon with Spiced Salt
+樟茶	zhāngchá	camphor teaRELATED - 樟茶鸭 zhāngcháyā Zhangcha duck
+母鸭	mǔyā	female duckRELATED - 姜母鸭 jiāngmǔyā Ginger Duck
+油焖	yóumèn	Stewed in oilRELATED - 油焖春笋 yóumènchūnsǔn Stewed Spring Bamboo Shoots
+油爆	yóubào	Oil explosionRELATED - 油爆虾 yóubàoxiā Sauteed Shrimps
+海南	hǎinán	HainanRELATED - 海南鸡饭 hǎinánjīfàn Hainanese chicken rice
+海棠	hǎitáng	BegoniaRELATED - 海棠酥 hǎitángsū Crab-apple Flower Cake
+海皇	hǎihuáng	NeptuneRELATED - 海皇羹 hǎihuánggēng Cantonese seafood soup
+海鲜	hǎixiān	seafoodRELATED - 海鲜雀巢 hǎixiānquècháo Seafood with bird's nest
+清汤	qīngtāng	brothRELATED - 清汤鱼圆 qīngtāngyúyuán Fish Ball in Light Soup
+火腿	huǒtǔi	HamRELATED - 火腿蚕豆 huǒtǔicándòu Sauteed Broad Beans with Ham
+炒饭	chǎofàn	Fried RiceRELATED - 扬州炒饭 yángzhōuchǎofàn Yeung Chow fried rice - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style
+炸饺	zhàjiǎo	Fried dumplingsRELATED - 土豆炸饺 tǔdòuzhàjiǎo Potato Croquet
+烧鸡	shāojī	roast chickenRELATED - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken
+煎蛋	jiāndàn	fried eggRELATED - 银鱼煎蛋 yínyújiāndàn Silver Fish Fried Egg
+牛河	níuhé	UshikawaRELATED - 干炒牛河 gānchǎoníuhé Beef chow fun
+玉兔	yùtù	Jade RabbitRELATED - 玉兔海参 yùtùhǎicān Jade Rabbit Sea Cucumber
+田鸡	tiánjī	frogRELATED - 花菇田鸡 huāgūtiánjī Flower Mushroom Frog
+番茄	fānqié	tomatoRELATED - 番茄锅巴 fānqiéguōbā Sizzling Rice in Tomato Sauce
+白切	báiqiē	White cutRELATED - 白切鸡 báiqiējī White cut chicken
+福建	fújiàn	FujianRELATED - 福建式炒饭 fújiànshìchǎofàn Fried rice in Fujian style
+稻香	dàoxiāng	DaoxiangRELATED - 稻香排骨 dàoxiāngpáigǔ Hay Wrapped Fragrant Ribs
+笋干	sǔngān	Dried bamboo shootsRELATED - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham
+符离	fúlí	FuliRELATED - 符离集烧鸡 fúlíjíshāojī Fuli Roast Chicken
+糖醋	tángcù	sweet and sourRELATED - 糖醋里脊 tángcùlǐjí Fried Sweet and Sour Pork
+红烧	hóngshāo	Red cookingRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish
+罗汉	luōhàn	ArhatRELATED - 罗汉斋 luōhànzhāi Buddha's delight
+老鸭	lǎoyā	old duckRELATED - 笋干老鸭煲 sǔngānlǎoyābāo Old Duck Stewed with Bamboo Root & Ham - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck
+肺片	fèipiàn	Fei slicesRELATED - 夫妻肺片 fūqīfèipiàn Fuqi Feipian
+芋头	yùtóu	TaroRELATED - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro
+花菇	huāgū	MushroomRELATED - 花菇田鸡 huāgūtiánjī Flower Mushroom Frog
+荷叶	héyè	lotus leafRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+莲蓬	liánpéng	Lotus podRELATED - 莲蓬鱼 liánpéngyú Lotus Seed Pod Fish
+蒸饺	zhēngjiǎo	Steamed dumplingsRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Fried Pumpkin Dumplings
+虫草	chóngcǎo	CordycepsRELATED - 虫草炖老鸭 chóngcǎotúnlǎoyā Caterpillar Fungus Duck
+虾仁	xiārén	ShrimpRELATED - 龙井虾仁 lóngjǐngxiārén Fried Shrimps with Longjing Tea
+虾排	xiāpái	Shrimp steakRELATED - 凤尾虾排 fèngwěixiāpái Phoenix Tail Shrimp
+蚕豆	cándòu	broad beanRELATED - 火腿蚕豆 huǒtǔicándòu Sauteed Broad Beans with Ham
+西洋	xīyáng	westernRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Spare ribs soup with watercress and apricot kernels
+西湖	xīhú	west lakeRELATED - 西湖醋鱼 xīhúcùyú West Lake Fish in Vinegar Sauce
+豆沙	dòushā	bean pasteRELATED - 红豆沙 hóngdòushā Red bean soup
+豆腐	dòufǔ	TofuRELATED - 八公山豆腐 bāgōngshāndòufǔ Bang Tofu
+酱鸭	jiàngyā	Sauce duckRELATED - 杭州酱鸭 hángzhōujiàngyā Hangzhou-Style Duck Pickled in Soy Sauce
+里脊	lǐjí	TenderloinRELATED - 糖醋里脊 tángcùlǐjí Fried Sweet and Sour Pork
+重庆	zhòngqìng	ChongqingRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken
+银鱼	yínyú	whitebaitRELATED - 银鱼煎蛋 yínyújiāndàn Silver Fish Fried Egg
+锅巴	guōbā	Crispy riceRELATED - 番茄锅巴 fānqiéguōbā Sizzling Rice in Tomato Sauce
+长寿	chángshòu	longevityRELATED - 长寿包 chángshòubāo Longevity buns
+陈皮	chénpí	tangerine peelRELATED - 陈皮芋头鸭 chénpíyùtóuyā Duck with taro
+雀巢	quècháo	NestleRELATED - 海鲜雀巢 hǎixiānquècháo Seafood with bird's nest
+鱖鱼	gùiyú	mandarin fishRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Soy Braised Mandarin Fish
+鱼圆	yúyuán	fish ballsRELATED - 清汤鱼圆 qīngtāngyúyuán Fish Ball in Light Soup
+鱼片	yúpiàn	filletRELATED - 五彩鱼片 wǔcǎiyúpiàn Five Colours Fish Cake
+鱼翅	yúchì	shark finRELATED - 鱼翅汤 yúchìtāng Shark fin soup
+鱼肚	yúdù	fish mawRELATED - 蟹连鱼肚 xièliányúdù Crab and Fish Stomachs
+鲍鱼	bàoyú	abaloneRELATED - 焖鲍鱼 mènbàoyú Braised abalone
+鸡饭	jīfàn	chicken riceRELATED - 海南鸡饭 hǎinánjīfàn Hainanese chicken rice
+龙井	lóngjǐng	LongjingRELATED - 龙井虾仁 lóngjǐngxiārén Fried Shrimps with Longjing Tea
+宫保鸡	gōngbǎojī	Kung Pao ChickenRELATED - 宫保鸡丁 gōngbǎojīdīng Kung Pao chicken
+干锅素	gānguōsù	dry pot vegetarian foodRELATED - 干锅素肉 gānguōsùròu Dried Pot Tofu
+生爆鳝	shēngbàoshàn	Exploded eelRELATED - 生爆鳝片 shēngbàoshànpiàn Fried Eel Slices
+粉蒸肉	fěnzhēngròu	Steamed PorkRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Steamed Pork with Rice Flour in Lotus Leaf
+豆腐渣	dòufǔzhā	Tofu dregsRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Fried Tofu Curd Balls
+辣子鸡	làzǐjī	Spicy ChickenRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Chongqing spicy deep-fried chicken
