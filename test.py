@@ -1,7 +1,13 @@
-from tools_configs import Radicals
+import hanzipy
 
-rads = Radicals()
+from hanzipy.decomposer import HanziDecomposer
 
-rads.load_radical_data()
+decomposer = HanziDecomposer()
 
+
+import chin_dict.chindict
+
+decomposition = decomposer.tree("桂")
+print(decomposition)
+print(decomposition["tree"])
 pass

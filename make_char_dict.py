@@ -29,7 +29,7 @@ now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 MAX_BUILD_ITEMS = 1000
 MAX_BUILD_ITEMS = 100000
 
-BUILD_DICT_DATA = False
+BUILD_DICT_DATA = True
 CONVERT_TO_PLECO = True  #
 
 CHAR_DICT_FILE = "char_dict.json"
@@ -362,7 +362,7 @@ if CONVERT_TO_PLECO:
             string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
             char_tree = char["tree"]
 
-            char_tree = regex.sub("(\d+)", replace_numbers, char_tree)
+            char_tree = regex.sub(r"(\d+)", replace_numbers, char_tree)
             char_tree = regex.sub(PATTERN_ZH, replace_chinese_in_tree, char_tree)
 
         string += f"{char_tree}"

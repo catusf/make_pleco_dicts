@@ -210,15 +210,6 @@ def replace_num_pinyin(match_obj):
 import json
 import re
 
-with open("char_dict.json", "r", encoding="utf-8") as fread:
-    char_dict = json.load(fread)
-
-import json
-import re
-
-with open("char_dict.json", "r", encoding="utf-8") as fread:
-    char_dict = json.load(fread)
-
 
 class Radicals:
     def __init__(self):
