@@ -21,11 +21,11 @@
 20	勹 	2	wrap	包字头 	bāo	bao	64		包、勺、勻、勾 
 21	匕 	2	spoon		bǐ	chủy	19		化、北、匙、比 
 22	匚 	2	box	医字框 	fāng	phương	64		匿、區、巨、匠 
-23	匸 	2	hiding enclosure		xǐ/xì	hệ	17		亡、匹、匼、匽 
+23	匸 	2	hiding enclosure		xǐ	hệ	17		亡、匹、匼、匽 
 24	十 	2	ten		shí	thập	55		千、半、卅、升 
 25	卜 	2	divination		bǔ	bốc	45		下、上、卡、占 
 26	卩	2	seal (device)	单耳刀 	jié	tiết	40		即、卬、卷、夗 
-27	厂 	2	cliff		hǎn[1]	hán	129	(pr. 廠)	厄、原、厚、厰 
+27	厂 	2	cliff		hǎn	hán	129	(pr. 廠)	厄、原、厚、厰 
 28	厶 	2	private	私字旁 	sī	tư (khư)	40		台、公、去、參、 
 29	又 	2	again		yòu	hựu	91		叉、及、友、取 
 30	口 	3	mouth		kǒu	khẩu	1,146		哎、古、只、品 

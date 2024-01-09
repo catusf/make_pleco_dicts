@@ -41,12 +41,12 @@ try:
 except:
     print(f"No file {CHAR_DICT_FILE}")
 
-wordset = set()
 
 # with open("wordlists/dic_words_set.txt", "r", encoding="utf-8") as fread:
 #     wordset.update(fread.read())
 
 wordset_freq = {}
+wordset = set()
 
 with open("wordlists/chinese_charfreq_simpl_trad.txt", "r", encoding="utf-8") as fread:
     next(fread)

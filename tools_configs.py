@@ -4,9 +4,7 @@ import regex
 import urllib.parse
 import json
 
-from sympy import radsimp
 from dragonmapper.transcriptions import numbered_to_accented
-
 
 TOP_WORDS_50k = "top_50k_words.txt"
 TOP_WORDS_24K = "top_words_24k.txt"
@@ -49,25 +47,34 @@ PC_APPEARS_MARK = "APPEARS IN"
 PATTERN_ZH = (
     r"([\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Compatibility}\p{Block=CJK_Compatibility_Forms}"
     r"\p{Block=CJK_Compatibility_Ideographs}\p{Block=CJK_Compatibility_Ideographs_Supplement}"
-    r"\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
+    r"\p{Block=Kangxi_Radicals}\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
     r"\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Unified_Ideographs_Extension_A}"
     r"\p{Block=CJK_Unified_Ideographs_Extension_B}\p{Block=CJK_Unified_Ideographs_Extension_C}"
     r"\p{Block=CJK_Unified_Ideographs_Extension_D}\p{Block=CJK_Unified_Ideographs_Extension_E}"
     r"\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}])"
 )
 
-PATTERN_ZH_NUM = (
+PATTERN_ZH_MUL = (
     r"([\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Compatibility}\p{Block=CJK_Compatibility_Forms}"
     r"\p{Block=CJK_Compatibility_Ideographs}\p{Block=CJK_Compatibility_Ideographs_Supplement}"
-    r"\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
+    r"\p{Block=Kangxi_Radicals}\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}"
     r"\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Unified_Ideographs_Extension_A}"
     r"\p{Block=CJK_Unified_Ideographs_Extension_B}\p{Block=CJK_Unified_Ideographs_Extension_C}"
     r"\p{Block=CJK_Unified_Ideographs_Extension_D}\p{Block=CJK_Unified_Ideographs_Extension_E}"
-    r"\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}])"
-    + " (\(\d+\))"
+    r"\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}]+)"
 )
 
-# PATTERN_ZH_NUM = f"({PATTERN_ZH})"
+
+def find_freq(word):
+    return wordset_freq[word] if word in wordset_freq else BIGNUM
+
+
+def sort_by_freq(list_chars):
+    items = sorted(
+        [(word, find_freq(word)) for word in list_chars], key=lambda x: (x[1], x[0])
+    )
+
+    return [word for word, order in items]
 
 
 def headword_to_url(word):
