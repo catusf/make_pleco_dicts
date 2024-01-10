@@ -225,6 +225,13 @@ if BUILD_DICT_DATA:
             "tree": lookup.tree,
         }
 
+        # results = cd.lookup_char(char)
+        # radical = results.radical.character
+        # if radical not in lookup.components:
+        #     print(f'{char} added {results.radical}')
+        #     lookup.components.append(radical)
+            
+        pass
         if lookup.components:
             for comp_char in lookup.components:
                 if is_in_char_dict(comp_char):  # fmt: skip
