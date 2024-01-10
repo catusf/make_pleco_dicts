@@ -457,7 +457,7 @@ class Radicals:
                 for variant, var_codepoint in variants:
                     self.radical_set[symbol]["variants"].append(variant)
 
-            self.save_radical_data()
+            # self.save_radical_data()
 
             self.load_radical_data()
 

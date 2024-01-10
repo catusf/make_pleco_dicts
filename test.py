@@ -83,14 +83,17 @@ unique = sorted(list(radical_database.variants()))
 
 # print(list(next((idx, x, y) for idx, (x, y) in enumerate(zip(all, unique)) if x != y)))
 
-print(f"{list_duplicates(all)}")
+print(f"{list_duplicates(all)=}")
 
 print(f"{count=}")
 
 mine = set(radical_database.variants())
 theirs = set(decomposer.radicals)
+print(f"{len(theirs)=}")
+print(f"{len(mine)=}")
 
 print(f"{theirs-mine=}")
+print(f"{mine-theirs=}")
 
 # import json
 

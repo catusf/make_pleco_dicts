@@ -83,7 +83,8 @@
             "notes": " general stroke, sometimes means falling"
         },
         "variants": [
-            "丿"
+            "丿",
+            "乀"
         ]
     },
     "⼄": {
@@ -190,8 +191,7 @@
                 "入,八"
             ],
             "variants": [
-                "亻",
-                "入"
+                "亻"
             ],
             "rank": "75.3%",
             "mnemonic": " This is a simple stick figure, or a pair of legs",
@@ -207,7 +207,7 @@
         "meaning": "son, legs",
         "number": 10,
         "pinyin": "ér",
-        "name": "",
+        "name": "儿座底",
         "strokes": 2,
         "frequency": "52",
         "examples": "兒、兀、允、元",
@@ -234,9 +234,7 @@
             "distinguish": [
                 "八,人"
             ],
-            "variants": [
-                "人"
-            ],
+            "variants": [],
             "rank": "44.4%",
             "mnemonic": " The open door of a tent",
             "notes": " modern dictionaries group 人 and 入 together"
@@ -249,7 +247,7 @@
         "meaning": "eight",
         "number": 12,
         "pinyin": "bā",
-        "name": "",
+        "name": "八字旁",
         "strokes": 2,
         "frequency": "44",
         "examples": "公、六、兮、穴",
@@ -265,6 +263,7 @@
             "notes": " Used in some characters with two downward strokes"
         },
         "variants": [
+            "丷",
             "八"
         ]
     },
@@ -398,6 +397,7 @@
             "⺈",
             "⺉",
             "刀",
+            "刁",
             "刂",
             "𠂊"
         ]
@@ -406,7 +406,7 @@
         "meaning": "power",
         "number": 19,
         "pinyin": "lì",
-        "name": "",
+        "name": "力字旁",
         "strokes": 2,
         "frequency": "163",
         "examples": "加、功、劣、男",
@@ -448,7 +448,7 @@
         "meaning": "spoon",
         "number": 21,
         "pinyin": "bǐ",
-        "name": "",
+        "name": "匕字旁",
         "strokes": 2,
         "frequency": "19",
         "examples": "化、北、匙、比",
@@ -509,7 +509,7 @@
         "meaning": "ten",
         "number": 24,
         "pinyin": "shí",
-        "name": "",
+        "name": "十字旁",
         "strokes": 2,
         "frequency": "55",
         "examples": "千、半、卅、升",
@@ -573,7 +573,7 @@
         "meaning": "cliff",
         "number": 27,
         "pinyin": "hǎn",
-        "name": "",
+        "name": "厂字旁",
         "strokes": 2,
         "frequency": "129",
         "examples": "厄、原、厚、厰",
@@ -615,7 +615,7 @@
         "meaning": "again",
         "number": 29,
         "pinyin": "yòu",
-        "name": "",
+        "name": "又字旁",
         "strokes": 2,
         "frequency": "91",
         "examples": "叉、及、友、取",
@@ -636,7 +636,7 @@
         "meaning": "mouth",
         "number": 30,
         "pinyin": "kǒu",
-        "name": "",
+        "name": "口字旁",
         "strokes": 3,
         "frequency": "1,146",
         "examples": "哎、古、只、品",
@@ -701,7 +701,7 @@
         "meaning": "scholar",
         "number": 33,
         "pinyin": "shì",
-        "name": "",
+        "name": "士字旁",
         "strokes": 3,
         "frequency": "24",
         "examples": "壬、喜、時、壽",
@@ -724,7 +724,7 @@
         "meaning": "go",
         "number": 34,
         "pinyin": "zhǐ",
-        "name": "",
+        "name": "折文旁",
         "strokes": 3,
         "frequency": "11",
         "examples": "各、冬、夆、愛",
@@ -766,7 +766,7 @@
         "meaning": "evening",
         "number": 36,
         "pinyin": "xī",
-        "name": "",
+        "name": "夕字旁",
         "strokes": 3,
         "frequency": "34",
         "examples": "外、夗、多、岁",
@@ -787,7 +787,7 @@
         "meaning": "big",
         "number": 37,
         "pinyin": "dà",
-        "name": "",
+        "name": "大字旁",
         "strokes": 3,
         "frequency": "132",
         "examples": "太、天、夭、夯",
@@ -806,7 +806,7 @@
         "meaning": "woman",
         "number": 38,
         "pinyin": "nǚ",
-        "name": "",
+        "name": "女字旁",
         "strokes": 3,
         "frequency": "681",
         "examples": "妳、婆、奶、如",
@@ -868,7 +868,7 @@
         "meaning": "inch",
         "number": 41,
         "pinyin": "cùn",
-        "name": "",
+        "name": "寸字旁",
         "strokes": 3,
         "frequency": "40",
         "examples": "村、寺、封、射",
@@ -926,7 +926,6 @@
             "notes": ""
         },
         "variants": [
-            "5C22",
             "⺎",
             "⺏",
             "⺐",
@@ -942,7 +941,7 @@
         "meaning": "corpse",
         "number": 44,
         "pinyin": "shī",
-        "name": "",
+        "name": "尸字头",
         "strokes": 3,
         "frequency": "148",
         "examples": "屍、尺、尼、尻",
@@ -982,7 +981,7 @@
         "meaning": "mountain",
         "number": 46,
         "pinyin": "shān",
-        "name": "",
+        "name": "山字旁",
         "strokes": 3,
         "frequency": "636",
         "examples": "嵗、密、峰、幽",
@@ -1016,14 +1015,16 @@
             "notes": ""
         },
         "variants": [
-            "巛"
+            "巛",
+            "巜",
+            "川"
         ]
     },
     "⼯": {
         "meaning": "work",
         "number": 48,
         "pinyin": "gōng",
-        "name": "",
+        "name": "工字旁",
         "strokes": 3,
         "frequency": "17",
         "examples": "左、巧、功、式",
@@ -1059,6 +1060,7 @@
         "variants": [
             "⺒",
             "己",
+            "已",
             "巳"
         ]
     },
@@ -1085,7 +1087,7 @@
         "meaning": "dry",
         "number": 51,
         "pinyin": "gān",
-        "name": "",
+        "name": "干字旁",
         "strokes": 3,
         "frequency": "9",
         "examples": "旱、开、平、年",
@@ -1122,6 +1124,7 @@
         },
         "variants": [
             "⺓",
+            "乡",
             "幺"
         ]
     },
@@ -1183,7 +1186,8 @@
             "notes": ""
         },
         "variants": [
-            "廾"
+            "廾",
+            "廿"
         ]
     },
     "⼷": {
@@ -1245,8 +1249,7 @@
             "⺔",
             "⺕",
             "彐",
-            "彑",
-            "𫜹"
+            "彑"
         ]
     },
     "⼺": {
@@ -1322,7 +1325,7 @@
         "meaning": "halberd",
         "number": 62,
         "pinyin": "gē",
-        "name": "",
+        "name": "戈字旁",
         "strokes": 4,
         "frequency": "116",
         "examples": "戊、戉、戌",
@@ -1343,13 +1346,15 @@
         "meaning": "door",
         "number": 63,
         "pinyin": "hù",
-        "name": "",
+        "name": "户字旁",
         "strokes": 4,
         "frequency": "44",
         "examples": "戹、戼、戽",
         "useful": {},
         "variants": [
-            "戶"
+            "戶",
+            "户",
+            "戸"
         ]
     },
     "⼿": {
@@ -1375,7 +1380,9 @@
         "variants": [
             "⺘",
             "手",
-            "扌"
+            "扌",
+            "才",
+            "龵"
         ]
     },
     "⽀": {
@@ -1401,7 +1408,7 @@
         "meaning": "rap, tap",
         "number": 66,
         "pinyin": "pū",
-        "name": "",
+        "name": "反文旁，旧反文旁",
         "strokes": 4,
         "frequency": "296",
         "examples": "收、攷、攸",
@@ -1467,7 +1474,7 @@
         "meaning": "axe",
         "number": 69,
         "pinyin": "jīn",
-        "name": "",
+        "name": "斤字旁",
         "strokes": 4,
         "frequency": "55",
         "examples": "斥、斧、斨",
@@ -1486,7 +1493,7 @@
         "meaning": "square",
         "number": 70,
         "pinyin": "fāng",
-        "name": "",
+        "name": "方字旁",
         "strokes": 4,
         "frequency": "92",
         "examples": "㫃、於、㫄",
@@ -1528,7 +1535,7 @@
         "meaning": "sun",
         "number": 72,
         "pinyin": "rì",
-        "name": "",
+        "name": "日字旁",
         "strokes": 4,
         "frequency": "453",
         "examples": "旦、旨、早",
@@ -1578,7 +1585,7 @@
         "meaning": "moon",
         "number": 74,
         "pinyin": "yuè",
-        "name": "",
+        "name": "月字旁",
         "strokes": 4,
         "frequency": "69",
         "examples": "有、朋、服",
@@ -1618,7 +1625,8 @@
             "notes": " Another very common radical, a large portion of the characters using this radical are items manufactured from wood. Also used for trees and fruits"
         },
         "variants": [
-            "木"
+            "木",
+            "朩"
         ]
     },
     "⽋": {
@@ -1644,7 +1652,7 @@
         "meaning": "stop",
         "number": 77,
         "pinyin": "zhǐ",
-        "name": "",
+        "name": "止字旁",
         "strokes": 4,
         "frequency": "99",
         "examples": "正、此、步",
@@ -1686,7 +1694,7 @@
         "meaning": "weapon",
         "number": 79,
         "pinyin": "shū",
-        "name": "",
+        "name": "殳字旁",
         "strokes": 4,
         "frequency": "93",
         "examples": "段、殷、殺",
@@ -1722,6 +1730,7 @@
         "variants": [
             "⺟",
             "毋",
+            "毌",
             "母"
         ]
     },
@@ -2000,6 +2009,7 @@
         "variants": [
             "⺧",
             "牛",
+            "牜",
             "𠂒"
         ]
     },
@@ -2053,7 +2063,7 @@
         "meaning": "jade",
         "number": 96,
         "pinyin": "yù",
-        "name": "",
+        "name": "王字旁",
         "strokes": 5,
         "frequency": "473",
         "examples": "玻、瑪、璧",
@@ -2069,6 +2079,7 @@
         "variants": [
             "⺩",
             "玉",
+            "玊",
             "王",
             "𤣩"
         ]
@@ -2167,14 +2178,15 @@
             "notes": ""
         },
         "variants": [
-            "用"
+            "用",
+            "甩"
         ]
     },
     "⽥": {
         "meaning": "field",
         "number": 102,
         "pinyin": "tián",
-        "name": "",
+        "name": "田字旁",
         "strokes": 5,
         "frequency": "192",
         "examples": "由、甲、申",
@@ -2191,7 +2203,11 @@
             "notes": ""
         },
         "variants": [
-            "田"
+            "田",
+            "由",
+            "甲",
+            "申",
+            "电"
         ]
     },
     "⽦": {
@@ -2259,7 +2275,7 @@
         "meaning": "white",
         "number": 106,
         "pinyin": "bái",
-        "name": "",
+        "name": "白字旁",
         "strokes": 5,
         "frequency": "109",
         "examples": "百、皀、皁",
@@ -2283,7 +2299,7 @@
         "meaning": "skin",
         "number": 107,
         "pinyin": "pí",
-        "name": "",
+        "name": "皮字旁",
         "strokes": 5,
         "frequency": "94",
         "examples": "皯、皰、皴",
@@ -2302,7 +2318,7 @@
         "meaning": "dish",
         "number": 108,
         "pinyin": "mǐn",
-        "name": "",
+        "name": "皿字底",
         "strokes": 5,
         "frequency": "129",
         "examples": "盂、盃、盅",
@@ -2337,7 +2353,6 @@
             "notes": " Used in characters which relate to seeing (or not seeing)"
         },
         "variants": [
-            "⺫",
             "目"
         ]
     },
@@ -2383,7 +2398,7 @@
         "meaning": "stone",
         "number": 112,
         "pinyin": "shí",
-        "name": "",
+        "name": "石字旁",
         "strokes": 5,
         "frequency": "499",
         "examples": "矸、矻、矼",
@@ -2470,15 +2485,13 @@
         "meaning": "cave",
         "number": 116,
         "pinyin": "xué",
-        "name": "",
+        "name": "穴宝盖",
         "strokes": 5,
         "frequency": "298",
         "examples": "究、穸、空",
         "useful": {
             "distinguish": [],
-            "variants": [
-                " "
-            ],
+            "variants": [],
             "rank": "82.2%",
             "mnemonic": " a house 宀 with an entrance 入",
             "notes": " This radical is used for cave-like things and investigation"
@@ -2491,7 +2504,7 @@
         "meaning": "stand",
         "number": 117,
         "pinyin": "lì",
-        "name": "",
+        "name": "立字旁",
         "strokes": 5,
         "frequency": "101",
         "examples": "竑、竒、竘",
@@ -2600,7 +2613,7 @@
         "meaning": "net",
         "number": 122,
         "pinyin": "wǎng",
-        "name": "",
+        "name": "四字头",
         "strokes": 6,
         "frequency": "163",
         "examples": "罔、罕、罘",
@@ -2633,7 +2646,7 @@
         "meaning": "sheep",
         "number": 123,
         "pinyin": "yáng",
-        "name": "",
+        "name": "羊字旁",
         "strokes": 6,
         "frequency": "156",
         "examples": "羋、羌、美",
@@ -2662,7 +2675,7 @@
         "meaning": "feather",
         "number": 124,
         "pinyin": "yǔ",
-        "name": "",
+        "name": "羽字旁",
         "strokes": 6,
         "frequency": "220",
         "examples": "羿、翀、翁",
@@ -2676,7 +2689,8 @@
             "notes": " Birdlike attributes, and more specifically attributes of a bird's plumage are represented by this radical."
         },
         "variants": [
-            "羽"
+            "羽",
+            "羽"
         ]
     },
     "⽼": {
@@ -2744,7 +2758,7 @@
         "meaning": "ear",
         "number": 128,
         "pinyin": "ěr",
-        "name": "",
+        "name": "耳字旁",
         "strokes": 6,
         "frequency": "172",
         "examples": "耴、耵、耷",
@@ -2795,8 +2809,7 @@
         "useful": {
             "distinguish": [],
             "variants": [
-                "⺼",
-                "⺝"
+                "⺼"
             ],
             "rank": "20.1%",
             "mnemonic": " ribs of an animal",
@@ -2893,7 +2906,7 @@
         "meaning": "tongue",
         "number": 135,
         "pinyin": "shé",
-        "name": "",
+        "name": "舌字旁",
         "strokes": 6,
         "frequency": "31",
         "examples": "舍、舐、舑",
@@ -2931,7 +2944,7 @@
         "meaning": "boat",
         "number": 137,
         "pinyin": "zhōu",
-        "name": "",
+        "name": "舟字旁",
         "strokes": 6,
         "frequency": "197",
         "examples": "舠、舡、舢",
@@ -2950,7 +2963,7 @@
         "meaning": "stopping",
         "number": 138,
         "pinyin": "gèn",
-        "name": "",
+        "name": "艮字旁",
         "strokes": 6,
         "frequency": "5",
         "examples": "良、艱",
@@ -3038,7 +3051,7 @@
         "meaning": "insect",
         "number": 142,
         "pinyin": "chóng",
-        "name": "",
+        "name": "虫字旁",
         "strokes": 6,
         "frequency": "1,067",
         "examples": "虬、虯、虱",
@@ -3146,7 +3159,7 @@
         "meaning": "see",
         "number": 147,
         "pinyin": "jiàn",
-        "name": "",
+        "name": "见字旁",
         "strokes": 7,
         "frequency": "161",
         "examples": "規、覓、視",
@@ -3199,6 +3212,7 @@
         "variants": [
             "⻈",
             "言",
+            "訁",
             "讠"
         ]
     },
@@ -3288,7 +3302,7 @@
         "meaning": "shell",
         "number": 154,
         "pinyin": "bèi",
-        "name": "",
+        "name": "贝字旁",
         "strokes": 7,
         "frequency": "277",
         "examples": "貞、負、財",
@@ -3322,7 +3336,7 @@
         "meaning": "run",
         "number": 156,
         "pinyin": "zǒu",
-        "name": "",
+        "name": "走字旁",
         "strokes": 7,
         "frequency": "285",
         "examples": "赳、赴、赶",
@@ -3334,7 +3348,8 @@
             "notes": " Many characters relating to human motion through walking, running use this radical"
         },
         "variants": [
-            "走"
+            "走",
+            "赱"
         ]
     },
     "⾜": {
@@ -3398,7 +3413,7 @@
         "meaning": "bitter",
         "number": 160,
         "pinyin": "xīn",
-        "name": "",
+        "name": "辛字旁",
         "strokes": 7,
         "frequency": "36",
         "examples": "辜、辝、辟",
@@ -3475,7 +3490,6 @@
             ],
             "variants": [
                 "⻏",
-                "/",
                 "阝"
             ],
             "rank": "5.2%",
@@ -3491,7 +3505,7 @@
         "meaning": "wine",
         "number": 164,
         "pinyin": "yǒu",
-        "name": "",
+        "name": "酉字旁",
         "strokes": 7,
         "frequency": "290",
         "examples": "酊、酋、酌",
@@ -3535,7 +3549,7 @@
         "meaning": "village",
         "number": 166,
         "pinyin": "lǐ",
-        "name": "",
+        "name": "里字旁",
         "strokes": 7,
         "frequency": "14",
         "examples": "重、野、量",
@@ -3570,6 +3584,7 @@
         "variants": [
             "⻐",
             "金",
+            "釒",
             "钅"
         ]
     },
@@ -3610,7 +3625,7 @@
         "meaning": "mound",
         "number": 170,
         "pinyin": "fù",
-        "name": "",
+        "name": "双耳刀，左耳刀",
         "strokes": 8,
         "frequency": "348",
         "examples": "阞、阡、阢",
@@ -3654,7 +3669,7 @@
         "meaning": "short-tailed bird",
         "number": 172,
         "pinyin": "zhuī",
-        "name": "",
+        "name": "隹字旁",
         "strokes": 8,
         "frequency": "233",
         "examples": "隻、隼、隽",
@@ -3673,7 +3688,7 @@
         "meaning": "rain",
         "number": 173,
         "pinyin": "yǔ",
-        "name": "",
+        "name": "雨字头",
         "strokes": 8,
         "frequency": "298",
         "examples": "雩、雪、雯",
@@ -3695,7 +3710,7 @@
         "meaning": "blue",
         "number": 174,
         "pinyin": "qīng",
-        "name": "",
+        "name": "青字旁",
         "strokes": 8,
         "frequency": "17",
         "examples": "靖、静、靚",
@@ -3751,7 +3766,8 @@
             "notes": ""
         },
         "variants": [
-            "面"
+            "面",
+            "靣"
         ]
     },
     "⾰": {
@@ -3832,7 +3848,7 @@
         "meaning": "leaf",
         "number": 181,
         "pinyin": "yè",
-        "name": "",
+        "name": "页字旁",
         "strokes": 9,
         "frequency": "372",
         "examples": "頂、頃、頄",
@@ -3943,7 +3959,7 @@
         "meaning": "horse",
         "number": 187,
         "pinyin": "mǎ",
-        "name": "",
+        "name": "马字旁",
         "strokes": 10,
         "frequency": "472",
         "examples": "馭、馮、馯",
@@ -3990,7 +4006,8 @@
             "notes": ""
         },
         "variants": [
-            "高"
+            "高",
+            "髙"
         ]
     },
     "⾽": {
@@ -4102,7 +4119,7 @@
         "meaning": "bird",
         "number": 196,
         "pinyin": "niǎo",
-        "name": "",
+        "name": "鸟字旁",
         "strokes": 11,
         "frequency": "750",
         "examples": "鳦、鳧、鳩",
@@ -4239,7 +4256,8 @@
             "notes": " Primary form.  Opposite of 白, blackness can often add dark connotations to many characters"
         },
         "variants": [
-            "黑"
+            "黑",
+            "黒"
         ]
     },
     "⿋": {
@@ -4332,7 +4350,8 @@
             "notes": ""
         },
         "variants": [
-            "鼠"
+            "鼠",
+            "鼡"
         ]
     },
     "⿐": {
