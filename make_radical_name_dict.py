@@ -96,10 +96,11 @@ for rad in radicals:
     pinyin = data["pinyin"]
     items = data["examples"].split("、")
     examples = PC_MIDDLE_DOT.join([pleco_make_blue(item) for item in items])
-    name = data["name"]
-    name_pinyin = get_pinyin(name)
-    if name_pinyin in FIX_SPECIAL_PINYIN:
-        name_pinyin = FIX_SPECIAL_PINYIN[name_pinyin]
+    names = data["name"].split(',')
+
+    name_pinyins = [FIX_SPECIAL_PINYIN[name] if name in FIX_SPECIAL_PINYIN else name for name in [get_pinyin(name) for name in names]]
+    # if name_pinyin in FIX_SPECIAL_PINYIN:
+    #     name_pinyin = FIX_SPECIAL_PINYIN[name_pinyin]
 
     number = data["number"]
     notes = data["useful"]["notes"] if data["useful"] else ""
@@ -121,17 +122,21 @@ for rad in radicals:
 
     number_str = f"Kangxi radical number {number}"
     variants_str = f"\n{pleco_make_dark_gray('VARIANTS')} {PC_MIDDLE_DOT.join([pleco_make_blue(item) for item in variants])}" if variants else ""
-    name_str = f"\n{pleco_make_dark_gray('NAME')} {pleco_make_blue(name)} {name_pinyin}" if name else ""
     meaning_str = f"\n{pleco_make_dark_gray('MEANING')} {pleco_make_bold(meaning)}"
     mnemonic_str = f"\n{pleco_make_dark_gray('MNEMONIC')} {pleco_make_italic(mnemonic)}" if mnemonic else ""
     notes_str = f"\n{pleco_make_dark_gray('NOTES')} {pleco_make_italic(notes)}" if notes else ""
     distinguish_str = f"\n{pleco_make_dark_gray('DISTINGHUISH FROM')} {distinguish}" if distinguish else ""
     rank_str = f"\n{pleco_make_dark_gray('RANK')} {rank}" if rank else ""
 
-    if name:
-        string_has_name += f"{pleco_make_link(rad)} {name_pinyin} {pleco_make_blue(name)} {pleco_make_bold(meaning)}\n"
+    name_str = ''
+    if names:
+        items = [pleco_make_blue(name) + ' ' + name_pinyins[num] for num, name in enumerate(names)]
+        name_str = f"\n{pleco_make_dark_gray('NAME')} {PC_MIDDLE_DOT.join(items)}"
+
+    for num, name in enumerate(names):
+        string_has_name += f"{pleco_make_link(rad)} {name_pinyins[num]} {pleco_make_blue(name)} {pleco_make_bold(meaning)}\n"
     
-        string_name_head = f"{name}\t{name_pinyin}\tName of radical {pleco_make_link(rad)}{meaning_str}{examples_str}{back_home}"
+        string_name_head = f"{name}\t{name_pinyins[num]}\tName of radical number {number} {pleco_make_link(rad)}{meaning_str}{examples_str}{back_home}"
         string_name_head = string_name_head.replace("\n", PC_NEW_LINE)
         fwrite.write(f"{string_name_head}\n")
 

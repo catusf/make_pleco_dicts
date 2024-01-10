@@ -150,7 +150,7 @@ def remove_traditional_text(text):
 
 
 def remove_see_more_examples(text):
-    return regex.sub("Xem thêm \d+ ví dụ nữa", "", text)
+    return regex.sub(r"Xem thêm \d+ ví dụ nữa", "", text)
 
 
 def pleco_make_bold(text):
@@ -313,7 +313,7 @@ class Radicals:
                     radical_strok_items = line.strip().split("\t")
                     codepoint, symbol, name, rad_number = radical_strok_items[:4]
                     symbol = symbol.strip()
-                    number = int(regex.search("(\d+)", rad_number).group(1))
+                    number = int(regex.search(r"(\d+)", rad_number).group(1))
 
                     if len(radical_strok_items) > 4:
                         app_ex, app_code, app_sym = radical_strok_items[4].split(" ")
@@ -343,7 +343,7 @@ class Radicals:
                     symbol = symbol.strip()
                     number = (
                         int(match.group(1))
-                        if (match := regex.search("Kangxi Radical (\d+)", rad_number))
+                        if (match := regex.search(r"Kangxi Radical (\d+)", rad_number))
                         else None
                     )
 
