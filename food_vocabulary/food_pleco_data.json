@@ -1,0 +1,3254 @@
+{
+    "面条": {
+        "pinyin": "miàntiáo",
+        "chinese": [],
+        "english": "Chinese noodles",
+        "vietnamese": "Bún"
+    },
+    "面": {
+        "pinyin": "miàn",
+        "chinese": [
+            "面条",
+            "炒面",
+            "汤面",
+            "炸酱面",
+            "拉面",
+            "炸酱面",
+            "云吞面",
+            "担担面"
+        ],
+        "english": "noodle",
+        "vietnamese": "bún"
+    },
+    "条": {
+        "pinyin": "tiáo",
+        "chinese": [
+            "面条",
+            "油条",
+            "油条",
+            "油条"
+        ],
+        "english": "strip",
+        "vietnamese": "dải"
+    },
+    "炒面": {
+        "pinyin": "chǎomiàn",
+        "chinese": [],
+        "english": "Chow mein",
+        "vietnamese": "Mi xào"
+    },
+    "炒": {
+        "pinyin": "chǎo",
+        "chinese": [
+            "炒面",
+            "炒饭",
+            "干炒牛河",
+            "生炒排骨",
+            "扬州炒饭",
+            "福建式炒饭",
+            "栗子炒子鸡"
+        ],
+        "english": "saute",
+        "vietnamese": "áp chảo"
+    },
+    "汤面": {
+        "pinyin": "tāngmiàn",
+        "chinese": [],
+        "english": "Noodle soup",
+        "vietnamese": "hủ tiếu"
+    },
+    "汤": {
+        "pinyin": "tāng",
+        "chinese": [
+            "汤面",
+            "酸辣汤",
+            "鱼翅汤",
+            "银耳汤",
+            "南北杏西洋菜猪骨汤",
+            "冬瓜汤",
+            "清汤鱼圆"
+        ],
+        "english": "Soup",
+        "vietnamese": "Canh"
+    },
+    "炸酱面": {
+        "pinyin": "zhàjiàngmiàn",
+        "chinese": [],
+        "english": "Zhajiangmian",
+        "vietnamese": "Mi xào"
+    },
+    "炸": {
+        "pinyin": "zhà",
+        "chinese": [
+            "炸酱面",
+            "土豆炸饺",
+            "炸酱面",
+            "炸子鸡",
+            "炸两",
+            "干炸响铃"
+        ],
+        "english": "fry",
+        "vietnamese": "chiên rán"
+    },
+    "酱": {
+        "pinyin": "jiàng",
+        "chinese": [
+            "炸酱面",
+            "酱菜",
+            "炸酱面",
+            "杭州酱鸭"
+        ],
+        "english": "Sauce",
+        "vietnamese": "Nước xốt"
+    },
+    "拉面": {
+        "pinyin": "lāmiàn",
+        "chinese": [],
+        "english": "Lamian",
+        "vietnamese": "Mì kéo tay"
+    },
+    "拉": {
+        "pinyin": "lā",
+        "chinese": [
+            "拉面"
+        ],
+        "english": "pull",
+        "vietnamese": "sự lôi kéo"
+    },
+    "米饭": {
+        "pinyin": "mǐfàn",
+        "chinese": [],
+        "english": "White Rice",
+        "vietnamese": "cơm"
+    },
+    "米": {
+        "pinyin": "mǐ",
+        "chinese": [
+            "米饭",
+            "过桥米线"
+        ],
+        "english": "rice",
+        "vietnamese": "cơm"
+    },
+    "饭": {
+        "pinyin": "fàn",
+        "chinese": [
+            "米饭",
+            "炒饭",
+            "煲仔饭",
+            "扬州炒饭",
+            "福建式炒饭",
+            "海南鸡饭"
+        ],
+        "english": "meal",
+        "vietnamese": "bữa ăn"
+    },
+    "炒饭": {
+        "pinyin": "chǎofàn",
+        "chinese": [
+            "扬州炒饭",
+            "福建式炒饭"
+        ],
+        "english": "Fried Rice",
+        "vietnamese": "cơm chiên"
+    },
+    "东坡肉": {
+        "pinyin": "dōngpōròu",
+        "chinese": [],
+        "english": "Dongpo Braised Pork",
+        "vietnamese": "Thịt lợn Đông Pha"
+    },
+    "肉": {
+        "pinyin": "ròu",
+        "chinese": [
+            "东坡肉",
+            "咕咾肉",
+            "回锅肉",
+            "干锅素肉",
+            "回锅肉",
+            "干菜焖肉",
+            "东坡肉",
+            "荷叶粉蒸肉"
+        ],
+        "english": "meat",
+        "vietnamese": "thịt"
+    },
+    "坡": {
+        "pinyin": "pō",
+        "chinese": [
+            "东坡肉",
+            "东坡肉"
+        ],
+        "english": "slope",
+        "vietnamese": "dốc"
+    },
+    "东": {
+        "pinyin": "dōng",
+        "chinese": [
+            "东坡肉",
+            "东坡肉"
+        ],
+        "english": "East",
+        "vietnamese": "Phía đông"
+    },
+    "咕咾肉": {
+        "pinyin": "gūlǎoròu",
+        "chinese": [],
+        "english": "sweet and meetha",
+        "vietnamese": "thịt"
+    },
+    "咕": {
+        "pinyin": "gū",
+        "chinese": [
+            "咕咾肉"
+        ],
+        "english": "Goo",
+        "vietnamese": "goo"
+    },
+    "咾": {
+        "pinyin": "lǎo",
+        "chinese": [
+            "咕咾肉"
+        ],
+        "english": "Hey",
+        "vietnamese": "Chào"
+    },
+    "回锅肉": {
+        "pinyin": "húiguōròu",
+        "chinese": [],
+        "english": "Twice cooked pork",
+        "vietnamese": "thịt lợn nấu hai lần"
+    },
+    "回": {
+        "pinyin": "húi",
+        "chinese": [
+            "回锅肉",
+            "回锅肉"
+        ],
+        "english": "times",
+        "vietnamese": "lần"
+    },
+    "锅": {
+        "pinyin": "guō",
+        "chinese": [
+            "回锅肉",
+            "锅贴",
+            "火锅",
+            "干锅素肉",
+            "四川火锅",
+            "回锅肉",
+            "番茄锅巴"
+        ],
+        "english": "pot",
+        "vietnamese": "nồi"
+    },
+    "叉烧": {
+        "pinyin": "chāshāo",
+        "chinese": [],
+        "english": "Char siu",
+        "vietnamese": "Thịt lợn nướng"
+    },
+    "叉": {
+        "pinyin": "chā",
+        "chinese": [
+            "叉烧",
+            "叉烧"
+        ],
+        "english": "cross",
+        "vietnamese": "đi qua"
+    },
+    "烧": {
+        "pinyin": "shāo",
+        "chinese": [
+            "叉烧",
+            "红烧",
+            "烧饼",
+            "符离集烧鸡",
+            "红烧臭鱖鱼",
+            "叉烧",
+            "烧乳猪"
+        ],
+        "english": "burn",
+        "vietnamese": "đốt cháy"
+    },
+    "皮蛋": {
+        "pinyin": "pídàn",
+        "chinese": [],
+        "english": "Century egg",
+        "vietnamese": "trứng bảo quản"
+    },
+    "皮": {
+        "pinyin": "pí",
+        "chinese": [
+            "皮蛋",
+            "陈皮芋头鸭",
+            "燕皮"
+        ],
+        "english": "Skin",
+        "vietnamese": "Da"
+    },
+    "蛋": {
+        "pinyin": "dàn",
+        "chinese": [
+            "皮蛋",
+            "卤蛋",
+            "茶叶蛋",
+            "银鱼煎蛋"
+        ],
+        "english": "Egg",
+        "vietnamese": "Trứng"
+    },
+    "鴨頭": {
+        "pinyin": "yātóu",
+        "chinese": [],
+        "english": "Duck's head",
+        "vietnamese": "đầu vịt"
+    },
+    "鴨": {
+        "pinyin": "yā",
+        "chinese": [
+            "鴨頭"
+        ],
+        "english": "duck",
+        "vietnamese": "con vịt"
+    },
+    "頭": {
+        "pinyin": "tóu",
+        "chinese": [
+            "鴨頭"
+        ],
+        "english": "head",
+        "vietnamese": "cái đầu"
+    },
+    "宫保鸡丁": {
+        "pinyin": "gōngbǎojīdīng",
+        "chinese": [],
+        "english": "Kung Pao chicken",
+        "vietnamese": "Gà kung Pao"
+    },
+    "宫": {
+        "pinyin": "gōng",
+        "chinese": [
+            "宫保鸡丁",
+            "宫保鸡丁"
+        ],
+        "english": "palace",
+        "vietnamese": "cung điện"
+    },
+    "宫保鸡": {
+        "pinyin": "gōngbǎojī",
+        "chinese": [
+            "宫保鸡丁",
+            "宫保鸡丁"
+        ],
+        "english": "Kung Pao Chicken",
+        "vietnamese": "Gà kung Pao"
+    },
+    "保": {
+        "pinyin": "bǎo",
+        "chinese": [
+            "宫保鸡丁",
+            "宫保鸡丁"
+        ],
+        "english": "Save",
+        "vietnamese": "Cứu"
+    },
+    "鸡": {
+        "pinyin": "jī",
+        "chinese": [
+            "宫保鸡丁",
+            "花菇田鸡",
+            "符离集烧鸡",
+            "炸子鸡",
+            "白切鸡",
+            "海南鸡饭",
+            "文昌鸡",
+            "重庆辣子鸡",
+            "宫保鸡丁",
+            "叫化鸡",
+            "糟鸡",
+            "栗子炒子鸡"
+        ],
+        "english": "chicken",
+        "vietnamese": "thịt gà"
+    },
+    "丁": {
+        "pinyin": "dīng",
+        "chinese": [
+            "宫保鸡丁",
+            "宫保鸡丁"
+        ],
+        "english": "Man",
+        "vietnamese": "Người đàn ông"
+    },
+    "北京烤鸭": {
+        "pinyin": "běijīngkǎoyā",
+        "chinese": [],
+        "english": "Peking Duck",
+        "vietnamese": "Vịt Bắc Kinh"
+    },
+    "北": {
+        "pinyin": "běi",
+        "chinese": [
+            "北京烤鸭",
+            "北京烤鸭",
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "north",
+        "vietnamese": "phía bắc"
+    },
+    "京": {
+        "pinyin": "jīng",
+        "chinese": [
+            "北京烤鸭",
+            "北京烤鸭"
+        ],
+        "english": "Beijing",
+        "vietnamese": "Bắc Kinh"
+    },
+    "烤": {
+        "pinyin": "kǎo",
+        "chinese": [
+            "北京烤鸭",
+            "北京烤鸭"
+        ],
+        "english": "bake",
+        "vietnamese": "nướng"
+    },
+    "鸭": {
+        "pinyin": "yā",
+        "chinese": [
+            "北京烤鸭",
+            "虫草炖老鸭",
+            "姜母鸭",
+            "北京烤鸭",
+            "陈皮芋头鸭",
+            "樟茶鸭",
+            "杭州酱鸭",
+            "笋干老鸭煲",
+            "卤鸭"
+        ],
+        "english": "duck",
+        "vietnamese": "con vịt"
+    },
+    "卤蛋": {
+        "pinyin": "lǔdàn",
+        "chinese": [],
+        "english": "Soy egg",
+        "vietnamese": "trứng ngô tẩm gia vị"
+    },
+    "卤": {
+        "pinyin": "lǔ",
+        "chinese": [
+            "卤蛋",
+            "卤鸭"
+        ],
+        "english": "halogen",
+        "vietnamese": "halogen"
+    },
+    "茶叶蛋": {
+        "pinyin": "cháyèdàn",
+        "chinese": [],
+        "english": "Tea egg",
+        "vietnamese": "trứng trà"
+    },
+    "茶": {
+        "pinyin": "chá",
+        "chinese": [
+            "茶叶蛋",
+            "樟茶鸭"
+        ],
+        "english": "Tea",
+        "vietnamese": "Trà"
+    },
+    "叶": {
+        "pinyin": "yè",
+        "chinese": [
+            "茶叶蛋",
+            "荷叶粉蒸肉"
+        ],
+        "english": "leaf",
+        "vietnamese": "lá cây"
+    },
+    "罗汉斋": {
+        "pinyin": "luōhànzhāi",
+        "chinese": [],
+        "english": "Buddha's delight",
+        "vietnamese": "Lạc Hán Trai"
+    },
+    "汉": {
+        "pinyin": "hàn",
+        "chinese": [
+            "罗汉斋"
+        ],
+        "english": "Chinese",
+        "vietnamese": "người Trung Quốc"
+    },
+    "罗": {
+        "pinyin": "luō",
+        "chinese": [
+            "罗汉斋"
+        ],
+        "english": "Luo",
+        "vietnamese": "Lạc"
+    },
+    "斋": {
+        "pinyin": "zhāi",
+        "chinese": [
+            "罗汉斋"
+        ],
+        "english": "fast",
+        "vietnamese": "nhanh"
+    },
+    "罗汉": {
+        "pinyin": "luōhàn",
+        "chinese": [
+            "罗汉斋"
+        ],
+        "english": "Arhat",
+        "vietnamese": "La Hán"
+    },
+    "酱菜": {
+        "pinyin": "jiàngcài",
+        "chinese": [],
+        "english": "Pickled vegetables",
+        "vietnamese": "Dưa muối"
+    },
+    "菜": {
+        "pinyin": "cài",
+        "chinese": [
+            "酱菜",
+            "南北杏西洋菜猪骨汤",
+            "干菜焖肉"
+        ],
+        "english": "vegetable",
+        "vietnamese": "rau quả"
+    },
+    "炖": {
+        "pinyin": "tún",
+        "chinese": [
+            "炖",
+            "虫草炖老鸭"
+        ],
+        "english": "Double steaming/double boiling",
+        "vietnamese": "món thịt hầm"
+    },
+    "红烧": {
+        "pinyin": "hóngshāo",
+        "chinese": [
+            "红烧臭鱖鱼"
+        ],
+        "english": "Red cooking",
+        "vietnamese": "om trong nước tương"
+    },
+    "红": {
+        "pinyin": "hóng",
+        "chinese": [
+            "红烧",
+            "红烧臭鱖鱼",
+            "红豆沙"
+        ],
+        "english": "red",
+        "vietnamese": "màu đỏ"
+    },
+    "包子": {
+        "pinyin": "bāozǐ",
+        "chinese": [],
+        "english": "Baozi",
+        "vietnamese": "bún nhồi hấp"
+    },
+    "包": {
+        "pinyin": "bāo",
+        "chinese": [
+            "包子",
+            "小笼包",
+            "长寿包"
+        ],
+        "english": "Bag",
+        "vietnamese": "Cái túi"
+    },
+    "子": {
+        "pinyin": "zǐ",
+        "chinese": [
+            "包子",
+            "饺子",
+            "粽子",
+            "豆腐渣丸子",
+            "炸子鸡",
+            "重庆辣子鸡",
+            "栗子炒子鸡"
+        ],
+        "english": "Child",
+        "vietnamese": "Đứa trẻ"
+    },
+    "点心": {
+        "pinyin": "diǎnxīn",
+        "chinese": [],
+        "english": "Dim sum",
+        "vietnamese": "món tráng miệng"
+    },
+    "心": {
+        "pinyin": "xīn",
+        "chinese": [
+            "点心"
+        ],
+        "english": "Heart",
+        "vietnamese": "Trái tim"
+    },
+    "点": {
+        "pinyin": "diǎn",
+        "chinese": [
+            "点心"
+        ],
+        "english": "point",
+        "vietnamese": "điểm"
+    },
+    "锅贴": {
+        "pinyin": "guōtiē",
+        "chinese": [],
+        "english": "Guotie",
+        "vietnamese": "bánh bao chiên"
+    },
+    "贴": {
+        "pinyin": "tiē",
+        "chinese": [
+            "锅贴"
+        ],
+        "english": "stick",
+        "vietnamese": "dán"
+    },
+    "饺子": {
+        "pinyin": "jiǎozǐ",
+        "chinese": [],
+        "english": "Jiaozi",
+        "vietnamese": "bánh bao"
+    },
+    "饺": {
+        "pinyin": "jiǎo",
+        "chinese": [
+            "饺子",
+            "南瓜蒸饺",
+            "土豆炸饺"
+        ],
+        "english": "dumpling",
+        "vietnamese": "bánh bao"
+    },
+    "馒头": {
+        "pinyin": "mántóu",
+        "chinese": [],
+        "english": "Mantou",
+        "vietnamese": "Bún hấp"
+    },
+    "头": {
+        "pinyin": "tóu",
+        "chinese": [
+            "馒头",
+            "陈皮芋头鸭"
+        ],
+        "english": "head",
+        "vietnamese": "cái đầu"
+    },
+    "馒": {
+        "pinyin": "mán",
+        "chinese": [
+            "馒头"
+        ],
+        "english": "steamed bread",
+        "vietnamese": "bánh mì hấp"
+    },
+    "餛飩": {
+        "pinyin": "húntún",
+        "chinese": [],
+        "english": "Wonton",
+        "vietnamese": "bánh bao Ý"
+    },
+    "飩": {
+        "pinyin": "tún",
+        "chinese": [
+            "餛飩"
+        ],
+        "english": "ton",
+        "vietnamese": "tấn"
+    },
+    "餛": {
+        "pinyin": "hún",
+        "chinese": [
+            "餛飩"
+        ],
+        "english": "Dumplings",
+        "vietnamese": "bánh bao"
+    },
+    "小笼包": {
+        "pinyin": "xiǎolóngbāo",
+        "chinese": [],
+        "english": "Xiaolongbao",
+        "vietnamese": "Tiểu Long Bảo"
+    },
+    "小": {
+        "pinyin": "xiǎo",
+        "chinese": [
+            "小笼包"
+        ],
+        "english": "Small",
+        "vietnamese": "Bé nhỏ"
+    },
+    "笼": {
+        "pinyin": "lóng",
+        "chinese": [
+            "小笼包"
+        ],
+        "english": "cage",
+        "vietnamese": "cái lồng"
+    },
+    "粽子": {
+        "pinyin": "zòngzǐ",
+        "chinese": [],
+        "english": "Zongzi",
+        "vietnamese": "Tông Tử"
+    },
+    "粽": {
+        "pinyin": "zòng",
+        "chinese": [
+            "粽子"
+        ],
+        "english": "Zong",
+        "vietnamese": "Tông"
+    },
+    "长寿包": {
+        "pinyin": "chángshòubāo",
+        "chinese": [],
+        "english": "Longevity buns",
+        "vietnamese": "gói tuổi thọ"
+    },
+    "长寿": {
+        "pinyin": "chángshòu",
+        "chinese": [
+            "长寿包"
+        ],
+        "english": "longevity",
+        "vietnamese": "tuổi thọ"
+    },
+    "寿": {
+        "pinyin": "shòu",
+        "chinese": [
+            "长寿包"
+        ],
+        "english": "life",
+        "vietnamese": "mạng sống"
+    },
+    "长": {
+        "pinyin": "cháng",
+        "chinese": [
+            "长寿包"
+        ],
+        "english": "long",
+        "vietnamese": "dài"
+    },
+    "葱油饼": {
+        "pinyin": "cōngyóubǐng",
+        "chinese": [],
+        "english": "Cong you bing",
+        "vietnamese": "Bánh xèo hành lá"
+    },
+    "葱": {
+        "pinyin": "cōng",
+        "chinese": [
+            "葱油饼"
+        ],
+        "english": "onion",
+        "vietnamese": "củ hành"
+    },
+    "油": {
+        "pinyin": "yóu",
+        "chinese": [
+            "葱油饼",
+            "油条",
+            "油条",
+            "油条",
+            "油爆虾",
+            "油焖春笋"
+        ],
+        "english": "Oil",
+        "vietnamese": "Dầu"
+    },
+    "饼": {
+        "pinyin": "bǐng",
+        "chinese": [
+            "葱油饼",
+            "月饼",
+            "烧饼",
+            "馅饼",
+            "薄饼",
+            "薄饼"
+        ],
+        "english": "cake",
+        "vietnamese": "bánh ngọt"
+    },
+    "月饼": {
+        "pinyin": "yuèbǐng",
+        "chinese": [],
+        "english": "Mooncake",
+        "vietnamese": "bánh trung thu"
+    },
+    "月": {
+        "pinyin": "yuè",
+        "chinese": [
+            "月饼"
+        ],
+        "english": "moon",
+        "vietnamese": "mặt trăng"
+    },
+    "沙琪玛": {
+        "pinyin": "shāqímǎ",
+        "chinese": [],
+        "english": "Sachima",
+        "vietnamese": "Shaqima"
+    },
+    "琪": {
+        "pinyin": "qí",
+        "chinese": [
+            "沙琪玛"
+        ],
+        "english": "Qi",
+        "vietnamese": "Tề"
+    },
+    "沙": {
+        "pinyin": "shā",
+        "chinese": [
+            "沙琪玛",
+            "红豆沙"
+        ],
+        "english": "sand",
+        "vietnamese": "cát"
+    },
+    "玛": {
+        "pinyin": "mǎ",
+        "chinese": [
+            "沙琪玛"
+        ],
+        "english": "Ma",
+        "vietnamese": "Mã"
+    },
+    "烧饼": {
+        "pinyin": "shāobǐng",
+        "chinese": [],
+        "english": "Shaobing",
+        "vietnamese": "Thiệu Bình"
+    },
+    "油条": {
+        "pinyin": "yóutiáo",
+        "chinese": [],
+        "english": "Youtiao",
+        "vietnamese": "Que bột chiên"
+    },
+    "粥": {
+        "pinyin": "zhōu",
+        "chinese": [
+            "粥"
+        ],
+        "english": "Congee",
+        "vietnamese": "Cháo"
+    },
+    "酸辣汤": {
+        "pinyin": "suānlàtāng",
+        "chinese": [],
+        "english": "Hot and sour soup",
+        "vietnamese": "Súp chua nóng"
+    },
+    "酸": {
+        "pinyin": "suān",
+        "chinese": [
+            "酸辣汤"
+        ],
+        "english": "acid",
+        "vietnamese": "axit"
+    },
+    "辣": {
+        "pinyin": "là",
+        "chinese": [
+            "酸辣汤",
+            "重庆辣子鸡"
+        ],
+        "english": "hot",
+        "vietnamese": "nóng"
+    },
+    "火锅": {
+        "pinyin": "huǒguō",
+        "chinese": [],
+        "english": "Hot pot",
+        "vietnamese": "Lẩu"
+    },
+    "火": {
+        "pinyin": "huǒ",
+        "chinese": [
+            "火锅",
+            "四川火锅",
+            "火腿蚕豆"
+        ],
+        "english": "fire",
+        "vietnamese": "ngọn lửa"
+    },
+    "糖水": {
+        "pinyin": "tángshǔi",
+        "chinese": [],
+        "english": "Tong sui",
+        "vietnamese": "xi-rô"
+    },
+    "水": {
+        "pinyin": "shǔi",
+        "chinese": [
+            "糖水",
+            "水煮"
+        ],
+        "english": "water",
+        "vietnamese": "Nước"
+    },
+    "糖": {
+        "pinyin": "táng",
+        "chinese": [
+            "糖水",
+            "糖醋里脊"
+        ],
+        "english": "sugar",
+        "vietnamese": "đường"
+    },
+    "八公山豆腐": {
+        "pinyin": "bāgōngshāndòufǔ",
+        "chinese": [],
+        "english": "Bang Tofu",
+        "vietnamese": "Đậu hũ Bagongshan"
+    },
+    "腐": {
+        "pinyin": "fǔ",
+        "chinese": [
+            "八公山豆腐",
+            "豆腐渣丸子",
+            "麻婆豆腐"
+        ],
+        "english": "Rotten",
+        "vietnamese": "Thối"
+    },
+    "公山": {
+        "pinyin": "gōngshān",
+        "chinese": [
+            "八公山豆腐"
+        ],
+        "english": "Kongsan",
+        "vietnamese": "Kongsan"
+    },
+    "山": {
+        "pinyin": "shān",
+        "chinese": [
+            "八公山豆腐"
+        ],
+        "english": "Mountain",
+        "vietnamese": "Núi"
+    },
+    "豆": {
+        "pinyin": "dòu",
+        "chinese": [
+            "八公山豆腐",
+            "豆腐渣丸子",
+            "土豆炸饺",
+            "红豆沙",
+            "麻婆豆腐",
+            "火腿蚕豆"
+        ],
+        "english": "beans",
+        "vietnamese": "đậu"
+    },
+    "八": {
+        "pinyin": "bā",
+        "chinese": [
+            "八公山豆腐"
+        ],
+        "english": "eight",
+        "vietnamese": "tám"
+    },
+    "公": {
+        "pinyin": "gōng",
+        "chinese": [
+            "八公山豆腐"
+        ],
+        "english": "male",
+        "vietnamese": "nam giới"
+    },
+    "豆腐": {
+        "pinyin": "dòufǔ",
+        "chinese": [
+            "八公山豆腐"
+        ],
+        "english": "Tofu",
+        "vietnamese": "Đậu hũ"
+    },
+    "明珠酥鲍": {
+        "pinyin": "míngzhūsūbào",
+        "chinese": [],
+        "english": "Bright Pearl Abalone",
+        "vietnamese": "Bào ngư trân châu giòn"
+    },
+    "明": {
+        "pinyin": "míng",
+        "chinese": [
+            "明珠酥鲍"
+        ],
+        "english": "bright",
+        "vietnamese": "sáng"
+    },
+    "明珠": {
+        "pinyin": "míngzhū",
+        "chinese": [
+            "明珠酥鲍"
+        ],
+        "english": "Pearl",
+        "vietnamese": "Ngọc trai"
+    },
+    "珠": {
+        "pinyin": "zhū",
+        "chinese": [
+            "明珠酥鲍"
+        ],
+        "english": "beads",
+        "vietnamese": "hạt"
+    },
+    "酥": {
+        "pinyin": "sū",
+        "chinese": [
+            "明珠酥鲍",
+            "海棠酥"
+        ],
+        "english": "crispy",
+        "vietnamese": "giòn"
+    },
+    "鲍": {
+        "pinyin": "bào",
+        "chinese": [
+            "明珠酥鲍",
+            "焖鲍鱼"
+        ],
+        "english": "abalone",
+        "vietnamese": "bào ngư"
+    },
+    "虫草炖老鸭": {
+        "pinyin": "chóngcǎotúnlǎoyā",
+        "chinese": [],
+        "english": "Caterpillar Fungus Duck",
+        "vietnamese": "Vịt om đông trùng hạ thảo"
+    },
+    "虫草": {
+        "pinyin": "chóngcǎo",
+        "chinese": [
+            "虫草炖老鸭"
+        ],
+        "english": "Cordyceps",
+        "vietnamese": "đông trùng hạ thảo"
+    },
+    "老鸭": {
+        "pinyin": "lǎoyā",
+        "chinese": [
+            "虫草炖老鸭",
+            "笋干老鸭煲"
+        ],
+        "english": "old duck",
+        "vietnamese": "vịt già"
+    },
+    "草": {
+        "pinyin": "cǎo",
+        "chinese": [
+            "虫草炖老鸭"
+        ],
+        "english": "Grass",
+        "vietnamese": "Cỏ"
+    },
+    "虫": {
+        "pinyin": "chóng",
+        "chinese": [
+            "虫草炖老鸭"
+        ],
+        "english": "insect",
+        "vietnamese": "côn trùng"
+    },
+    "老": {
+        "pinyin": "lǎo",
+        "chinese": [
+            "虫草炖老鸭",
+            "笋干老鸭煲"
+        ],
+        "english": "old",
+        "vietnamese": "cũ"
+    },
+    "蟹连鱼肚": {
+        "pinyin": "xièliányúdù",
+        "chinese": [],
+        "english": "Crab and Fish Stomachs",
+        "vietnamese": "Cua và bóng cá"
+    },
+    "蟹": {
+        "pinyin": "xiè",
+        "chinese": [
+            "蟹连鱼肚"
+        ],
+        "english": "crab",
+        "vietnamese": "cua"
+    },
+    "鱼肚": {
+        "pinyin": "yúdù",
+        "chinese": [
+            "蟹连鱼肚"
+        ],
+        "english": "fish maw",
+        "vietnamese": "bong bóng cá"
+    },
+    "连": {
+        "pinyin": "lián",
+        "chinese": [
+            "蟹连鱼肚"
+        ],
+        "english": "even",
+        "vietnamese": "thậm chí"
+    },
+    "肚": {
+        "pinyin": "dù",
+        "chinese": [
+            "蟹连鱼肚"
+        ],
+        "english": "Belly",
+        "vietnamese": "Bụng"
+    },
+    "鱼": {
+        "pinyin": "yú",
+        "chinese": [
+            "蟹连鱼肚",
+            "五彩鱼片",
+            "莲蓬鱼",
+            "银鱼煎蛋",
+            "红烧臭鱖鱼",
+            "焖鲍鱼",
+            "鱼翅汤",
+            "鱼生",
+            "清汤鱼圆",
+            "西湖醋鱼"
+        ],
+        "english": "fish",
+        "vietnamese": "cá"
+    },
+    "海棠酥": {
+        "pinyin": "hǎitángsū",
+        "chinese": [],
+        "english": "Crab-apple Flower Cake",
+        "vietnamese": "Bánh thu hải đường"
+    },
+    "海": {
+        "pinyin": "hǎi",
+        "chinese": [
+            "海棠酥",
+            "玉兔海参",
+            "海皇羹",
+            "海参",
+            "海鲜雀巢",
+            "海南鸡饭"
+        ],
+        "english": "Ocean",
+        "vietnamese": "Đại dương"
+    },
+    "棠": {
+        "pinyin": "táng",
+        "chinese": [
+            "海棠酥"
+        ],
+        "english": "Tang",
+        "vietnamese": "Đường"
+    },
+    "海棠": {
+        "pinyin": "hǎitáng",
+        "chinese": [
+            "海棠酥"
+        ],
+        "english": "Begonia",
+        "vietnamese": "thu hải đường"
+    },
+    "干锅素肉": {
+        "pinyin": "gānguōsùròu",
+        "chinese": [],
+        "english": "Dried Pot Tofu",
+        "vietnamese": "Thịt chay khô"
+    },
+    "干锅素": {
+        "pinyin": "gānguōsù",
+        "chinese": [
+            "干锅素肉"
+        ],
+        "english": "dry pot vegetarian food",
+        "vietnamese": "đồ ăn chay nồi khô"
+    },
+    "干": {
+        "pinyin": "gān",
+        "chinese": [
+            "干锅素肉",
+            "干炒牛河",
+            "干菜焖肉",
+            "干炸响铃",
+            "笋干老鸭煲"
+        ],
+        "english": "Dry",
+        "vietnamese": "Khô"
+    },
+    "素": {
+        "pinyin": "sù",
+        "chinese": [
+            "干锅素肉"
+        ],
+        "english": "white",
+        "vietnamese": "trắng"
+    },
+    "五彩鱼片": {
+        "pinyin": "wǔcǎiyúpiàn",
+        "chinese": [],
+        "english": "Five Colours Fish Cake",
+        "vietnamese": "Phi lê cá đầy màu sắc"
+    },
+    "五彩": {
+        "pinyin": "wǔcǎi",
+        "chinese": [
+            "五彩鱼片"
+        ],
+        "english": "colorful",
+        "vietnamese": "Đầy màu sắc"
+    },
+    "鱼片": {
+        "pinyin": "yúpiàn",
+        "chinese": [
+            "五彩鱼片"
+        ],
+        "english": "fillet",
+        "vietnamese": "phi lê"
+    },
+    "五": {
+        "pinyin": "wǔ",
+        "chinese": [
+            "五彩鱼片"
+        ],
+        "english": "five",
+        "vietnamese": "năm"
+    },
+    "彩": {
+        "pinyin": "cǎi",
+        "chinese": [
+            "五彩鱼片"
+        ],
+        "english": "color",
+        "vietnamese": "màu sắc"
+    },
+    "片": {
+        "pinyin": "piàn",
+        "chinese": [
+            "五彩鱼片",
+            "夫妻肺片",
+            "生爆鳝片"
+        ],
+        "english": "piece",
+        "vietnamese": "cái"
+    },
+    "花菇田鸡": {
+        "pinyin": "huāgūtiánjī",
+        "chinese": [],
+        "english": "Flower Mushroom Frog",
+        "vietnamese": "Ếch nấm"
+    },
+    "菇": {
+        "pinyin": "gū",
+        "chinese": [
+            "花菇田鸡"
+        ],
+        "english": "mushroom",
+        "vietnamese": "nấm"
+    },
+    "田": {
+        "pinyin": "tián",
+        "chinese": [
+            "花菇田鸡"
+        ],
+        "english": "field",
+        "vietnamese": "cánh đồng"
+    },
+    "田鸡": {
+        "pinyin": "tiánjī",
+        "chinese": [
+            "花菇田鸡"
+        ],
+        "english": "frog",
+        "vietnamese": "con ếch"
+    },
+    "花菇": {
+        "pinyin": "huāgū",
+        "chinese": [
+            "花菇田鸡"
+        ],
+        "english": "Mushroom",
+        "vietnamese": "Nấm"
+    },
+    "花": {
+        "pinyin": "huā",
+        "chinese": [
+            "花菇田鸡"
+        ],
+        "english": "flower",
+        "vietnamese": "hoa"
+    },
+    "南瓜蒸饺": {
+        "pinyin": "nánguāzhēngjiǎo",
+        "chinese": [],
+        "english": "Fried Pumpkin Dumplings",
+        "vietnamese": "Bánh bao hấp bí ngô"
+    },
+    "蒸": {
+        "pinyin": "zhēng",
+        "chinese": [
+            "南瓜蒸饺",
+            "荷叶粉蒸肉"
+        ],
+        "english": "Steam",
+        "vietnamese": "Hơi nước"
+    },
+    "南": {
+        "pinyin": "nán",
+        "chinese": [
+            "南瓜蒸饺",
+            "南北杏西洋菜猪骨汤",
+            "海南鸡饭"
+        ],
+        "english": "South",
+        "vietnamese": "Phía nam"
+    },
+    "蒸饺": {
+        "pinyin": "zhēngjiǎo",
+        "chinese": [
+            "南瓜蒸饺"
+        ],
+        "english": "Steamed dumplings",
+        "vietnamese": "Bánh bao hấp"
+    },
+    "瓜": {
+        "pinyin": "guā",
+        "chinese": [
+            "南瓜蒸饺",
+            "冬瓜汤"
+        ],
+        "english": "melon",
+        "vietnamese": "dưa gang"
+    },
+    "南瓜": {
+        "pinyin": "nánguā",
+        "chinese": [
+            "南瓜蒸饺"
+        ],
+        "english": "pumpkin",
+        "vietnamese": "quả bí ngô"
+    },
+    "豆腐渣丸子": {
+        "pinyin": "dòufǔzhāwánzǐ",
+        "chinese": [],
+        "english": "Fried Tofu Curd Balls",
+        "vietnamese": "Bánh bao đậu hũ"
+    },
+    "豆腐渣": {
+        "pinyin": "dòufǔzhā",
+        "chinese": [
+            "豆腐渣丸子"
+        ],
+        "english": "Tofu dregs",
+        "vietnamese": "bã đậu hũ"
+    },
+    "丸子": {
+        "pinyin": "wánzǐ",
+        "chinese": [
+            "豆腐渣丸子"
+        ],
+        "english": "ball",
+        "vietnamese": "quả bóng"
+    },
+    "丸": {
+        "pinyin": "wán",
+        "chinese": [
+            "豆腐渣丸子"
+        ],
+        "english": "circle",
+        "vietnamese": "vòng tròn"
+    },
+    "渣": {
+        "pinyin": "zhā",
+        "chinese": [
+            "豆腐渣丸子"
+        ],
+        "english": "slag",
+        "vietnamese": "xỉ"
+    },
+    "符离集烧鸡": {
+        "pinyin": "fúlíjíshāojī",
+        "chinese": [],
+        "english": "Fuli Roast Chicken",
+        "vietnamese": "Gà nướng Fuli Ji"
+    },
+    "集": {
+        "pinyin": "jí",
+        "chinese": [
+            "符离集烧鸡"
+        ],
+        "english": "set",
+        "vietnamese": "bộ"
+    },
+    "烧鸡": {
+        "pinyin": "shāojī",
+        "chinese": [
+            "符离集烧鸡"
+        ],
+        "english": "roast chicken",
+        "vietnamese": "thịt gà nướng"
+    },
+    "离": {
+        "pinyin": "lí",
+        "chinese": [
+            "符离集烧鸡"
+        ],
+        "english": "Leave",
+        "vietnamese": "Rời khỏi"
+    },
+    "符": {
+        "pinyin": "fú",
+        "chinese": [
+            "符离集烧鸡"
+        ],
+        "english": "symbol",
+        "vietnamese": "biểu tượng"
+    },
+    "符离": {
+        "pinyin": "fúlí",
+        "chinese": [
+            "符离集烧鸡"
+        ],
+        "english": "Fuli",
+        "vietnamese": "Fuli"
+    },
+    "姜母鸭": {
+        "pinyin": "jiāngmǔyā",
+        "chinese": [],
+        "english": "Ginger Duck",
+        "vietnamese": "vịt gừng"
+    },
+    "母鸭": {
+        "pinyin": "mǔyā",
+        "chinese": [
+            "姜母鸭"
+        ],
+        "english": "female duck",
+        "vietnamese": "vịt cái"
+    },
+    "母": {
+        "pinyin": "mǔ",
+        "chinese": [
+            "姜母鸭"
+        ],
+        "english": "mother",
+        "vietnamese": "mẹ"
+    },
+    "姜": {
+        "pinyin": "jiāng",
+        "chinese": [
+            "姜母鸭"
+        ],
+        "english": "ginger",
+        "vietnamese": "gừng"
+    },
+    "稻香排骨": {
+        "pinyin": "dàoxiāngpáigǔ",
+        "chinese": [],
+        "english": "Hay Wrapped Fragrant Ribs",
+        "vietnamese": "Sườn heo vị cơm"
+    },
+    "香": {
+        "pinyin": "xiāng",
+        "chinese": [
+            "稻香排骨"
+        ],
+        "english": "fragrant",
+        "vietnamese": "thơm"
+    },
+    "骨": {
+        "pinyin": "gǔ",
+        "chinese": [
+            "稻香排骨",
+            "生炒排骨",
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "Bone",
+        "vietnamese": "Xương"
+    },
+    "排": {
+        "pinyin": "pái",
+        "chinese": [
+            "稻香排骨",
+            "凤尾虾排",
+            "生炒排骨"
+        ],
+        "english": "Row",
+        "vietnamese": "Hàng ngang"
+    },
+    "稻": {
+        "pinyin": "dào",
+        "chinese": [
+            "稻香排骨"
+        ],
+        "english": "rice",
+        "vietnamese": "cơm"
+    },
+    "排骨": {
+        "pinyin": "páigǔ",
+        "chinese": [
+            "稻香排骨",
+            "生炒排骨"
+        ],
+        "english": "Ribs",
+        "vietnamese": "xương sườn"
+    },
+    "稻香": {
+        "pinyin": "dàoxiāng",
+        "chinese": [
+            "稻香排骨"
+        ],
+        "english": "Daoxiang",
+        "vietnamese": "Đạo Tường"
+    },
+    "玉兔海参": {
+        "pinyin": "yùtùhǎicān",
+        "chinese": [],
+        "english": "Jade Rabbit Sea Cucumber",
+        "vietnamese": "Hải Sâm Thỏ Ngọc"
+    },
+    "玉": {
+        "pinyin": "yù",
+        "chinese": [
+            "玉兔海参"
+        ],
+        "english": "ball",
+        "vietnamese": "quả bóng"
+    },
+    "参": {
+        "pinyin": "cān",
+        "chinese": [
+            "玉兔海参",
+            "海参"
+        ],
+        "english": "ginseng",
+        "vietnamese": "nhân sâm"
+    },
+    "海参": {
+        "pinyin": "hǎicān",
+        "chinese": [],
+        "english": "Sea cucumber",
+        "vietnamese": "hải sâm"
+    },
+    "玉兔": {
+        "pinyin": "yùtù",
+        "chinese": [
+            "玉兔海参"
+        ],
+        "english": "Jade Rabbit",
+        "vietnamese": "Ngọc Thỏ"
+    },
+    "兔": {
+        "pinyin": "tù",
+        "chinese": [
+            "玉兔海参"
+        ],
+        "english": "rabbit",
+        "vietnamese": "con thỏ"
+    },
+    "莲蓬鱼": {
+        "pinyin": "liánpéngyú",
+        "chinese": [],
+        "english": "Lotus Seed Pod Fish",
+        "vietnamese": "cá sen"
+    },
+    "莲蓬": {
+        "pinyin": "liánpéng",
+        "chinese": [
+            "莲蓬鱼"
+        ],
+        "english": "Lotus pod",
+        "vietnamese": "Vỏ sen"
+    },
+    "莲": {
+        "pinyin": "lián",
+        "chinese": [
+            "莲蓬鱼"
+        ],
+        "english": "lotus",
+        "vietnamese": "hoa sen"
+    },
+    "蓬": {
+        "pinyin": "péng",
+        "chinese": [
+            "莲蓬鱼"
+        ],
+        "english": "Peng",
+        "vietnamese": "Bành"
+    },
+    "凤尾虾排": {
+        "pinyin": "fèngwěixiāpái",
+        "chinese": [],
+        "english": "Phoenix Tail Shrimp",
+        "vietnamese": "Cá Cơm Tôm Bít Tết"
+    },
+    "虾排": {
+        "pinyin": "xiāpái",
+        "chinese": [
+            "凤尾虾排"
+        ],
+        "english": "Shrimp steak",
+        "vietnamese": "Tôm bít tết"
+    },
+    "虾": {
+        "pinyin": "xiā",
+        "chinese": [
+            "凤尾虾排",
+            "龙井虾仁",
+            "油爆虾"
+        ],
+        "english": "shrimp",
+        "vietnamese": "con tôm"
+    },
+    "凤": {
+        "pinyin": "fèng",
+        "chinese": [
+            "凤尾虾排"
+        ],
+        "english": "phoenix",
+        "vietnamese": "Phượng Hoàng"
+    },
+    "凤尾": {
+        "pinyin": "fèngwěi",
+        "chinese": [
+            "凤尾虾排"
+        ],
+        "english": "Phoenix tail",
+        "vietnamese": "đuôi phượng"
+    },
+    "尾": {
+        "pinyin": "wěi",
+        "chinese": [
+            "凤尾虾排"
+        ],
+        "english": "tail",
+        "vietnamese": "đuôi"
+    },
+    "土豆炸饺": {
+        "pinyin": "tǔdòuzhàjiǎo",
+        "chinese": [],
+        "english": "Potato Croquet",
+        "vietnamese": "Bánh bao khoai tây chiên"
+    },
+    "土": {
+        "pinyin": "tǔ",
+        "chinese": [
+            "土豆炸饺"
+        ],
+        "english": "soil",
+        "vietnamese": "đất"
+    },
+    "炸饺": {
+        "pinyin": "zhàjiǎo",
+        "chinese": [
+            "土豆炸饺"
+        ],
+        "english": "Fried dumplings",
+        "vietnamese": "Bánh bao chiên"
+    },
+    "土豆": {
+        "pinyin": "tǔdòu",
+        "chinese": [
+            "土豆炸饺"
+        ],
+        "english": "Potato",
+        "vietnamese": "Khoai tây"
+    },
+    "银鱼煎蛋": {
+        "pinyin": "yínyújiāndàn",
+        "chinese": [],
+        "english": "Silver Fish Fried Egg",
+        "vietnamese": "Trứng tráng cá trắng"
+    },
+    "银": {
+        "pinyin": "yín",
+        "chinese": [
+            "银鱼煎蛋",
+            "银耳汤"
+        ],
+        "english": "silver",
+        "vietnamese": "bạc"
+    },
+    "煎蛋": {
+        "pinyin": "jiāndàn",
+        "chinese": [
+            "银鱼煎蛋"
+        ],
+        "english": "fried egg",
+        "vietnamese": "trứng chiên"
+    },
+    "银鱼": {
+        "pinyin": "yínyú",
+        "chinese": [
+            "银鱼煎蛋"
+        ],
+        "english": "whitebait",
+        "vietnamese": "cá trắng"
+    },
+    "煎": {
+        "pinyin": "jiān",
+        "chinese": [
+            "银鱼煎蛋",
+            "蚵仔煎"
+        ],
+        "english": "fry",
+        "vietnamese": "chiên rán"
+    },
+    "红烧臭鱖鱼": {
+        "pinyin": "hóngshāochòugùiyú",
+        "chinese": [],
+        "english": "Soy Braised Mandarin Fish",
+        "vietnamese": "Cá quýt om"
+    },
+    "鱖": {
+        "pinyin": "gùi",
+        "chinese": [
+            "红烧臭鱖鱼"
+        ],
+        "english": "Salmon",
+        "vietnamese": "cá hồi"
+    },
+    "鱖鱼": {
+        "pinyin": "gùiyú",
+        "chinese": [
+            "红烧臭鱖鱼"
+        ],
+        "english": "mandarin fish",
+        "vietnamese": "cá trạng nguyên"
+    },
+    "臭": {
+        "pinyin": "chòu",
+        "chinese": [
+            "红烧臭鱖鱼"
+        ],
+        "english": "Smelly",
+        "vietnamese": "Hôi"
+    },
+    "馅饼": {
+        "pinyin": "xiànbǐng",
+        "chinese": [],
+        "english": "Xianbing",
+        "vietnamese": "bánh"
+    },
+    "馅": {
+        "pinyin": "xiàn",
+        "chinese": [
+            "馅饼"
+        ],
+        "english": "filling",
+        "vietnamese": "đổ đầy"
+    },
+    "焖鲍鱼": {
+        "pinyin": "mènbàoyú",
+        "chinese": [],
+        "english": "Braised abalone",
+        "vietnamese": "Bào ngư om"
+    },
+    "焖": {
+        "pinyin": "mèn",
+        "chinese": [
+            "焖鲍鱼",
+            "干菜焖肉",
+            "油焖春笋"
+        ],
+        "english": "stew",
+        "vietnamese": "món thịt hầm"
+    },
+    "鲍鱼": {
+        "pinyin": "bàoyú",
+        "chinese": [
+            "焖鲍鱼"
+        ],
+        "english": "abalone",
+        "vietnamese": "bào ngư"
+    },
+    "刨冰": {
+        "pinyin": "bàobīng",
+        "chinese": [],
+        "english": "Shaved ice",
+        "vietnamese": "Đá bào"
+    },
+    "刨": {
+        "pinyin": "bào",
+        "chinese": [
+            "刨冰"
+        ],
+        "english": "plane",
+        "vietnamese": "máy bay"
+    },
+    "冰": {
+        "pinyin": "bīng",
+        "chinese": [
+            "刨冰"
+        ],
+        "english": "ice",
+        "vietnamese": "đá"
+    },
+    "干炒牛河": {
+        "pinyin": "gānchǎoníuhé",
+        "chinese": [],
+        "english": "Beef chow fun",
+        "vietnamese": "Khô Bò Chiên Sông"
+    },
+    "河": {
+        "pinyin": "hé",
+        "chinese": [
+            "干炒牛河"
+        ],
+        "english": "river",
+        "vietnamese": "dòng sông"
+    },
+    "牛": {
+        "pinyin": "níu",
+        "chinese": [
+            "干炒牛河"
+        ],
+        "english": "ox",
+        "vietnamese": "con bò đực"
+    },
+    "牛河": {
+        "pinyin": "níuhé",
+        "chinese": [
+            "干炒牛河"
+        ],
+        "english": "Ushikawa",
+        "vietnamese": "Ushikawa"
+    },
+    "燕窝": {
+        "pinyin": "yànwō",
+        "chinese": [],
+        "english": "Bird's nest soup",
+        "vietnamese": "tổ chim"
+    },
+    "窝": {
+        "pinyin": "wō",
+        "chinese": [
+            "燕窝"
+        ],
+        "english": "nest",
+        "vietnamese": "tổ"
+    },
+    "燕": {
+        "pinyin": "yàn",
+        "chinese": [
+            "燕窝",
+            "燕皮"
+        ],
+        "english": "Yan",
+        "vietnamese": "Yến"
+    },
+    "芝麻糊": {
+        "pinyin": "zhīmáhú",
+        "chinese": [],
+        "english": "Black sesame soup",
+        "vietnamese": "Mè dán"
+    },
+    "芝": {
+        "pinyin": "zhī",
+        "chinese": [
+            "芝麻糊"
+        ],
+        "english": "grass",
+        "vietnamese": "cỏ"
+    },
+    "糊": {
+        "pinyin": "hú",
+        "chinese": [
+            "芝麻糊"
+        ],
+        "english": "paste",
+        "vietnamese": "dán"
+    },
+    "麻": {
+        "pinyin": "má",
+        "chinese": [
+            "芝麻糊",
+            "麻婆豆腐"
+        ],
+        "english": "numb",
+        "vietnamese": "tê"
+    },
+    "海皇羹": {
+        "pinyin": "hǎihuánggēng",
+        "chinese": [],
+        "english": "Cantonese seafood soup",
+        "vietnamese": "Súp Hải Hoàng"
+    },
+    "海皇": {
+        "pinyin": "hǎihuáng",
+        "chinese": [
+            "海皇羹"
+        ],
+        "english": "Neptune",
+        "vietnamese": "sao Hải vương"
+    },
+    "皇": {
+        "pinyin": "huáng",
+        "chinese": [
+            "海皇羹"
+        ],
+        "english": "emperor",
+        "vietnamese": "hoàng đế"
+    },
+    "羹": {
+        "pinyin": "gēng",
+        "chinese": [
+            "海皇羹"
+        ],
+        "english": "soup",
+        "vietnamese": "canh"
+    },
+    "炸子鸡": {
+        "pinyin": "zhàzǐjī",
+        "chinese": [],
+        "english": "Crispy fried chicken",
+        "vietnamese": "Gà rán"
+    },
+    "陈皮芋头鸭": {
+        "pinyin": "chénpíyùtóuyā",
+        "chinese": [],
+        "english": "Duck with taro",
+        "vietnamese": "Vịt vỏ quýt khoai môn"
+    },
+    "陈": {
+        "pinyin": "chén",
+        "chinese": [
+            "陈皮芋头鸭"
+        ],
+        "english": "List",
+        "vietnamese": "Danh sách"
+    },
+    "芋头": {
+        "pinyin": "yùtóu",
+        "chinese": [
+            "陈皮芋头鸭"
+        ],
+        "english": "Taro",
+        "vietnamese": "khoai môn"
+    },
+    "芋": {
+        "pinyin": "yù",
+        "chinese": [
+            "陈皮芋头鸭"
+        ],
+        "english": "potato",
+        "vietnamese": "khoai tây"
+    },
+    "陈皮": {
+        "pinyin": "chénpí",
+        "chinese": [
+            "陈皮芋头鸭"
+        ],
+        "english": "tangerine peel",
+        "vietnamese": "vỏ quýt"
+    },
+    "龟苓膏": {
+        "pinyin": "gūilínggāo",
+        "chinese": [],
+        "english": "Guilinggao",
+        "vietnamese": "dán rùa"
+    },
+    "龟": {
+        "pinyin": "gūi",
+        "chinese": [
+            "龟苓膏"
+        ],
+        "english": "turtle",
+        "vietnamese": "con rùa"
+    },
+    "膏": {
+        "pinyin": "gāo",
+        "chinese": [
+            "龟苓膏"
+        ],
+        "english": "paste",
+        "vietnamese": "dán"
+    },
+    "苓": {
+        "pinyin": "líng",
+        "chinese": [
+            "龟苓膏"
+        ],
+        "english": "Ling",
+        "vietnamese": "linh"
+    },
+    "煲仔饭": {
+        "pinyin": "bāozǐfàn",
+        "chinese": [],
+        "english": "Little pan rice",
+        "vietnamese": "Cơm niêu"
+    },
+    "煲": {
+        "pinyin": "bāo",
+        "chinese": [
+            "煲仔饭",
+            "笋干老鸭煲"
+        ],
+        "english": "pot",
+        "vietnamese": "nồi"
+    },
+    "仔": {
+        "pinyin": "zǐ",
+        "chinese": [
+            "煲仔饭",
+            "蚵仔煎"
+        ],
+        "english": "young",
+        "vietnamese": "trẻ"
+    },
+    "红豆沙": {
+        "pinyin": "hóngdòushā",
+        "chinese": [],
+        "english": "Red bean soup",
+        "vietnamese": "bột đậu đỏ"
+    },
+    "豆沙": {
+        "pinyin": "dòushā",
+        "chinese": [
+            "红豆沙"
+        ],
+        "english": "bean paste",
+        "vietnamese": "đậu dán"
+    },
+    "乳鸽": {
+        "pinyin": "rǔgē",
+        "chinese": [
+            "椒盐乳鸽"
+        ],
+        "english": "Roast squab",
+        "vietnamese": "tiếng kêu la"
+    },
+    "乳": {
+        "pinyin": "rǔ",
+        "chinese": [
+            "乳鸽",
+            "烧乳猪",
+            "椒盐乳鸽"
+        ],
+        "english": "milk",
+        "vietnamese": "sữa"
+    },
+    "鸽": {
+        "pinyin": "gē",
+        "chinese": [
+            "乳鸽",
+            "椒盐乳鸽"
+        ],
+        "english": "pigeon",
+        "vietnamese": "chim bồ câu"
+    },
+    "烧乳猪": {
+        "pinyin": "shāorǔzhū",
+        "chinese": [],
+        "english": "Roast suckling pig",
+        "vietnamese": "Heo sữa quay"
+    },
+    "乳猪": {
+        "pinyin": "rǔzhū",
+        "chinese": [
+            "烧乳猪"
+        ],
+        "english": "suckling pig",
+        "vietnamese": "heo con"
+    },
+    "猪": {
+        "pinyin": "zhū",
+        "chinese": [
+            "烧乳猪",
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "pig",
+        "vietnamese": "con lợn"
+    },
+    "海鲜雀巢": {
+        "pinyin": "hǎixiānquècháo",
+        "chinese": [],
+        "english": "Seafood with bird's nest",
+        "vietnamese": "Nestlé hải sản"
+    },
+    "巢": {
+        "pinyin": "cháo",
+        "chinese": [
+            "海鲜雀巢"
+        ],
+        "english": "nest",
+        "vietnamese": "tổ"
+    },
+    "雀巢": {
+        "pinyin": "quècháo",
+        "chinese": [
+            "海鲜雀巢"
+        ],
+        "english": "Nestle",
+        "vietnamese": "Nestle"
+    },
+    "雀": {
+        "pinyin": "què",
+        "chinese": [
+            "海鲜雀巢"
+        ],
+        "english": "sparrow",
+        "vietnamese": "chim sẻ"
+    },
+    "海鲜": {
+        "pinyin": "hǎixiān",
+        "chinese": [
+            "海鲜雀巢"
+        ],
+        "english": "seafood",
+        "vietnamese": "Hải sản"
+    },
+    "鲜": {
+        "pinyin": "xiān",
+        "chinese": [
+            "海鲜雀巢"
+        ],
+        "english": "fresh",
+        "vietnamese": "tươi"
+    },
+    "鱼翅汤": {
+        "pinyin": "yúchìtāng",
+        "chinese": [],
+        "english": "Shark fin soup",
+        "vietnamese": "súp vây cá mập"
+    },
+    "鱼翅": {
+        "pinyin": "yúchì",
+        "chinese": [
+            "鱼翅汤"
+        ],
+        "english": "shark fin",
+        "vietnamese": "vây cá mập"
+    },
+    "翅": {
+        "pinyin": "chì",
+        "chinese": [
+            "鱼翅汤"
+        ],
+        "english": "wing",
+        "vietnamese": "cánh"
+    },
+    "银耳汤": {
+        "pinyin": "yíněrtāng",
+        "chinese": [],
+        "english": "Snow fungus soup",
+        "vietnamese": "Súp tremella"
+    },
+    "耳": {
+        "pinyin": "ěr",
+        "chinese": [
+            "银耳汤"
+        ],
+        "english": "ear",
+        "vietnamese": "tai"
+    },
+    "生炒排骨": {
+        "pinyin": "shēngchǎopáigǔ",
+        "chinese": [],
+        "english": "Sour spare ribs",
+        "vietnamese": "Sườn heo xào"
+    },
+    "生": {
+        "pinyin": "shēng",
+        "chinese": [
+            "生炒排骨",
+            "鱼生",
+            "生爆鳝片"
+        ],
+        "english": "born",
+        "vietnamese": "sinh ra"
+    },
+    "南北杏西洋菜猪骨汤": {
+        "pinyin": "nánběixìngxīyángcàizhūgǔtāng",
+        "chinese": [],
+        "english": "Spare ribs soup with watercress and apricot kernels",
+        "vietnamese": "Canh xương heo cải xoong mơ bắc nam"
+    },
+    "杏": {
+        "pinyin": "xìng",
+        "chinese": [
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "apricot",
+        "vietnamese": "quả mơ"
+    },
+    "南北": {
+        "pinyin": "nánběi",
+        "chinese": [
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "north and south",
+        "vietnamese": "phía bắc và phía nam"
+    },
+    "西": {
+        "pinyin": "xī",
+        "chinese": [
+            "南北杏西洋菜猪骨汤",
+            "西湖醋鱼"
+        ],
+        "english": "West",
+        "vietnamese": "hướng Tây"
+    },
+    "西洋": {
+        "pinyin": "xīyáng",
+        "chinese": [
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "western",
+        "vietnamese": "miền Tây"
+    },
+    "洋": {
+        "pinyin": "yáng",
+        "chinese": [
+            "南北杏西洋菜猪骨汤"
+        ],
+        "english": "foreign",
+        "vietnamese": "nước ngoài"
+    },
+    "白切鸡": {
+        "pinyin": "báiqiējī",
+        "chinese": [],
+        "english": "White cut chicken",
+        "vietnamese": "Gà chần"
+    },
+    "白切": {
+        "pinyin": "báiqiē",
+        "chinese": [
+            "白切鸡"
+        ],
+        "english": "White cut",
+        "vietnamese": "Cắt trắng"
+    },
+    "白": {
+        "pinyin": "bái",
+        "chinese": [
+            "白切鸡"
+        ],
+        "english": "white",
+        "vietnamese": "trắng"
+    },
+    "切": {
+        "pinyin": "qiē",
+        "chinese": [
+            "白切鸡"
+        ],
+        "english": "cut",
+        "vietnamese": "cắt"
+    },
+    "冬瓜汤": {
+        "pinyin": "dōngguātāng",
+        "chinese": [],
+        "english": "Winter melon soup",
+        "vietnamese": "Súp dưa mùa đông"
+    },
+    "冬": {
+        "pinyin": "dōng",
+        "chinese": [
+            "冬瓜汤"
+        ],
+        "english": "winter",
+        "vietnamese": "mùa đông"
+    },
+    "云吞面": {
+        "pinyin": "yúntūnmiàn",
+        "chinese": [],
+        "english": "Wonton noodles",
+        "vietnamese": "Mì hoành thánh"
+    },
+    "吞": {
+        "pinyin": "tūn",
+        "chinese": [
+            "云吞面"
+        ],
+        "english": "swallow",
+        "vietnamese": "nuốt"
+    },
+    "云": {
+        "pinyin": "yún",
+        "chinese": [
+            "云吞面"
+        ],
+        "english": "cloud",
+        "vietnamese": "đám mây"
+    },
+    "扬州炒饭": {
+        "pinyin": "yángzhōuchǎofàn",
+        "chinese": [],
+        "english": "Yeung Chow fried rice",
+        "vietnamese": "cơm chiên Dương Châu"
+    },
+    "扬州": {
+        "pinyin": "yángzhōu",
+        "chinese": [
+            "扬州炒饭"
+        ],
+        "english": "Yangzhou",
+        "vietnamese": "Dương Châu"
+    },
+    "扬": {
+        "pinyin": "yáng",
+        "chinese": [
+            "扬州炒饭"
+        ],
+        "english": "Yang",
+        "vietnamese": "Dương"
+    },
+    "州": {
+        "pinyin": "zhōu",
+        "chinese": [
+            "扬州炒饭",
+            "杭州酱鸭"
+        ],
+        "english": "state",
+        "vietnamese": "tình trạng"
+    },
+    "炸两": {
+        "pinyin": "zhàliǎng",
+        "chinese": [],
+        "english": "Zhaliang",
+        "vietnamese": "chiên hai"
+    },
+    "两": {
+        "pinyin": "liǎng",
+        "chinese": [
+            "炸两"
+        ],
+        "english": "two",
+        "vietnamese": "hai"
+    },
+    "鱼生": {
+        "pinyin": "yúshēng",
+        "chinese": [],
+        "english": "Yusheng",
+        "vietnamese": "Ngọc Sinh"
+    },
+    "薄饼": {
+        "pinyin": "bóbǐng",
+        "chinese": [],
+        "english": "Popiah",
+        "vietnamese": "pizza"
+    },
+    "薄": {
+        "pinyin": "bó",
+        "chinese": [
+            "薄饼",
+            "薄饼"
+        ],
+        "english": "Thin",
+        "vietnamese": "Gầy"
+    },
+    "佛跳墙": {
+        "pinyin": "fótiàoqiáng",
+        "chinese": [],
+        "english": "Buddha jumps over the wall",
+        "vietnamese": "Phật nhảy tường"
+    },
+    "墙": {
+        "pinyin": "qiáng",
+        "chinese": [
+            "佛跳墙"
+        ],
+        "english": "wall",
+        "vietnamese": "tường"
+    },
+    "跳": {
+        "pinyin": "tiào",
+        "chinese": [
+            "佛跳墙"
+        ],
+        "english": "Jump",
+        "vietnamese": "Nhảy"
+    },
+    "佛": {
+        "pinyin": "fó",
+        "chinese": [
+            "佛跳墙"
+        ],
+        "english": "Buddha",
+        "vietnamese": "Phật"
+    },
+    "福建式炒饭": {
+        "pinyin": "fújiànshìchǎofàn",
+        "chinese": [],
+        "english": "Fried rice in Fujian style",
+        "vietnamese": "Cơm chiên kiểu Phúc Kiến"
+    },
+    "建": {
+        "pinyin": "jiàn",
+        "chinese": [
+            "福建式炒饭"
+        ],
+        "english": "establish",
+        "vietnamese": "thành lập"
+    },
+    "式": {
+        "pinyin": "shì",
+        "chinese": [
+            "福建式炒饭"
+        ],
+        "english": "Mode",
+        "vietnamese": "Cách thức"
+    },
+    "福": {
+        "pinyin": "fú",
+        "chinese": [
+            "福建式炒饭"
+        ],
+        "english": "blessing",
+        "vietnamese": "phước lành"
+    },
+    "福建": {
+        "pinyin": "fújiàn",
+        "chinese": [
+            "福建式炒饭"
+        ],
+        "english": "Fujian",
+        "vietnamese": "Phúc Kiến"
+    },
+    "蚵仔煎": {
+        "pinyin": "hézǐjiān",
+        "chinese": [],
+        "english": "Oyster omelette",
+        "vietnamese": "Trứng tráng hàu"
+    },
+    "蚵": {
+        "pinyin": "hé",
+        "chinese": [
+            "蚵仔煎"
+        ],
+        "english": "oyster",
+        "vietnamese": "con hàu"
+    },
+    "燕皮": {
+        "pinyin": "yànpí",
+        "chinese": [],
+        "english": "Yanpi",
+        "vietnamese": "Yanpi"
+    },
+    "海南鸡饭": {
+        "pinyin": "hǎinánjīfàn",
+        "chinese": [],
+        "english": "Hainanese chicken rice",
+        "vietnamese": "Cơm gà Hải Nam"
+    },
+    "海南": {
+        "pinyin": "hǎinán",
+        "chinese": [
+            "海南鸡饭"
+        ],
+        "english": "Hainan",
+        "vietnamese": "Hải Nam"
+    },
+    "鸡饭": {
+        "pinyin": "jīfàn",
+        "chinese": [
+            "海南鸡饭"
+        ],
+        "english": "chicken rice",
+        "vietnamese": "cơm gà"
+    },
+    "文昌鸡": {
+        "pinyin": "wénchāngjī",
+        "chinese": [],
+        "english": "Wenchang chicken",
+        "vietnamese": "Gà Văn Xương"
+    },
+    "昌": {
+        "pinyin": "chāng",
+        "chinese": [
+            "文昌鸡"
+        ],
+        "english": "Chang",
+        "vietnamese": "Chang"
+    },
+    "文": {
+        "pinyin": "wén",
+        "chinese": [
+            "文昌鸡"
+        ],
+        "english": "arts",
+        "vietnamese": "nghệ thuật"
+    },
+    "重庆辣子鸡": {
+        "pinyin": "zhòngqìnglàzǐjī",
+        "chinese": [],
+        "english": "Chongqing spicy deep-fried chicken",
+        "vietnamese": "Gà cay Trùng Khánh"
+    },
+    "庆": {
+        "pinyin": "qìng",
+        "chinese": [
+            "重庆辣子鸡"
+        ],
+        "english": "celebrate",
+        "vietnamese": "kỉ niệm"
+    },
+    "重庆": {
+        "pinyin": "zhòngqìng",
+        "chinese": [
+            "重庆辣子鸡"
+        ],
+        "english": "Chongqing",
+        "vietnamese": "Trùng Khánh"
+    },
+    "辣子鸡": {
+        "pinyin": "làzǐjī",
+        "chinese": [
+            "重庆辣子鸡"
+        ],
+        "english": "Spicy Chicken",
+        "vietnamese": "Gà cay"
+    },
+    "重": {
+        "pinyin": "zhòng",
+        "chinese": [
+            "重庆辣子鸡"
+        ],
+        "english": "Heavy",
+        "vietnamese": "Nặng"
+    },
+    "担担面": {
+        "pinyin": "dàndànmiàn",
+        "chinese": [],
+        "english": "Dandan noodles",
+        "vietnamese": "Tantanmen"
+    },
+    "担": {
+        "pinyin": "dàn",
+        "chinese": [
+            "担担面"
+        ],
+        "english": "bear",
+        "vietnamese": "con gấu"
+    },
+    "夫妻肺片": {
+        "pinyin": "fūqīfèipiàn",
+        "chinese": [],
+        "english": "Fuqi Feipian",
+        "vietnamese": "lát phổi của cặp đôi"
+    },
+    "肺片": {
+        "pinyin": "fèipiàn",
+        "chinese": [
+            "夫妻肺片"
+        ],
+        "english": "Fei slices",
+        "vietnamese": "Phi lát"
+    },
+    "妻": {
+        "pinyin": "qī",
+        "chinese": [
+            "夫妻肺片"
+        ],
+        "english": "wife",
+        "vietnamese": "vợ"
+    },
+    "肺": {
+        "pinyin": "fèi",
+        "chinese": [
+            "夫妻肺片"
+        ],
+        "english": "lung",
+        "vietnamese": "phổi"
+    },
+    "夫妻": {
+        "pinyin": "fūqī",
+        "chinese": [
+            "夫妻肺片"
+        ],
+        "english": "couple",
+        "vietnamese": "cặp đôi"
+    },
+    "夫": {
+        "pinyin": "fū",
+        "chinese": [
+            "夫妻肺片"
+        ],
+        "english": "husband",
+        "vietnamese": "chồng"
+    },
+    "四川火锅": {
+        "pinyin": "sìchuānhuǒguō",
+        "chinese": [],
+        "english": "Sichuan hotpot",
+        "vietnamese": "Lẩu Tứ Xuyên"
+    },
+    "川": {
+        "pinyin": "chuān",
+        "chinese": [
+            "四川火锅"
+        ],
+        "english": "river",
+        "vietnamese": "dòng sông"
+    },
+    "四": {
+        "pinyin": "sì",
+        "chinese": [
+            "四川火锅"
+        ],
+        "english": "Four",
+        "vietnamese": "bốn"
+    },
+    "麻婆豆腐": {
+        "pinyin": "mápódòufǔ",
+        "chinese": [],
+        "english": "Mapo tofu",
+        "vietnamese": "Đậu phụ Mabo"
+    },
+    "婆": {
+        "pinyin": "pó",
+        "chinese": [
+            "麻婆豆腐"
+        ],
+        "english": "Po",
+        "vietnamese": "Po"
+    },
+    "水煮": {
+        "pinyin": "shǔizhǔ",
+        "chinese": [],
+        "english": "Shuizhu",
+        "vietnamese": "luộc"
+    },
+    "煮": {
+        "pinyin": "zhǔ",
+        "chinese": [
+            "水煮"
+        ],
+        "english": "cook",
+        "vietnamese": "đầu bếp"
+    },
+    "樟茶鸭": {
+        "pinyin": "zhāngcháyā",
+        "chinese": [],
+        "english": "Zhangcha duck",
+        "vietnamese": "vịt zhangcha"
+    },
+    "樟": {
+        "pinyin": "zhāng",
+        "chinese": [
+            "樟茶鸭"
+        ],
+        "english": "camphor",
+        "vietnamese": "long não"
+    },
+    "樟茶": {
+        "pinyin": "zhāngchá",
+        "chinese": [
+            "樟茶鸭"
+        ],
+        "english": "camphor tea",
+        "vietnamese": "trà long não"
+    },
+    "过桥米线": {
+        "pinyin": "guòqiáomǐxiàn",
+        "chinese": [],
+        "english": "Over Bridge Rice Noodles",
+        "vietnamese": "Mì cầu Vân Nam"
+    },
+    "线": {
+        "pinyin": "xiàn",
+        "chinese": [
+            "过桥米线"
+        ],
+        "english": "Wire",
+        "vietnamese": "Dây điện"
+    },
+    "过": {
+        "pinyin": "guò",
+        "chinese": [
+            "过桥米线"
+        ],
+        "english": "Pass",
+        "vietnamese": "Vượt qua"
+    },
+    "桥": {
+        "pinyin": "qiáo",
+        "chinese": [
+            "过桥米线"
+        ],
+        "english": "bridge",
+        "vietnamese": "cầu"
+    },
+    "叫化鸡": {
+        "pinyin": "jiàohuàjī",
+        "chinese": [],
+        "english": "Beggar's Chicken",
+        "vietnamese": "gà ăn xin"
+    },
+    "化": {
+        "pinyin": "huà",
+        "chinese": [
+            "叫化鸡"
+        ],
+        "english": "change",
+        "vietnamese": "thay đổi"
+    },
+    "叫化": {
+        "pinyin": "jiàohuà",
+        "chinese": [
+            "叫化鸡"
+        ],
+        "english": "Beggar",
+        "vietnamese": "Người ăn xin"
+    },
+    "叫": {
+        "pinyin": "jiào",
+        "chinese": [
+            "叫化鸡"
+        ],
+        "english": "Call",
+        "vietnamese": "Gọi"
+    },
+    "干菜焖肉": {
+        "pinyin": "gāncàimènròu",
+        "chinese": [],
+        "english": "Braised Sliced Pork with Preserved Vegetables",
+        "vietnamese": "Thịt Kho Rau Khô"
+    },
+    "干菜": {
+        "pinyin": "gāncài",
+        "chinese": [
+            "干菜焖肉"
+        ],
+        "english": "dried vegetable",
+        "vietnamese": "rau khô"
+    },
+    "糟鸡": {
+        "pinyin": "zāojī",
+        "chinese": [],
+        "english": "Cold Chicken Cooked in Wine",
+        "vietnamese": "gà xấu"
+    },
+    "糟": {
+        "pinyin": "zāo",
+        "chinese": [
+            "糟鸡"
+        ],
+        "english": "Bad",
+        "vietnamese": "Xấu"
+    },
+    "清汤鱼圆": {
+        "pinyin": "qīngtāngyúyuán",
+        "chinese": [],
+        "english": "Fish Ball in Light Soup",
+        "vietnamese": "Cá viên trong nước súp trong"
+    },
+    "圆": {
+        "pinyin": "yuán",
+        "chinese": [
+            "清汤鱼圆"
+        ],
+        "english": "round",
+        "vietnamese": "tròn"
+    },
+    "清": {
+        "pinyin": "qīng",
+        "chinese": [
+            "清汤鱼圆"
+        ],
+        "english": "clear",
+        "vietnamese": "thông thoáng"
+    },
+    "清汤": {
+        "pinyin": "qīngtāng",
+        "chinese": [
+            "清汤鱼圆"
+        ],
+        "english": "broth",
+        "vietnamese": "nước dùng"
+    },
+    "鱼圆": {
+        "pinyin": "yúyuán",
+        "chinese": [
+            "清汤鱼圆"
+        ],
+        "english": "fish balls",
+        "vietnamese": "cá viên"
+    },
+    "生爆鳝片": {
+        "pinyin": "shēngbàoshànpiàn",
+        "chinese": [],
+        "english": "Fried Eel Slices",
+        "vietnamese": "Lươn sống lát"
+    },
+    "爆": {
+        "pinyin": "bào",
+        "chinese": [
+            "生爆鳝片",
+            "油爆虾"
+        ],
+        "english": "burst",
+        "vietnamese": "nổ"
+    },
+    "鳝": {
+        "pinyin": "shàn",
+        "chinese": [
+            "生爆鳝片"
+        ],
+        "english": "eel",
+        "vietnamese": "con lươn"
+    },
+    "生爆鳝": {
+        "pinyin": "shēngbàoshàn",
+        "chinese": [
+            "生爆鳝片"
+        ],
+        "english": "Exploded eel",
+        "vietnamese": "Lươn nổ"
+    },
+    "椒盐乳鸽": {
+        "pinyin": "jiāoyánrǔgē",
+        "chinese": [],
+        "english": "Fried Pigeon with Spiced Salt",
+        "vietnamese": "Cá muối và hạt tiêu"
+    },
+    "椒盐": {
+        "pinyin": "jiāoyán",
+        "chinese": [
+            "椒盐乳鸽"
+        ],
+        "english": "salt and pepper",
+        "vietnamese": "muối và tiêu"
+    },
+    "盐": {
+        "pinyin": "yán",
+        "chinese": [
+            "椒盐乳鸽"
+        ],
+        "english": "Salt",
+        "vietnamese": "Muối"
+    },
+    "椒": {
+        "pinyin": "jiāo",
+        "chinese": [
+            "椒盐乳鸽"
+        ],
+        "english": "pepper",
+        "vietnamese": "hạt tiêu"
+    },
+    "龙井虾仁": {
+        "pinyin": "lóngjǐngxiārén",
+        "chinese": [],
+        "english": "Fried Shrimps with Longjing Tea",
+        "vietnamese": "Tôm Long Tỉnh"
+    },
+    "虾仁": {
+        "pinyin": "xiārén",
+        "chinese": [
+            "龙井虾仁"
+        ],
+        "english": "Shrimp",
+        "vietnamese": "Con tôm"
+    },
+    "龙井": {
+        "pinyin": "lóngjǐng",
+        "chinese": [
+            "龙井虾仁"
+        ],
+        "english": "Longjing",
+        "vietnamese": "Long Tỉnh"
+    },
+    "仁": {
+        "pinyin": "rén",
+        "chinese": [
+            "龙井虾仁"
+        ],
+        "english": "Benevolence",
+        "vietnamese": "lòng nhân từ"
+    },
+    "龙": {
+        "pinyin": "lóng",
+        "chinese": [
+            "龙井虾仁"
+        ],
+        "english": "dragon",
+        "vietnamese": "rồng"
+    },
+    "井": {
+        "pinyin": "jǐng",
+        "chinese": [
+            "龙井虾仁"
+        ],
+        "english": "well",
+        "vietnamese": "Tốt"
+    },
+    "干炸响铃": {
+        "pinyin": "gānzhàxiǎnglíng",
+        "chinese": [],
+        "english": "Fried Stuffed Bean Curd Paste",
+        "vietnamese": "Chuông chiên khô"
+    },
+    "响铃": {
+        "pinyin": "xiǎnglíng",
+        "chinese": [
+            "干炸响铃"
+        ],
+        "english": "Ring the bell",
+        "vietnamese": "Rung chuông"
+    },
+    "干炸": {
+        "pinyin": "gānzhà",
+        "chinese": [
+            "干炸响铃"
+        ],
+        "english": "Dry fried",
+        "vietnamese": "chiên khô"
+    },
+    "铃": {
+        "pinyin": "líng",
+        "chinese": [
+            "干炸响铃"
+        ],
+        "english": "bell",
+        "vietnamese": "chuông"
+    },
+    "响": {
+        "pinyin": "xiǎng",
+        "chinese": [
+            "干炸响铃"
+        ],
+        "english": "ring",
+        "vietnamese": "nhẫn"
+    },
+    "糖醋里脊": {
+        "pinyin": "tángcùlǐjí",
+        "chinese": [],
+        "english": "Fried Sweet and Sour Pork",
+        "vietnamese": "Ngọt ngào và chua thịt lợn"
+    },
+    "醋": {
+        "pinyin": "cù",
+        "chinese": [
+            "糖醋里脊",
+            "西湖醋鱼"
+        ],
+        "english": "vinegar",
+        "vietnamese": "Giấm"
+    },
+    "脊": {
+        "pinyin": "jí",
+        "chinese": [
+            "糖醋里脊"
+        ],
+        "english": "ridge",
+        "vietnamese": "cây rơm"
+    },
+    "糖醋": {
+        "pinyin": "tángcù",
+        "chinese": [
+            "糖醋里脊"
+        ],
+        "english": "sweet and sour",
+        "vietnamese": "chua ngọt"
+    },
+    "里脊": {
+        "pinyin": "lǐjí",
+        "chinese": [
+            "糖醋里脊"
+        ],
+        "english": "Tenderloin",
+        "vietnamese": "thăn thăn"
+    },
+    "里": {
+        "pinyin": "lǐ",
+        "chinese": [
+            "糖醋里脊"
+        ],
+        "english": "inside",
+        "vietnamese": "bên trong"
+    },
+    "杭州酱鸭": {
+        "pinyin": "hángzhōujiàngyā",
+        "chinese": [],
+        "english": "Hangzhou-Style Duck Pickled in Soy Sauce",
+        "vietnamese": "Vịt sốt Hàng Châu"
+    },
+    "酱鸭": {
+        "pinyin": "jiàngyā",
+        "chinese": [
+            "杭州酱鸭"
+        ],
+        "english": "Sauce duck",
+        "vietnamese": "Vịt sốt"
+    },
+    "杭": {
+        "pinyin": "háng",
+        "chinese": [
+            "杭州酱鸭"
+        ],
+        "english": "Hangzhou",
+        "vietnamese": "Hàng Châu"
+    },
+    "杭州": {
+        "pinyin": "hángzhōu",
+        "chinese": [
+            "杭州酱鸭"
+        ],
+        "english": "Hangzhou",
+        "vietnamese": "Hàng Châu"
+    },
+    "笋干老鸭煲": {
+        "pinyin": "sǔngānlǎoyābāo",
+        "chinese": [],
+        "english": "Old Duck Stewed with Bamboo Root & Ham",
+        "vietnamese": "Măng khô vịt hầm"
+    },
+    "笋": {
+        "pinyin": "sǔn",
+        "chinese": [
+            "笋干老鸭煲",
+            "油焖春笋"
+        ],
+        "english": "bamboo shoots",
+        "vietnamese": "măng"
+    },
+    "笋干": {
+        "pinyin": "sǔngān",
+        "chinese": [
+            "笋干老鸭煲"
+        ],
+        "english": "Dried bamboo shoots",
+        "vietnamese": "Măng khô"
+    },
+    "卤鸭": {
+        "pinyin": "lǔyā",
+        "chinese": [],
+        "english": "Red-Stewed Duck",
+        "vietnamese": "vịt om"
+    },
+    "火腿蚕豆": {
+        "pinyin": "huǒtǔicándòu",
+        "chinese": [],
+        "english": "Sauteed Broad Beans with Ham",
+        "vietnamese": "Đậu rộng Ham"
+    },
+    "蚕豆": {
+        "pinyin": "cándòu",
+        "chinese": [
+            "火腿蚕豆"
+        ],
+        "english": "broad bean",
+        "vietnamese": "đậu rộng"
+    },
+    "腿": {
+        "pinyin": "tǔi",
+        "chinese": [
+            "火腿蚕豆"
+        ],
+        "english": "leg",
+        "vietnamese": "chân"
+    },
+    "火腿": {
+        "pinyin": "huǒtǔi",
+        "chinese": [
+            "火腿蚕豆"
+        ],
+        "english": "Ham",
+        "vietnamese": "giăm bông"
+    },
+    "蚕": {
+        "pinyin": "cán",
+        "chinese": [
+            "火腿蚕豆"
+        ],
+        "english": "silkworm",
+        "vietnamese": "con tằm"
+    },
+    "油爆虾": {
+        "pinyin": "yóubàoxiā",
+        "chinese": [],
+        "english": "Sauteed Shrimps",
+        "vietnamese": "Tôm chiên dầu"
+    },
+    "油爆": {
+        "pinyin": "yóubào",
+        "chinese": [
+            "油爆虾"
+        ],
+        "english": "Oil explosion",
+        "vietnamese": "Vụ nổ dầu"
+    },
+    "番茄锅巴": {
+        "pinyin": "fānqiéguōbā",
+        "chinese": [],
+        "english": "Sizzling Rice in Tomato Sauce",
+        "vietnamese": "Cơm Cà Chua Giòn"
+    },
+    "巴": {
+        "pinyin": "bā",
+        "chinese": [
+            "番茄锅巴"
+        ],
+        "english": "-bar",
+        "vietnamese": "-quán ba"
+    },
+    "茄": {
+        "pinyin": "qié",
+        "chinese": [
+            "番茄锅巴"
+        ],
+        "english": "eggplant",
+        "vietnamese": "cà tím"
+    },
+    "番茄": {
+        "pinyin": "fānqié",
+        "chinese": [
+            "番茄锅巴"
+        ],
+        "english": "tomato",
+        "vietnamese": "cà chua"
+    },
+    "番": {
+        "pinyin": "fān",
+        "chinese": [
+            "番茄锅巴"
+        ],
+        "english": "number",
+        "vietnamese": "con số"
+    },
+    "锅巴": {
+        "pinyin": "guōbā",
+        "chinese": [
+            "番茄锅巴"
+        ],
+        "english": "Crispy rice",
+        "vietnamese": "Gạo giòn"
+    },
+    "荷叶粉蒸肉": {
+        "pinyin": "héyèfěnzhēngròu",
+        "chinese": [],
+        "english": "Steamed Pork with Rice Flour in Lotus Leaf",
+        "vietnamese": "Thịt lợn hấp bột lá sen"
+    },
+    "荷": {
+        "pinyin": "hé",
+        "chinese": [
+            "荷叶粉蒸肉"
+        ],
+        "english": "load",
+        "vietnamese": "trọng tải"
+    },
+    "粉蒸肉": {
+        "pinyin": "fěnzhēngròu",
+        "chinese": [
+            "荷叶粉蒸肉"
+        ],
+        "english": "Steamed Pork",
+        "vietnamese": "Thịt lợn hấp"
+    },
+    "粉": {
+        "pinyin": "fěn",
+        "chinese": [
+            "荷叶粉蒸肉"
+        ],
+        "english": "pink",
+        "vietnamese": "hồng"
+    },
+    "荷叶": {
+        "pinyin": "héyè",
+        "chinese": [
+            "荷叶粉蒸肉"
+        ],
+        "english": "lotus leaf",
+        "vietnamese": "lá sen"
+    },
+    "油焖春笋": {
+        "pinyin": "yóumènchūnsǔn",
+        "chinese": [],
+        "english": "Stewed Spring Bamboo Shoots",
+        "vietnamese": "Măng rừng om dầu"
+    },
+    "春": {
+        "pinyin": "chūn",
+        "chinese": [
+            "油焖春笋"
+        ],
+        "english": "spring",
+        "vietnamese": "mùa xuân"
+    },
+    "春笋": {
+        "pinyin": "chūnsǔn",
+        "chinese": [
+            "油焖春笋"
+        ],
+        "english": "spring bamboo shoots",
+        "vietnamese": "măng xuân"
+    },
+    "油焖": {
+        "pinyin": "yóumèn",
+        "chinese": [
+            "油焖春笋"
+        ],
+        "english": "Stewed in oil",
+        "vietnamese": "Hầm trong dầu"
+    },
+    "栗子炒子鸡": {
+        "pinyin": "lìzǐchǎozǐjī",
+        "chinese": [],
+        "english": "Stir-Fried Spring Chicken with Chestnuts",
+        "vietnamese": "Gà xào hạt dẻ"
+    },
+    "子鸡": {
+        "pinyin": "zǐjī",
+        "chinese": [
+            "栗子炒子鸡"
+        ],
+        "english": "Chicken",
+        "vietnamese": "Thịt gà"
+    },
+    "栗": {
+        "pinyin": "lì",
+        "chinese": [
+            "栗子炒子鸡"
+        ],
+        "english": "chestnut",
+        "vietnamese": "hạt dẻ"
+    },
+    "栗子": {
+        "pinyin": "lìzǐ",
+        "chinese": [
+            "栗子炒子鸡"
+        ],
+        "english": "chestnut",
+        "vietnamese": "hạt dẻ"
+    },
+    "西湖醋鱼": {
+        "pinyin": "xīhúcùyú",
+        "chinese": [],
+        "english": "West Lake Fish in Vinegar Sauce",
+        "vietnamese": "Cá Hồ Tây Sốt Giấm"
+    },
+    "西湖": {
+        "pinyin": "xīhú",
+        "chinese": [
+            "西湖醋鱼"
+        ],
+        "english": "west lake",
+        "vietnamese": "hồ tây"
+    },
+    "湖": {
+        "pinyin": "hú",
+        "chinese": [
+            "西湖醋鱼"
+        ],
+        "english": "lake",
+        "vietnamese": "hồ"
+    }
+}

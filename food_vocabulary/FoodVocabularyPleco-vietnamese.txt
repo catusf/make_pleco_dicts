@@ -1,0 +1,413 @@
+//Food Vocabulary-vietnamese/Characters
+丁	dīng	Người đàn ôngRELATED - 宫保鸡丁 gōngbǎojīdīng Gà kung Pao
+东	dōng	Phía đôngRELATED - 东坡肉 dōngpōròu Thịt lợn Đông Pha
+两	liǎng	haiRELATED - 炸两 zhàliǎng chiên hai
+丸	wán	vòng trònRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ
+乳	rǔ	sữaRELATED - 乳鸽 rǔgē tiếng kêu la - 椒盐乳鸽 jiāoyánrǔgē Cá muối và hạt tiêu - 烧乳猪 shāorǔzhū Heo sữa quay
+云	yún	đám mâyRELATED - 云吞面 yúntūnmiàn Mì hoành thánh
+五	wǔ	nămRELATED - 五彩鱼片 wǔcǎiyúpiàn Phi lê cá đầy màu sắc
+井	jǐng	TốtRELATED - 龙井虾仁 lóngjǐngxiārén Tôm Long Tỉnh
+京	jīng	Bắc KinhRELATED - 北京烤鸭 běijīngkǎoyā Vịt Bắc Kinh
+仁	rén	lòng nhân từRELATED - 龙井虾仁 lóngjǐngxiārén Tôm Long Tỉnh
+仔	zǐ	trẻRELATED - 煲仔饭 bāozǐfàn Cơm niêu - 蚵仔煎 hézǐjiān Trứng tráng hàu
+佛	fó	PhậtRELATED - 佛跳墙 fótiàoqiáng Phật nhảy tường
+保	bǎo	CứuRELATED - 宫保鸡丁 gōngbǎojīdīng Gà kung Pao
+兔	tù	con thỏRELATED - 玉兔海参 yùtùhǎicān Hải Sâm Thỏ Ngọc
+八	bā	támRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan
+公	gōng	nam giớiRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan
+冬	dōng	mùa đôngRELATED - 冬瓜汤 dōngguātāng Súp dưa mùa đông
+冰	bīng	đáRELATED - 刨冰 bàobīng Đá bào
+凤	fèng	Phượng HoàngRELATED - 凤尾虾排 fèngwěixiāpái Cá Cơm Tôm Bít Tết
+切	qiē	cắtRELATED - 白切鸡 báiqiējī Gà chần
+刨	bào	máy bayRELATED - 刨冰 bàobīng Đá bào
+包	bāo	Cái túiRELATED - 包子 bāozǐ bún nhồi hấp - 小笼包 xiǎolóngbāo Tiểu Long Bảo - 长寿包 chángshòubāo gói tuổi thọ
+化	huà	thay đổiRELATED - 叫化鸡 jiàohuàjī gà ăn xin
+北	běi	phía bắcRELATED - 北京烤鸭 běijīngkǎoyā Vịt Bắc Kinh - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam
+南	nán	Phía namRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam - 南瓜蒸饺 nánguāzhēngjiǎo Bánh bao hấp bí ngô - 海南鸡饭 hǎinánjīfàn Cơm gà Hải Nam
+卤	lǔ	halogenRELATED - 卤蛋 lǔdàn trứng ngô tẩm gia vị - 卤鸭 lǔyā vịt om
+参	cān	nhân sâmRELATED - 海参 hǎicān hải sâm - 玉兔海参 yùtùhǎicān Hải Sâm Thỏ Ngọc
+叉	chā	đi quaRELATED - 叉烧 chāshāo Thịt lợn nướng
+叫	jiào	GọiRELATED - 叫化鸡 jiàohuàjī gà ăn xin
+叶	yè	lá câyRELATED - 茶叶蛋 cháyèdàn trứng trà - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+吞	tūn	nuốtRELATED - 云吞面 yúntūnmiàn Mì hoành thánh
+咕	gū	gooRELATED - 咕咾肉 gūlǎoròu thịt
+咾	lǎo	ChàoRELATED - 咕咾肉 gūlǎoròu thịt
+响	xiǎng	nhẫnRELATED - 干炸响铃 gānzhàxiǎnglíng Chuông chiên khô
+四	sì	bốnRELATED - 四川火锅 sìchuānhuǒguō Lẩu Tứ Xuyên
+回	húi	lầnRELATED - 回锅肉 húiguōròu thịt lợn nấu hai lần
+圆	yuán	trònRELATED - 清汤鱼圆 qīngtāngyúyuán Cá viên trong nước súp trong
+土	tǔ	đấtRELATED - 土豆炸饺 tǔdòuzhàjiǎo Bánh bao khoai tây chiên
+坡	pō	dốcRELATED - 东坡肉 dōngpōròu Thịt lợn Đông Pha
+墙	qiáng	tườngRELATED - 佛跳墙 fótiàoqiáng Phật nhảy tường
+夫	fū	chồngRELATED - 夫妻肺片 fūqīfèipiàn lát phổi của cặp đôi
+头	tóu	cái đầuRELATED - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn - 馒头 mántóu Bún hấp
+妻	qī	vợRELATED - 夫妻肺片 fūqīfèipiàn lát phổi của cặp đôi
+姜	jiāng	gừngRELATED - 姜母鸭 jiāngmǔyā vịt gừng
+婆	pó	PoRELATED - 麻婆豆腐 mápódòufǔ Đậu phụ Mabo
+子	zǐ	Đứa trẻRELATED - 包子 bāozǐ bún nhồi hấp - 栗子炒子鸡 lìzǐchǎozǐjī Gà xào hạt dẻ - 炸子鸡 zhàzǐjī Gà rán - 粽子 zòngzǐ Tông Tử - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh - 饺子 jiǎozǐ bánh bao
+宫	gōng	cung điệnRELATED - 宫保鸡丁 gōngbǎojīdīng Gà kung Pao
+寿	shòu	mạng sốngRELATED - 长寿包 chángshòubāo gói tuổi thọ
+小	xiǎo	Bé nhỏRELATED - 小笼包 xiǎolóngbāo Tiểu Long Bảo
+尾	wěi	đuôiRELATED - 凤尾虾排 fèngwěixiāpái Cá Cơm Tôm Bít Tết
+山	shān	NúiRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan
+川	chuān	dòng sôngRELATED - 四川火锅 sìchuānhuǒguō Lẩu Tứ Xuyên
+州	zhōu	tình trạngRELATED - 扬州炒饭 yángzhōuchǎofàn cơm chiên Dương Châu - 杭州酱鸭 hángzhōujiàngyā Vịt sốt Hàng Châu
+巢	cháo	tổRELATED - 海鲜雀巢 hǎixiānquècháo Nestlé hải sản
+巴	bā	-quán baRELATED - 番茄锅巴 fānqiéguōbā Cơm Cà Chua Giòn
+干	gān	KhôRELATED - 干炒牛河 gānchǎoníuhé Khô Bò Chiên Sông - 干炸响铃 gānzhàxiǎnglíng Chuông chiên khô - 干菜焖肉 gāncàimènròu Thịt Kho Rau Khô - 干锅素肉 gānguōsùròu Thịt chay khô - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm
+庆	qìng	kỉ niệmRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh
+建	jiàn	thành lậpRELATED - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến
+式	shì	Cách thứcRELATED - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến
+彩	cǎi	màu sắcRELATED - 五彩鱼片 wǔcǎiyúpiàn Phi lê cá đầy màu sắc
+心	xīn	Trái timRELATED - 点心 diǎnxīn món tráng miệng
+扬	yáng	DươngRELATED - 扬州炒饭 yángzhōuchǎofàn cơm chiên Dương Châu
+担	dàn	con gấuRELATED - 担担面 dàndànmiàn Tantanmen
+拉	lā	sự lôi kéoRELATED - 拉面 lāmiàn Mì kéo tay
+排	pái	Hàng ngangRELATED - 凤尾虾排 fèngwěixiāpái Cá Cơm Tôm Bít Tết - 生炒排骨 shēngchǎopáigǔ Sườn heo xào - 稻香排骨 dàoxiāngpáigǔ Sườn heo vị cơm
+文	wén	nghệ thuậtRELATED - 文昌鸡 wénchāngjī Gà Văn Xương
+斋	zhāi	nhanhRELATED - 罗汉斋 luōhànzhāi Lạc Hán Trai
+昌	chāng	ChangRELATED - 文昌鸡 wénchāngjī Gà Văn Xương
+明	míng	sángRELATED - 明珠酥鲍 míngzhūsūbào Bào ngư trân châu giòn
+春	chūn	mùa xuânRELATED - 油焖春笋 yóumènchūnsǔn Măng rừng om dầu
+月	yuè	mặt trăngRELATED - 月饼 yuèbǐng bánh trung thu
+杏	xìng	quả mơRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam
+条	tiáo	dảiRELATED - 油条 yóutiáo Que bột chiên - 面条 miàntiáo Bún
+杭	háng	Hàng ChâuRELATED - 杭州酱鸭 hángzhōujiàngyā Vịt sốt Hàng Châu
+栗	lì	hạt dẻRELATED - 栗子炒子鸡 lìzǐchǎozǐjī Gà xào hạt dẻ
+桥	qiáo	cầuRELATED - 过桥米线 guòqiáomǐxiàn Mì cầu Vân Nam
+棠	táng	ĐườngRELATED - 海棠酥 hǎitángsū Bánh thu hải đường
+椒	jiāo	hạt tiêuRELATED - 椒盐乳鸽 jiāoyánrǔgē Cá muối và hạt tiêu
+樟	zhāng	long nãoRELATED - 樟茶鸭 zhāngcháyā vịt zhangcha
+母	mǔ	mẹRELATED - 姜母鸭 jiāngmǔyā vịt gừng
+水	shǔi	NướcRELATED - 水煮 shǔizhǔ luộc - 糖水 tángshǔi xi-rô
+汉	hàn	người Trung QuốcRELATED - 罗汉斋 luōhànzhāi Lạc Hán Trai
+汤	tāng	CanhRELATED - 冬瓜汤 dōngguātāng Súp dưa mùa đông - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam - 汤面 tāngmiàn hủ tiếu - 清汤鱼圆 qīngtāngyúyuán Cá viên trong nước súp trong - 酸辣汤 suānlàtāng Súp chua nóng - 银耳汤 yíněrtāng Súp tremella - 鱼翅汤 yúchìtāng súp vây cá mập
+沙	shā	cátRELATED - 沙琪玛 shāqímǎ Shaqima - 红豆沙 hóngdòushā bột đậu đỏ
+河	hé	dòng sôngRELATED - 干炒牛河 gānchǎoníuhé Khô Bò Chiên Sông
+油	yóu	DầuRELATED - 油条 yóutiáo Que bột chiên - 油焖春笋 yóumènchūnsǔn Măng rừng om dầu - 油爆虾 yóubàoxiā Tôm chiên dầu - 葱油饼 cōngyóubǐng Bánh xèo hành lá
+洋	yáng	nước ngoàiRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam
+海	hǎi	Đại dươngRELATED - 海南鸡饭 hǎinánjīfàn Cơm gà Hải Nam - 海参 hǎicān hải sâm - 海棠酥 hǎitángsū Bánh thu hải đường - 海皇羹 hǎihuánggēng Súp Hải Hoàng - 海鲜雀巢 hǎixiānquècháo Nestlé hải sản - 玉兔海参 yùtùhǎicān Hải Sâm Thỏ Ngọc
+清	qīng	thông thoángRELATED - 清汤鱼圆 qīngtāngyúyuán Cá viên trong nước súp trong
+渣	zhā	xỉRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ
+湖	hú	hồRELATED - 西湖醋鱼 xīhúcùyú Cá Hồ Tây Sốt Giấm
+火	huǒ	ngọn lửaRELATED - 四川火锅 sìchuānhuǒguō Lẩu Tứ Xuyên - 火腿蚕豆 huǒtǔicándòu Đậu rộng Ham - 火锅 huǒguō Lẩu
+炒	chǎo	áp chảoRELATED - 干炒牛河 gānchǎoníuhé Khô Bò Chiên Sông - 扬州炒饭 yángzhōuchǎofàn cơm chiên Dương Châu - 栗子炒子鸡 lìzǐchǎozǐjī Gà xào hạt dẻ - 炒面 chǎomiàn Mi xào - 炒饭 chǎofàn cơm chiên - 生炒排骨 shēngchǎopáigǔ Sườn heo xào - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến
+炖	tún	món thịt hầmRELATED - 炖 tún món thịt hầm - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo
+炸	zhà	chiên ránRELATED - 土豆炸饺 tǔdòuzhàjiǎo Bánh bao khoai tây chiên - 干炸响铃 gānzhàxiǎnglíng Chuông chiên khô - 炸两 zhàliǎng chiên hai - 炸子鸡 zhàzǐjī Gà rán - 炸酱面 zhàjiàngmiàn Mi xào
+点	diǎn	điểmRELATED - 点心 diǎnxīn món tráng miệng
+烤	kǎo	nướngRELATED - 北京烤鸭 běijīngkǎoyā Vịt Bắc Kinh
+烧	shāo	đốt cháyRELATED - 叉烧 chāshāo Thịt lợn nướng - 烧乳猪 shāorǔzhū Heo sữa quay - 烧饼 shāobǐng Thiệu Bình - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji - 红烧 hóngshāo om trong nước tương - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om
+焖	mèn	món thịt hầmRELATED - 干菜焖肉 gāncàimènròu Thịt Kho Rau Khô - 油焖春笋 yóumènchūnsǔn Măng rừng om dầu - 焖鲍鱼 mènbàoyú Bào ngư om
+煎	jiān	chiên ránRELATED - 蚵仔煎 hézǐjiān Trứng tráng hàu - 银鱼煎蛋 yínyújiāndàn Trứng tráng cá trắng
+煮	zhǔ	đầu bếpRELATED - 水煮 shǔizhǔ luộc
+煲	bāo	nồiRELATED - 煲仔饭 bāozǐfàn Cơm niêu - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm
+燕	yàn	YếnRELATED - 燕皮 yànpí Yanpi - 燕窝 yànwō tổ chim
+爆	bào	nổRELATED - 油爆虾 yóubàoxiā Tôm chiên dầu - 生爆鳝片 shēngbàoshànpiàn Lươn sống lát
+片	piàn	cáiRELATED - 五彩鱼片 wǔcǎiyúpiàn Phi lê cá đầy màu sắc - 夫妻肺片 fūqīfèipiàn lát phổi của cặp đôi - 生爆鳝片 shēngbàoshànpiàn Lươn sống lát
+牛	níu	con bò đựcRELATED - 干炒牛河 gānchǎoníuhé Khô Bò Chiên Sông
+猪	zhū	con lợnRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam - 烧乳猪 shāorǔzhū Heo sữa quay
+玉	yù	quả bóngRELATED - 玉兔海参 yùtùhǎicān Hải Sâm Thỏ Ngọc
+玛	mǎ	MãRELATED - 沙琪玛 shāqímǎ Shaqima
+珠	zhū	hạtRELATED - 明珠酥鲍 míngzhūsūbào Bào ngư trân châu giòn
+琪	qí	TềRELATED - 沙琪玛 shāqímǎ Shaqima
+瓜	guā	dưa gangRELATED - 冬瓜汤 dōngguātāng Súp dưa mùa đông - 南瓜蒸饺 nánguāzhēngjiǎo Bánh bao hấp bí ngô
+生	shēng	sinh raRELATED - 生炒排骨 shēngchǎopáigǔ Sườn heo xào - 生爆鳝片 shēngbàoshànpiàn Lươn sống lát - 鱼生 yúshēng Ngọc Sinh
+田	tián	cánh đồngRELATED - 花菇田鸡 huāgūtiánjī Ếch nấm
+番	fān	con sốRELATED - 番茄锅巴 fānqiéguōbā Cơm Cà Chua Giòn
+白	bái	trắngRELATED - 白切鸡 báiqiējī Gà chần
+皇	huáng	hoàng đếRELATED - 海皇羹 hǎihuánggēng Súp Hải Hoàng
+皮	pí	DaRELATED - 燕皮 yànpí Yanpi - 皮蛋 pídàn trứng bảo quản - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn
+盐	yán	MuốiRELATED - 椒盐乳鸽 jiāoyánrǔgē Cá muối và hạt tiêu
+福	fú	phước lànhRELATED - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến
+离	lí	Rời khỏiRELATED - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji
+稻	dào	cơmRELATED - 稻香排骨 dàoxiāngpáigǔ Sườn heo vị cơm
+窝	wō	tổRELATED - 燕窝 yànwō tổ chim
+笋	sǔn	măngRELATED - 油焖春笋 yóumènchūnsǔn Măng rừng om dầu - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm
+符	fú	biểu tượngRELATED - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji
+笼	lóng	cái lồngRELATED - 小笼包 xiǎolóngbāo Tiểu Long Bảo
+米	mǐ	cơmRELATED - 米饭 mǐfàn cơm - 过桥米线 guòqiáomǐxiàn Mì cầu Vân Nam
+粉	fěn	hồngRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+粥	zhōu	CháoRELATED - 粥 zhōu Cháo
+粽	zòng	TôngRELATED - 粽子 zòngzǐ Tông Tử
+糊	hú	dánRELATED - 芝麻糊 zhīmáhú Mè dán
+糖	táng	đườngRELATED - 糖水 tángshǔi xi-rô - 糖醋里脊 tángcùlǐjí Ngọt ngào và chua thịt lợn
+糟	zāo	XấuRELATED - 糟鸡 zāojī gà xấu
+素	sù	trắngRELATED - 干锅素肉 gānguōsùròu Thịt chay khô
+红	hóng	màu đỏRELATED - 红烧 hóngshāo om trong nước tương - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om - 红豆沙 hóngdòushā bột đậu đỏ
+线	xiàn	Dây điệnRELATED - 过桥米线 guòqiáomǐxiàn Mì cầu Vân Nam
+罗	luō	LạcRELATED - 罗汉斋 luōhànzhāi Lạc Hán Trai
+羹	gēng	canhRELATED - 海皇羹 hǎihuánggēng Súp Hải Hoàng
+翅	chì	cánhRELATED - 鱼翅汤 yúchìtāng súp vây cá mập
+老	lǎo	cũRELATED - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo
+耳	ěr	taiRELATED - 银耳汤 yíněrtāng Súp tremella
+肉	ròu	thịtRELATED - 东坡肉 dōngpōròu Thịt lợn Đông Pha - 咕咾肉 gūlǎoròu thịt - 回锅肉 húiguōròu thịt lợn nấu hai lần - 干菜焖肉 gāncàimènròu Thịt Kho Rau Khô - 干锅素肉 gānguōsùròu Thịt chay khô - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+肚	dù	BụngRELATED - 蟹连鱼肚 xièliányúdù Cua và bóng cá
+肺	fèi	phổiRELATED - 夫妻肺片 fūqīfèipiàn lát phổi của cặp đôi
+脊	jí	cây rơmRELATED - 糖醋里脊 tángcùlǐjí Ngọt ngào và chua thịt lợn
+腐	fǔ	ThốiRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ - 麻婆豆腐 mápódòufǔ Đậu phụ Mabo
+腿	tǔi	chânRELATED - 火腿蚕豆 huǒtǔicándòu Đậu rộng Ham
+膏	gāo	dánRELATED - 龟苓膏 gūilínggāo dán rùa
+臭	chòu	HôiRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om
+芋	yù	khoai tâyRELATED - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn
+芝	zhī	cỏRELATED - 芝麻糊 zhīmáhú Mè dán
+花	huā	hoaRELATED - 花菇田鸡 huāgūtiánjī Ếch nấm
+苓	líng	linhRELATED - 龟苓膏 gūilínggāo dán rùa
+茄	qié	cà tímRELATED - 番茄锅巴 fānqiéguōbā Cơm Cà Chua Giòn
+茶	chá	TràRELATED - 樟茶鸭 zhāngcháyā vịt zhangcha - 茶叶蛋 cháyèdàn trứng trà
+草	cǎo	CỏRELATED - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo
+荷	hé	trọng tảiRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+莲	lián	hoa senRELATED - 莲蓬鱼 liánpéngyú cá sen
+菇	gū	nấmRELATED - 花菇田鸡 huāgūtiánjī Ếch nấm
+菜	cài	rau quảRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam - 干菜焖肉 gāncàimènròu Thịt Kho Rau Khô - 酱菜 jiàngcài Dưa muối
+葱	cōng	củ hànhRELATED - 葱油饼 cōngyóubǐng Bánh xèo hành lá
+蒸	zhēng	Hơi nướcRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Bánh bao hấp bí ngô - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+蓬	péng	BànhRELATED - 莲蓬鱼 liánpéngyú cá sen
+薄	bó	GầyRELATED - 薄饼 bóbǐng pizza
+虫	chóng	côn trùngRELATED - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo
+虾	xiā	con tômRELATED - 凤尾虾排 fèngwěixiāpái Cá Cơm Tôm Bít Tết - 油爆虾 yóubàoxiā Tôm chiên dầu - 龙井虾仁 lóngjǐngxiārén Tôm Long Tỉnh
+蚕	cán	con tằmRELATED - 火腿蚕豆 huǒtǔicándòu Đậu rộng Ham
+蚵	hé	con hàuRELATED - 蚵仔煎 hézǐjiān Trứng tráng hàu
+蛋	dàn	TrứngRELATED - 卤蛋 lǔdàn trứng ngô tẩm gia vị - 皮蛋 pídàn trứng bảo quản - 茶叶蛋 cháyèdàn trứng trà - 银鱼煎蛋 yínyújiāndàn Trứng tráng cá trắng
+蟹	xiè	cuaRELATED - 蟹连鱼肚 xièliányúdù Cua và bóng cá
+西	xī	hướng TâyRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam - 西湖醋鱼 xīhúcùyú Cá Hồ Tây Sốt Giấm
+豆	dòu	đậuRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan - 土豆炸饺 tǔdòuzhàjiǎo Bánh bao khoai tây chiên - 火腿蚕豆 huǒtǔicándòu Đậu rộng Ham - 红豆沙 hóngdòushā bột đậu đỏ - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ - 麻婆豆腐 mápódòufǔ Đậu phụ Mabo
+贴	tiē	dánRELATED - 锅贴 guōtiē bánh bao chiên
+跳	tiào	NhảyRELATED - 佛跳墙 fótiàoqiáng Phật nhảy tường
+辣	là	nóngRELATED - 酸辣汤 suānlàtāng Súp chua nóng - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh
+过	guò	Vượt quaRELATED - 过桥米线 guòqiáomǐxiàn Mì cầu Vân Nam
+连	lián	thậm chíRELATED - 蟹连鱼肚 xièliányúdù Cua và bóng cá
+酥	sū	giònRELATED - 明珠酥鲍 míngzhūsūbào Bào ngư trân châu giòn - 海棠酥 hǎitángsū Bánh thu hải đường
+酱	jiàng	Nước xốtRELATED - 杭州酱鸭 hángzhōujiàngyā Vịt sốt Hàng Châu - 炸酱面 zhàjiàngmiàn Mi xào - 酱菜 jiàngcài Dưa muối
+酸	suān	axitRELATED - 酸辣汤 suānlàtāng Súp chua nóng
+醋	cù	GiấmRELATED - 糖醋里脊 tángcùlǐjí Ngọt ngào và chua thịt lợn - 西湖醋鱼 xīhúcùyú Cá Hồ Tây Sốt Giấm
+里	lǐ	bên trongRELATED - 糖醋里脊 tángcùlǐjí Ngọt ngào và chua thịt lợn
+重	zhòng	NặngRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh
+铃	líng	chuôngRELATED - 干炸响铃 gānzhàxiǎnglíng Chuông chiên khô
+银	yín	bạcRELATED - 银耳汤 yíněrtāng Súp tremella - 银鱼煎蛋 yínyújiāndàn Trứng tráng cá trắng
+锅	guō	nồiRELATED - 四川火锅 sìchuānhuǒguō Lẩu Tứ Xuyên - 回锅肉 húiguōròu thịt lợn nấu hai lần - 干锅素肉 gānguōsùròu Thịt chay khô - 火锅 huǒguō Lẩu - 番茄锅巴 fānqiéguōbā Cơm Cà Chua Giòn - 锅贴 guōtiē bánh bao chiên
+长	cháng	dàiRELATED - 长寿包 chángshòubāo gói tuổi thọ
+陈	chén	Danh sáchRELATED - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn
+雀	què	chim sẻRELATED - 海鲜雀巢 hǎixiānquècháo Nestlé hải sản
+集	jí	bộRELATED - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji
+面	miàn	búnRELATED - 云吞面 yúntūnmiàn Mì hoành thánh - 担担面 dàndànmiàn Tantanmen - 拉面 lāmiàn Mì kéo tay - 汤面 tāngmiàn hủ tiếu - 炒面 chǎomiàn Mi xào - 炸酱面 zhàjiàngmiàn Mi xào - 面条 miàntiáo Bún
+頭	tóu	cái đầuRELATED - 鴨頭 yātóu đầu vịt
+飩	tún	tấnRELATED - 餛飩 húntún bánh bao Ý
+餛	hún	bánh baoRELATED - 餛飩 húntún bánh bao Ý
+饭	fàn	bữa ănRELATED - 扬州炒饭 yángzhōuchǎofàn cơm chiên Dương Châu - 海南鸡饭 hǎinánjīfàn Cơm gà Hải Nam - 炒饭 chǎofàn cơm chiên - 煲仔饭 bāozǐfàn Cơm niêu - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến - 米饭 mǐfàn cơm
+饺	jiǎo	bánh baoRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Bánh bao hấp bí ngô - 土豆炸饺 tǔdòuzhàjiǎo Bánh bao khoai tây chiên - 饺子 jiǎozǐ bánh bao
+饼	bǐng	bánh ngọtRELATED - 月饼 yuèbǐng bánh trung thu - 烧饼 shāobǐng Thiệu Bình - 葱油饼 cōngyóubǐng Bánh xèo hành lá - 薄饼 bóbǐng pizza - 馅饼 xiànbǐng bánh
+馅	xiàn	đổ đầyRELATED - 馅饼 xiànbǐng bánh
+馒	mán	bánh mì hấpRELATED - 馒头 mántóu Bún hấp
+香	xiāng	thơmRELATED - 稻香排骨 dàoxiāngpáigǔ Sườn heo vị cơm
+骨	gǔ	XươngRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam - 生炒排骨 shēngchǎopáigǔ Sườn heo xào - 稻香排骨 dàoxiāngpáigǔ Sườn heo vị cơm
+鱖	gùi	cá hồiRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om
+鱼	yú	cáRELATED - 五彩鱼片 wǔcǎiyúpiàn Phi lê cá đầy màu sắc - 清汤鱼圆 qīngtāngyúyuán Cá viên trong nước súp trong - 焖鲍鱼 mènbàoyú Bào ngư om - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om - 莲蓬鱼 liánpéngyú cá sen - 蟹连鱼肚 xièliányúdù Cua và bóng cá - 西湖醋鱼 xīhúcùyú Cá Hồ Tây Sốt Giấm - 银鱼煎蛋 yínyújiāndàn Trứng tráng cá trắng - 鱼生 yúshēng Ngọc Sinh - 鱼翅汤 yúchìtāng súp vây cá mập
+鲍	bào	bào ngưRELATED - 明珠酥鲍 míngzhūsūbào Bào ngư trân châu giòn - 焖鲍鱼 mènbàoyú Bào ngư om
+鲜	xiān	tươiRELATED - 海鲜雀巢 hǎixiānquècháo Nestlé hải sản
+鳝	shàn	con lươnRELATED - 生爆鳝片 shēngbàoshànpiàn Lươn sống lát
+鴨	yā	con vịtRELATED - 鴨頭 yātóu đầu vịt
+鸡	jī	thịt gàRELATED - 叫化鸡 jiàohuàjī gà ăn xin - 宫保鸡丁 gōngbǎojīdīng Gà kung Pao - 文昌鸡 wénchāngjī Gà Văn Xương - 栗子炒子鸡 lìzǐchǎozǐjī Gà xào hạt dẻ - 海南鸡饭 hǎinánjīfàn Cơm gà Hải Nam - 炸子鸡 zhàzǐjī Gà rán - 白切鸡 báiqiējī Gà chần - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji - 糟鸡 zāojī gà xấu - 花菇田鸡 huāgūtiánjī Ếch nấm - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh
+鸭	yā	con vịtRELATED - 北京烤鸭 běijīngkǎoyā Vịt Bắc Kinh - 卤鸭 lǔyā vịt om - 姜母鸭 jiāngmǔyā vịt gừng - 杭州酱鸭 hángzhōujiàngyā Vịt sốt Hàng Châu - 樟茶鸭 zhāngcháyā vịt zhangcha - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn
+鸽	gē	chim bồ câuRELATED - 乳鸽 rǔgē tiếng kêu la - 椒盐乳鸽 jiāoyánrǔgē Cá muối và hạt tiêu
+麻	má	têRELATED - 芝麻糊 zhīmáhú Mè dán - 麻婆豆腐 mápódòufǔ Đậu phụ Mabo
+龙	lóng	rồngRELATED - 龙井虾仁 lóngjǐngxiārén Tôm Long Tỉnh
+龟	gūi	con rùaRELATED - 龟苓膏 gūilínggāo dán rùa
+//Food Vocabulary-vietnamese/Dishes
+丸子	wánzǐ	quả bóngRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ
+乳猪	rǔzhū	heo conRELATED - 烧乳猪 shāorǔzhū Heo sữa quay
+乳鸽	rǔgē	tiếng kêu laRELATED - 椒盐乳鸽 jiāoyánrǔgē Cá muối và hạt tiêu
+五彩	wǔcǎi	Đầy màu sắcRELATED - 五彩鱼片 wǔcǎiyúpiàn Phi lê cá đầy màu sắc
+公山	gōngshān	KongsanRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan
+凤尾	fèngwěi	đuôi phượngRELATED - 凤尾虾排 fèngwěixiāpái Cá Cơm Tôm Bít Tết
+刨冰	bàobīng	Đá bào
+包子	bāozǐ	bún nhồi hấp
+南北	nánběi	phía bắc và phía namRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam
+南瓜	nánguā	quả bí ngôRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Bánh bao hấp bí ngô
+卤蛋	lǔdàn	trứng ngô tẩm gia vị
+卤鸭	lǔyā	vịt om
+叉烧	chāshāo	Thịt lợn nướng
+叫化	jiàohuà	Người ăn xinRELATED - 叫化鸡 jiàohuàjī gà ăn xin
+响铃	xiǎnglíng	Rung chuôngRELATED - 干炸响铃 gānzhàxiǎnglíng Chuông chiên khô
+土豆	tǔdòu	Khoai tâyRELATED - 土豆炸饺 tǔdòuzhàjiǎo Bánh bao khoai tây chiên
+夫妻	fūqī	cặp đôiRELATED - 夫妻肺片 fūqīfèipiàn lát phổi của cặp đôi
+子鸡	zǐjī	Thịt gàRELATED - 栗子炒子鸡 lìzǐchǎozǐjī Gà xào hạt dẻ
+干炸	gānzhà	chiên khôRELATED - 干炸响铃 gānzhàxiǎnglíng Chuông chiên khô
+干菜	gāncài	rau khôRELATED - 干菜焖肉 gāncàimènròu Thịt Kho Rau Khô
+扬州	yángzhōu	Dương ChâuRELATED - 扬州炒饭 yángzhōuchǎofàn cơm chiên Dương Châu
+拉面	lāmiàn	Mì kéo tay
+排骨	páigǔ	xương sườnRELATED - 生炒排骨 shēngchǎopáigǔ Sườn heo xào - 稻香排骨 dàoxiāngpáigǔ Sườn heo vị cơm
+明珠	míngzhū	Ngọc traiRELATED - 明珠酥鲍 míngzhūsūbào Bào ngư trân châu giòn
+春笋	chūnsǔn	măng xuânRELATED - 油焖春笋 yóumènchūnsǔn Măng rừng om dầu
+月饼	yuèbǐng	bánh trung thu
+杭州	hángzhōu	Hàng ChâuRELATED - 杭州酱鸭 hángzhōujiàngyā Vịt sốt Hàng Châu
+栗子	lìzǐ	hạt dẻRELATED - 栗子炒子鸡 lìzǐchǎozǐjī Gà xào hạt dẻ
+椒盐	jiāoyán	muối và tiêuRELATED - 椒盐乳鸽 jiāoyánrǔgē Cá muối và hạt tiêu
+樟茶	zhāngchá	trà long nãoRELATED - 樟茶鸭 zhāngcháyā vịt zhangcha
+母鸭	mǔyā	vịt cáiRELATED - 姜母鸭 jiāngmǔyā vịt gừng
+水煮	shǔizhǔ	luộc
+汤面	tāngmiàn	hủ tiếu
+油条	yóutiáo	Que bột chiên
+油焖	yóumèn	Hầm trong dầuRELATED - 油焖春笋 yóumènchūnsǔn Măng rừng om dầu
+油爆	yóubào	Vụ nổ dầuRELATED - 油爆虾 yóubàoxiā Tôm chiên dầu
+海南	hǎinán	Hải NamRELATED - 海南鸡饭 hǎinánjīfàn Cơm gà Hải Nam
+海参	hǎicān	hải sâm
+海棠	hǎitáng	thu hải đườngRELATED - 海棠酥 hǎitángsū Bánh thu hải đường
+海皇	hǎihuáng	sao Hải vươngRELATED - 海皇羹 hǎihuánggēng Súp Hải Hoàng
+海鲜	hǎixiān	Hải sảnRELATED - 海鲜雀巢 hǎixiānquècháo Nestlé hải sản
+清汤	qīngtāng	nước dùngRELATED - 清汤鱼圆 qīngtāngyúyuán Cá viên trong nước súp trong
+火腿	huǒtǔi	giăm bôngRELATED - 火腿蚕豆 huǒtǔicándòu Đậu rộng Ham
+火锅	huǒguō	Lẩu
+炒面	chǎomiàn	Mi xào
+炒饭	chǎofàn	cơm chiênRELATED - 扬州炒饭 yángzhōuchǎofàn cơm chiên Dương Châu - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến
+炸两	zhàliǎng	chiên hai
+炸饺	zhàjiǎo	Bánh bao chiênRELATED - 土豆炸饺 tǔdòuzhàjiǎo Bánh bao khoai tây chiên
+点心	diǎnxīn	món tráng miệng
+烧饼	shāobǐng	Thiệu Bình
+烧鸡	shāojī	thịt gà nướngRELATED - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji
+煎蛋	jiāndàn	trứng chiênRELATED - 银鱼煎蛋 yínyújiāndàn Trứng tráng cá trắng
+燕皮	yànpí	Yanpi
+燕窝	yànwō	tổ chim
+牛河	níuhé	UshikawaRELATED - 干炒牛河 gānchǎoníuhé Khô Bò Chiên Sông
+玉兔	yùtù	Ngọc ThỏRELATED - 玉兔海参 yùtùhǎicān Hải Sâm Thỏ Ngọc
+田鸡	tiánjī	con ếchRELATED - 花菇田鸡 huāgūtiánjī Ếch nấm
+番茄	fānqié	cà chuaRELATED - 番茄锅巴 fānqiéguōbā Cơm Cà Chua Giòn
+白切	báiqiē	Cắt trắngRELATED - 白切鸡 báiqiējī Gà chần
+皮蛋	pídàn	trứng bảo quản
+福建	fújiàn	Phúc KiếnRELATED - 福建式炒饭 fújiànshìchǎofàn Cơm chiên kiểu Phúc Kiến
+稻香	dàoxiāng	Đạo TườngRELATED - 稻香排骨 dàoxiāngpáigǔ Sườn heo vị cơm
+笋干	sǔngān	Măng khôRELATED - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm
+符离	fúlí	FuliRELATED - 符离集烧鸡 fúlíjíshāojī Gà nướng Fuli Ji
+米饭	mǐfàn	cơm
+粽子	zòngzǐ	Tông Tử
+糖水	tángshǔi	xi-rô
+糖醋	tángcù	chua ngọtRELATED - 糖醋里脊 tángcùlǐjí Ngọt ngào và chua thịt lợn
+糟鸡	zāojī	gà xấu
+红烧	hóngshāo	om trong nước tươngRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om
+罗汉	luōhàn	La HánRELATED - 罗汉斋 luōhànzhāi Lạc Hán Trai
+老鸭	lǎoyā	vịt giàRELATED - 笋干老鸭煲 sǔngānlǎoyābāo Măng khô vịt hầm - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo
+肺片	fèipiàn	Phi látRELATED - 夫妻肺片 fūqīfèipiàn lát phổi của cặp đôi
+芋头	yùtóu	khoai mônRELATED - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn
+花菇	huāgū	NấmRELATED - 花菇田鸡 huāgūtiánjī Ếch nấm
+荷叶	héyè	lá senRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+莲蓬	liánpéng	Vỏ senRELATED - 莲蓬鱼 liánpéngyú cá sen
+蒸饺	zhēngjiǎo	Bánh bao hấpRELATED - 南瓜蒸饺 nánguāzhēngjiǎo Bánh bao hấp bí ngô
+薄饼	bóbǐng	pizza
+虫草	chóngcǎo	đông trùng hạ thảoRELATED - 虫草炖老鸭 chóngcǎotúnlǎoyā Vịt om đông trùng hạ thảo
+虾仁	xiārén	Con tômRELATED - 龙井虾仁 lóngjǐngxiārén Tôm Long Tỉnh
+虾排	xiāpái	Tôm bít tếtRELATED - 凤尾虾排 fèngwěixiāpái Cá Cơm Tôm Bít Tết
+蚕豆	cándòu	đậu rộngRELATED - 火腿蚕豆 huǒtǔicándòu Đậu rộng Ham
+西洋	xīyáng	miền TâyRELATED - 南北杏西洋菜猪骨汤 nánběixìngxīyángcàizhūgǔtāng Canh xương heo cải xoong mơ bắc nam
+西湖	xīhú	hồ tâyRELATED - 西湖醋鱼 xīhúcùyú Cá Hồ Tây Sốt Giấm
+豆沙	dòushā	đậu dánRELATED - 红豆沙 hóngdòushā bột đậu đỏ
+豆腐	dòufǔ	Đậu hũRELATED - 八公山豆腐 bāgōngshāndòufǔ Đậu hũ Bagongshan
+酱菜	jiàngcài	Dưa muối
+酱鸭	jiàngyā	Vịt sốtRELATED - 杭州酱鸭 hángzhōujiàngyā Vịt sốt Hàng Châu
+里脊	lǐjí	thăn thănRELATED - 糖醋里脊 tángcùlǐjí Ngọt ngào và chua thịt lợn
+重庆	zhòngqìng	Trùng KhánhRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh
+银鱼	yínyú	cá trắngRELATED - 银鱼煎蛋 yínyújiāndàn Trứng tráng cá trắng
+锅巴	guōbā	Gạo giònRELATED - 番茄锅巴 fānqiéguōbā Cơm Cà Chua Giòn
+锅贴	guōtiē	bánh bao chiên
+长寿	chángshòu	tuổi thọRELATED - 长寿包 chángshòubāo gói tuổi thọ
+陈皮	chénpí	vỏ quýtRELATED - 陈皮芋头鸭 chénpíyùtóuyā Vịt vỏ quýt khoai môn
+雀巢	quècháo	NestleRELATED - 海鲜雀巢 hǎixiānquècháo Nestlé hải sản
+面条	miàntiáo	Bún
+餛飩	húntún	bánh bao Ý
+饺子	jiǎozǐ	bánh bao
+馅饼	xiànbǐng	bánh
+馒头	mántóu	Bún hấp
+鱖鱼	gùiyú	cá trạng nguyênRELATED - 红烧臭鱖鱼 hóngshāochòugùiyú Cá quýt om
+鱼圆	yúyuán	cá viênRELATED - 清汤鱼圆 qīngtāngyúyuán Cá viên trong nước súp trong
+鱼片	yúpiàn	phi lêRELATED - 五彩鱼片 wǔcǎiyúpiàn Phi lê cá đầy màu sắc
+鱼生	yúshēng	Ngọc Sinh
+鱼翅	yúchì	vây cá mậpRELATED - 鱼翅汤 yúchìtāng súp vây cá mập
+鱼肚	yúdù	bong bóng cáRELATED - 蟹连鱼肚 xièliányúdù Cua và bóng cá
+鲍鱼	bàoyú	bào ngưRELATED - 焖鲍鱼 mènbàoyú Bào ngư om
+鴨頭	yātóu	đầu vịt
+鸡饭	jīfàn	cơm gàRELATED - 海南鸡饭 hǎinánjīfàn Cơm gà Hải Nam
+龙井	lóngjǐng	Long TỉnhRELATED - 龙井虾仁 lóngjǐngxiārén Tôm Long Tỉnh
+东坡肉	dōngpōròu	Thịt lợn Đông Pha
+云吞面	yúntūnmiàn	Mì hoành thánh
+佛跳墙	fótiàoqiáng	Phật nhảy tường
+冬瓜汤	dōngguātāng	Súp dưa mùa đông
+叫化鸡	jiàohuàjī	gà ăn xin
+咕咾肉	gūlǎoròu	thịt
+回锅肉	húiguōròu	thịt lợn nấu hai lần
+姜母鸭	jiāngmǔyā	vịt gừng
+宫保鸡	gōngbǎojī	Gà kung PaoRELATED - 宫保鸡丁 gōngbǎojīdīng Gà kung Pao
+小笼包	xiǎolóngbāo	Tiểu Long Bảo
+干锅素	gānguōsù	đồ ăn chay nồi khôRELATED - 干锅素肉 gānguōsùròu Thịt chay khô
+担担面	dàndànmiàn	Tantanmen
+文昌鸡	wénchāngjī	Gà Văn Xương
+樟茶鸭	zhāngcháyā	vịt zhangcha
+沙琪玛	shāqímǎ	Shaqima
+油爆虾	yóubàoxiā	Tôm chiên dầu
+海棠酥	hǎitángsū	Bánh thu hải đường
+海皇羹	hǎihuánggēng	Súp Hải Hoàng
+炸子鸡	zhàzǐjī	Gà rán
+炸酱面	zhàjiàngmiàn	Mi xào
+烧乳猪	shāorǔzhū	Heo sữa quay
+焖鲍鱼	mènbàoyú	Bào ngư om
+煲仔饭	bāozǐfàn	Cơm niêu
+生爆鳝	shēngbàoshàn	Lươn nổRELATED - 生爆鳝片 shēngbàoshànpiàn Lươn sống lát
+白切鸡	báiqiējī	Gà chần
+粉蒸肉	fěnzhēngròu	Thịt lợn hấpRELATED - 荷叶粉蒸肉 héyèfěnzhēngròu Thịt lợn hấp bột lá sen
+红豆沙	hóngdòushā	bột đậu đỏ
+罗汉斋	luōhànzhāi	Lạc Hán Trai
+芝麻糊	zhīmáhú	Mè dán
+茶叶蛋	cháyèdàn	trứng trà
+莲蓬鱼	liánpéngyú	cá sen
+葱油饼	cōngyóubǐng	Bánh xèo hành lá
+蚵仔煎	hézǐjiān	Trứng tráng hàu
+豆腐渣	dòufǔzhā	bã đậu hũRELATED - 豆腐渣丸子 dòufǔzhāwánzǐ Bánh bao đậu hũ
+辣子鸡	làzǐjī	Gà cayRELATED - 重庆辣子鸡 zhòngqìnglàzǐjī Gà cay Trùng Khánh
+酸辣汤	suānlàtāng	Súp chua nóng
+银耳汤	yíněrtāng	Súp tremella
+长寿包	chángshòubāo	gói tuổi thọ
+鱼翅汤	yúchìtāng	súp vây cá mập
+龟苓膏	gūilínggāo	dán rùa
+五彩鱼片	wǔcǎiyúpiàn	Phi lê cá đầy màu sắc
+凤尾虾排	fèngwěixiāpái	Cá Cơm Tôm Bít Tết
+北京烤鸭	běijīngkǎoyā	Vịt Bắc Kinh
+南瓜蒸饺	nánguāzhēngjiǎo	Bánh bao hấp bí ngô
+四川火锅	sìchuānhuǒguō	Lẩu Tứ Xuyên
+土豆炸饺	tǔdòuzhàjiǎo	Bánh bao khoai tây chiên
+夫妻肺片	fūqīfèipiàn	lát phổi của cặp đôi
+宫保鸡丁	gōngbǎojīdīng	Gà kung Pao
+干炒牛河	gānchǎoníuhé	Khô Bò Chiên Sông
+干炸响铃	gānzhàxiǎnglíng	Chuông chiên khô
+干菜焖肉	gāncàimènròu	Thịt Kho Rau Khô
+干锅素肉	gānguōsùròu	Thịt chay khô
+扬州炒饭	yángzhōuchǎofàn	cơm chiên Dương Châu
+明珠酥鲍	míngzhūsūbào	Bào ngư trân châu giòn
+杭州酱鸭	hángzhōujiàngyā	Vịt sốt Hàng Châu
+椒盐乳鸽	jiāoyánrǔgē	Cá muối và hạt tiêu
+油焖春笋	yóumènchūnsǔn	Măng rừng om dầu
+海南鸡饭	hǎinánjīfàn	Cơm gà Hải Nam
+海鲜雀巢	hǎixiānquècháo	Nestlé hải sản
+清汤鱼圆	qīngtāngyúyuán	Cá viên trong nước súp trong
+火腿蚕豆	huǒtǔicándòu	Đậu rộng Ham
+玉兔海参	yùtùhǎicān	Hải Sâm Thỏ Ngọc
+生炒排骨	shēngchǎopáigǔ	Sườn heo xào
+生爆鳝片	shēngbàoshànpiàn	Lươn sống lát
+番茄锅巴	fānqiéguōbā	Cơm Cà Chua Giòn
+稻香排骨	dàoxiāngpáigǔ	Sườn heo vị cơm
+糖醋里脊	tángcùlǐjí	Ngọt ngào và chua thịt lợn
+花菇田鸡	huāgūtiánjī	Ếch nấm
+蟹连鱼肚	xièliányúdù	Cua và bóng cá
+西湖醋鱼	xīhúcùyú	Cá Hồ Tây Sốt Giấm
+过桥米线	guòqiáomǐxiàn	Mì cầu Vân Nam
+银鱼煎蛋	yínyújiāndàn	Trứng tráng cá trắng
+麻婆豆腐	mápódòufǔ	Đậu phụ Mabo
+龙井虾仁	lóngjǐngxiārén	Tôm Long Tỉnh
+八公山豆腐	bāgōngshāndòufǔ	Đậu hũ Bagongshan
+栗子炒子鸡	lìzǐchǎozǐjī	Gà xào hạt dẻ
+福建式炒饭	fújiànshìchǎofàn	Cơm chiên kiểu Phúc Kiến
+笋干老鸭煲	sǔngānlǎoyābāo	Măng khô vịt hầm
+符离集烧鸡	fúlíjíshāojī	Gà nướng Fuli Ji
+红烧臭鱖鱼	hóngshāochòugùiyú	Cá quýt om
+荷叶粉蒸肉	héyèfěnzhēngròu	Thịt lợn hấp bột lá sen
+虫草炖老鸭	chóngcǎotúnlǎoyā	Vịt om đông trùng hạ thảo
+豆腐渣丸子	dòufǔzhāwánzǐ	Bánh bao đậu hũ
+重庆辣子鸡	zhòngqìnglàzǐjī	Gà cay Trùng Khánh
+陈皮芋头鸭	chénpíyùtóuyā	Vịt vỏ quýt khoai môn
+南北杏西洋菜猪骨汤	nánběixìngxīyángcàizhūgǔtāng	Canh xương heo cải xoong mơ bắc nam
