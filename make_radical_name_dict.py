@@ -94,6 +94,7 @@ for rad in radicals:
     data = rad_database.lookup(rad)
     meaning = data["meaning"]
     pinyin = data["pinyin"]
+    standalone = data["standalone"]
     items = data["examples"].split("、")
     examples = PC_MIDDLE_DOT.join([pleco_make_blue(item) for item in items])
     names = data["name"].split(',')
@@ -122,6 +123,7 @@ for rad in radicals:
 
     number_str = f"Kangxi radical number {number}"
     variants_str = f"\n{pleco_make_dark_gray('VARIANTS')} {PC_MIDDLE_DOT.join([pleco_make_blue(item) for item in variants])}" if variants else ""
+    standalone_str = f"\n{pleco_make_dark_gray('STANDALONE')} {pleco_make_link(standalone)}" if standalone else ""
     meaning_str = f"\n{pleco_make_dark_gray('MEANING')} {pleco_make_bold(meaning)}"
     mnemonic_str = f"\n{pleco_make_dark_gray('MNEMONIC')} {pleco_make_italic(mnemonic)}" if mnemonic else ""
     notes_str = f"\n{pleco_make_dark_gray('NOTES')} {pleco_make_italic(notes)}" if notes else ""
@@ -140,7 +142,7 @@ for rad in radicals:
         string_name_head = string_name_head.replace("\n", PC_NEW_LINE)
         fwrite.write(f"{string_name_head}\n")
 
-    string = f"{rad}\t{pinyin}\t{number_str}{name_str}{variants_str}{meaning_str}{examples_str}{mnemonic_str}{rank_str}{distinguish_str}{notes_str}{back_home}"
+    string = f"{rad}\t{pinyin}\t{number_str}{name_str}{variants_str}{standalone_str}{meaning_str}{examples_str}{mnemonic_str}{rank_str}{distinguish_str}{notes_str}{back_home}"
     string = string.replace("\n", PC_NEW_LINE)
     # print(string)
     fwrite.write(f"{string}\n")
