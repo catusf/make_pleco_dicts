@@ -21,7 +21,8 @@
         },
         "variants": [
             "一"
-        ]
+        ],
+        "standablone": "一"
     },
     "⼁": {
         "meaning": "line",
@@ -42,7 +43,8 @@
         },
         "variants": [
             "丨"
-        ]
+        ],
+        "standablone": ""
     },
     "⼂": {
         "meaning": "dot",
@@ -62,7 +64,8 @@
         "variants": [
             "⺀",
             "丶"
-        ]
+        ],
+        "standablone": ""
     },
     "⼃": {
         "meaning": "slash",
@@ -85,7 +88,8 @@
         "variants": [
             "丿",
             "乀"
-        ]
+        ],
+        "standablone": ""
     },
     "⼄": {
         "meaning": "second",
@@ -112,7 +116,8 @@
             "乙",
             "乚",
             "乛"
-        ]
+        ],
+        "standablone": "乙"
     },
     "⼅": {
         "meaning": "hook",
@@ -133,7 +138,8 @@
         },
         "variants": [
             "亅"
-        ]
+        ],
+        "standablone": ""
     },
     "⼆": {
         "meaning": "two",
@@ -152,7 +158,8 @@
         },
         "variants": [
             "二"
-        ]
+        ],
+        "standablone": "二"
     },
     "⼇": {
         "meaning": "lid",
@@ -176,7 +183,8 @@
         },
         "variants": [
             "亠"
-        ]
+        ],
+        "standablone": ""
     },
     "⼈": {
         "meaning": "man",
@@ -201,7 +209,8 @@
             "⺅",
             "人",
             "亻"
-        ]
+        ],
+        "standablone": "人"
     },
     "⼉": {
         "meaning": "son, legs",
@@ -220,7 +229,8 @@
         },
         "variants": [
             "儿"
-        ]
+        ],
+        "standablone": "儿"
     },
     "⼊": {
         "meaning": "enter",
@@ -241,7 +251,8 @@
         },
         "variants": [
             "入"
-        ]
+        ],
+        "standablone": "入"
     },
     "⼋": {
         "meaning": "eight",
@@ -265,7 +276,8 @@
         "variants": [
             "丷",
             "八"
-        ]
+        ],
+        "standablone": "八"
     },
     "⼌": {
         "meaning": "wide",
@@ -285,7 +297,8 @@
         "variants": [
             "⺆",
             "冂"
-        ]
+        ],
+        "standablone": ""
     },
     "⼍": {
         "meaning": "cloth cover",
@@ -309,7 +322,8 @@
         },
         "variants": [
             "冖"
-        ]
+        ],
+        "standablone": ""
     },
     "⼎": {
         "meaning": "ice",
@@ -330,7 +344,8 @@
         },
         "variants": [
             "冫"
-        ]
+        ],
+        "standablone": ""
     },
     "⼏": {
         "meaning": "table",
@@ -351,7 +366,8 @@
             "⺇",
             "几",
             "𠘨"
-        ]
+        ],
+        "standablone": "几"
     },
     "⼐": {
         "meaning": "receptacle",
@@ -370,7 +386,8 @@
         },
         "variants": [
             "凵"
-        ]
+        ],
+        "standablone": ""
     },
     "⼑": {
         "meaning": "knife",
@@ -400,7 +417,8 @@
             "刁",
             "刂",
             "𠂊"
-        ]
+        ],
+        "standablone": "刀"
     },
     "⼒": {
         "meaning": "power",
@@ -421,7 +439,8 @@
         },
         "variants": [
             "力"
-        ]
+        ],
+        "standablone": "力"
     },
     "⼓": {
         "meaning": "wrap",
@@ -442,7 +461,8 @@
         },
         "variants": [
             "勹"
-        ]
+        ],
+        "standablone": ""
     },
     "⼔": {
         "meaning": "spoon",
@@ -461,7 +481,8 @@
         },
         "variants": [
             "匕"
-        ]
+        ],
+        "standablone": "匕"
     },
     "⼕": {
         "meaning": "box",
@@ -482,7 +503,8 @@
         },
         "variants": [
             "匚"
-        ]
+        ],
+        "standablone": "匚"
     },
     "⼖": {
         "meaning": "hiding enclosure",
@@ -503,7 +525,8 @@
         },
         "variants": [
             "匸"
-        ]
+        ],
+        "standablone": ""
     },
     "⼗": {
         "meaning": "ten",
@@ -522,7 +545,8 @@
         },
         "variants": [
             "十"
-        ]
+        ],
+        "standablone": "十"
     },
     "⼘": {
         "meaning": "divination",
@@ -544,7 +568,8 @@
         "variants": [
             "⺊",
             "卜"
-        ]
+        ],
+        "standablone": "卜"
     },
     "⼙": {
         "meaning": "seal (device)",
@@ -567,7 +592,8 @@
             "⺋",
             "㔾",
             "卩"
-        ]
+        ],
+        "standablone": ""
     },
     "⼚": {
         "meaning": "cliff",
@@ -590,7 +616,8 @@
             "⺁",
             "厂",
             "𠂆"
-        ]
+        ],
+        "standablone": "厂"
     },
     "⼛": {
         "meaning": "private",
@@ -609,7 +636,8 @@
         },
         "variants": [
             "厶"
-        ]
+        ],
+        "standablone": ""
     },
     "⼜": {
         "meaning": "again",
@@ -630,7 +658,8 @@
         },
         "variants": [
             "又"
-        ]
+        ],
+        "standablone": "又"
     },
     "⼝": {
         "meaning": "mouth",
@@ -651,7 +680,8 @@
         },
         "variants": [
             "口"
-        ]
+        ],
+        "standablone": "口"
     },
     "⼞": {
         "meaning": "enclosure",
@@ -672,7 +702,8 @@
         },
         "variants": [
             "囗"
-        ]
+        ],
+        "standablone": "囗"
     },
     "⼟": {
         "meaning": "earth",
@@ -695,7 +726,8 @@
         },
         "variants": [
             "土"
-        ]
+        ],
+        "standablone": "土"
     },
     "⼠": {
         "meaning": "scholar",
@@ -718,7 +750,8 @@
         },
         "variants": [
             "士"
-        ]
+        ],
+        "standablone": "士"
     },
     "⼡": {
         "meaning": "go",
@@ -739,7 +772,8 @@
         },
         "variants": [
             "夂"
-        ]
+        ],
+        "standablone": ""
     },
     "⼢": {
         "meaning": "go slowly",
@@ -760,7 +794,8 @@
         },
         "variants": [
             "夊"
-        ]
+        ],
+        "standablone": ""
     },
     "⼣": {
         "meaning": "evening",
@@ -781,7 +816,8 @@
         },
         "variants": [
             "夕"
-        ]
+        ],
+        "standablone": "夕"
     },
     "⼤": {
         "meaning": "big",
@@ -800,7 +836,8 @@
         },
         "variants": [
             "大"
-        ]
+        ],
+        "standablone": "大"
     },
     "⼥": {
         "meaning": "woman",
@@ -819,7 +856,8 @@
         },
         "variants": [
             "女"
-        ]
+        ],
+        "standablone": "女"
     },
     "⼦": {
         "meaning": "child",
@@ -838,7 +876,8 @@
         },
         "variants": [
             "子"
-        ]
+        ],
+        "standablone": "子"
     },
     "⼧": {
         "meaning": "roof",
@@ -862,7 +901,8 @@
         },
         "variants": [
             "宀"
-        ]
+        ],
+        "standablone": ""
     },
     "⼨": {
         "meaning": "inch",
@@ -881,7 +921,8 @@
         },
         "variants": [
             "寸"
-        ]
+        ],
+        "standablone": "寸"
     },
     "⼩": {
         "meaning": "small",
@@ -905,7 +946,8 @@
             "⺍",
             "小",
             "𭕄"
-        ]
+        ],
+        "standablone": "小"
     },
     "⼪": {
         "meaning": "lame",
@@ -935,7 +977,8 @@
             "尣",
             "𡯁",
             "𡯂"
-        ]
+        ],
+        "standablone": "兀"
     },
     "⼫": {
         "meaning": "corpse",
@@ -956,7 +999,8 @@
         },
         "variants": [
             "尸"
-        ]
+        ],
+        "standablone": "尸"
     },
     "⼬": {
         "meaning": "sprout",
@@ -975,7 +1019,8 @@
         },
         "variants": [
             "屮"
-        ]
+        ],
+        "standablone": ""
     },
     "⼭": {
         "meaning": "mountain",
@@ -994,7 +1039,8 @@
         },
         "variants": [
             "山"
-        ]
+        ],
+        "standablone": "山"
     },
     "⼮": {
         "meaning": "river",
@@ -1018,7 +1064,8 @@
             "巛",
             "巜",
             "川"
-        ]
+        ],
+        "standablone": "川"
     },
     "⼯": {
         "meaning": "work",
@@ -1037,7 +1084,8 @@
         },
         "variants": [
             "工"
-        ]
+        ],
+        "standablone": "工"
     },
     "⼰": {
         "meaning": "oneself",
@@ -1062,7 +1110,8 @@
             "己",
             "已",
             "巳"
-        ]
+        ],
+        "standablone": "己"
     },
     "⼱": {
         "meaning": "turban",
@@ -1081,7 +1130,8 @@
         },
         "variants": [
             "巾"
-        ]
+        ],
+        "standablone": "巾"
     },
     "⼲": {
         "meaning": "dry",
@@ -1100,7 +1150,8 @@
         },
         "variants": [
             "干"
-        ]
+        ],
+        "standablone": "干"
     },
     "⼳": {
         "meaning": "short thread",
@@ -1126,7 +1177,8 @@
             "⺓",
             "乡",
             "幺"
-        ]
+        ],
+        "standablone": "幺"
     },
     "⼴": {
         "meaning": "dotted cliff",
@@ -1145,7 +1197,8 @@
         },
         "variants": [
             "广"
-        ]
+        ],
+        "standablone": "广"
     },
     "⼵": {
         "meaning": "long stride",
@@ -1168,7 +1221,8 @@
         },
         "variants": [
             "廴"
-        ]
+        ],
+        "standablone": ""
     },
     "⼶": {
         "meaning": "arch",
@@ -1188,7 +1242,8 @@
         "variants": [
             "廾",
             "廿"
-        ]
+        ],
+        "standablone": "廿"
     },
     "⼷": {
         "meaning": "shoot",
@@ -1207,7 +1262,8 @@
         },
         "variants": [
             "弋"
-        ]
+        ],
+        "standablone": "弋"
     },
     "⼸": {
         "meaning": "bow",
@@ -1226,7 +1282,8 @@
         },
         "variants": [
             "弓"
-        ]
+        ],
+        "standablone": "弓"
     },
     "⼹": {
         "meaning": "snout",
@@ -1250,7 +1307,8 @@
             "⺕",
             "彐",
             "彑"
-        ]
+        ],
+        "standablone": ""
     },
     "⼺": {
         "meaning": "bristle",
@@ -1272,7 +1330,8 @@
         },
         "variants": [
             "彡"
-        ]
+        ],
+        "standablone": "彡"
     },
     "⼻": {
         "meaning": "step",
@@ -1293,7 +1352,8 @@
         },
         "variants": [
             "彳"
-        ]
+        ],
+        "standablone": ""
     },
     "⼼": {
         "meaning": "heart",
@@ -1319,7 +1379,8 @@
             "㣺",
             "心",
             "忄"
-        ]
+        ],
+        "standablone": "心"
     },
     "⼽": {
         "meaning": "halberd",
@@ -1340,7 +1401,8 @@
         },
         "variants": [
             "戈"
-        ]
+        ],
+        "standablone": "戈"
     },
     "⼾": {
         "meaning": "door",
@@ -1355,7 +1417,8 @@
             "戶",
             "户",
             "戸"
-        ]
+        ],
+        "standablone": "户"
     },
     "⼿": {
         "meaning": "hand",
@@ -1383,7 +1446,8 @@
             "扌",
             "才",
             "龵"
-        ]
+        ],
+        "standablone": "手"
     },
     "⽀": {
         "meaning": "branch",
@@ -1402,7 +1466,8 @@
         },
         "variants": [
             "支"
-        ]
+        ],
+        "standablone": "支"
     },
     "⽁": {
         "meaning": "rap, tap",
@@ -1427,7 +1492,8 @@
             "⺙",
             "攴",
             "攵"
-        ]
+        ],
+        "standablone": "攴"
     },
     "⽂": {
         "meaning": "script",
@@ -1449,7 +1515,8 @@
         },
         "variants": [
             "文"
-        ]
+        ],
+        "standablone": "文"
     },
     "⽃": {
         "meaning": "dipper",
@@ -1468,7 +1535,8 @@
         },
         "variants": [
             "斗"
-        ]
+        ],
+        "standablone": "斗"
     },
     "⽄": {
         "meaning": "axe",
@@ -1487,7 +1555,8 @@
         },
         "variants": [
             "斤"
-        ]
+        ],
+        "standablone": "斤"
     },
     "⽅": {
         "meaning": "square",
@@ -1506,7 +1575,8 @@
         },
         "variants": [
             "方"
-        ]
+        ],
+        "standablone": "方"
     },
     "⽆": {
         "meaning": "not",
@@ -1529,7 +1599,8 @@
             "⺛",
             "无",
             "旡"
-        ]
+        ],
+        "standablone": "无"
     },
     "⽇": {
         "meaning": "sun",
@@ -1556,7 +1627,8 @@
             "⺜",
             "冃",
             "日"
-        ]
+        ],
+        "standablone": "日"
     },
     "⽈": {
         "meaning": "say",
@@ -1579,7 +1651,8 @@
         },
         "variants": [
             "曰"
-        ]
+        ],
+        "standablone": "曰"
     },
     "⽉": {
         "meaning": "moon",
@@ -1601,7 +1674,8 @@
         "variants": [
             "⺝",
             "月"
-        ]
+        ],
+        "standablone": "月"
     },
     "⽊": {
         "meaning": "tree",
@@ -1627,7 +1701,8 @@
         "variants": [
             "木",
             "朩"
-        ]
+        ],
+        "standablone": "木"
     },
     "⽋": {
         "meaning": "lack",
@@ -1646,7 +1721,8 @@
         },
         "variants": [
             "欠"
-        ]
+        ],
+        "standablone": "欠"
     },
     "⽌": {
         "meaning": "stop",
@@ -1665,7 +1741,8 @@
         },
         "variants": [
             "止"
-        ]
+        ],
+        "standablone": "止"
     },
     "⽍": {
         "meaning": "death",
@@ -1688,7 +1765,8 @@
             "⺞",
             "歹",
             "歺"
-        ]
+        ],
+        "standablone": "歹"
     },
     "⽎": {
         "meaning": "weapon",
@@ -1707,7 +1785,8 @@
         },
         "variants": [
             "殳"
-        ]
+        ],
+        "standablone": "殳"
     },
     "⽏": {
         "meaning": "do not",
@@ -1732,7 +1811,8 @@
             "毋",
             "毌",
             "母"
-        ]
+        ],
+        "standablone": "毋"
     },
     "⽐": {
         "meaning": "compare",
@@ -1751,7 +1831,8 @@
         },
         "variants": [
             "比"
-        ]
+        ],
+        "standablone": "比"
     },
     "⽑": {
         "meaning": "fur",
@@ -1772,7 +1853,8 @@
         },
         "variants": [
             "毛"
-        ]
+        ],
+        "standablone": "毛"
     },
     "⽒": {
         "meaning": "clan",
@@ -1793,7 +1875,8 @@
             "⺠",
             "氏",
             "民"
-        ]
+        ],
+        "standablone": "氏"
     },
     "⽓": {
         "meaning": "steam",
@@ -1812,7 +1895,8 @@
         },
         "variants": [
             "气"
-        ]
+        ],
+        "standablone": "气"
     },
     "⽔": {
         "meaning": "water",
@@ -1838,7 +1922,8 @@
             "水",
             "氵",
             "氺"
-        ]
+        ],
+        "standablone": "水"
     },
     "⽕": {
         "meaning": "fire",
@@ -1861,7 +1946,8 @@
             "⺣",
             "火",
             "灬"
-        ]
+        ],
+        "standablone": "火"
     },
     "⽖": {
         "meaning": "claw",
@@ -1885,7 +1971,8 @@
             "⺥",
             "爪",
             "爫"
-        ]
+        ],
+        "standablone": "爪"
     },
     "⽗": {
         "meaning": "father",
@@ -1904,7 +1991,8 @@
         },
         "variants": [
             "父"
-        ]
+        ],
+        "standablone": "父"
     },
     "⽘": {
         "meaning": "Trigrams",
@@ -1923,7 +2011,8 @@
         },
         "variants": [
             "爻"
-        ]
+        ],
+        "standablone": "爻"
     },
     "⽙": {
         "meaning": "split wood",
@@ -1946,7 +2035,8 @@
             "⺦",
             "丬",
             "爿"
-        ]
+        ],
+        "standablone": ""
     },
     "⽚": {
         "meaning": "slice",
@@ -1967,7 +2057,8 @@
         },
         "variants": [
             "片"
-        ]
+        ],
+        "standablone": "片"
     },
     "⽛": {
         "meaning": "fang",
@@ -1986,7 +2077,8 @@
         },
         "variants": [
             "牙"
-        ]
+        ],
+        "standablone": "牙"
     },
     "⽜": {
         "meaning": "cow",
@@ -2011,7 +2103,8 @@
             "牛",
             "牜",
             "𠂒"
-        ]
+        ],
+        "standablone": "牛"
     },
     "⽝": {
         "meaning": "dog",
@@ -2036,7 +2129,8 @@
             "⺨",
             "犬",
             "犭"
-        ]
+        ],
+        "standablone": "犬"
     },
     "⽞": {
         "meaning": "profound",
@@ -2057,7 +2151,8 @@
         },
         "variants": [
             "玄"
-        ]
+        ],
+        "standablone": "玄"
     },
     "⽟": {
         "meaning": "jade",
@@ -2082,7 +2177,8 @@
             "玊",
             "王",
             "𤣩"
-        ]
+        ],
+        "standablone": "玉"
     },
     "⽠": {
         "meaning": "melon",
@@ -2101,7 +2197,8 @@
         },
         "variants": [
             "瓜"
-        ]
+        ],
+        "standablone": "瓜"
     },
     "⽡": {
         "meaning": "tile",
@@ -2120,7 +2217,8 @@
         },
         "variants": [
             "瓦"
-        ]
+        ],
+        "standablone": "瓦"
     },
     "⽢": {
         "meaning": "sweet",
@@ -2139,7 +2237,8 @@
         },
         "variants": [
             "甘"
-        ]
+        ],
+        "standablone": "甘"
     },
     "⽣": {
         "meaning": "life",
@@ -2158,7 +2257,8 @@
         },
         "variants": [
             "生"
-        ]
+        ],
+        "standablone": "生"
     },
     "⽤": {
         "meaning": "use",
@@ -2180,7 +2280,8 @@
         "variants": [
             "用",
             "甩"
-        ]
+        ],
+        "standablone": "用"
     },
     "⽥": {
         "meaning": "field",
@@ -2208,7 +2309,8 @@
             "甲",
             "申",
             "电"
-        ]
+        ],
+        "standablone": "田"
     },
     "⽦": {
         "meaning": "bolt of cloth",
@@ -2231,7 +2333,8 @@
             "⺪",
             "疋",
             "𤴔"
-        ]
+        ],
+        "standablone": "疋"
     },
     "⽧": {
         "meaning": "sickness",
@@ -2250,7 +2353,8 @@
         },
         "variants": [
             "疒"
-        ]
+        ],
+        "standablone": ""
     },
     "⽨": {
         "meaning": "footsteps",
@@ -2269,7 +2373,8 @@
         },
         "variants": [
             "癶"
-        ]
+        ],
+        "standablone": ""
     },
     "⽩": {
         "meaning": "white",
@@ -2293,7 +2398,8 @@
         },
         "variants": [
             "白"
-        ]
+        ],
+        "standablone": "白"
     },
     "⽪": {
         "meaning": "skin",
@@ -2312,7 +2418,8 @@
         },
         "variants": [
             "皮"
-        ]
+        ],
+        "standablone": "皮"
     },
     "⽫": {
         "meaning": "dish",
@@ -2331,7 +2438,8 @@
         },
         "variants": [
             "皿"
-        ]
+        ],
+        "standablone": "皿"
     },
     "⽬": {
         "meaning": "eye",
@@ -2354,7 +2462,8 @@
         },
         "variants": [
             "目"
-        ]
+        ],
+        "standablone": "目"
     },
     "⽭": {
         "meaning": "spear",
@@ -2373,7 +2482,8 @@
         },
         "variants": [
             "矛"
-        ]
+        ],
+        "standablone": "矛"
     },
     "⽮": {
         "meaning": "arrow",
@@ -2392,7 +2502,8 @@
         },
         "variants": [
             "矢"
-        ]
+        ],
+        "standablone": "矢"
     },
     "⽯": {
         "meaning": "stone",
@@ -2411,7 +2522,8 @@
         },
         "variants": [
             "石"
-        ]
+        ],
+        "standablone": "石"
     },
     "⽰": {
         "meaning": "spirit",
@@ -2437,7 +2549,8 @@
             "⺭",
             "示",
             "礻"
-        ]
+        ],
+        "standablone": "示"
     },
     "⽱": {
         "meaning": "track",
@@ -2456,7 +2569,8 @@
         },
         "variants": [
             "禸"
-        ]
+        ],
+        "standablone": ""
     },
     "⽲": {
         "meaning": "grain",
@@ -2479,7 +2593,8 @@
         },
         "variants": [
             "禾"
-        ]
+        ],
+        "standablone": "禾"
     },
     "⽳": {
         "meaning": "cave",
@@ -2498,7 +2613,8 @@
         },
         "variants": [
             "穴"
-        ]
+        ],
+        "standablone": "穴"
     },
     "⽴": {
         "meaning": "stand",
@@ -2517,7 +2633,8 @@
         },
         "variants": [
             "立"
-        ]
+        ],
+        "standablone": "立"
     },
     "⽵": {
         "meaning": "bamboo",
@@ -2540,7 +2657,8 @@
             "⺮",
             "竹",
             "𥫗"
-        ]
+        ],
+        "standablone": "竹"
     },
     "⽶": {
         "meaning": "rice",
@@ -2559,7 +2677,8 @@
         },
         "variants": [
             "米"
-        ]
+        ],
+        "standablone": "米"
     },
     "⽷": {
         "meaning": "silk",
@@ -2588,7 +2707,8 @@
             "糸",
             "糹",
             "纟"
-        ]
+        ],
+        "standablone": ""
     },
     "⽸": {
         "meaning": "jar",
@@ -2607,7 +2727,8 @@
         },
         "variants": [
             "缶"
-        ]
+        ],
+        "standablone": "缶"
     },
     "⽹": {
         "meaning": "net",
@@ -2640,7 +2761,8 @@
             "罒",
             "罓",
             "𦉫"
-        ]
+        ],
+        "standablone": "网"
     },
     "⽺": {
         "meaning": "sheep",
@@ -2669,7 +2791,8 @@
             "羋",
             "𦍋",
             "𦍌"
-        ]
+        ],
+        "standablone": "羊"
     },
     "⽻": {
         "meaning": "feather",
@@ -2691,7 +2814,8 @@
         "variants": [
             "羽",
             "羽"
-        ]
+        ],
+        "standablone": "羽"
     },
     "⽼": {
         "meaning": "old",
@@ -2714,7 +2838,8 @@
             "⺹",
             "老",
             "耂"
-        ]
+        ],
+        "standablone": "老"
     },
     "⽽": {
         "meaning": "and",
@@ -2733,7 +2858,8 @@
         },
         "variants": [
             "而"
-        ]
+        ],
+        "standablone": "而"
     },
     "⽾": {
         "meaning": "plough",
@@ -2752,7 +2878,8 @@
         },
         "variants": [
             "耒"
-        ]
+        ],
+        "standablone": "耒"
     },
     "⽿": {
         "meaning": "ear",
@@ -2771,7 +2898,8 @@
         },
         "variants": [
             "耳"
-        ]
+        ],
+        "standablone": "耳"
     },
     "⾀": {
         "meaning": "brush",
@@ -2796,7 +2924,8 @@
             "⺻",
             "聿",
             "肀"
-        ]
+        ],
+        "standablone": "聿"
     },
     "⾁": {
         "meaning": "meat",
@@ -2818,7 +2947,8 @@
         "variants": [
             "⺼",
             "肉"
-        ]
+        ],
+        "standablone": "肉"
     },
     "⾂": {
         "meaning": "minister",
@@ -2837,7 +2967,8 @@
         },
         "variants": [
             "臣"
-        ]
+        ],
+        "standablone": "臣"
     },
     "⾃": {
         "meaning": "self",
@@ -2856,7 +2987,8 @@
         },
         "variants": [
             "自"
-        ]
+        ],
+        "standablone": "自"
     },
     "⾄": {
         "meaning": "arrive",
@@ -2875,7 +3007,8 @@
         },
         "variants": [
             "至"
-        ]
+        ],
+        "standablone": "至"
     },
     "⾅": {
         "meaning": "mortar",
@@ -2900,7 +3033,8 @@
             "⺽",
             "臼",
             "𦥑"
-        ]
+        ],
+        "standablone": "臼"
     },
     "⾆": {
         "meaning": "tongue",
@@ -2919,7 +3053,8 @@
         },
         "variants": [
             "舌"
-        ]
+        ],
+        "standablone": "舌"
     },
     "⾇": {
         "meaning": "oppose",
@@ -2938,7 +3073,8 @@
         },
         "variants": [
             "舛"
-        ]
+        ],
+        "standablone": "舛"
     },
     "⾈": {
         "meaning": "boat",
@@ -2957,7 +3093,8 @@
         },
         "variants": [
             "舟"
-        ]
+        ],
+        "standablone": "舟"
     },
     "⾉": {
         "meaning": "stopping",
@@ -2976,7 +3113,8 @@
         },
         "variants": [
             "艮"
-        ]
+        ],
+        "standablone": "艮"
     },
     "⾊": {
         "meaning": "colour",
@@ -2997,7 +3135,8 @@
         },
         "variants": [
             "色"
-        ]
+        ],
+        "standablone": "色"
     },
     "⾋": {
         "meaning": "grass",
@@ -3022,7 +3161,8 @@
             "⻀",
             "艸",
             "艹"
-        ]
+        ],
+        "standablone": ""
     },
     "⾌": {
         "meaning": "tiger",
@@ -3045,7 +3185,8 @@
             "⻁",
             "虍",
             "虎"
-        ]
+        ],
+        "standablone": "虎"
     },
     "⾍": {
         "meaning": "insect",
@@ -3064,7 +3205,8 @@
         },
         "variants": [
             "虫"
-        ]
+        ],
+        "standablone": "虫"
     },
     "⾎": {
         "meaning": "blood",
@@ -3083,7 +3225,8 @@
         },
         "variants": [
             "血"
-        ]
+        ],
+        "standablone": "血"
     },
     "⾏": {
         "meaning": "walk enclosure",
@@ -3104,7 +3247,8 @@
         },
         "variants": [
             "行"
-        ]
+        ],
+        "standablone": "行"
     },
     "⾐": {
         "meaning": "clothes",
@@ -3127,7 +3271,8 @@
             "⻂",
             "衣",
             "衤"
-        ]
+        ],
+        "standablone": "衣"
     },
     "⾑": {
         "meaning": "cover",
@@ -3153,7 +3298,8 @@
             "襾",
             "西",
             "覀"
-        ]
+        ],
+        "standablone": "襾"
     },
     "⾒": {
         "meaning": "see",
@@ -3168,7 +3314,8 @@
             "⻅",
             "見",
             "见"
-        ]
+        ],
+        "standablone": "见"
     },
     "⾓": {
         "meaning": "horn",
@@ -3192,7 +3339,8 @@
             "⻇",
             "角",
             "𧢲"
-        ]
+        ],
+        "standablone": "角"
     },
     "⾔": {
         "meaning": "speech",
@@ -3214,7 +3362,8 @@
             "言",
             "訁",
             "讠"
-        ]
+        ],
+        "standablone": "言"
     },
     "⾕": {
         "meaning": "valley",
@@ -3233,7 +3382,8 @@
         },
         "variants": [
             "谷"
-        ]
+        ],
+        "standablone": "谷"
     },
     "⾖": {
         "meaning": "bean",
@@ -3252,7 +3402,8 @@
         },
         "variants": [
             "豆"
-        ]
+        ],
+        "standablone": "豆"
     },
     "⾗": {
         "meaning": "pig",
@@ -3274,7 +3425,8 @@
         },
         "variants": [
             "豕"
-        ]
+        ],
+        "standablone": "豕"
     },
     "⾘": {
         "meaning": "badger",
@@ -3296,7 +3448,8 @@
         },
         "variants": [
             "豸"
-        ]
+        ],
+        "standablone": ""
     },
     "⾙": {
         "meaning": "shell",
@@ -3311,7 +3464,8 @@
             "⻉",
             "貝",
             "贝"
-        ]
+        ],
+        "standablone": "贝"
     },
     "⾚": {
         "meaning": "red",
@@ -3330,7 +3484,8 @@
         },
         "variants": [
             "赤"
-        ]
+        ],
+        "standablone": "赤"
     },
     "⾛": {
         "meaning": "run",
@@ -3350,7 +3505,8 @@
         "variants": [
             "走",
             "赱"
-        ]
+        ],
+        "standablone": "走"
     },
     "⾜": {
         "meaning": "foot",
@@ -3373,7 +3529,8 @@
             "⻊",
             "足",
             "𧾷"
-        ]
+        ],
+        "standablone": "足"
     },
     "⾝": {
         "meaning": "body",
@@ -3392,7 +3549,8 @@
         },
         "variants": [
             "身"
-        ]
+        ],
+        "standablone": "身"
     },
     "⾞": {
         "meaning": "cart",
@@ -3407,7 +3565,8 @@
             "⻋",
             "車",
             "车"
-        ]
+        ],
+        "standablone": "车"
     },
     "⾟": {
         "meaning": "bitter",
@@ -3428,7 +3587,8 @@
         },
         "variants": [
             "辛"
-        ]
+        ],
+        "standablone": "辛"
     },
     "⾠": {
         "meaning": "morning",
@@ -3447,7 +3607,8 @@
         },
         "variants": [
             "辰"
-        ]
+        ],
+        "standablone": "辰"
     },
     "⾡": {
         "meaning": "walk",
@@ -3474,7 +3635,8 @@
             "⻎",
             "辵",
             "辶"
-        ]
+        ],
+        "standablone": "辵"
     },
     "⾢": {
         "meaning": "city",
@@ -3499,7 +3661,8 @@
         "variants": [
             "⻏",
             "邑"
-        ]
+        ],
+        "standablone": "邑"
     },
     "⾣": {
         "meaning": "wine",
@@ -3520,7 +3683,8 @@
         },
         "variants": [
             "酉"
-        ]
+        ],
+        "standablone": "酉"
     },
     "⾤": {
         "meaning": "distinguish",
@@ -3543,7 +3707,8 @@
         },
         "variants": [
             "釆"
-        ]
+        ],
+        "standablone": "釆"
     },
     "⾥": {
         "meaning": "village",
@@ -3564,7 +3729,8 @@
         },
         "variants": [
             "里"
-        ]
+        ],
+        "standablone": "里"
     },
     "⾦": {
         "meaning": "gold",
@@ -3586,7 +3752,8 @@
             "金",
             "釒",
             "钅"
-        ]
+        ],
+        "standablone": "金"
     },
     "⾧": {
         "meaning": "long",
@@ -3604,7 +3771,8 @@
             "長",
             "镸",
             "长"
-        ]
+        ],
+        "standablone": "长"
     },
     "⾨": {
         "meaning": "gate",
@@ -3619,7 +3787,8 @@
             "⻔",
             "門",
             "门"
-        ]
+        ],
+        "standablone": "门"
     },
     "⾩": {
         "meaning": "mound",
@@ -3644,7 +3813,8 @@
             "阜",
             "阝",
             "𨸏"
-        ]
+        ],
+        "standablone": "阜"
     },
     "⾪": {
         "meaning": "slave",
@@ -3663,7 +3833,8 @@
         },
         "variants": [
             "隶"
-        ]
+        ],
+        "standablone": "隶"
     },
     "⾫": {
         "meaning": "short-tailed bird",
@@ -3682,7 +3853,8 @@
         },
         "variants": [
             "隹"
-        ]
+        ],
+        "standablone": "隹"
     },
     "⾬": {
         "meaning": "rain",
@@ -3704,7 +3876,8 @@
         "variants": [
             "⻗",
             "雨"
-        ]
+        ],
+        "standablone": "雨"
     },
     "⾭": {
         "meaning": "blue",
@@ -3727,7 +3900,8 @@
             "⻘",
             "靑",
             "青"
-        ]
+        ],
+        "standablone": "青"
     },
     "⾮": {
         "meaning": "wrong",
@@ -3748,7 +3922,8 @@
         },
         "variants": [
             "非"
-        ]
+        ],
+        "standablone": "非"
     },
     "⾯": {
         "meaning": "face",
@@ -3768,7 +3943,8 @@
         "variants": [
             "面",
             "靣"
-        ]
+        ],
+        "standablone": "面"
     },
     "⾰": {
         "meaning": "leather",
@@ -3787,7 +3963,8 @@
         },
         "variants": [
             "革"
-        ]
+        ],
+        "standablone": "革"
     },
     "⾱": {
         "meaning": "tanned leather",
@@ -3802,7 +3979,8 @@
             "⻙",
             "韋",
             "韦"
-        ]
+        ],
+        "standablone": "韦"
     },
     "⾲": {
         "meaning": "leek",
@@ -3823,7 +4001,8 @@
         },
         "variants": [
             "韭"
-        ]
+        ],
+        "standablone": "韭"
     },
     "⾳": {
         "meaning": "sound",
@@ -3842,7 +4021,8 @@
         },
         "variants": [
             "音"
-        ]
+        ],
+        "standablone": "音"
     },
     "⾴": {
         "meaning": "leaf",
@@ -3857,7 +4037,8 @@
             "⻚",
             "頁",
             "页"
-        ]
+        ],
+        "standablone": "页"
     },
     "⾵": {
         "meaning": "wind",
@@ -3872,7 +4053,8 @@
             "⻛",
             "風",
             "风"
-        ]
+        ],
+        "standablone": "风"
     },
     "⾶": {
         "meaning": "fly",
@@ -3887,7 +4069,8 @@
             "⻜",
             "飛",
             "飞"
-        ]
+        ],
+        "standablone": "飞"
     },
     "⾷": {
         "meaning": "eat",
@@ -3913,7 +4096,8 @@
             "飠",
             "饣",
             "𩙿"
-        ]
+        ],
+        "standablone": "食"
     },
     "⾸": {
         "meaning": "head",
@@ -3934,7 +4118,8 @@
             "⻡",
             "首",
             "𩠐"
-        ]
+        ],
+        "standablone": "首"
     },
     "⾹": {
         "meaning": "fragrant",
@@ -3953,7 +4138,8 @@
         },
         "variants": [
             "香"
-        ]
+        ],
+        "standablone": "香"
     },
     "⾺": {
         "meaning": "horse",
@@ -3968,7 +4154,8 @@
             "⻢",
             "馬",
             "马"
-        ]
+        ],
+        "standablone": "马"
     },
     "⾻": {
         "meaning": "bone",
@@ -3988,7 +4175,8 @@
         "variants": [
             "⻣",
             "骨"
-        ]
+        ],
+        "standablone": "骨"
     },
     "⾼": {
         "meaning": "tall",
@@ -4008,7 +4196,8 @@
         "variants": [
             "高",
             "髙"
-        ]
+        ],
+        "standablone": "高"
     },
     "⾽": {
         "meaning": "hair",
@@ -4027,7 +4216,8 @@
         },
         "variants": [
             "髟"
-        ]
+        ],
+        "standablone": "髟"
     },
     "⾾": {
         "meaning": "fight",
@@ -4040,7 +4230,8 @@
         "useful": {},
         "variants": [
             "鬥"
-        ]
+        ],
+        "standablone": ""
     },
     "⾿": {
         "meaning": "sacrificial wine",
@@ -4059,7 +4250,8 @@
         },
         "variants": [
             "鬯"
-        ]
+        ],
+        "standablone": "鬯"
     },
     "⿀": {
         "meaning": "cauldron",
@@ -4078,7 +4270,8 @@
         },
         "variants": [
             "鬲"
-        ]
+        ],
+        "standablone": "鬲"
     },
     "⿁": {
         "meaning": "ghost",
@@ -4098,7 +4291,8 @@
         "variants": [
             "⻤",
             "鬼"
-        ]
+        ],
+        "standablone": "鬼"
     },
     "⿂": {
         "meaning": "fish",
@@ -4113,7 +4307,8 @@
             "⻥",
             "魚",
             "鱼"
-        ]
+        ],
+        "standablone": "鱼"
     },
     "⿃": {
         "meaning": "bird",
@@ -4128,7 +4323,8 @@
             "⻦",
             "鳥",
             "鸟"
-        ]
+        ],
+        "standablone": "鸟"
     },
     "⿄": {
         "meaning": "salt",
@@ -4143,7 +4339,8 @@
             "⻧",
             "卤",
             "鹵"
-        ]
+        ],
+        "standablone": "卤"
     },
     "⿅": {
         "meaning": "deer",
@@ -4162,7 +4359,8 @@
         },
         "variants": [
             "鹿"
-        ]
+        ],
+        "standablone": "鹿"
     },
     "⿆": {
         "meaning": "wheat",
@@ -4177,7 +4375,8 @@
             "⻨",
             "麥",
             "麦"
-        ]
+        ],
+        "standablone": "麦"
     },
     "⿇": {
         "meaning": "hemp",
@@ -4196,7 +4395,8 @@
         },
         "variants": [
             "麻"
-        ]
+        ],
+        "standablone": "麻"
     },
     "⿈": {
         "meaning": "yellow",
@@ -4217,7 +4417,8 @@
             "⻩",
             "黃",
             "黄"
-        ]
+        ],
+        "standablone": "黄"
     },
     "⿉": {
         "meaning": "millet",
@@ -4236,7 +4437,8 @@
         },
         "variants": [
             "黍"
-        ]
+        ],
+        "standablone": "黍"
     },
     "⿊": {
         "meaning": "black",
@@ -4258,7 +4460,8 @@
         "variants": [
             "黑",
             "黒"
-        ]
+        ],
+        "standablone": "黑"
     },
     "⿋": {
         "meaning": "embroidery",
@@ -4277,7 +4480,8 @@
         },
         "variants": [
             "黹"
-        ]
+        ],
+        "standablone": "黹"
     },
     "⿌": {
         "meaning": "frog",
@@ -4292,7 +4496,8 @@
             "⻪",
             "黽",
             "黾"
-        ]
+        ],
+        "standablone": "黾"
     },
     "⿍": {
         "meaning": "tripod",
@@ -4311,7 +4516,8 @@
         },
         "variants": [
             "鼎"
-        ]
+        ],
+        "standablone": "鼎"
     },
     "⿎": {
         "meaning": "drum",
@@ -4330,7 +4536,8 @@
         },
         "variants": [
             "鼓"
-        ]
+        ],
+        "standablone": "鼓"
     },
     "⿏": {
         "meaning": "rat",
@@ -4352,7 +4559,8 @@
         "variants": [
             "鼠",
             "鼡"
-        ]
+        ],
+        "standablone": "鼠"
     },
     "⿐": {
         "meaning": "nose",
@@ -4371,7 +4579,8 @@
         },
         "variants": [
             "鼻"
-        ]
+        ],
+        "standablone": "鼻"
     },
     "⿑": {
         "meaning": "even",
@@ -4388,7 +4597,8 @@
             "斉",
             "齊",
             "齐"
-        ]
+        ],
+        "standablone": "齐"
     },
     "⿒": {
         "meaning": "tooth",
@@ -4405,7 +4615,8 @@
             "歯",
             "齒",
             "齿"
-        ]
+        ],
+        "standablone": "齿"
     },
     "⿓": {
         "meaning": "dragon",
@@ -4422,7 +4633,8 @@
             "竜",
             "龍",
             "龙"
-        ]
+        ],
+        "standablone": "龙"
     },
     "⿔": {
         "meaning": "turtle",
@@ -4440,7 +4652,8 @@
             "亀",
             "龜",
             "龟"
-        ]
+        ],
+        "standablone": "龟"
     },
     "⿕": {
         "meaning": "flute",
@@ -4459,6 +4672,7 @@
         },
         "variants": [
             "龠"
-        ]
+        ],
+        "standablone": "龠"
     }
 }
