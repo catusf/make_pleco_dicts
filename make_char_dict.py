@@ -26,7 +26,7 @@ cd = ChinDict()
 start_datetime = datetime.datetime.now()
 now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 
-MAX_BUILD_ITEMS = 1000
+MAX_BUILD_ITEMS = 100
 MAX_BUILD_ITEMS = 100000
 
 BUILD_DICT_DATA = False
@@ -135,25 +135,6 @@ LookupType = namedtuple(
 )
 
 
-def hanzipy_lookup(char):
-    found = False
-    result = []
-    meanings = []
-    pinyin = ""
-
-    try:
-        result = searcher.definition_lookup(char, script_type="simplified")
-        found = True
-        for x in result:
-            meanings.extend(x["definition"].split("/"))
-
-        pinyin = numbered_to_accented(result[0]["pinyin"])  # get first pinyin
-    except:
-        print("No meaning")
-
-    return found, meanings, pinyin
-
-
 def is_in_char_dict(char):
     if char in char_dict and char_dict[char]["meaning"]:
         return True
@@ -162,6 +143,35 @@ def is_in_char_dict(char):
         return norminal in char_dict and char_dict[norminal]["meaning"]
     else:
         return False
+
+
+def hanzipy_lookup(char):
+    found = False
+    results = []
+    meanings = []
+    pinyins = []
+    pinyin = ""
+
+    try:
+        results = searcher.definition_lookup(char, script_type="simplified")
+        found = True
+
+        # If first item is surname, move it to back
+        if len(results) > 1 and results[0]["pinyin"][0].isupper():
+            first = results[0]
+            del results[0]
+            results.append(first)
+
+        for result in results:
+            meanings.extend(result["definition"].split("/"))
+            pinyins.extend([numbered_to_accented(result["pinyin"])])
+
+        pinyins = list(dict.fromkeys(pinyins))
+        pinyin = "/".join(pinyins)
+    except:
+        print("No meaning")
+
+    return found, meanings, pinyin
 
 
 def lookup_symbol(char):
@@ -186,26 +196,32 @@ def lookup_symbol(char):
 
     decomposition = decomposer.tree(char)
 
+    # Normalize components
+    norminal_components = [
+        rad_database.norminal(comp) if rad_database.is_radical_variant(comp) else comp
+        for comp in decomposition["components"]
+    ]
+
     return LookupType(
         char,
         found=True,
         meaning=meaning,
         pinyin=pinyin,
-        components=decomposition["components"],
+        components=norminal_components,
         tree=decomposition["tree"],
     )
 
 
 if BUILD_DICT_DATA:
     for num, org_char in enumerate(wordlist[:MAX_BUILD_ITEMS]):
+        # org_char = "打"
+
         char = remove_non_chinese(org_char)
 
         if not char:
             continue
 
         print(f"{num+1}/{len(wordlist)}: {char}")
-
-        # org_char = "分"
 
         lookup = lookup_symbol(char)
 
@@ -230,7 +246,7 @@ if BUILD_DICT_DATA:
         # if radical not in lookup.components:
         #     print(f'{char} added {results.radical}')
         #     lookup.components.append(radical)
-            
+
         pass
         if lookup.components:
             for comp_char in lookup.components:
@@ -258,11 +274,11 @@ if BUILD_DICT_DATA:
 
 flog.close()
 
-s1 = set(char_dict.keys())
-s2 = set(decomposer.characters.keys())
+# s1 = set(char_dict.keys())
+# s2 = set(decomposer.characters.keys())
 
-print(f"In char dict but not in hanzipy {len(s1-s2)=}")
-print(f"In hanzipy but not in char dict {len(s2-s1)=}")
+# print(f"In char dict but not in hanzipy {len(s1-s2)=}")
+# print(f"In hanzipy but not in char dict {len(s2-s1)=}")
 
 
 def replace_chinese_in_tree(match_obj):
@@ -311,8 +327,14 @@ def sort_by_freq(list_chars):
 
 
 if CONVERT_TO_PLECO:
-    fwrite = open(f"{now_str}_char_dict_pleco.txt", "w", encoding="utf-8")
-    # char_dict = json.load(fread)
+    fwrite = open(f"char_dict_pleco.txt", "w", encoding="utf-8")
+
+    try:
+        with open(CHAR_DICT_FILE, "r", encoding="utf-8") as fread:
+            char_dict = json.load(fread)
+    except:
+        print(f"No file {CHAR_DICT_FILE}")
+        exit()
 
     fwrite.write("// Character component dictionary\n")
 
@@ -366,6 +388,13 @@ if CONVERT_TO_PLECO:
 
         char_tree = ""
         if char["tree"]:
+            if char["tree"] == key and rad_database.is_radical_variant(key):
+                char["tree"] = rad_database.norminal(key)
+                # print(
+                #     f"{key}\t{hex(ord(key))}\t{hex(ord(rad_database.norminal(key)))}\t{rad_database.norminal(key)}"
+                # )
+                pass
+
             string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
             char_tree = char["tree"]
 
@@ -418,7 +447,9 @@ if CONVERT_TO_PLECO:
             if contains:
                 blue_chars = [pleco_make_link(char) for char in contains]
 
-                string += f"{pleco_make_dark_gray(PC_APPEARS_MARK)}\n"
+                string += (
+                    f"{pleco_make_dark_gray(PC_APPEARS_MARK + '' + len(contains))}\n"
+                )
 
                 string += f"{PC_MIDDLE_DOT.join(blue_chars)}"
 
