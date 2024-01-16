@@ -127,6 +127,8 @@ if BUILD_DICT_DATA:
 
     decomposer = HanziDecomposer()
 
+    # res = decomposer.tree("寰")
+
 flog = open("log.txt", "w", encoding="utf-8")
 
 LookupType = namedtuple(
