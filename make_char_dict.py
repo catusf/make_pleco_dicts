@@ -29,7 +29,7 @@ now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 MAX_BUILD_ITEMS = 100
 MAX_BUILD_ITEMS = 100000
 
-BUILD_DICT_DATA = False
+BUILD_DICT_DATA = True
 CONVERT_TO_PLECO = True  #
 
 CHAR_DICT_FILE = "char_dict.json"
@@ -116,15 +116,16 @@ def get_radicals(char):
     return radicals
 
 
-searcher = HanziDictionary()
-result = searcher.definition_lookup("龋", script_type="simplified")
-
-decomposer = HanziDecomposer()
 # tree = decomposer.tree("恭")
 wordlist = sorted(list(wordset))
 
 if BUILD_DICT_DATA:
     char_dict = {}
+
+    searcher = HanziDictionary()
+    result = searcher.definition_lookup("龋", script_type="simplified")
+
+    decomposer = HanziDecomposer()
 
 flog = open("log.txt", "w", encoding="utf-8")
 
@@ -150,7 +151,7 @@ def hanzipy_lookup(char):
     results = []
     meanings = []
     pinyins = []
-    pinyin = ""
+    # pinyin = ""
 
     try:
         results = searcher.definition_lookup(char, script_type="simplified")
@@ -163,23 +164,25 @@ def hanzipy_lookup(char):
             results.append(first)
 
         for result in results:
-            meanings.extend(result["definition"].split("/"))
-            pinyins.extend([numbered_to_accented(result["pinyin"])])
+            meanings.append(result["definition"].split("/"))
+            pinyins.append(numbered_to_accented(result["pinyin"]))
 
         pinyins = list(dict.fromkeys(pinyins))
-        pinyin = "/".join(pinyins)
+        # pinyin = "/".join(pinyins)
     except:
         print("No meaning")
 
-    return found, meanings, pinyin
+    return found, meanings, pinyins
 
 
 def lookup_symbol(char):
+    lookup = LookupType()
+
     if not char:
         print(f"Wrong character: {char}")
         return lookup
 
-    found, meaning, pinyin = hanzipy_lookup(char)
+    found, meanings, pinyins = hanzipy_lookup(char)
 
     if not found:
         if rad_database.is_radical_variant(char):
@@ -188,8 +191,8 @@ def lookup_symbol(char):
             return LookupType(
                 char,
                 found=True,
-                meaning=[result["meaning"]],
-                pinyin=result["pinyin"],
+                meaning=[[result["meaning"]]],
+                pinyin=[result["pinyin"]],
             )
         else:
             return lookup
@@ -205,8 +208,8 @@ def lookup_symbol(char):
     return LookupType(
         char,
         found=True,
-        meaning=meaning,
-        pinyin=pinyin,
+        meaning=meanings,
+        pinyin=pinyins,
         components=norminal_components,
         tree=decomposition["tree"],
     )
@@ -247,7 +250,6 @@ if BUILD_DICT_DATA:
         #     print(f'{char} added {results.radical}')
         #     lookup.components.append(radical)
 
-        pass
         if lookup.components:
             for comp_char in lookup.components:
                 if is_in_char_dict(comp_char):  # fmt: skip
@@ -260,19 +262,19 @@ if BUILD_DICT_DATA:
                 if not comp_lookup.found:
                     flog.write(f"{comp_char}\tWrong character\n")
                     print(f"Wrong character: {org_char}")
-
-                char_dict[comp_char] = {
-                    "meaning": comp_lookup.meaning,
-                    "pinyin": comp_lookup.pinyin,
-                    "components": comp_lookup.components,
-                    "tree": comp_lookup.tree,
-                }
+                    continue
+                else:
+                    char_dict[comp_char] = {
+                        "meaning": comp_lookup.meaning,
+                        "pinyin": comp_lookup.pinyin,
+                        "components": comp_lookup.components,
+                        "tree": comp_lookup.tree,
+                    }
 
     print(f"{len(char_dict)=}")
     with open(CHAR_DICT_FILE, "w", encoding="utf-8") as fwrite:
         json.dump(char_dict, fwrite, indent=4, ensure_ascii=False, sort_keys=True)
 
-flog.close()
 
 # s1 = set(char_dict.keys())
 # s2 = set(decomposer.characters.keys())
@@ -293,8 +295,8 @@ def replace_chinese_in_tree(match_obj):
             meaning = f"{item['meaning']} (#{item['number']})"
         elif key in char_dict:
             item = char_dict[key]
-            meaning = item["meaning"][0] if item["meaning"] else "(no meaning)"
-            pinyin = item["pinyin"]
+            meaning = item["meaning"][0][0] if item["meaning"] else "(no meaning)"
+            pinyin = item["pinyin"][0]
 
         return f"{pleco_make_blue(key)} {pleco_make_italic(pinyin)} {meaning}"
         # return pleco_make_blue(match_obj.group(1))
@@ -371,28 +373,20 @@ if CONVERT_TO_PLECO:
         if not key or key == "?" or key.isdigit():
             continue
 
-        pinyin = char["pinyin"]
-        meanings = char["meaning"]
+        pinyins = char["pinyin"]
+        all_meanings = char["meaning"]
 
         # if not meanings:
         #     meanings = ["(No meaning)"]
         #     print(f"No meaning {key} {char}")
 
-        string = f"{key}\t{pinyin}\t"
-        string += f"{pleco_make_dark_gray(PC_MEANING_MARK)}\n"
-
-        for num, meaning in enumerate(meanings):
-            string += f"{number_in_cirle(num+1)} {meaning} "
-
-        string += "\n"
-
         char_tree = ""
         if char["tree"]:
             if char["tree"] == key and rad_database.is_radical_variant(key):
                 char["tree"] = rad_database.norminal(key)
-                # print(
-                #     f"{key}\t{hex(ord(key))}\t{hex(ord(rad_database.norminal(key)))}\t{rad_database.norminal(key)}"
-                # )
+                print(
+                    f"{key}\t{hex(ord(key))}\t{hex(ord(rad_database.norminal(key)))}\t{rad_database.norminal(key)}"
+                )
                 pass
 
             string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
@@ -418,10 +412,10 @@ if CONVERT_TO_PLECO:
                 if key == comp:
                     continue
 
-                pinyin = char_dict[comp]["pinyin"]
+                pinyin = char_dict[comp]["pinyin"][0]
 
                 meaning_text = ""
-                for num, com_meaning in enumerate(char_dict[comp]["meaning"]):
+                for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
                     meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
 
                 if rad_database.is_radical_variant(comp):
@@ -447,17 +441,28 @@ if CONVERT_TO_PLECO:
             if contains:
                 blue_chars = [pleco_make_link(char) for char in contains]
 
-                string += (
-                    f"{pleco_make_dark_gray(PC_APPEARS_MARK + '' + len(contains))}\n"
-                )
+                appear_str = f"{PC_APPEARS_MARK} {len(contains)}"
+                string += f"{pleco_make_dark_gray(appear_str)}\n"
 
                 string += f"{PC_MIDDLE_DOT.join(blue_chars)}"
 
         string = regex.sub(PATTERN_PY, replace_num_pinyin, string)
 
-        string = string.replace("\n", PC_NEW_LINE)
-        # print(string)
-        fwrite.write(f"{string}\n")
+        # Each pronunctiation and meaning need a separate line
+        for pinyin, meanings in zip(pinyins, all_meanings):
+            main_string = f"{key}\t{pinyin}\t"
+            main_string += f"{pleco_make_dark_gray(PC_MEANING_MARK)}\n"
+
+            for num, meaning in enumerate(meanings):
+                main_string += f"{number_in_cirle(num+1)} {meaning} "
+
+            main_string += "\n"
+
+            main_string += string
+
+            main_string = main_string.replace("\n", PC_NEW_LINE)
+            # print(string)
+            fwrite.write(f"{main_string}\n")
 
     fwrite.close()
 
@@ -469,3 +474,4 @@ print(f"Not in wordset (new components): {len(char_dict_keys - wordset)}")
 end_datetime = datetime.datetime.now()
 
 print(end_datetime - start_datetime)
+flog.close()
