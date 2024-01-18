@@ -29,7 +29,7 @@ now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 MAX_BUILD_ITEMS = 100
 MAX_BUILD_ITEMS = 100000
 
-BUILD_DICT_DATA = True
+BUILD_DICT_DATA = False
 CONVERT_TO_PLECO = True  #
 
 CHAR_DICT_FILE = "char_dict.json"
@@ -41,6 +41,17 @@ try:
 except:
     print(f"No file {CHAR_DICT_FILE}")
 
+char_decompositions = {}
+
+with open(
+    "./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8"
+) as fread:
+    lines = fread.readlines()
+
+    for line in lines:
+        head, decomp = line.strip().split(":")
+
+        char_decompositions[head] = decomp.replace(" ", "")
 
 # with open("wordlists/dic_words_set.txt", "r", encoding="utf-8") as fread:
 #     wordset.update(fread.read())
@@ -304,6 +315,14 @@ def replace_chinese_in_tree(match_obj):
         # return pleco_make_blue(match_obj.group(1))
 
 
+def make_chinese_blue(match_obj):
+    if match_obj.group(1) is not None:
+        key = match_obj.group(1)
+
+        return f"{pleco_make_blue(key)}"
+        # return pleco_make_blue(match_obj.group(1))
+
+
 def replace_chinese_blue(match_obj):
     if match_obj.group(1) is not None:
         key = match_obj.group(1)
@@ -330,6 +349,8 @@ def sort_by_freq(list_chars):
     return [word for word, order in items]
 
 
+count = 0
+
 if CONVERT_TO_PLECO:
     fwrite = open(f"char_dict_pleco.txt", "w", encoding="utf-8")
 
@@ -345,8 +366,8 @@ if CONVERT_TO_PLECO:
     appears_chars = {}
 
     print(f"Before {len(char_dict)=}")
-    for key in sorted(char_dict):
-        if not key or key == "?" or key.isdigit():
+    for key in wordlist:
+        if not key or key == "?" or key.isdigit() or key not in char_dict:
             continue
 
         char = char_dict[key]
@@ -368,12 +389,16 @@ if CONVERT_TO_PLECO:
 
     print(f"After {len(char_dict)=}")
 
-    for key in sorted(char_dict):
+    for key in wordlist:
+        if not key or key == "?" or key.isdigit() or key not in char_dict:
+            continue
+
         char = char_dict[key]
         string = ""
 
-        if not key or key == "?" or key.isdigit():
-            continue
+        # count += 1
+        # if count > 500:
+        #     break
 
         pinyins = char["pinyin"]
         all_meanings = char["meaning"]
@@ -381,6 +406,53 @@ if CONVERT_TO_PLECO:
         # if not meanings:
         #     meanings = ["(No meaning)"]
         #     print(f"No meaning {key} {char}")
+
+        decomp_str = ""
+
+        if (
+            char["tree"]
+            and key not in char_decompositions
+            and not rad_database.is_radical_variant(key)
+        ):
+            char_tree_str = (
+                rad_database.norminal(char["tree"])
+                if len(char["tree"]) == 1
+                else char["tree"].replace("\n", "-")
+            )
+            flog.write(
+                f"{key}\t{'Hanzipy YES IDS No'}\t{hex(ord(key))}\t{char_tree_str}\n"
+            )
+
+        is_rad = (
+            rad_database.norminal(key) if rad_database.is_radical_variant(key) else ""
+        )
+        if rad_database.is_radical_variant(key):
+            continue
+
+        if not char["tree"] and key not in char_decompositions:
+            flog.write(
+                f"{key}\t{'Found no decompositions for'}\t{is_rad}\t{hex(ord(key))}\n"
+            )
+            continue
+
+        # if key not in char_decompositions and not rad_database.is_radical_variant(key):
+        #     flog.write(
+        #         f"{key}\t{'Found no NEW decompositions for'}\t{is_rad}\t{hex(ord(key))}\n"
+        #     )
+        #     continue
+
+        if key in char_decompositions:
+            decomp_str += f"{pleco_make_dark_gray('DECOMPOSITIONS')}\n"
+            decomp = char_decompositions[key].replace(" ", "")
+
+            decomp = regex.sub(PATTERN_ZH, make_chinese_blue, decomp)
+            decomp_str += decomp
+            decomp_str += "\n"
+        else:
+            # print(f"Found no decompositions for {key}")
+            pass
+
+        string += f"{decomp_str}"
 
         char_tree = ""
         if char["tree"]:
@@ -407,8 +479,8 @@ if CONVERT_TO_PLECO:
 
             for comp in components:
                 if comp not in char_dict:
-                    flog.write(f"{comp}\tNot in char_dict\n")
-                    print(f"{comp}\tNot in char_dict")
+                    # flog.write(f"{comp}\tNot in char_dict\n")
+                    # print(f"{comp}\tNot in char_dict")
                     continue
 
                 if key == comp:

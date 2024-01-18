@@ -22,7 +22,6 @@
         "variants": [
             "一"
         ],
-        "standablone": "一",
         "standalone": "一"
     },
     "⼁": {
@@ -45,7 +44,6 @@
         "variants": [
             "丨"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼂": {
@@ -67,7 +65,6 @@
             "⺀",
             "丶"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼃": {
@@ -90,9 +87,9 @@
         },
         "variants": [
             "丿",
-            "乀"
+            "乀",
+            "乁"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼄": {
@@ -121,7 +118,6 @@
             "乚",
             "乛"
         ],
-        "standablone": "乙",
         "standalone": "乙"
     },
     "⼅": {
@@ -144,7 +140,6 @@
         "variants": [
             "亅"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼆": {
@@ -165,7 +160,6 @@
         "variants": [
             "二"
         ],
-        "standablone": "二",
         "standalone": "二"
     },
     "⼇": {
@@ -191,7 +185,6 @@
         "variants": [
             "亠"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼈": {
@@ -218,7 +211,6 @@
             "人",
             "亻"
         ],
-        "standablone": "人",
         "standalone": "人"
     },
     "⼉": {
@@ -239,7 +231,6 @@
         "variants": [
             "儿"
         ],
-        "standablone": "儿",
         "standalone": "儿"
     },
     "⼊": {
@@ -262,7 +253,6 @@
         "variants": [
             "入"
         ],
-        "standablone": "入",
         "standalone": "入"
     },
     "⼋": {
@@ -288,7 +278,6 @@
             "丷",
             "八"
         ],
-        "standablone": "八",
         "standalone": "八"
     },
     "⼌": {
@@ -310,7 +299,6 @@
             "⺆",
             "冂"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼍": {
@@ -336,7 +324,6 @@
         "variants": [
             "冖"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼎": {
@@ -359,7 +346,6 @@
         "variants": [
             "冫"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼏": {
@@ -382,7 +368,6 @@
             "几",
             "𠘨"
         ],
-        "standablone": "几",
         "standalone": "几"
     },
     "⼐": {
@@ -403,7 +388,6 @@
         "variants": [
             "凵"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼑": {
@@ -435,7 +419,6 @@
             "刂",
             "𠂊"
         ],
-        "standablone": "刀",
         "standalone": "刀"
     },
     "⼒": {
@@ -458,7 +441,6 @@
         "variants": [
             "力"
         ],
-        "standablone": "力",
         "standalone": "力"
     },
     "⼓": {
@@ -481,7 +463,6 @@
         "variants": [
             "勹"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼔": {
@@ -502,7 +483,6 @@
         "variants": [
             "匕"
         ],
-        "standablone": "匕",
         "standalone": "匕"
     },
     "⼕": {
@@ -525,7 +505,6 @@
         "variants": [
             "匚"
         ],
-        "standablone": "匚",
         "standalone": "匚"
     },
     "⼖": {
@@ -548,7 +527,6 @@
         "variants": [
             "匸"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼗": {
@@ -569,7 +547,6 @@
         "variants": [
             "十"
         ],
-        "standablone": "十",
         "standalone": "十"
     },
     "⼘": {
@@ -593,7 +570,6 @@
             "⺊",
             "卜"
         ],
-        "standablone": "卜",
         "standalone": "卜"
     },
     "⼙": {
@@ -618,7 +594,6 @@
             "㔾",
             "卩"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼚": {
@@ -643,7 +618,6 @@
             "厂",
             "𠂆"
         ],
-        "standablone": "厂",
         "standalone": "厂"
     },
     "⼛": {
@@ -664,7 +638,6 @@
         "variants": [
             "厶"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼜": {
@@ -687,7 +660,6 @@
         "variants": [
             "又"
         ],
-        "standablone": "又",
         "standalone": "又"
     },
     "⼝": {
@@ -710,7 +682,6 @@
         "variants": [
             "口"
         ],
-        "standablone": "口",
         "standalone": "口"
     },
     "⼞": {
@@ -733,7 +704,6 @@
         "variants": [
             "囗"
         ],
-        "standablone": "囗",
         "standalone": "囗"
     },
     "⼟": {
@@ -758,7 +728,6 @@
         "variants": [
             "土"
         ],
-        "standablone": "土",
         "standalone": "土"
     },
     "⼠": {
@@ -783,7 +752,6 @@
         "variants": [
             "士"
         ],
-        "standablone": "士",
         "standalone": "士"
     },
     "⼡": {
@@ -806,7 +774,6 @@
         "variants": [
             "夂"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼢": {
@@ -829,7 +796,6 @@
         "variants": [
             "夊"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼣": {
@@ -852,7 +818,6 @@
         "variants": [
             "夕"
         ],
-        "standablone": "夕",
         "standalone": "夕"
     },
     "⼤": {
@@ -873,7 +838,6 @@
         "variants": [
             "大"
         ],
-        "standablone": "大",
         "standalone": "大"
     },
     "⼥": {
@@ -894,7 +858,6 @@
         "variants": [
             "女"
         ],
-        "standablone": "女",
         "standalone": "女"
     },
     "⼦": {
@@ -915,7 +878,6 @@
         "variants": [
             "子"
         ],
-        "standablone": "子",
         "standalone": "子"
     },
     "⼧": {
@@ -941,7 +903,6 @@
         "variants": [
             "宀"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼨": {
@@ -962,7 +923,6 @@
         "variants": [
             "寸"
         ],
-        "standablone": "寸",
         "standalone": "寸"
     },
     "⼩": {
@@ -988,7 +948,6 @@
             "小",
             "𭕄"
         ],
-        "standablone": "小",
         "standalone": "小"
     },
     "⼪": {
@@ -1020,7 +979,6 @@
             "𡯁",
             "𡯂"
         ],
-        "standablone": "兀",
         "standalone": "兀"
     },
     "⼫": {
@@ -1043,7 +1001,6 @@
         "variants": [
             "尸"
         ],
-        "standablone": "尸",
         "standalone": "尸"
     },
     "⼬": {
@@ -1064,7 +1021,6 @@
         "variants": [
             "屮"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼭": {
@@ -1085,7 +1041,6 @@
         "variants": [
             "山"
         ],
-        "standablone": "山",
         "standalone": "山"
     },
     "⼮": {
@@ -1111,7 +1066,6 @@
             "巜",
             "川"
         ],
-        "standablone": "川",
         "standalone": "川"
     },
     "⼯": {
@@ -1132,7 +1086,6 @@
         "variants": [
             "工"
         ],
-        "standablone": "工",
         "standalone": "工"
     },
     "⼰": {
@@ -1159,7 +1112,6 @@
             "已",
             "巳"
         ],
-        "standablone": "己",
         "standalone": "己"
     },
     "⼱": {
@@ -1180,7 +1132,6 @@
         "variants": [
             "巾"
         ],
-        "standablone": "巾",
         "standalone": "巾"
     },
     "⼲": {
@@ -1201,7 +1152,6 @@
         "variants": [
             "干"
         ],
-        "standablone": "干",
         "standalone": "干"
     },
     "⼳": {
@@ -1229,7 +1179,6 @@
             "乡",
             "幺"
         ],
-        "standablone": "幺",
         "standalone": "幺"
     },
     "⼴": {
@@ -1250,7 +1199,6 @@
         "variants": [
             "广"
         ],
-        "standablone": "广",
         "standalone": "广"
     },
     "⼵": {
@@ -1275,7 +1223,6 @@
         "variants": [
             "廴"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼶": {
@@ -1297,7 +1244,6 @@
             "廾",
             "廿"
         ],
-        "standablone": "廿",
         "standalone": "廿"
     },
     "⼷": {
@@ -1318,7 +1264,6 @@
         "variants": [
             "弋"
         ],
-        "standablone": "弋",
         "standalone": "弋"
     },
     "⼸": {
@@ -1339,7 +1284,6 @@
         "variants": [
             "弓"
         ],
-        "standablone": "弓",
         "standalone": "弓"
     },
     "⼹": {
@@ -1365,7 +1309,6 @@
             "彐",
             "彑"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼺": {
@@ -1389,7 +1332,6 @@
         "variants": [
             "彡"
         ],
-        "standablone": "彡",
         "standalone": "彡"
     },
     "⼻": {
@@ -1412,7 +1354,6 @@
         "variants": [
             "彳"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⼼": {
@@ -1440,7 +1381,6 @@
             "心",
             "忄"
         ],
-        "standablone": "心",
         "standalone": "心"
     },
     "⼽": {
@@ -1463,7 +1403,6 @@
         "variants": [
             "戈"
         ],
-        "standablone": "戈",
         "standalone": "戈"
     },
     "⼾": {
@@ -1480,7 +1419,6 @@
             "户",
             "戸"
         ],
-        "standablone": "户",
         "standalone": "户"
     },
     "⼿": {
@@ -1510,7 +1448,6 @@
             "才",
             "龵"
         ],
-        "standablone": "手",
         "standalone": "手"
     },
     "⽀": {
@@ -1531,7 +1468,6 @@
         "variants": [
             "支"
         ],
-        "standablone": "支",
         "standalone": "支"
     },
     "⽁": {
@@ -1558,7 +1494,6 @@
             "攴",
             "攵"
         ],
-        "standablone": "攴",
         "standalone": "攴"
     },
     "⽂": {
@@ -1582,7 +1517,6 @@
         "variants": [
             "文"
         ],
-        "standablone": "文",
         "standalone": "文"
     },
     "⽃": {
@@ -1603,7 +1537,6 @@
         "variants": [
             "斗"
         ],
-        "standablone": "斗",
         "standalone": "斗"
     },
     "⽄": {
@@ -1624,7 +1557,6 @@
         "variants": [
             "斤"
         ],
-        "standablone": "斤",
         "standalone": "斤"
     },
     "⽅": {
@@ -1645,7 +1577,6 @@
         "variants": [
             "方"
         ],
-        "standablone": "方",
         "standalone": "方"
     },
     "⽆": {
@@ -1670,7 +1601,6 @@
             "无",
             "旡"
         ],
-        "standablone": "无",
         "standalone": "无"
     },
     "⽇": {
@@ -1699,7 +1629,6 @@
             "冃",
             "日"
         ],
-        "standablone": "日",
         "standalone": "日"
     },
     "⽈": {
@@ -1724,7 +1653,6 @@
         "variants": [
             "曰"
         ],
-        "standablone": "曰",
         "standalone": "曰"
     },
     "⽉": {
@@ -1748,7 +1676,6 @@
             "⺝",
             "月"
         ],
-        "standablone": "月",
         "standalone": "月"
     },
     "⽊": {
@@ -1776,7 +1703,6 @@
             "木",
             "朩"
         ],
-        "standablone": "木",
         "standalone": "木"
     },
     "⽋": {
@@ -1797,7 +1723,6 @@
         "variants": [
             "欠"
         ],
-        "standablone": "欠",
         "standalone": "欠"
     },
     "⽌": {
@@ -1816,9 +1741,9 @@
             "notes": ""
         },
         "variants": [
-            "止"
+            "止",
+            "龰"
         ],
-        "standablone": "止",
         "standalone": "止"
     },
     "⽍": {
@@ -1843,7 +1768,6 @@
             "歹",
             "歺"
         ],
-        "standablone": "歹",
         "standalone": "歹"
     },
     "⽎": {
@@ -1864,7 +1788,6 @@
         "variants": [
             "殳"
         ],
-        "standablone": "殳",
         "standalone": "殳"
     },
     "⽏": {
@@ -1891,7 +1814,6 @@
             "毌",
             "母"
         ],
-        "standablone": "毋",
         "standalone": "毋"
     },
     "⽐": {
@@ -1912,7 +1834,6 @@
         "variants": [
             "比"
         ],
-        "standablone": "比",
         "standalone": "比"
     },
     "⽑": {
@@ -1935,7 +1856,6 @@
         "variants": [
             "毛"
         ],
-        "standablone": "毛",
         "standalone": "毛"
     },
     "⽒": {
@@ -1958,7 +1878,6 @@
             "氏",
             "民"
         ],
-        "standablone": "氏",
         "standalone": "氏"
     },
     "⽓": {
@@ -1979,7 +1898,6 @@
         "variants": [
             "气"
         ],
-        "standablone": "气",
         "standalone": "气"
     },
     "⽔": {
@@ -2007,7 +1925,6 @@
             "氵",
             "氺"
         ],
-        "standablone": "水",
         "standalone": "水"
     },
     "⽕": {
@@ -2032,7 +1949,6 @@
             "火",
             "灬"
         ],
-        "standablone": "火",
         "standalone": "火"
     },
     "⽖": {
@@ -2058,7 +1974,6 @@
             "爪",
             "爫"
         ],
-        "standablone": "爪",
         "standalone": "爪"
     },
     "⽗": {
@@ -2079,7 +1994,6 @@
         "variants": [
             "父"
         ],
-        "standablone": "父",
         "standalone": "父"
     },
     "⽘": {
@@ -2100,7 +2014,6 @@
         "variants": [
             "爻"
         ],
-        "standablone": "爻",
         "standalone": "爻"
     },
     "⽙": {
@@ -2125,7 +2038,6 @@
             "丬",
             "爿"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⽚": {
@@ -2148,7 +2060,6 @@
         "variants": [
             "片"
         ],
-        "standablone": "片",
         "standalone": "片"
     },
     "⽛": {
@@ -2169,7 +2080,6 @@
         "variants": [
             "牙"
         ],
-        "standablone": "牙",
         "standalone": "牙"
     },
     "⽜": {
@@ -2196,7 +2106,6 @@
             "牜",
             "𠂒"
         ],
-        "standablone": "牛",
         "standalone": "牛"
     },
     "⽝": {
@@ -2223,7 +2132,6 @@
             "犬",
             "犭"
         ],
-        "standablone": "犬",
         "standalone": "犬"
     },
     "⽞": {
@@ -2246,7 +2154,6 @@
         "variants": [
             "玄"
         ],
-        "standablone": "玄",
         "standalone": "玄"
     },
     "⽟": {
@@ -2273,7 +2180,6 @@
             "王",
             "𤣩"
         ],
-        "standablone": "玉",
         "standalone": "玉"
     },
     "⽠": {
@@ -2294,7 +2200,6 @@
         "variants": [
             "瓜"
         ],
-        "standablone": "瓜",
         "standalone": "瓜"
     },
     "⽡": {
@@ -2315,7 +2220,6 @@
         "variants": [
             "瓦"
         ],
-        "standablone": "瓦",
         "standalone": "瓦"
     },
     "⽢": {
@@ -2336,7 +2240,6 @@
         "variants": [
             "甘"
         ],
-        "standablone": "甘",
         "standalone": "甘"
     },
     "⽣": {
@@ -2357,7 +2260,6 @@
         "variants": [
             "生"
         ],
-        "standablone": "生",
         "standalone": "生"
     },
     "⽤": {
@@ -2381,7 +2283,6 @@
             "用",
             "甩"
         ],
-        "standablone": "用",
         "standalone": "用"
     },
     "⽥": {
@@ -2411,7 +2312,6 @@
             "申",
             "电"
         ],
-        "standablone": "田",
         "standalone": "田"
     },
     "⽦": {
@@ -2436,7 +2336,6 @@
             "疋",
             "𤴔"
         ],
-        "standablone": "疋",
         "standalone": "疋"
     },
     "⽧": {
@@ -2457,7 +2356,6 @@
         "variants": [
             "疒"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⽨": {
@@ -2478,7 +2376,6 @@
         "variants": [
             "癶"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⽩": {
@@ -2504,7 +2401,6 @@
         "variants": [
             "白"
         ],
-        "standablone": "白",
         "standalone": "白"
     },
     "⽪": {
@@ -2525,7 +2421,6 @@
         "variants": [
             "皮"
         ],
-        "standablone": "皮",
         "standalone": "皮"
     },
     "⽫": {
@@ -2546,7 +2441,6 @@
         "variants": [
             "皿"
         ],
-        "standablone": "皿",
         "standalone": "皿"
     },
     "⽬": {
@@ -2571,7 +2465,6 @@
         "variants": [
             "目"
         ],
-        "standablone": "目",
         "standalone": "目"
     },
     "⽭": {
@@ -2592,7 +2485,6 @@
         "variants": [
             "矛"
         ],
-        "standablone": "矛",
         "standalone": "矛"
     },
     "⽮": {
@@ -2613,7 +2505,6 @@
         "variants": [
             "矢"
         ],
-        "standablone": "矢",
         "standalone": "矢"
     },
     "⽯": {
@@ -2634,7 +2525,6 @@
         "variants": [
             "石"
         ],
-        "standablone": "石",
         "standalone": "石"
     },
     "⽰": {
@@ -2662,7 +2552,6 @@
             "示",
             "礻"
         ],
-        "standablone": "示",
         "standalone": "示"
     },
     "⽱": {
@@ -2683,7 +2572,6 @@
         "variants": [
             "禸"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⽲": {
@@ -2708,7 +2596,6 @@
         "variants": [
             "禾"
         ],
-        "standablone": "禾",
         "standalone": "禾"
     },
     "⽳": {
@@ -2729,7 +2616,6 @@
         "variants": [
             "穴"
         ],
-        "standablone": "穴",
         "standalone": "穴"
     },
     "⽴": {
@@ -2750,7 +2636,6 @@
         "variants": [
             "立"
         ],
-        "standablone": "立",
         "standalone": "立"
     },
     "⽵": {
@@ -2775,7 +2660,6 @@
             "竹",
             "𥫗"
         ],
-        "standablone": "竹",
         "standalone": "竹"
     },
     "⽶": {
@@ -2796,7 +2680,6 @@
         "variants": [
             "米"
         ],
-        "standablone": "米",
         "standalone": "米"
     },
     "⽷": {
@@ -2827,7 +2710,6 @@
             "糹",
             "纟"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⽸": {
@@ -2848,7 +2730,6 @@
         "variants": [
             "缶"
         ],
-        "standablone": "缶",
         "standalone": "缶"
     },
     "⽹": {
@@ -2883,7 +2764,6 @@
             "罓",
             "𦉫"
         ],
-        "standablone": "网",
         "standalone": "网"
     },
     "⽺": {
@@ -2914,7 +2794,6 @@
             "𦍋",
             "𦍌"
         ],
-        "standablone": "羊",
         "standalone": "羊"
     },
     "⽻": {
@@ -2938,7 +2817,6 @@
             "羽",
             "羽"
         ],
-        "standablone": "羽",
         "standalone": "羽"
     },
     "⽼": {
@@ -2963,7 +2841,6 @@
             "老",
             "耂"
         ],
-        "standablone": "老",
         "standalone": "老"
     },
     "⽽": {
@@ -2984,7 +2861,6 @@
         "variants": [
             "而"
         ],
-        "standablone": "而",
         "standalone": "而"
     },
     "⽾": {
@@ -3005,7 +2881,6 @@
         "variants": [
             "耒"
         ],
-        "standablone": "耒",
         "standalone": "耒"
     },
     "⽿": {
@@ -3026,7 +2901,6 @@
         "variants": [
             "耳"
         ],
-        "standablone": "耳",
         "standalone": "耳"
     },
     "⾀": {
@@ -3053,7 +2927,6 @@
             "聿",
             "肀"
         ],
-        "standablone": "聿",
         "standalone": "聿"
     },
     "⾁": {
@@ -3077,7 +2950,6 @@
             "⺼",
             "肉"
         ],
-        "standablone": "肉",
         "standalone": "肉"
     },
     "⾂": {
@@ -3098,7 +2970,6 @@
         "variants": [
             "臣"
         ],
-        "standablone": "臣",
         "standalone": "臣"
     },
     "⾃": {
@@ -3119,7 +2990,6 @@
         "variants": [
             "自"
         ],
-        "standablone": "自",
         "standalone": "自"
     },
     "⾄": {
@@ -3140,7 +3010,6 @@
         "variants": [
             "至"
         ],
-        "standablone": "至",
         "standalone": "至"
     },
     "⾅": {
@@ -3167,7 +3036,6 @@
             "臼",
             "𦥑"
         ],
-        "standablone": "臼",
         "standalone": "臼"
     },
     "⾆": {
@@ -3188,7 +3056,6 @@
         "variants": [
             "舌"
         ],
-        "standablone": "舌",
         "standalone": "舌"
     },
     "⾇": {
@@ -3209,7 +3076,6 @@
         "variants": [
             "舛"
         ],
-        "standablone": "舛",
         "standalone": "舛"
     },
     "⾈": {
@@ -3230,7 +3096,6 @@
         "variants": [
             "舟"
         ],
-        "standablone": "舟",
         "standalone": "舟"
     },
     "⾉": {
@@ -3251,7 +3116,6 @@
         "variants": [
             "艮"
         ],
-        "standablone": "艮",
         "standalone": "艮"
     },
     "⾊": {
@@ -3274,7 +3138,6 @@
         "variants": [
             "色"
         ],
-        "standablone": "色",
         "standalone": "色"
     },
     "⾋": {
@@ -3301,7 +3164,6 @@
             "艸",
             "艹"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⾌": {
@@ -3326,7 +3188,6 @@
             "虍",
             "虎"
         ],
-        "standablone": "虎",
         "standalone": "虎"
     },
     "⾍": {
@@ -3347,7 +3208,6 @@
         "variants": [
             "虫"
         ],
-        "standablone": "虫",
         "standalone": "虫"
     },
     "⾎": {
@@ -3368,7 +3228,6 @@
         "variants": [
             "血"
         ],
-        "standablone": "血",
         "standalone": "血"
     },
     "⾏": {
@@ -3391,7 +3250,6 @@
         "variants": [
             "行"
         ],
-        "standablone": "行",
         "standalone": "行"
     },
     "⾐": {
@@ -3414,9 +3272,9 @@
         "variants": [
             "⻂",
             "衣",
-            "衤"
+            "衤",
+            "𧘇"
         ],
-        "standablone": "衣",
         "standalone": "衣"
     },
     "⾑": {
@@ -3444,7 +3302,6 @@
             "西",
             "覀"
         ],
-        "standablone": "襾",
         "standalone": "襾"
     },
     "⾒": {
@@ -3461,7 +3318,6 @@
             "見",
             "见"
         ],
-        "standablone": "见",
         "standalone": "见"
     },
     "⾓": {
@@ -3487,7 +3343,6 @@
             "角",
             "𧢲"
         ],
-        "standablone": "角",
         "standalone": "角"
     },
     "⾔": {
@@ -3511,7 +3366,6 @@
             "訁",
             "讠"
         ],
-        "standablone": "言",
         "standalone": "言"
     },
     "⾕": {
@@ -3532,7 +3386,6 @@
         "variants": [
             "谷"
         ],
-        "standablone": "谷",
         "standalone": "谷"
     },
     "⾖": {
@@ -3553,7 +3406,6 @@
         "variants": [
             "豆"
         ],
-        "standablone": "豆",
         "standalone": "豆"
     },
     "⾗": {
@@ -3577,7 +3429,6 @@
         "variants": [
             "豕"
         ],
-        "standablone": "豕",
         "standalone": "豕"
     },
     "⾘": {
@@ -3601,7 +3452,6 @@
         "variants": [
             "豸"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⾙": {
@@ -3618,7 +3468,6 @@
             "貝",
             "贝"
         ],
-        "standablone": "贝",
         "standalone": "贝"
     },
     "⾚": {
@@ -3639,7 +3488,6 @@
         "variants": [
             "赤"
         ],
-        "standablone": "赤",
         "standalone": "赤"
     },
     "⾛": {
@@ -3661,7 +3509,6 @@
             "走",
             "赱"
         ],
-        "standablone": "走",
         "standalone": "走"
     },
     "⾜": {
@@ -3686,7 +3533,6 @@
             "足",
             "𧾷"
         ],
-        "standablone": "足",
         "standalone": "足"
     },
     "⾝": {
@@ -3707,7 +3553,6 @@
         "variants": [
             "身"
         ],
-        "standablone": "身",
         "standalone": "身"
     },
     "⾞": {
@@ -3724,7 +3569,6 @@
             "車",
             "车"
         ],
-        "standablone": "车",
         "standalone": "车"
     },
     "⾟": {
@@ -3747,7 +3591,6 @@
         "variants": [
             "辛"
         ],
-        "standablone": "辛",
         "standalone": "辛"
     },
     "⾠": {
@@ -3768,7 +3611,6 @@
         "variants": [
             "辰"
         ],
-        "standablone": "辰",
         "standalone": "辰"
     },
     "⾡": {
@@ -3797,7 +3639,6 @@
             "辵",
             "辶"
         ],
-        "standablone": "辵",
         "standalone": "辵"
     },
     "⾢": {
@@ -3824,7 +3665,6 @@
             "⻏",
             "邑"
         ],
-        "standablone": "邑",
         "standalone": "邑"
     },
     "⾣": {
@@ -3847,7 +3687,6 @@
         "variants": [
             "酉"
         ],
-        "standablone": "酉",
         "standalone": "酉"
     },
     "⾤": {
@@ -3872,7 +3711,6 @@
         "variants": [
             "釆"
         ],
-        "standablone": "釆",
         "standalone": "釆"
     },
     "⾥": {
@@ -3895,7 +3733,6 @@
         "variants": [
             "里"
         ],
-        "standablone": "里",
         "standalone": "里"
     },
     "⾦": {
@@ -3919,7 +3756,6 @@
             "釒",
             "钅"
         ],
-        "standablone": "金",
         "standalone": "金"
     },
     "⾧": {
@@ -3939,7 +3775,6 @@
             "镸",
             "长"
         ],
-        "standablone": "长",
         "standalone": "长"
     },
     "⾨": {
@@ -3956,7 +3791,6 @@
             "門",
             "门"
         ],
-        "standablone": "门",
         "standalone": "门"
     },
     "⾩": {
@@ -3983,7 +3817,6 @@
             "阝",
             "𨸏"
         ],
-        "standablone": "阜",
         "standalone": "阜"
     },
     "⾪": {
@@ -4004,7 +3837,6 @@
         "variants": [
             "隶"
         ],
-        "standablone": "隶",
         "standalone": "隶"
     },
     "⾫": {
@@ -4025,7 +3857,6 @@
         "variants": [
             "隹"
         ],
-        "standablone": "隹",
         "standalone": "隹"
     },
     "⾬": {
@@ -4049,7 +3880,6 @@
             "⻗",
             "雨"
         ],
-        "standablone": "雨",
         "standalone": "雨"
     },
     "⾭": {
@@ -4074,7 +3904,6 @@
             "靑",
             "青"
         ],
-        "standablone": "青",
         "standalone": "青"
     },
     "⾮": {
@@ -4097,7 +3926,6 @@
         "variants": [
             "非"
         ],
-        "standablone": "非",
         "standalone": "非"
     },
     "⾯": {
@@ -4119,7 +3947,6 @@
             "面",
             "靣"
         ],
-        "standablone": "面",
         "standalone": "面"
     },
     "⾰": {
@@ -4140,7 +3967,6 @@
         "variants": [
             "革"
         ],
-        "standablone": "革",
         "standalone": "革"
     },
     "⾱": {
@@ -4157,7 +3983,6 @@
             "韋",
             "韦"
         ],
-        "standablone": "韦",
         "standalone": "韦"
     },
     "⾲": {
@@ -4180,7 +4005,6 @@
         "variants": [
             "韭"
         ],
-        "standablone": "韭",
         "standalone": "韭"
     },
     "⾳": {
@@ -4201,7 +4025,6 @@
         "variants": [
             "音"
         ],
-        "standablone": "音",
         "standalone": "音"
     },
     "⾴": {
@@ -4218,7 +4041,6 @@
             "頁",
             "页"
         ],
-        "standablone": "页",
         "standalone": "页"
     },
     "⾵": {
@@ -4235,7 +4057,6 @@
             "風",
             "风"
         ],
-        "standablone": "风",
         "standalone": "风"
     },
     "⾶": {
@@ -4252,7 +4073,6 @@
             "飛",
             "飞"
         ],
-        "standablone": "飞",
         "standalone": "飞"
     },
     "⾷": {
@@ -4280,7 +4100,6 @@
             "饣",
             "𩙿"
         ],
-        "standablone": "食",
         "standalone": "食"
     },
     "⾸": {
@@ -4303,7 +4122,6 @@
             "首",
             "𩠐"
         ],
-        "standablone": "首",
         "standalone": "首"
     },
     "⾹": {
@@ -4324,7 +4142,6 @@
         "variants": [
             "香"
         ],
-        "standablone": "香",
         "standalone": "香"
     },
     "⾺": {
@@ -4341,7 +4158,6 @@
             "馬",
             "马"
         ],
-        "standablone": "马",
         "standalone": "马"
     },
     "⾻": {
@@ -4363,7 +4179,6 @@
             "⻣",
             "骨"
         ],
-        "standablone": "骨",
         "standalone": "骨"
     },
     "⾼": {
@@ -4385,7 +4200,6 @@
             "高",
             "髙"
         ],
-        "standablone": "高",
         "standalone": "高"
     },
     "⾽": {
@@ -4406,7 +4220,6 @@
         "variants": [
             "髟"
         ],
-        "standablone": "髟",
         "standalone": "髟"
     },
     "⾾": {
@@ -4421,7 +4234,6 @@
         "variants": [
             "鬥"
         ],
-        "standablone": "",
         "standalone": ""
     },
     "⾿": {
@@ -4442,7 +4254,6 @@
         "variants": [
             "鬯"
         ],
-        "standablone": "鬯",
         "standalone": "鬯"
     },
     "⿀": {
@@ -4463,7 +4274,6 @@
         "variants": [
             "鬲"
         ],
-        "standablone": "鬲",
         "standalone": "鬲"
     },
     "⿁": {
@@ -4485,7 +4295,6 @@
             "⻤",
             "鬼"
         ],
-        "standablone": "鬼",
         "standalone": "鬼"
     },
     "⿂": {
@@ -4502,7 +4311,6 @@
             "魚",
             "鱼"
         ],
-        "standablone": "鱼",
         "standalone": "鱼"
     },
     "⿃": {
@@ -4519,7 +4327,6 @@
             "鳥",
             "鸟"
         ],
-        "standablone": "鸟",
         "standalone": "鸟"
     },
     "⿄": {
@@ -4536,7 +4343,6 @@
             "卤",
             "鹵"
         ],
-        "standablone": "卤",
         "standalone": "卤"
     },
     "⿅": {
@@ -4557,7 +4363,6 @@
         "variants": [
             "鹿"
         ],
-        "standablone": "鹿",
         "standalone": "鹿"
     },
     "⿆": {
@@ -4574,7 +4379,6 @@
             "麥",
             "麦"
         ],
-        "standablone": "麦",
         "standalone": "麦"
     },
     "⿇": {
@@ -4595,7 +4399,6 @@
         "variants": [
             "麻"
         ],
-        "standablone": "麻",
         "standalone": "麻"
     },
     "⿈": {
@@ -4618,7 +4421,6 @@
             "黃",
             "黄"
         ],
-        "standablone": "黄",
         "standalone": "黄"
     },
     "⿉": {
@@ -4639,7 +4441,6 @@
         "variants": [
             "黍"
         ],
-        "standablone": "黍",
         "standalone": "黍"
     },
     "⿊": {
@@ -4663,7 +4464,6 @@
             "黑",
             "黒"
         ],
-        "standablone": "黑",
         "standalone": "黑"
     },
     "⿋": {
@@ -4684,7 +4484,6 @@
         "variants": [
             "黹"
         ],
-        "standablone": "黹",
         "standalone": "黹"
     },
     "⿌": {
@@ -4701,7 +4500,6 @@
             "黽",
             "黾"
         ],
-        "standablone": "黾",
         "standalone": "黾"
     },
     "⿍": {
@@ -4722,7 +4520,6 @@
         "variants": [
             "鼎"
         ],
-        "standablone": "鼎",
         "standalone": "鼎"
     },
     "⿎": {
@@ -4743,7 +4540,6 @@
         "variants": [
             "鼓"
         ],
-        "standablone": "鼓",
         "standalone": "鼓"
     },
     "⿏": {
@@ -4767,7 +4563,6 @@
             "鼠",
             "鼡"
         ],
-        "standablone": "鼠",
         "standalone": "鼠"
     },
     "⿐": {
@@ -4788,7 +4583,6 @@
         "variants": [
             "鼻"
         ],
-        "standablone": "鼻",
         "standalone": "鼻"
     },
     "⿑": {
@@ -4807,7 +4601,6 @@
             "齊",
             "齐"
         ],
-        "standablone": "齐",
         "standalone": "齐"
     },
     "⿒": {
@@ -4826,7 +4619,6 @@
             "齒",
             "齿"
         ],
-        "standablone": "齿",
         "standalone": "齿"
     },
     "⿓": {
@@ -4845,7 +4637,6 @@
             "龍",
             "龙"
         ],
-        "standablone": "龙",
         "standalone": "龙"
     },
     "⿔": {
@@ -4865,7 +4656,6 @@
             "龜",
             "龟"
         ],
-        "standablone": "龟",
         "standalone": "龟"
     },
     "⿕": {
@@ -4886,7 +4676,6 @@
         "variants": [
             "龠"
         ],
-        "standablone": "龠",
         "standalone": "龠"
     }
 }
