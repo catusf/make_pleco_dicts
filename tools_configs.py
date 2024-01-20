@@ -38,6 +38,8 @@ PC_HEART_SUIT = "♥"
 PC_CLUB_SUIT = "♣"
 PC_SPADE_SUIT = "♠"
 PC_MIDDLE_DOT = "·"
+PC_WIDESPACE = "\u3000"
+PC_DOTTED_SQUARE = "\u2B1A"
 
 PC_MEANING_MARK = "MEANING"
 PC_TREE_MARK = "TREE"
@@ -70,9 +72,7 @@ def find_freq(word):
 
 
 def sort_by_freq(list_chars):
-    items = sorted(
-        [(word, find_freq(word)) for word in list_chars], key=lambda x: (x[1], x[0])
-    )
+    items = sorted([(word, find_freq(word)) for word in list_chars], key=lambda x: (x[1], x[0]))
 
     return [word for word, order in items]
 
@@ -87,9 +87,7 @@ def is_non_zero_file(fpath):
 
 
 def pure_traditional(word):
-    return hanzidentifier.is_traditional(word) and not hanzidentifier.is_simplified(
-        word
-    )
+    return hanzidentifier.is_traditional(word) and not hanzidentifier.is_simplified(word)
 
 
 def get_chinese_words(text):
@@ -287,9 +285,7 @@ class Radicals:
         # with open(self.radical_norminal_file, "w", encoding="utf-8") as file:
         #     json.dump(self.radical_nominals, file, indent=4, ensure_ascii=False)
         for rad in self.radical_set:
-            self.radical_set[rad]["variants"] = sorted(
-                self.radical_set[rad]["variants"]
-            )
+            self.radical_set[rad]["variants"] = sorted(self.radical_set[rad]["variants"])
 
         with open(self.radical_set_file, "w", encoding="utf-8") as file:
             json.dump(self.radical_set, file, indent=4, ensure_ascii=False)
@@ -326,13 +322,9 @@ class Radicals:
 
                     if len(radical_strok_items) > 5:
                         app_ex1, app_code1, app_sym1 = radical_strok_items[5].split(" ")
-                        kangxi_unicode_set[number]["approx_symbol"].add(
-                            (app_code1, app_sym1)
-                        )
+                        kangxi_unicode_set[number]["approx_symbol"].add((app_code1, app_sym1))
 
-            with open(
-                self.kangxi_radical_supplement_file, "r", encoding="utf-8"
-            ) as fread:
+            with open(self.kangxi_radical_supplement_file, "r", encoding="utf-8") as fread:
                 next(fread)
                 kangxi_suppl_unicode_set = {}
 
@@ -342,9 +334,7 @@ class Radicals:
                     codepoint, symbol, name, rad_number = radical_strok_items[:4]
                     symbol = symbol.strip()
                     number = (
-                        int(match.group(1))
-                        if (match := regex.search(r"Kangxi Radical (\d+)", rad_number))
-                        else None
+                        int(match.group(1)) if (match := regex.search(r"Kangxi Radical (\d+)", rad_number)) else None
                     )
 
                     if not number:
@@ -362,23 +352,17 @@ class Radicals:
                             index += 1
 
                         # print(items[index])
-                        app_ex, app_code, app_sym = radical_strok_items[index].split(
-                            " "
-                        )
+                        app_ex, app_code, app_sym = radical_strok_items[index].split(" ")
                         kangxi_suppl_unicode_set[number].add((app_sym, app_code))
 
                         index += 1
                     if len(radical_strok_items) > index:
-                        app_ex1, app_code1, app_sym1 = radical_strok_items[index].split(
-                            " "
-                        )
+                        app_ex1, app_code1, app_sym1 = radical_strok_items[index].split(" ")
                         kangxi_suppl_unicode_set[number].add((app_sym1, app_code1))
                         index += 1
 
             for number in kangxi_suppl_unicode_set:
-                kangxi_unicode_set[number]["approx_symbol"].update(
-                    kangxi_suppl_unicode_set[number]
-                )
+                kangxi_unicode_set[number]["approx_symbol"].update(kangxi_suppl_unicode_set[number])
 
             for number in kangxi_unicode_set:
                 symbol, codepoint = kangxi_unicode_set[number]["symbol"]
@@ -469,3 +453,114 @@ class Radicals:
 
 
 # fmt: on
+
+import regex
+
+
+def build_ids_radical_perfect():
+    char_decompositions = {}
+
+    full_char_decompositions = {}
+    radical_found = set()
+    radical_norminal_found = set()
+
+    rad_db = Radicals()
+    rad_db.load_radical_data()
+
+    non_rad_components = {}
+
+    layouts = set(
+        [
+            "⿰",
+            "⿱",
+            "⿲",
+            "⿳",
+            "⿴",
+            "⿵",
+            "⿶",
+            "⿷",
+            "⿸",
+            "⿹",
+            "⿺",
+            "⿻",
+        ]
+    )
+
+    with open("./wordlists/IDS_dictionary.txt", "r", encoding="utf-8") as fread:
+        lines = fread.readlines()
+
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+
+            # print(line)
+            head, expression = line.split(":")
+
+            if not rad_db.is_radical_variant(head):
+                char_decompositions[head] = expression
+
+            else:
+                print(f"{head} is a radical already")
+                radical_found.add(head)
+                radical_norminal_found.add(rad_db.norminal(head))
+
+            if len(expression) < 2:
+                print(f"Single {head}\t{expression}")
+
+            pass
+
+        for key in char_decompositions:
+            components = char_decompositions[key].split(" ")
+
+            for comp in components:
+                if not comp:
+                    continue
+
+                if (
+                    comp not in layouts
+                    and comp not in char_decompositions
+                    and not rad_db.is_radical_variant(comp)
+                    and comp[0] != "&"
+                ):
+                    non_rad_components.setdefault(comp, set())
+                    non_rad_components[comp].add(head)
+
+    print("Non-radical tokens found")
+    print("\n".join(sorted(non_rad_components.keys())))
+    pass
+
+    full_char_decompositions = char_decompositions
+
+    round = [0, 0, 0]
+
+    # Replaces 2 times to make sure all items are replaced
+    for i in range(0, 3):
+        for key in full_char_decompositions:
+            expression = full_char_decompositions[key]
+            matches = regex.findall(PATTERN_ZH, expression)
+            changed = False
+
+            for char in matches:
+                if char in full_char_decompositions:
+                    sub = full_char_decompositions[char]
+                    if sub == char:
+                        continue
+
+                    round[i] += 1
+                    # print(f"{key}: {char} => {sub}")
+                    changed = True
+
+                    expression = expression.replace(char, sub)
+
+            full_char_decompositions[key] = expression
+
+            pass
+
+    print(round)
+
+    with open("./wordlists/IDS_dictionary_radical_perfect.txt", "w", encoding="utf-8") as fwrite:
+        items = full_char_decompositions.items()
+
+        for head, expression in items:
+            fwrite.write(f"{head}:{expression}\n")

@@ -26,6 +26,7 @@ cd = ChinDict()
 start_datetime = datetime.datetime.now()
 now_str = start_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 
+MAX_APPEARANCES = 20
 MAX_BUILD_ITEMS = 100
 MAX_BUILD_ITEMS = 100000
 
@@ -43,9 +44,9 @@ except:
 
 char_decompositions = {}
 
-with open(
-    "./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8"
-) as fread:
+build_ids_radical_perfect()
+
+with open("./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8") as fread:
     lines = fread.readlines()
 
     for line in lines:
@@ -311,7 +312,7 @@ def replace_chinese_in_tree(match_obj):
             meaning = item["meaning"][0][0] if item["meaning"] else "(no meaning)"
             pinyin = item["pinyin"][0]
 
-        return f"{pleco_make_blue(key)} {pleco_make_italic(pinyin)} {meaning}"
+        return f"{pleco_make_blue(key)} {pleco_make_italic(pinyin)}"
         # return pleco_make_blue(match_obj.group(1))
 
 
@@ -333,7 +334,7 @@ def replace_chinese_blue(match_obj):
 def replace_numbers(match_obj):
     if match_obj.group(1) is not None:
         hex_val = hex(int(match_obj.group(1)))
-        return hex_val[2:].upper()
+        return f"{PC_DOTTED_SQUARE} {hex_val[2:].upper()}"
         # return pleco_make_blue(match_obj.group(1))
 
 
@@ -342,9 +343,7 @@ def find_freq(word):
 
 
 def sort_by_freq(list_chars):
-    items = sorted(
-        [(word, find_freq(word)) for word in list_chars], key=lambda x: (x[1], x[0])
-    )
+    items = sorted([(word, find_freq(word)) for word in list_chars], key=lambda x: (x[1], x[0]))
 
     return [word for word, order in items]
 
@@ -409,31 +408,39 @@ if CONVERT_TO_PLECO:
 
         decomp_str = ""
 
-        if (
-            char["tree"]
-            and key not in char_decompositions
-            and not rad_database.is_radical_variant(key)
-        ):
-            char_tree_str = (
-                rad_database.norminal(char["tree"])
-                if len(char["tree"]) == 1
-                else char["tree"].replace("\n", "-")
-            )
-            flog.write(
-                f"{key}\t{'Hanzipy YES IDS No'}\t{hex(ord(key))}\t{char_tree_str}\n"
-            )
+        if char["tree"] and key not in char_decompositions and not rad_database.is_radical_variant(key):
+            char_tree_str = rad_database.norminal(char["tree"]) if len(char["tree"]) == 1 else char["tree"].replace("\n", "-")  # fmt: skip
 
-        is_rad = (
-            rad_database.norminal(key) if rad_database.is_radical_variant(key) else ""
-        )
-        if rad_database.is_radical_variant(key):
+            flog.write(f"{key}\t{'Hanzipy YES IDS No'}\t{hex(ord(key))}\t{char_tree_str}\n")  # fmt: skip
+
+        is_rad = rad_database.norminal(key) if rad_database.is_radical_variant(key) else ""  # fmt: skip
+
+        # if rad_database.is_radical_variant(key):
+        #     continue
+
+        if not char["tree"] and key not in char_decompositions and not rad_database.is_radical_variant(key):  # fmt: skip
+            flog.write(f"{key}\t{'Found no decompositions for'}\t{is_rad}\t{hex(ord(key))}\n")  # fmt: skip
             continue
 
-        if not char["tree"] and key not in char_decompositions:
-            flog.write(
-                f"{key}\t{'Found no decompositions for'}\t{is_rad}\t{hex(ord(key))}\n"
-            )
-            continue
+        # if char["tree"] and key not in char_decompositions:
+        #     tree_comps = sorted(set([rad_database.norminal(item) for item in char["components"] if rad_database.is_radical_variant(item)]))  # fmt: skip
+
+        #     if len(tree_comps) > 1:
+        #         log_str = f"{key}\t{'-'.join(tree_comps)}"
+        #         print(log_str)
+        #         flog.write(f"{log_str}\n")
+
+        # if key in char_decompositions:
+        #     tree_comps = set(rad_database.norminal(item) for item in char["components"] if rad_database.is_radical_variant(item))  # fmt: skip
+        #     decomp_comps = set(rad_database.norminal(item) for item in char_decompositions[key] if rad_database.is_radical_variant(item))  # fmt: skip
+
+        #     if len(tree_comps) > len(decomp_comps):
+        #         log_str = f"{key}\t{char_decompositions[key]}\n{char['tree']}\t"
+
+        #         if len(char_decompositions[key]) > 10 and not regex.search("[A-Z0-9]", char_decompositions[key]):
+        #             print(log_str)
+        #             flog.write(f"{log_str}\n")
+        #             pass
 
         # if key not in char_decompositions and not rad_database.is_radical_variant(key):
         #     flog.write(
@@ -441,9 +448,18 @@ if CONVERT_TO_PLECO:
         #     )
         #     continue
 
+        # components = char["components"]
+
+        if key in char_decompositions:
+            components = regex.findall(PATTERN_ZH, char_decompositions[key])
+        elif rad_database.is_radical_variant(key):
+            components = [key]
+        else:
+            components = []
+
         if key in char_decompositions:
             decomp_str += f"{pleco_make_dark_gray('DECOMPOSITIONS')}\n"
-            decomp = char_decompositions[key].replace(" ", "")
+            decomp = key + PC_WIDESPACE + char_decompositions[key].replace(" ", "")
 
             decomp = regex.sub(PATTERN_ZH, make_chinese_blue, decomp)
             decomp_str += decomp
@@ -455,12 +471,12 @@ if CONVERT_TO_PLECO:
         string += f"{decomp_str}"
 
         char_tree = ""
-        if char["tree"]:
+        if char["tree"] and char["tree"] != key:
             if char["tree"] == key and rad_database.is_radical_variant(key):
                 char["tree"] = rad_database.norminal(key)
-                print(
-                    f"{key}\t{hex(ord(key))}\t{hex(ord(rad_database.norminal(key)))}\t{rad_database.norminal(key)}"
-                )
+                # print(
+                #     f"{key}\t{hex(ord(key))}\t{hex(ord(rad_database.norminal(key)))}\t{rad_database.norminal(key)}"
+                # )
                 pass
 
             string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
@@ -472,33 +488,33 @@ if CONVERT_TO_PLECO:
         string += f"{char_tree}"
 
         string += "\n"
-        components = char["components"]
 
-        if components:
+        if components and components[0] != key:
             string += f"{pleco_make_dark_gray(PC_COMPONENTS_MARK)}\n"
 
             for comp in components:
-                if comp not in char_dict:
+                if key == comp:
+                    continue
+
+                if comp not in char_dict and not rad_database.is_radical_variant(comp):
                     # flog.write(f"{comp}\tNot in char_dict\n")
                     # print(f"{comp}\tNot in char_dict")
                     continue
 
-                if key == comp:
-                    continue
-
-                pinyin = char_dict[comp]["pinyin"][0]
-
                 meaning_text = ""
-                for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
-                    meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
 
-                if rad_database.is_radical_variant(comp):
+                if comp in char_dict:
+                    pinyin = char_dict[comp]["pinyin"][0]
+                    meaning_text = ""
+                    for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
+                        meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
+                elif rad_database.is_radical_variant(comp):
                     item = rad_database.lookup(comp)
+                    pinyin = item["pinyin"]
+                    meaning_text = item["meaning"]
                     variants = sorted(rad_database.get_variants(comp))
                     alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if rad_database.get_variants(comp) else ""  # fmt: skip
-                    alternatives = regex.sub(
-                        PATTERN_ZH, replace_chinese_blue, alternatives
-                    )
+                    alternatives = regex.sub(PATTERN_ZH, replace_chinese_blue, alternatives)
 
                     extra_meaning = f". Radical #{item['number']}. {alternatives}"
 
@@ -513,7 +529,7 @@ if CONVERT_TO_PLECO:
                 contains.remove(key)
 
             if contains:
-                blue_chars = [pleco_make_link(char) for char in contains]
+                blue_chars = [pleco_make_link(char) for char in contains[:MAX_APPEARANCES]]
 
                 appear_str = f"{PC_APPEARS_MARK} {len(contains)}"
                 string += f"{pleco_make_dark_gray(appear_str)}\n"
