@@ -451,7 +451,9 @@ if CONVERT_TO_PLECO:
         # components = char["components"]
 
         if key in char_decompositions:
-            components = regex.findall(PATTERN_ZH, char_decompositions[key])
+            components = list(
+                dict.fromkeys(regex.findall(PATTERN_ZH, char_decompositions[key]))
+            )  # Remove duplicates but keep order on insertion
         elif rad_database.is_radical_variant(key):
             components = [key]
         else:
