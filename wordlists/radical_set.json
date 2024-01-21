@@ -22,7 +22,12 @@
         "variants": [
             "一"
         ],
-        "standalone": "一"
+        "standalone": "一",
+        "codepoint": "0x2f00",
+        "standalone_codepoint": "0x4e00",
+        "variant_codepoint": [
+            "0x4e00"
+        ]
     },
     "⼁": {
         "meaning": "line",
@@ -44,7 +49,12 @@
         "variants": [
             "丨"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f01",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x4e28"
+        ]
     },
     "⼂": {
         "meaning": "dot",
@@ -65,7 +75,13 @@
             "⺀",
             "丶"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f02",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2e80",
+            "0x4e36"
+        ]
     },
     "⼃": {
         "meaning": "slash",
@@ -90,7 +106,14 @@
             "乀",
             "乁"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f03",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x4e3f",
+            "0x4e40",
+            "0x4e41"
+        ]
     },
     "⼄": {
         "meaning": "second",
@@ -118,7 +141,17 @@
             "乚",
             "乛"
         ],
-        "standalone": "乙"
+        "standalone": "乙",
+        "codepoint": "0x2f04",
+        "standalone_codepoint": "0x4e59",
+        "variant_codepoint": [
+            "0x2e82",
+            "0x2e83",
+            "0x2e84",
+            "0x4e59",
+            "0x4e5a",
+            "0x4e5b"
+        ]
     },
     "⼅": {
         "meaning": "hook",
@@ -141,7 +174,13 @@
             "亅",
             "𠄌"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f05",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x4e85",
+            "0x2010c"
+        ]
     },
     "⼆": {
         "meaning": "two",
@@ -161,7 +200,12 @@
         "variants": [
             "二"
         ],
-        "standalone": "二"
+        "standalone": "二",
+        "codepoint": "0x2f06",
+        "standalone_codepoint": "0x4e8c",
+        "variant_codepoint": [
+            "0x4e8c"
+        ]
     },
     "⼇": {
         "meaning": "lid",
@@ -186,7 +230,12 @@
         "variants": [
             "亠"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f07",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x4ea0"
+        ]
     },
     "⼈": {
         "meaning": "man",
@@ -212,7 +261,14 @@
             "人",
             "亻"
         ],
-        "standalone": "人"
+        "standalone": "人",
+        "codepoint": "0x2f08",
+        "standalone_codepoint": "0x4eba",
+        "variant_codepoint": [
+            "0x2e85",
+            "0x4eba",
+            "0x4ebb"
+        ]
     },
     "⼉": {
         "meaning": "son, legs",
@@ -232,7 +288,12 @@
         "variants": [
             "儿"
         ],
-        "standalone": "儿"
+        "standalone": "儿",
+        "codepoint": "0x2f09",
+        "standalone_codepoint": "0x513f",
+        "variant_codepoint": [
+            "0x513f"
+        ]
     },
     "⼊": {
         "meaning": "enter",
@@ -254,7 +315,12 @@
         "variants": [
             "入"
         ],
-        "standalone": "入"
+        "standalone": "入",
+        "codepoint": "0x2f0a",
+        "standalone_codepoint": "0x5165",
+        "variant_codepoint": [
+            "0x5165"
+        ]
     },
     "⼋": {
         "meaning": "eight",
@@ -279,7 +345,13 @@
             "丷",
             "八"
         ],
-        "standalone": "八"
+        "standalone": "八",
+        "codepoint": "0x2f0b",
+        "standalone_codepoint": "0x516b",
+        "variant_codepoint": [
+            "0x4e37",
+            "0x516b"
+        ]
     },
     "⼌": {
         "meaning": "wide",
@@ -300,7 +372,13 @@
             "⺆",
             "冂"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f0c",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2e86",
+            "0x5182"
+        ]
     },
     "⼍": {
         "meaning": "cloth cover",
@@ -325,7 +403,12 @@
         "variants": [
             "冖"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f0d",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5196"
+        ]
     },
     "⼎": {
         "meaning": "ice",
@@ -347,7 +430,12 @@
         "variants": [
             "冫"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f0e",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x51ab"
+        ]
     },
     "⼏": {
         "meaning": "table",
@@ -367,10 +455,18 @@
         "variants": [
             "⺇",
             "几",
-            "𠘨",
-            "𠘧"
+            "𠘧",
+            "𠘨"
         ],
-        "standalone": "几"
+        "standalone": "几",
+        "codepoint": "0x2f0f",
+        "standalone_codepoint": "0x51e0",
+        "variant_codepoint": [
+            "0x2e87",
+            "0x51e0",
+            "0x20627",
+            "0x20628"
+        ]
     },
     "⼐": {
         "meaning": "receptacle",
@@ -390,7 +486,12 @@
         "variants": [
             "凵"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f10",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x51f5"
+        ]
     },
     "⼑": {
         "meaning": "knife",
@@ -421,7 +522,17 @@
             "刂",
             "𠂊"
         ],
-        "standalone": "刀"
+        "standalone": "刀",
+        "codepoint": "0x2f11",
+        "standalone_codepoint": "0x5200",
+        "variant_codepoint": [
+            "0x2e88",
+            "0x2e89",
+            "0x5200",
+            "0x5201",
+            "0x5202",
+            "0x2008a"
+        ]
     },
     "⼒": {
         "meaning": "power",
@@ -443,7 +554,12 @@
         "variants": [
             "力"
         ],
-        "standalone": "力"
+        "standalone": "力",
+        "codepoint": "0x2f12",
+        "standalone_codepoint": "0x529b",
+        "variant_codepoint": [
+            "0x529b"
+        ]
     },
     "⼓": {
         "meaning": "wrap",
@@ -465,7 +581,12 @@
         "variants": [
             "勹"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f13",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x52f9"
+        ]
     },
     "⼔": {
         "meaning": "spoon",
@@ -485,7 +606,12 @@
         "variants": [
             "匕"
         ],
-        "standalone": "匕"
+        "standalone": "匕",
+        "codepoint": "0x2f14",
+        "standalone_codepoint": "0x5315",
+        "variant_codepoint": [
+            "0x5315"
+        ]
     },
     "⼕": {
         "meaning": "box",
@@ -507,7 +633,12 @@
         "variants": [
             "匚"
         ],
-        "standalone": "匚"
+        "standalone": "匚",
+        "codepoint": "0x2f15",
+        "standalone_codepoint": "0x531a",
+        "variant_codepoint": [
+            "0x531a"
+        ]
     },
     "⼖": {
         "meaning": "hiding enclosure",
@@ -529,7 +660,12 @@
         "variants": [
             "匸"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f16",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5338"
+        ]
     },
     "⼗": {
         "meaning": "ten",
@@ -549,7 +685,12 @@
         "variants": [
             "十"
         ],
-        "standalone": "十"
+        "standalone": "十",
+        "codepoint": "0x2f17",
+        "standalone_codepoint": "0x5341",
+        "variant_codepoint": [
+            "0x5341"
+        ]
     },
     "⼘": {
         "meaning": "divination",
@@ -572,7 +713,13 @@
             "⺊",
             "卜"
         ],
-        "standalone": "卜"
+        "standalone": "卜",
+        "codepoint": "0x2f18",
+        "standalone_codepoint": "0x535c",
+        "variant_codepoint": [
+            "0x2e8a",
+            "0x535c"
+        ]
     },
     "⼙": {
         "meaning": "seal (device)",
@@ -596,7 +743,14 @@
             "㔾",
             "卩"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f19",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2e8b",
+            "0x353e",
+            "0x5369"
+        ]
     },
     "⼚": {
         "meaning": "cliff",
@@ -620,7 +774,14 @@
             "厂",
             "𠂆"
         ],
-        "standalone": "厂"
+        "standalone": "厂",
+        "codepoint": "0x2f1a",
+        "standalone_codepoint": "0x5382",
+        "variant_codepoint": [
+            "0x2e81",
+            "0x5382",
+            "0x20086"
+        ]
     },
     "⼛": {
         "meaning": "private",
@@ -640,7 +801,12 @@
         "variants": [
             "厶"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f1b",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x53b6"
+        ]
     },
     "⼜": {
         "meaning": "again",
@@ -662,7 +828,12 @@
         "variants": [
             "又"
         ],
-        "standalone": "又"
+        "standalone": "又",
+        "codepoint": "0x2f1c",
+        "standalone_codepoint": "0x53c8",
+        "variant_codepoint": [
+            "0x53c8"
+        ]
     },
     "⼝": {
         "meaning": "mouth",
@@ -684,7 +855,12 @@
         "variants": [
             "口"
         ],
-        "standalone": "口"
+        "standalone": "口",
+        "codepoint": "0x2f1d",
+        "standalone_codepoint": "0x53e3",
+        "variant_codepoint": [
+            "0x53e3"
+        ]
     },
     "⼞": {
         "meaning": "enclosure",
@@ -706,7 +882,12 @@
         "variants": [
             "囗"
         ],
-        "standalone": "囗"
+        "standalone": "囗",
+        "codepoint": "0x2f1e",
+        "standalone_codepoint": "0x56d7",
+        "variant_codepoint": [
+            "0x56d7"
+        ]
     },
     "⼟": {
         "meaning": "earth",
@@ -730,7 +911,12 @@
         "variants": [
             "土"
         ],
-        "standalone": "土"
+        "standalone": "土",
+        "codepoint": "0x2f1f",
+        "standalone_codepoint": "0x571f",
+        "variant_codepoint": [
+            "0x571f"
+        ]
     },
     "⼠": {
         "meaning": "scholar",
@@ -754,7 +940,12 @@
         "variants": [
             "士"
         ],
-        "standalone": "士"
+        "standalone": "士",
+        "codepoint": "0x2f20",
+        "standalone_codepoint": "0x58eb",
+        "variant_codepoint": [
+            "0x58eb"
+        ]
     },
     "⼡": {
         "meaning": "go",
@@ -776,7 +967,12 @@
         "variants": [
             "夂"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f21",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5902"
+        ]
     },
     "⼢": {
         "meaning": "go slowly",
@@ -798,7 +994,12 @@
         "variants": [
             "夊"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f22",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x590a"
+        ]
     },
     "⼣": {
         "meaning": "evening",
@@ -820,7 +1021,12 @@
         "variants": [
             "夕"
         ],
-        "standalone": "夕"
+        "standalone": "夕",
+        "codepoint": "0x2f23",
+        "standalone_codepoint": "0x5915",
+        "variant_codepoint": [
+            "0x5915"
+        ]
     },
     "⼤": {
         "meaning": "big",
@@ -840,7 +1046,12 @@
         "variants": [
             "大"
         ],
-        "standalone": "大"
+        "standalone": "大",
+        "codepoint": "0x2f24",
+        "standalone_codepoint": "0x5927",
+        "variant_codepoint": [
+            "0x5927"
+        ]
     },
     "⼥": {
         "meaning": "woman",
@@ -860,7 +1071,12 @@
         "variants": [
             "女"
         ],
-        "standalone": "女"
+        "standalone": "女",
+        "codepoint": "0x2f25",
+        "standalone_codepoint": "0x5973",
+        "variant_codepoint": [
+            "0x5973"
+        ]
     },
     "⼦": {
         "meaning": "child",
@@ -880,7 +1096,12 @@
         "variants": [
             "子"
         ],
-        "standalone": "子"
+        "standalone": "子",
+        "codepoint": "0x2f26",
+        "standalone_codepoint": "0x5b50",
+        "variant_codepoint": [
+            "0x5b50"
+        ]
     },
     "⼧": {
         "meaning": "roof",
@@ -905,7 +1126,12 @@
         "variants": [
             "宀"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f27",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5b80"
+        ]
     },
     "⼨": {
         "meaning": "inch",
@@ -925,7 +1151,12 @@
         "variants": [
             "寸"
         ],
-        "standalone": "寸"
+        "standalone": "寸",
+        "codepoint": "0x2f28",
+        "standalone_codepoint": "0x5bf8",
+        "variant_codepoint": [
+            "0x5bf8"
+        ]
     },
     "⼩": {
         "meaning": "small",
@@ -950,7 +1181,15 @@
             "小",
             "𭕄"
         ],
-        "standalone": "小"
+        "standalone": "小",
+        "codepoint": "0x2f29",
+        "standalone_codepoint": "0x5c0f",
+        "variant_codepoint": [
+            "0x2e8c",
+            "0x2e8d",
+            "0x5c0f",
+            "0x2d544"
+        ]
     },
     "⼪": {
         "meaning": "lame",
@@ -981,7 +1220,20 @@
             "𡯁",
             "𡯂"
         ],
-        "standalone": "兀"
+        "standalone": "兀",
+        "codepoint": "0x2f2a",
+        "standalone_codepoint": "0x5140",
+        "variant_codepoint": [
+            "0x2e8e",
+            "0x2e8f",
+            "0x2e90",
+            "0x2e91",
+            "0x5140",
+            "0x5c22",
+            "0x5c23",
+            "0x21bc1",
+            "0x21bc2"
+        ]
     },
     "⼫": {
         "meaning": "corpse",
@@ -1003,7 +1255,12 @@
         "variants": [
             "尸"
         ],
-        "standalone": "尸"
+        "standalone": "尸",
+        "codepoint": "0x2f2b",
+        "standalone_codepoint": "0x5c38",
+        "variant_codepoint": [
+            "0x5c38"
+        ]
     },
     "⼬": {
         "meaning": "sprout",
@@ -1023,7 +1280,12 @@
         "variants": [
             "屮"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f2c",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5c6e"
+        ]
     },
     "⼭": {
         "meaning": "mountain",
@@ -1043,7 +1305,12 @@
         "variants": [
             "山"
         ],
-        "standalone": "山"
+        "standalone": "山",
+        "codepoint": "0x2f2d",
+        "standalone_codepoint": "0x5c71",
+        "variant_codepoint": [
+            "0x5c71"
+        ]
     },
     "⼮": {
         "meaning": "river",
@@ -1068,7 +1335,14 @@
             "巜",
             "川"
         ],
-        "standalone": "川"
+        "standalone": "川",
+        "codepoint": "0x2f2e",
+        "standalone_codepoint": "0x5ddd",
+        "variant_codepoint": [
+            "0x5ddb",
+            "0x5ddc",
+            "0x5ddd"
+        ]
     },
     "⼯": {
         "meaning": "work",
@@ -1088,7 +1362,12 @@
         "variants": [
             "工"
         ],
-        "standalone": "工"
+        "standalone": "工",
+        "codepoint": "0x2f2f",
+        "standalone_codepoint": "0x5de5",
+        "variant_codepoint": [
+            "0x5de5"
+        ]
     },
     "⼰": {
         "meaning": "oneself",
@@ -1114,7 +1393,15 @@
             "已",
             "巳"
         ],
-        "standalone": "己"
+        "standalone": "己",
+        "codepoint": "0x2f30",
+        "standalone_codepoint": "0x5df1",
+        "variant_codepoint": [
+            "0x2e92",
+            "0x5df1",
+            "0x5df2",
+            "0x5df3"
+        ]
     },
     "⼱": {
         "meaning": "turban",
@@ -1134,7 +1421,12 @@
         "variants": [
             "巾"
         ],
-        "standalone": "巾"
+        "standalone": "巾",
+        "codepoint": "0x2f31",
+        "standalone_codepoint": "0x5dfe",
+        "variant_codepoint": [
+            "0x5dfe"
+        ]
     },
     "⼲": {
         "meaning": "dry",
@@ -1154,7 +1446,12 @@
         "variants": [
             "干"
         ],
-        "standalone": "干"
+        "standalone": "干",
+        "codepoint": "0x2f32",
+        "standalone_codepoint": "0x5e72",
+        "variant_codepoint": [
+            "0x5e72"
+        ]
     },
     "⼳": {
         "meaning": "short thread",
@@ -1181,7 +1478,14 @@
             "乡",
             "幺"
         ],
-        "standalone": "幺"
+        "standalone": "幺",
+        "codepoint": "0x2f33",
+        "standalone_codepoint": "0x5e7a",
+        "variant_codepoint": [
+            "0x2e93",
+            "0x4e61",
+            "0x5e7a"
+        ]
     },
     "⼴": {
         "meaning": "dotted cliff",
@@ -1201,7 +1505,12 @@
         "variants": [
             "广"
         ],
-        "standalone": "广"
+        "standalone": "广",
+        "codepoint": "0x2f34",
+        "standalone_codepoint": "0x5e7f",
+        "variant_codepoint": [
+            "0x5e7f"
+        ]
     },
     "⼵": {
         "meaning": "long stride",
@@ -1225,7 +1534,12 @@
         "variants": [
             "廴"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f35",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5ef4"
+        ]
     },
     "⼶": {
         "meaning": "arch",
@@ -1245,7 +1559,12 @@
         "variants": [
             "廾"
         ],
-        "standalone": "廿"
+        "standalone": "",
+        "codepoint": "0x2f36",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5efe"
+        ]
     },
     "⼷": {
         "meaning": "shoot",
@@ -1265,7 +1584,12 @@
         "variants": [
             "弋"
         ],
-        "standalone": "弋"
+        "standalone": "弋",
+        "codepoint": "0x2f37",
+        "standalone_codepoint": "0x5f0b",
+        "variant_codepoint": [
+            "0x5f0b"
+        ]
     },
     "⼸": {
         "meaning": "bow",
@@ -1285,7 +1609,12 @@
         "variants": [
             "弓"
         ],
-        "standalone": "弓"
+        "standalone": "弓",
+        "codepoint": "0x2f38",
+        "standalone_codepoint": "0x5f13",
+        "variant_codepoint": [
+            "0x5f13"
+        ]
     },
     "⼹": {
         "meaning": "snout",
@@ -1310,7 +1639,15 @@
             "彐",
             "彑"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f39",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2e94",
+            "0x2e95",
+            "0x5f50",
+            "0x5f51"
+        ]
     },
     "⼺": {
         "meaning": "bristle",
@@ -1333,7 +1670,12 @@
         "variants": [
             "彡"
         ],
-        "standalone": "彡"
+        "standalone": "彡",
+        "codepoint": "0x2f3a",
+        "standalone_codepoint": "0x5f61",
+        "variant_codepoint": [
+            "0x5f61"
+        ]
     },
     "⼻": {
         "meaning": "step",
@@ -1355,7 +1697,12 @@
         "variants": [
             "彳"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f3b",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x5f73"
+        ]
     },
     "⼼": {
         "meaning": "heart",
@@ -1382,7 +1729,16 @@
             "心",
             "忄"
         ],
-        "standalone": "心"
+        "standalone": "心",
+        "codepoint": "0x2f3c",
+        "standalone_codepoint": "0x5fc3",
+        "variant_codepoint": [
+            "0x2e96",
+            "0x2e97",
+            "0x38fa",
+            "0x5fc3",
+            "0x5fc4"
+        ]
     },
     "⼽": {
         "meaning": "halberd",
@@ -1404,7 +1760,12 @@
         "variants": [
             "戈"
         ],
-        "standalone": "戈"
+        "standalone": "戈",
+        "codepoint": "0x2f3d",
+        "standalone_codepoint": "0x6208",
+        "variant_codepoint": [
+            "0x6208"
+        ]
     },
     "⼾": {
         "meaning": "door",
@@ -1420,7 +1781,14 @@
             "户",
             "戸"
         ],
-        "standalone": "户"
+        "standalone": "户",
+        "codepoint": "0x2f3e",
+        "standalone_codepoint": "0x6237",
+        "variant_codepoint": [
+            "0x6236",
+            "0x6237",
+            "0x6238"
+        ]
     },
     "⼿": {
         "meaning": "hand",
@@ -1449,7 +1817,16 @@
             "才",
             "龵"
         ],
-        "standalone": "手"
+        "standalone": "手",
+        "codepoint": "0x2f3f",
+        "standalone_codepoint": "0x624b",
+        "variant_codepoint": [
+            "0x2e98",
+            "0x624b",
+            "0x624c",
+            "0x624d",
+            "0x9fb5"
+        ]
     },
     "⽀": {
         "meaning": "branch",
@@ -1469,7 +1846,12 @@
         "variants": [
             "支"
         ],
-        "standalone": "支"
+        "standalone": "支",
+        "codepoint": "0x2f40",
+        "standalone_codepoint": "0x652f",
+        "variant_codepoint": [
+            "0x652f"
+        ]
     },
     "⽁": {
         "meaning": "rap, tap",
@@ -1495,7 +1877,14 @@
             "攴",
             "攵"
         ],
-        "standalone": "攴"
+        "standalone": "攴",
+        "codepoint": "0x2f41",
+        "standalone_codepoint": "0x6534",
+        "variant_codepoint": [
+            "0x2e99",
+            "0x6534",
+            "0x6535"
+        ]
     },
     "⽂": {
         "meaning": "script",
@@ -1518,7 +1907,12 @@
         "variants": [
             "文"
         ],
-        "standalone": "文"
+        "standalone": "文",
+        "codepoint": "0x2f42",
+        "standalone_codepoint": "0x6587",
+        "variant_codepoint": [
+            "0x6587"
+        ]
     },
     "⽃": {
         "meaning": "dipper",
@@ -1538,7 +1932,12 @@
         "variants": [
             "斗"
         ],
-        "standalone": "斗"
+        "standalone": "斗",
+        "codepoint": "0x2f43",
+        "standalone_codepoint": "0x6597",
+        "variant_codepoint": [
+            "0x6597"
+        ]
     },
     "⽄": {
         "meaning": "axe",
@@ -1558,7 +1957,12 @@
         "variants": [
             "斤"
         ],
-        "standalone": "斤"
+        "standalone": "斤",
+        "codepoint": "0x2f44",
+        "standalone_codepoint": "0x65a4",
+        "variant_codepoint": [
+            "0x65a4"
+        ]
     },
     "⽅": {
         "meaning": "square",
@@ -1578,7 +1982,12 @@
         "variants": [
             "方"
         ],
-        "standalone": "方"
+        "standalone": "方",
+        "codepoint": "0x2f45",
+        "standalone_codepoint": "0x65b9",
+        "variant_codepoint": [
+            "0x65b9"
+        ]
     },
     "⽆": {
         "meaning": "not",
@@ -1602,7 +2011,14 @@
             "无",
             "旡"
         ],
-        "standalone": "无"
+        "standalone": "无",
+        "codepoint": "0x2f46",
+        "standalone_codepoint": "0x65e0",
+        "variant_codepoint": [
+            "0x2e9b",
+            "0x65e0",
+            "0x65e1"
+        ]
     },
     "⽇": {
         "meaning": "sun",
@@ -1630,7 +2046,14 @@
             "冃",
             "日"
         ],
-        "standalone": "日"
+        "standalone": "日",
+        "codepoint": "0x2f47",
+        "standalone_codepoint": "0x65e5",
+        "variant_codepoint": [
+            "0x2e9c",
+            "0x5183",
+            "0x65e5"
+        ]
     },
     "⽈": {
         "meaning": "say",
@@ -1654,7 +2077,12 @@
         "variants": [
             "曰"
         ],
-        "standalone": "曰"
+        "standalone": "曰",
+        "codepoint": "0x2f48",
+        "standalone_codepoint": "0x66f0",
+        "variant_codepoint": [
+            "0x66f0"
+        ]
     },
     "⽉": {
         "meaning": "moon",
@@ -1677,7 +2105,13 @@
             "⺝",
             "月"
         ],
-        "standalone": "月"
+        "standalone": "月",
+        "codepoint": "0x2f49",
+        "standalone_codepoint": "0x6708",
+        "variant_codepoint": [
+            "0x2e9d",
+            "0x6708"
+        ]
     },
     "⽊": {
         "meaning": "tree",
@@ -1704,7 +2138,13 @@
             "木",
             "朩"
         ],
-        "standalone": "木"
+        "standalone": "木",
+        "codepoint": "0x2f4a",
+        "standalone_codepoint": "0x6728",
+        "variant_codepoint": [
+            "0x6728",
+            "0x6729"
+        ]
     },
     "⽋": {
         "meaning": "lack",
@@ -1724,7 +2164,12 @@
         "variants": [
             "欠"
         ],
-        "standalone": "欠"
+        "standalone": "欠",
+        "codepoint": "0x2f4b",
+        "standalone_codepoint": "0x6b20",
+        "variant_codepoint": [
+            "0x6b20"
+        ]
     },
     "⽌": {
         "meaning": "stop",
@@ -1745,7 +2190,13 @@
             "止",
             "龰"
         ],
-        "standalone": "止"
+        "standalone": "止",
+        "codepoint": "0x2f4c",
+        "standalone_codepoint": "0x6b62",
+        "variant_codepoint": [
+            "0x6b62",
+            "0x9fb0"
+        ]
     },
     "⽍": {
         "meaning": "death",
@@ -1769,7 +2220,14 @@
             "歹",
             "歺"
         ],
-        "standalone": "歹"
+        "standalone": "歹",
+        "codepoint": "0x2f4d",
+        "standalone_codepoint": "0x6b79",
+        "variant_codepoint": [
+            "0x2e9e",
+            "0x6b79",
+            "0x6b7a"
+        ]
     },
     "⽎": {
         "meaning": "weapon",
@@ -1789,7 +2247,12 @@
         "variants": [
             "殳"
         ],
-        "standalone": "殳"
+        "standalone": "殳",
+        "codepoint": "0x2f4e",
+        "standalone_codepoint": "0x6bb3",
+        "variant_codepoint": [
+            "0x6bb3"
+        ]
     },
     "⽏": {
         "meaning": "do not",
@@ -1815,7 +2278,15 @@
             "毌",
             "母"
         ],
-        "standalone": "毋"
+        "standalone": "毋",
+        "codepoint": "0x2f4f",
+        "standalone_codepoint": "0x6bcb",
+        "variant_codepoint": [
+            "0x2e9f",
+            "0x6bcb",
+            "0x6bcc",
+            "0x6bcd"
+        ]
     },
     "⽐": {
         "meaning": "compare",
@@ -1835,7 +2306,12 @@
         "variants": [
             "比"
         ],
-        "standalone": "比"
+        "standalone": "比",
+        "codepoint": "0x2f50",
+        "standalone_codepoint": "0x6bd4",
+        "variant_codepoint": [
+            "0x6bd4"
+        ]
     },
     "⽑": {
         "meaning": "fur",
@@ -1857,7 +2333,12 @@
         "variants": [
             "毛"
         ],
-        "standalone": "毛"
+        "standalone": "毛",
+        "codepoint": "0x2f51",
+        "standalone_codepoint": "0x6bdb",
+        "variant_codepoint": [
+            "0x6bdb"
+        ]
     },
     "⽒": {
         "meaning": "clan",
@@ -1879,7 +2360,14 @@
             "氏",
             "民"
         ],
-        "standalone": "氏"
+        "standalone": "氏",
+        "codepoint": "0x2f52",
+        "standalone_codepoint": "0x6c0f",
+        "variant_codepoint": [
+            "0x2ea0",
+            "0x6c0f",
+            "0x6c11"
+        ]
     },
     "⽓": {
         "meaning": "steam",
@@ -1899,7 +2387,12 @@
         "variants": [
             "气"
         ],
-        "standalone": "气"
+        "standalone": "气",
+        "codepoint": "0x2f53",
+        "standalone_codepoint": "0x6c14",
+        "variant_codepoint": [
+            "0x6c14"
+        ]
     },
     "⽔": {
         "meaning": "water",
@@ -1926,7 +2419,16 @@
             "氵",
             "氺"
         ],
-        "standalone": "水"
+        "standalone": "水",
+        "codepoint": "0x2f54",
+        "standalone_codepoint": "0x6c34",
+        "variant_codepoint": [
+            "0x2ea1",
+            "0x2ea2",
+            "0x6c34",
+            "0x6c35",
+            "0x6c3a"
+        ]
     },
     "⽕": {
         "meaning": "fire",
@@ -1950,7 +2452,14 @@
             "火",
             "灬"
         ],
-        "standalone": "火"
+        "standalone": "火",
+        "codepoint": "0x2f55",
+        "standalone_codepoint": "0x706b",
+        "variant_codepoint": [
+            "0x2ea3",
+            "0x706b",
+            "0x706c"
+        ]
     },
     "⽖": {
         "meaning": "claw",
@@ -1975,7 +2484,15 @@
             "爪",
             "爫"
         ],
-        "standalone": "爪"
+        "standalone": "爪",
+        "codepoint": "0x2f56",
+        "standalone_codepoint": "0x722a",
+        "variant_codepoint": [
+            "0x2ea4",
+            "0x2ea5",
+            "0x722a",
+            "0x722b"
+        ]
     },
     "⽗": {
         "meaning": "father",
@@ -1995,7 +2512,12 @@
         "variants": [
             "父"
         ],
-        "standalone": "父"
+        "standalone": "父",
+        "codepoint": "0x2f57",
+        "standalone_codepoint": "0x7236",
+        "variant_codepoint": [
+            "0x7236"
+        ]
     },
     "⽘": {
         "meaning": "Trigrams",
@@ -2015,7 +2537,12 @@
         "variants": [
             "爻"
         ],
-        "standalone": "爻"
+        "standalone": "爻",
+        "codepoint": "0x2f58",
+        "standalone_codepoint": "0x723b",
+        "variant_codepoint": [
+            "0x723b"
+        ]
     },
     "⽙": {
         "meaning": "split wood",
@@ -2039,7 +2566,14 @@
             "丬",
             "爿"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f59",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2ea6",
+            "0x4e2c",
+            "0x723f"
+        ]
     },
     "⽚": {
         "meaning": "slice",
@@ -2061,7 +2595,12 @@
         "variants": [
             "片"
         ],
-        "standalone": "片"
+        "standalone": "片",
+        "codepoint": "0x2f5a",
+        "standalone_codepoint": "0x7247",
+        "variant_codepoint": [
+            "0x7247"
+        ]
     },
     "⽛": {
         "meaning": "fang",
@@ -2081,7 +2620,12 @@
         "variants": [
             "牙"
         ],
-        "standalone": "牙"
+        "standalone": "牙",
+        "codepoint": "0x2f5b",
+        "standalone_codepoint": "0x7259",
+        "variant_codepoint": [
+            "0x7259"
+        ]
     },
     "⽜": {
         "meaning": "cow",
@@ -2107,7 +2651,15 @@
             "牜",
             "𠂒"
         ],
-        "standalone": "牛"
+        "standalone": "牛",
+        "codepoint": "0x2f5c",
+        "standalone_codepoint": "0x725b",
+        "variant_codepoint": [
+            "0x2ea7",
+            "0x725b",
+            "0x725c",
+            "0x20092"
+        ]
     },
     "⽝": {
         "meaning": "dog",
@@ -2133,7 +2685,14 @@
             "犬",
             "犭"
         ],
-        "standalone": "犬"
+        "standalone": "犬",
+        "codepoint": "0x2f5d",
+        "standalone_codepoint": "0x72ac",
+        "variant_codepoint": [
+            "0x2ea8",
+            "0x72ac",
+            "0x72ad"
+        ]
     },
     "⽞": {
         "meaning": "profound",
@@ -2155,7 +2714,12 @@
         "variants": [
             "玄"
         ],
-        "standalone": "玄"
+        "standalone": "玄",
+        "codepoint": "0x2f5e",
+        "standalone_codepoint": "0x7384",
+        "variant_codepoint": [
+            "0x7384"
+        ]
     },
     "⽟": {
         "meaning": "jade",
@@ -2181,7 +2745,16 @@
             "王",
             "𤣩"
         ],
-        "standalone": "玉"
+        "standalone": "玉",
+        "codepoint": "0x2f5f",
+        "standalone_codepoint": "0x7389",
+        "variant_codepoint": [
+            "0x2ea9",
+            "0x7389",
+            "0x738a",
+            "0x738b",
+            "0x248e9"
+        ]
     },
     "⽠": {
         "meaning": "melon",
@@ -2201,7 +2774,12 @@
         "variants": [
             "瓜"
         ],
-        "standalone": "瓜"
+        "standalone": "瓜",
+        "codepoint": "0x2f60",
+        "standalone_codepoint": "0x74dc",
+        "variant_codepoint": [
+            "0x74dc"
+        ]
     },
     "⽡": {
         "meaning": "tile",
@@ -2221,7 +2799,12 @@
         "variants": [
             "瓦"
         ],
-        "standalone": "瓦"
+        "standalone": "瓦",
+        "codepoint": "0x2f61",
+        "standalone_codepoint": "0x74e6",
+        "variant_codepoint": [
+            "0x74e6"
+        ]
     },
     "⽢": {
         "meaning": "sweet",
@@ -2241,7 +2824,12 @@
         "variants": [
             "甘"
         ],
-        "standalone": "甘"
+        "standalone": "甘",
+        "codepoint": "0x2f62",
+        "standalone_codepoint": "0x7518",
+        "variant_codepoint": [
+            "0x7518"
+        ]
     },
     "⽣": {
         "meaning": "life",
@@ -2261,7 +2849,12 @@
         "variants": [
             "生"
         ],
-        "standalone": "生"
+        "standalone": "生",
+        "codepoint": "0x2f63",
+        "standalone_codepoint": "0x751f",
+        "variant_codepoint": [
+            "0x751f"
+        ]
     },
     "⽤": {
         "meaning": "use",
@@ -2284,7 +2877,13 @@
             "用",
             "甩"
         ],
-        "standalone": "用"
+        "standalone": "用",
+        "codepoint": "0x2f64",
+        "standalone_codepoint": "0x7528",
+        "variant_codepoint": [
+            "0x7528",
+            "0x7529"
+        ]
     },
     "⽥": {
         "meaning": "field",
@@ -2313,7 +2912,16 @@
             "申",
             "电"
         ],
-        "standalone": "田"
+        "standalone": "田",
+        "codepoint": "0x2f65",
+        "standalone_codepoint": "0x7530",
+        "variant_codepoint": [
+            "0x7530",
+            "0x7531",
+            "0x7532",
+            "0x7533",
+            "0x7535"
+        ]
     },
     "⽦": {
         "meaning": "bolt of cloth",
@@ -2337,7 +2945,14 @@
             "疋",
             "𤴔"
         ],
-        "standalone": "疋"
+        "standalone": "疋",
+        "codepoint": "0x2f66",
+        "standalone_codepoint": "0x758b",
+        "variant_codepoint": [
+            "0x2eaa",
+            "0x758b",
+            "0x24d14"
+        ]
     },
     "⽧": {
         "meaning": "sickness",
@@ -2357,7 +2972,12 @@
         "variants": [
             "疒"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f67",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x7592"
+        ]
     },
     "⽨": {
         "meaning": "footsteps",
@@ -2377,7 +2997,12 @@
         "variants": [
             "癶"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f68",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x7676"
+        ]
     },
     "⽩": {
         "meaning": "white",
@@ -2402,7 +3027,12 @@
         "variants": [
             "白"
         ],
-        "standalone": "白"
+        "standalone": "白",
+        "codepoint": "0x2f69",
+        "standalone_codepoint": "0x767d",
+        "variant_codepoint": [
+            "0x767d"
+        ]
     },
     "⽪": {
         "meaning": "skin",
@@ -2422,7 +3052,12 @@
         "variants": [
             "皮"
         ],
-        "standalone": "皮"
+        "standalone": "皮",
+        "codepoint": "0x2f6a",
+        "standalone_codepoint": "0x76ae",
+        "variant_codepoint": [
+            "0x76ae"
+        ]
     },
     "⽫": {
         "meaning": "dish",
@@ -2442,7 +3077,12 @@
         "variants": [
             "皿"
         ],
-        "standalone": "皿"
+        "standalone": "皿",
+        "codepoint": "0x2f6b",
+        "standalone_codepoint": "0x76bf",
+        "variant_codepoint": [
+            "0x76bf"
+        ]
     },
     "⽬": {
         "meaning": "eye",
@@ -2466,7 +3106,12 @@
         "variants": [
             "目"
         ],
-        "standalone": "目"
+        "standalone": "目",
+        "codepoint": "0x2f6c",
+        "standalone_codepoint": "0x76ee",
+        "variant_codepoint": [
+            "0x76ee"
+        ]
     },
     "⽭": {
         "meaning": "spear",
@@ -2486,7 +3131,12 @@
         "variants": [
             "矛"
         ],
-        "standalone": "矛"
+        "standalone": "矛",
+        "codepoint": "0x2f6d",
+        "standalone_codepoint": "0x77db",
+        "variant_codepoint": [
+            "0x77db"
+        ]
     },
     "⽮": {
         "meaning": "arrow",
@@ -2506,7 +3156,12 @@
         "variants": [
             "矢"
         ],
-        "standalone": "矢"
+        "standalone": "矢",
+        "codepoint": "0x2f6e",
+        "standalone_codepoint": "0x77e2",
+        "variant_codepoint": [
+            "0x77e2"
+        ]
     },
     "⽯": {
         "meaning": "stone",
@@ -2526,7 +3181,12 @@
         "variants": [
             "石"
         ],
-        "standalone": "石"
+        "standalone": "石",
+        "codepoint": "0x2f6f",
+        "standalone_codepoint": "0x77f3",
+        "variant_codepoint": [
+            "0x77f3"
+        ]
     },
     "⽰": {
         "meaning": "spirit",
@@ -2553,7 +3213,15 @@
             "示",
             "礻"
         ],
-        "standalone": "示"
+        "standalone": "示",
+        "codepoint": "0x2f70",
+        "standalone_codepoint": "0x793a",
+        "variant_codepoint": [
+            "0x2eac",
+            "0x2ead",
+            "0x793a",
+            "0x793b"
+        ]
     },
     "⽱": {
         "meaning": "track",
@@ -2573,7 +3241,12 @@
         "variants": [
             "禸"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f71",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x79b8"
+        ]
     },
     "⽲": {
         "meaning": "grain",
@@ -2597,7 +3270,12 @@
         "variants": [
             "禾"
         ],
-        "standalone": "禾"
+        "standalone": "禾",
+        "codepoint": "0x2f72",
+        "standalone_codepoint": "0x79be",
+        "variant_codepoint": [
+            "0x79be"
+        ]
     },
     "⽳": {
         "meaning": "cave",
@@ -2617,7 +3295,12 @@
         "variants": [
             "穴"
         ],
-        "standalone": "穴"
+        "standalone": "穴",
+        "codepoint": "0x2f73",
+        "standalone_codepoint": "0x7a74",
+        "variant_codepoint": [
+            "0x7a74"
+        ]
     },
     "⽴": {
         "meaning": "stand",
@@ -2637,7 +3320,12 @@
         "variants": [
             "立"
         ],
-        "standalone": "立"
+        "standalone": "立",
+        "codepoint": "0x2f74",
+        "standalone_codepoint": "0x7acb",
+        "variant_codepoint": [
+            "0x7acb"
+        ]
     },
     "⽵": {
         "meaning": "bamboo",
@@ -2661,7 +3349,14 @@
             "竹",
             "𥫗"
         ],
-        "standalone": "竹"
+        "standalone": "竹",
+        "codepoint": "0x2f75",
+        "standalone_codepoint": "0x7af9",
+        "variant_codepoint": [
+            "0x2eae",
+            "0x7af9",
+            "0x25ad7"
+        ]
     },
     "⽶": {
         "meaning": "rice",
@@ -2681,7 +3376,12 @@
         "variants": [
             "米"
         ],
-        "standalone": "米"
+        "standalone": "米",
+        "codepoint": "0x2f76",
+        "standalone_codepoint": "0x7c73",
+        "variant_codepoint": [
+            "0x7c73"
+        ]
     },
     "⽷": {
         "meaning": "silk",
@@ -2711,7 +3411,16 @@
             "糹",
             "纟"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f77",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2eaf",
+            "0x2eb0",
+            "0x7cf8",
+            "0x7cf9",
+            "0x7e9f"
+        ]
     },
     "⽸": {
         "meaning": "jar",
@@ -2731,7 +3440,12 @@
         "variants": [
             "缶"
         ],
-        "standalone": "缶"
+        "standalone": "缶",
+        "codepoint": "0x2f78",
+        "standalone_codepoint": "0x7f36",
+        "variant_codepoint": [
+            "0x7f36"
+        ]
     },
     "⽹": {
         "meaning": "net",
@@ -2765,7 +3479,22 @@
             "罓",
             "𦉫"
         ],
-        "standalone": "网"
+        "standalone": "网",
+        "codepoint": "0x2f79",
+        "standalone_codepoint": "0x7f51",
+        "variant_codepoint": [
+            "0x2eab",
+            "0x2eb1",
+            "0x2eb2",
+            "0x2eb3",
+            "0x2eb4",
+            "0x2eb5",
+            "0x34c1",
+            "0x7f51",
+            "0x7f52",
+            "0x7f53",
+            "0x2626b"
+        ]
     },
     "⽺": {
         "meaning": "sheep",
@@ -2795,7 +3524,18 @@
             "𦍋",
             "𦍌"
         ],
-        "standalone": "羊"
+        "standalone": "羊",
+        "codepoint": "0x2f7a",
+        "standalone_codepoint": "0x7f8a",
+        "variant_codepoint": [
+            "0x2eb6",
+            "0x2eb7",
+            "0x2eb8",
+            "0x7f8a",
+            "0x7f8b",
+            "0x2634b",
+            "0x2634c"
+        ]
     },
     "⽻": {
         "meaning": "feather",
@@ -2818,7 +3558,13 @@
             "羽",
             "羽"
         ],
-        "standalone": "羽"
+        "standalone": "羽",
+        "codepoint": "0x2f7b",
+        "standalone_codepoint": "0x7fbd",
+        "variant_codepoint": [
+            "0x7fbd",
+            "0xfa1e"
+        ]
     },
     "⽼": {
         "meaning": "old",
@@ -2842,7 +3588,14 @@
             "老",
             "耂"
         ],
-        "standalone": "老"
+        "standalone": "老",
+        "codepoint": "0x2f7c",
+        "standalone_codepoint": "0x8001",
+        "variant_codepoint": [
+            "0x2eb9",
+            "0x8001",
+            "0x8002"
+        ]
     },
     "⽽": {
         "meaning": "and",
@@ -2862,7 +3615,12 @@
         "variants": [
             "而"
         ],
-        "standalone": "而"
+        "standalone": "而",
+        "codepoint": "0x2f7d",
+        "standalone_codepoint": "0x800c",
+        "variant_codepoint": [
+            "0x800c"
+        ]
     },
     "⽾": {
         "meaning": "plough",
@@ -2882,7 +3640,12 @@
         "variants": [
             "耒"
         ],
-        "standalone": "耒"
+        "standalone": "耒",
+        "codepoint": "0x2f7e",
+        "standalone_codepoint": "0x8012",
+        "variant_codepoint": [
+            "0x8012"
+        ]
     },
     "⽿": {
         "meaning": "ear",
@@ -2902,7 +3665,12 @@
         "variants": [
             "耳"
         ],
-        "standalone": "耳"
+        "standalone": "耳",
+        "codepoint": "0x2f7f",
+        "standalone_codepoint": "0x8033",
+        "variant_codepoint": [
+            "0x8033"
+        ]
     },
     "⾀": {
         "meaning": "brush",
@@ -2928,7 +3696,15 @@
             "聿",
             "肀"
         ],
-        "standalone": "聿"
+        "standalone": "聿",
+        "codepoint": "0x2f80",
+        "standalone_codepoint": "0x807f",
+        "variant_codepoint": [
+            "0x2eba",
+            "0x2ebb",
+            "0x807f",
+            "0x8080"
+        ]
     },
     "⾁": {
         "meaning": "meat",
@@ -2951,7 +3727,13 @@
             "⺼",
             "肉"
         ],
-        "standalone": "肉"
+        "standalone": "肉",
+        "codepoint": "0x2f81",
+        "standalone_codepoint": "0x8089",
+        "variant_codepoint": [
+            "0x2ebc",
+            "0x8089"
+        ]
     },
     "⾂": {
         "meaning": "minister",
@@ -2972,7 +3754,13 @@
             "臣",
             "𦣝"
         ],
-        "standalone": "臣"
+        "standalone": "臣",
+        "codepoint": "0x2f82",
+        "standalone_codepoint": "0x81e3",
+        "variant_codepoint": [
+            "0x81e3",
+            "0x268dd"
+        ]
     },
     "⾃": {
         "meaning": "self",
@@ -2992,7 +3780,12 @@
         "variants": [
             "自"
         ],
-        "standalone": "自"
+        "standalone": "自",
+        "codepoint": "0x2f83",
+        "standalone_codepoint": "0x81ea",
+        "variant_codepoint": [
+            "0x81ea"
+        ]
     },
     "⾄": {
         "meaning": "arrive",
@@ -3012,7 +3805,12 @@
         "variants": [
             "至"
         ],
-        "standalone": "至"
+        "standalone": "至",
+        "codepoint": "0x2f84",
+        "standalone_codepoint": "0x81f3",
+        "variant_codepoint": [
+            "0x81f3"
+        ]
     },
     "⾅": {
         "meaning": "mortar",
@@ -3038,7 +3836,14 @@
             "臼",
             "𦥑"
         ],
-        "standalone": "臼"
+        "standalone": "臼",
+        "codepoint": "0x2f85",
+        "standalone_codepoint": "0x81fc",
+        "variant_codepoint": [
+            "0x2ebd",
+            "0x81fc",
+            "0x26951"
+        ]
     },
     "⾆": {
         "meaning": "tongue",
@@ -3058,7 +3863,12 @@
         "variants": [
             "舌"
         ],
-        "standalone": "舌"
+        "standalone": "舌",
+        "codepoint": "0x2f86",
+        "standalone_codepoint": "0x820c",
+        "variant_codepoint": [
+            "0x820c"
+        ]
     },
     "⾇": {
         "meaning": "oppose",
@@ -3078,7 +3888,12 @@
         "variants": [
             "舛"
         ],
-        "standalone": "舛"
+        "standalone": "舛",
+        "codepoint": "0x2f87",
+        "standalone_codepoint": "0x821b",
+        "variant_codepoint": [
+            "0x821b"
+        ]
     },
     "⾈": {
         "meaning": "boat",
@@ -3098,7 +3913,12 @@
         "variants": [
             "舟"
         ],
-        "standalone": "舟"
+        "standalone": "舟",
+        "codepoint": "0x2f88",
+        "standalone_codepoint": "0x821f",
+        "variant_codepoint": [
+            "0x821f"
+        ]
     },
     "⾉": {
         "meaning": "stopping",
@@ -3118,7 +3938,12 @@
         "variants": [
             "艮"
         ],
-        "standalone": "艮"
+        "standalone": "艮",
+        "codepoint": "0x2f89",
+        "standalone_codepoint": "0x826e",
+        "variant_codepoint": [
+            "0x826e"
+        ]
     },
     "⾊": {
         "meaning": "colour",
@@ -3140,7 +3965,12 @@
         "variants": [
             "色"
         ],
-        "standalone": "色"
+        "standalone": "色",
+        "codepoint": "0x2f8a",
+        "standalone_codepoint": "0x8272",
+        "variant_codepoint": [
+            "0x8272"
+        ]
     },
     "⾋": {
         "meaning": "grass",
@@ -3167,7 +3997,17 @@
             "艹",
             "艹"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f8b",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x2ebe",
+            "0x2ebf",
+            "0x2ec0",
+            "0x8278",
+            "0x8279",
+            "0xfa5d"
+        ]
     },
     "⾌": {
         "meaning": "tiger",
@@ -3191,7 +4031,14 @@
             "虍",
             "虎"
         ],
-        "standalone": "虎"
+        "standalone": "虎",
+        "codepoint": "0x2f8c",
+        "standalone_codepoint": "0x864e",
+        "variant_codepoint": [
+            "0x2ec1",
+            "0x864d",
+            "0x864e"
+        ]
     },
     "⾍": {
         "meaning": "insect",
@@ -3211,7 +4058,12 @@
         "variants": [
             "虫"
         ],
-        "standalone": "虫"
+        "standalone": "虫",
+        "codepoint": "0x2f8d",
+        "standalone_codepoint": "0x866b",
+        "variant_codepoint": [
+            "0x866b"
+        ]
     },
     "⾎": {
         "meaning": "blood",
@@ -3231,7 +4083,12 @@
         "variants": [
             "血"
         ],
-        "standalone": "血"
+        "standalone": "血",
+        "codepoint": "0x2f8e",
+        "standalone_codepoint": "0x8840",
+        "variant_codepoint": [
+            "0x8840"
+        ]
     },
     "⾏": {
         "meaning": "walk enclosure",
@@ -3253,7 +4110,12 @@
         "variants": [
             "行"
         ],
-        "standalone": "行"
+        "standalone": "行",
+        "codepoint": "0x2f8f",
+        "standalone_codepoint": "0x884c",
+        "variant_codepoint": [
+            "0x884c"
+        ]
     },
     "⾐": {
         "meaning": "clothes",
@@ -3278,7 +4140,15 @@
             "衤",
             "𧘇"
         ],
-        "standalone": "衣"
+        "standalone": "衣",
+        "codepoint": "0x2f90",
+        "standalone_codepoint": "0x8863",
+        "variant_codepoint": [
+            "0x2ec2",
+            "0x8863",
+            "0x8864",
+            "0x27607"
+        ]
     },
     "⾑": {
         "meaning": "cover",
@@ -3305,7 +4175,16 @@
             "西",
             "覀"
         ],
-        "standalone": "襾"
+        "standalone": "襾",
+        "codepoint": "0x2f91",
+        "standalone_codepoint": "0x897e",
+        "variant_codepoint": [
+            "0x2ec3",
+            "0x2ec4",
+            "0x897e",
+            "0x897f",
+            "0x8980"
+        ]
     },
     "⾒": {
         "meaning": "see",
@@ -3321,7 +4200,14 @@
             "見",
             "见"
         ],
-        "standalone": "见"
+        "standalone": "见",
+        "codepoint": "0x2f92",
+        "standalone_codepoint": "0x89c1",
+        "variant_codepoint": [
+            "0x2ec5",
+            "0x898b",
+            "0x89c1"
+        ]
     },
     "⾓": {
         "meaning": "horn",
@@ -3346,7 +4232,15 @@
             "角",
             "𧢲"
         ],
-        "standalone": "角"
+        "standalone": "角",
+        "codepoint": "0x2f93",
+        "standalone_codepoint": "0x89d2",
+        "variant_codepoint": [
+            "0x2ec6",
+            "0x2ec7",
+            "0x89d2",
+            "0x278b2"
+        ]
     },
     "⾔": {
         "meaning": "speech",
@@ -3369,7 +4263,15 @@
             "訁",
             "讠"
         ],
-        "standalone": "言"
+        "standalone": "言",
+        "codepoint": "0x2f94",
+        "standalone_codepoint": "0x8a00",
+        "variant_codepoint": [
+            "0x2ec8",
+            "0x8a00",
+            "0x8a01",
+            "0x8ba0"
+        ]
     },
     "⾕": {
         "meaning": "valley",
@@ -3389,7 +4291,12 @@
         "variants": [
             "谷"
         ],
-        "standalone": "谷"
+        "standalone": "谷",
+        "codepoint": "0x2f95",
+        "standalone_codepoint": "0x8c37",
+        "variant_codepoint": [
+            "0x8c37"
+        ]
     },
     "⾖": {
         "meaning": "bean",
@@ -3409,7 +4316,12 @@
         "variants": [
             "豆"
         ],
-        "standalone": "豆"
+        "standalone": "豆",
+        "codepoint": "0x2f96",
+        "standalone_codepoint": "0x8c46",
+        "variant_codepoint": [
+            "0x8c46"
+        ]
     },
     "⾗": {
         "meaning": "pig",
@@ -3432,7 +4344,12 @@
         "variants": [
             "豕"
         ],
-        "standalone": "豕"
+        "standalone": "豕",
+        "codepoint": "0x2f97",
+        "standalone_codepoint": "0x8c55",
+        "variant_codepoint": [
+            "0x8c55"
+        ]
     },
     "⾘": {
         "meaning": "badger",
@@ -3455,7 +4372,12 @@
         "variants": [
             "豸"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2f98",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x8c78"
+        ]
     },
     "⾙": {
         "meaning": "shell",
@@ -3471,7 +4393,14 @@
             "貝",
             "贝"
         ],
-        "standalone": "贝"
+        "standalone": "贝",
+        "codepoint": "0x2f99",
+        "standalone_codepoint": "0x8d1d",
+        "variant_codepoint": [
+            "0x2ec9",
+            "0x8c9d",
+            "0x8d1d"
+        ]
     },
     "⾚": {
         "meaning": "red",
@@ -3491,7 +4420,12 @@
         "variants": [
             "赤"
         ],
-        "standalone": "赤"
+        "standalone": "赤",
+        "codepoint": "0x2f9a",
+        "standalone_codepoint": "0x8d64",
+        "variant_codepoint": [
+            "0x8d64"
+        ]
     },
     "⾛": {
         "meaning": "run",
@@ -3512,7 +4446,13 @@
             "走",
             "赱"
         ],
-        "standalone": "走"
+        "standalone": "走",
+        "codepoint": "0x2f9b",
+        "standalone_codepoint": "0x8d70",
+        "variant_codepoint": [
+            "0x8d70",
+            "0x8d71"
+        ]
     },
     "⾜": {
         "meaning": "foot",
@@ -3536,7 +4476,14 @@
             "足",
             "𧾷"
         ],
-        "standalone": "足"
+        "standalone": "足",
+        "codepoint": "0x2f9c",
+        "standalone_codepoint": "0x8db3",
+        "variant_codepoint": [
+            "0x2eca",
+            "0x8db3",
+            "0x27fb7"
+        ]
     },
     "⾝": {
         "meaning": "body",
@@ -3556,7 +4503,12 @@
         "variants": [
             "身"
         ],
-        "standalone": "身"
+        "standalone": "身",
+        "codepoint": "0x2f9d",
+        "standalone_codepoint": "0x8eab",
+        "variant_codepoint": [
+            "0x8eab"
+        ]
     },
     "⾞": {
         "meaning": "cart",
@@ -3572,7 +4524,14 @@
             "車",
             "车"
         ],
-        "standalone": "车"
+        "standalone": "车",
+        "codepoint": "0x2f9e",
+        "standalone_codepoint": "0x8f66",
+        "variant_codepoint": [
+            "0x2ecb",
+            "0x8eca",
+            "0x8f66"
+        ]
     },
     "⾟": {
         "meaning": "bitter",
@@ -3594,7 +4553,12 @@
         "variants": [
             "辛"
         ],
-        "standalone": "辛"
+        "standalone": "辛",
+        "codepoint": "0x2f9f",
+        "standalone_codepoint": "0x8f9b",
+        "variant_codepoint": [
+            "0x8f9b"
+        ]
     },
     "⾠": {
         "meaning": "morning",
@@ -3614,7 +4578,12 @@
         "variants": [
             "辰"
         ],
-        "standalone": "辰"
+        "standalone": "辰",
+        "codepoint": "0x2fa0",
+        "standalone_codepoint": "0x8fb0",
+        "variant_codepoint": [
+            "0x8fb0"
+        ]
     },
     "⾡": {
         "meaning": "walk",
@@ -3642,7 +4611,16 @@
             "辵",
             "辶"
         ],
-        "standalone": "辵"
+        "standalone": "辵",
+        "codepoint": "0x2fa1",
+        "standalone_codepoint": "0x8fb5",
+        "variant_codepoint": [
+            "0x2ecc",
+            "0x2ecd",
+            "0x2ece",
+            "0x8fb5",
+            "0x8fb6"
+        ]
     },
     "⾢": {
         "meaning": "city",
@@ -3668,7 +4646,13 @@
             "⻏",
             "邑"
         ],
-        "standalone": "邑"
+        "standalone": "邑",
+        "codepoint": "0x2fa2",
+        "standalone_codepoint": "0x9091",
+        "variant_codepoint": [
+            "0x2ecf",
+            "0x9091"
+        ]
     },
     "⾣": {
         "meaning": "wine",
@@ -3690,7 +4674,12 @@
         "variants": [
             "酉"
         ],
-        "standalone": "酉"
+        "standalone": "酉",
+        "codepoint": "0x2fa3",
+        "standalone_codepoint": "0x9149",
+        "variant_codepoint": [
+            "0x9149"
+        ]
     },
     "⾤": {
         "meaning": "distinguish",
@@ -3714,7 +4703,12 @@
         "variants": [
             "釆"
         ],
-        "standalone": "釆"
+        "standalone": "釆",
+        "codepoint": "0x2fa4",
+        "standalone_codepoint": "0x91c6",
+        "variant_codepoint": [
+            "0x91c6"
+        ]
     },
     "⾥": {
         "meaning": "village",
@@ -3736,7 +4730,12 @@
         "variants": [
             "里"
         ],
-        "standalone": "里"
+        "standalone": "里",
+        "codepoint": "0x2fa5",
+        "standalone_codepoint": "0x91cc",
+        "variant_codepoint": [
+            "0x91cc"
+        ]
     },
     "⾦": {
         "meaning": "gold",
@@ -3759,7 +4758,15 @@
             "釒",
             "钅"
         ],
-        "standalone": "金"
+        "standalone": "金",
+        "codepoint": "0x2fa6",
+        "standalone_codepoint": "0x91d1",
+        "variant_codepoint": [
+            "0x2ed0",
+            "0x91d1",
+            "0x91d2",
+            "0x9485"
+        ]
     },
     "⾧": {
         "meaning": "long",
@@ -3778,7 +4785,17 @@
             "镸",
             "长"
         ],
-        "standalone": "长"
+        "standalone": "长",
+        "codepoint": "0x2fa7",
+        "standalone_codepoint": "0x957f",
+        "variant_codepoint": [
+            "0x2ed1",
+            "0x2ed2",
+            "0x2ed3",
+            "0x9577",
+            "0x9578",
+            "0x957f"
+        ]
     },
     "⾨": {
         "meaning": "gate",
@@ -3794,7 +4811,14 @@
             "門",
             "门"
         ],
-        "standalone": "门"
+        "standalone": "门",
+        "codepoint": "0x2fa8",
+        "standalone_codepoint": "0x95e8",
+        "variant_codepoint": [
+            "0x2ed4",
+            "0x9580",
+            "0x95e8"
+        ]
     },
     "⾩": {
         "meaning": "mound",
@@ -3820,7 +4844,16 @@
             "阝",
             "𨸏"
         ],
-        "standalone": "阜"
+        "standalone": "阜",
+        "codepoint": "0x2fa9",
+        "standalone_codepoint": "0x961c",
+        "variant_codepoint": [
+            "0x2ed5",
+            "0x2ed6",
+            "0x961c",
+            "0x961d",
+            "0x28e0f"
+        ]
     },
     "⾪": {
         "meaning": "slave",
@@ -3840,7 +4873,12 @@
         "variants": [
             "隶"
         ],
-        "standalone": "隶"
+        "standalone": "隶",
+        "codepoint": "0x2faa",
+        "standalone_codepoint": "0x96b6",
+        "variant_codepoint": [
+            "0x96b6"
+        ]
     },
     "⾫": {
         "meaning": "short-tailed bird",
@@ -3860,7 +4898,12 @@
         "variants": [
             "隹"
         ],
-        "standalone": "隹"
+        "standalone": "隹",
+        "codepoint": "0x2fab",
+        "standalone_codepoint": "0x96b9",
+        "variant_codepoint": [
+            "0x96b9"
+        ]
     },
     "⾬": {
         "meaning": "rain",
@@ -3883,7 +4926,13 @@
             "⻗",
             "雨"
         ],
-        "standalone": "雨"
+        "standalone": "雨",
+        "codepoint": "0x2fac",
+        "standalone_codepoint": "0x96e8",
+        "variant_codepoint": [
+            "0x2ed7",
+            "0x96e8"
+        ]
     },
     "⾭": {
         "meaning": "blue",
@@ -3907,7 +4956,14 @@
             "靑",
             "青"
         ],
-        "standalone": "青"
+        "standalone": "青",
+        "codepoint": "0x2fad",
+        "standalone_codepoint": "0x9752",
+        "variant_codepoint": [
+            "0x2ed8",
+            "0x9751",
+            "0x9752"
+        ]
     },
     "⾮": {
         "meaning": "wrong",
@@ -3929,7 +4985,12 @@
         "variants": [
             "非"
         ],
-        "standalone": "非"
+        "standalone": "非",
+        "codepoint": "0x2fae",
+        "standalone_codepoint": "0x975e",
+        "variant_codepoint": [
+            "0x975e"
+        ]
     },
     "⾯": {
         "meaning": "face",
@@ -3950,7 +5011,13 @@
             "面",
             "靣"
         ],
-        "standalone": "面"
+        "standalone": "面",
+        "codepoint": "0x2faf",
+        "standalone_codepoint": "0x9762",
+        "variant_codepoint": [
+            "0x9762",
+            "0x9763"
+        ]
     },
     "⾰": {
         "meaning": "leather",
@@ -3970,7 +5037,12 @@
         "variants": [
             "革"
         ],
-        "standalone": "革"
+        "standalone": "革",
+        "codepoint": "0x2fb0",
+        "standalone_codepoint": "0x9769",
+        "variant_codepoint": [
+            "0x9769"
+        ]
     },
     "⾱": {
         "meaning": "tanned leather",
@@ -3986,7 +5058,14 @@
             "韋",
             "韦"
         ],
-        "standalone": "韦"
+        "standalone": "韦",
+        "codepoint": "0x2fb1",
+        "standalone_codepoint": "0x97e6",
+        "variant_codepoint": [
+            "0x2ed9",
+            "0x97cb",
+            "0x97e6"
+        ]
     },
     "⾲": {
         "meaning": "leek",
@@ -4008,7 +5087,12 @@
         "variants": [
             "韭"
         ],
-        "standalone": "韭"
+        "standalone": "韭",
+        "codepoint": "0x2fb2",
+        "standalone_codepoint": "0x97ed",
+        "variant_codepoint": [
+            "0x97ed"
+        ]
     },
     "⾳": {
         "meaning": "sound",
@@ -4028,7 +5112,12 @@
         "variants": [
             "音"
         ],
-        "standalone": "音"
+        "standalone": "音",
+        "codepoint": "0x2fb3",
+        "standalone_codepoint": "0x97f3",
+        "variant_codepoint": [
+            "0x97f3"
+        ]
     },
     "⾴": {
         "meaning": "leaf",
@@ -4044,7 +5133,14 @@
             "頁",
             "页"
         ],
-        "standalone": "页"
+        "standalone": "页",
+        "codepoint": "0x2fb4",
+        "standalone_codepoint": "0x9875",
+        "variant_codepoint": [
+            "0x2eda",
+            "0x9801",
+            "0x9875"
+        ]
     },
     "⾵": {
         "meaning": "wind",
@@ -4060,7 +5156,14 @@
             "風",
             "风"
         ],
-        "standalone": "风"
+        "standalone": "风",
+        "codepoint": "0x2fb5",
+        "standalone_codepoint": "0x98ce",
+        "variant_codepoint": [
+            "0x2edb",
+            "0x98a8",
+            "0x98ce"
+        ]
     },
     "⾶": {
         "meaning": "fly",
@@ -4076,7 +5179,14 @@
             "飛",
             "飞"
         ],
-        "standalone": "飞"
+        "standalone": "飞",
+        "codepoint": "0x2fb6",
+        "standalone_codepoint": "0x98de",
+        "variant_codepoint": [
+            "0x2edc",
+            "0x98db",
+            "0x98de"
+        ]
     },
     "⾷": {
         "meaning": "eat",
@@ -4103,7 +5213,19 @@
             "饣",
             "𩙿"
         ],
-        "standalone": "食"
+        "standalone": "食",
+        "codepoint": "0x2fb7",
+        "standalone_codepoint": "0x98df",
+        "variant_codepoint": [
+            "0x2edd",
+            "0x2ede",
+            "0x2edf",
+            "0x2ee0",
+            "0x98df",
+            "0x98e0",
+            "0x9963",
+            "0x2967f"
+        ]
     },
     "⾸": {
         "meaning": "head",
@@ -4125,7 +5247,14 @@
             "首",
             "𩠐"
         ],
-        "standalone": "首"
+        "standalone": "首",
+        "codepoint": "0x2fb8",
+        "standalone_codepoint": "0x9996",
+        "variant_codepoint": [
+            "0x2ee1",
+            "0x9996",
+            "0x29810"
+        ]
     },
     "⾹": {
         "meaning": "fragrant",
@@ -4145,7 +5274,12 @@
         "variants": [
             "香"
         ],
-        "standalone": "香"
+        "standalone": "香",
+        "codepoint": "0x2fb9",
+        "standalone_codepoint": "0x9999",
+        "variant_codepoint": [
+            "0x9999"
+        ]
     },
     "⾺": {
         "meaning": "horse",
@@ -4161,7 +5295,14 @@
             "馬",
             "马"
         ],
-        "standalone": "马"
+        "standalone": "马",
+        "codepoint": "0x2fba",
+        "standalone_codepoint": "0x9a6c",
+        "variant_codepoint": [
+            "0x2ee2",
+            "0x99ac",
+            "0x9a6c"
+        ]
     },
     "⾻": {
         "meaning": "bone",
@@ -4182,7 +5323,13 @@
             "⻣",
             "骨"
         ],
-        "standalone": "骨"
+        "standalone": "骨",
+        "codepoint": "0x2fbb",
+        "standalone_codepoint": "0x9aa8",
+        "variant_codepoint": [
+            "0x2ee3",
+            "0x9aa8"
+        ]
     },
     "⾼": {
         "meaning": "tall",
@@ -4203,7 +5350,13 @@
             "高",
             "髙"
         ],
-        "standalone": "高"
+        "standalone": "高",
+        "codepoint": "0x2fbc",
+        "standalone_codepoint": "0x9ad8",
+        "variant_codepoint": [
+            "0x9ad8",
+            "0x9ad9"
+        ]
     },
     "⾽": {
         "meaning": "hair",
@@ -4223,7 +5376,12 @@
         "variants": [
             "髟"
         ],
-        "standalone": "髟"
+        "standalone": "髟",
+        "codepoint": "0x2fbd",
+        "standalone_codepoint": "0x9adf",
+        "variant_codepoint": [
+            "0x9adf"
+        ]
     },
     "⾾": {
         "meaning": "fight",
@@ -4237,7 +5395,12 @@
         "variants": [
             "鬥"
         ],
-        "standalone": ""
+        "standalone": "",
+        "codepoint": "0x2fbe",
+        "standalone_codepoint": "",
+        "variant_codepoint": [
+            "0x9b25"
+        ]
     },
     "⾿": {
         "meaning": "sacrificial wine",
@@ -4257,7 +5420,12 @@
         "variants": [
             "鬯"
         ],
-        "standalone": "鬯"
+        "standalone": "鬯",
+        "codepoint": "0x2fbf",
+        "standalone_codepoint": "0x9b2f",
+        "variant_codepoint": [
+            "0x9b2f"
+        ]
     },
     "⿀": {
         "meaning": "cauldron",
@@ -4277,7 +5445,12 @@
         "variants": [
             "鬲"
         ],
-        "standalone": "鬲"
+        "standalone": "鬲",
+        "codepoint": "0x2fc0",
+        "standalone_codepoint": "0x9b32",
+        "variant_codepoint": [
+            "0x9b32"
+        ]
     },
     "⿁": {
         "meaning": "ghost",
@@ -4298,7 +5471,13 @@
             "⻤",
             "鬼"
         ],
-        "standalone": "鬼"
+        "standalone": "鬼",
+        "codepoint": "0x2fc1",
+        "standalone_codepoint": "0x9b3c",
+        "variant_codepoint": [
+            "0x2ee4",
+            "0x9b3c"
+        ]
     },
     "⿂": {
         "meaning": "fish",
@@ -4314,7 +5493,14 @@
             "魚",
             "鱼"
         ],
-        "standalone": "鱼"
+        "standalone": "鱼",
+        "codepoint": "0x2fc2",
+        "standalone_codepoint": "0x9c7c",
+        "variant_codepoint": [
+            "0x2ee5",
+            "0x9b5a",
+            "0x9c7c"
+        ]
     },
     "⿃": {
         "meaning": "bird",
@@ -4330,7 +5516,14 @@
             "鳥",
             "鸟"
         ],
-        "standalone": "鸟"
+        "standalone": "鸟",
+        "codepoint": "0x2fc3",
+        "standalone_codepoint": "0x9e1f",
+        "variant_codepoint": [
+            "0x2ee6",
+            "0x9ce5",
+            "0x9e1f"
+        ]
     },
     "⿄": {
         "meaning": "salt",
@@ -4346,7 +5539,14 @@
             "卤",
             "鹵"
         ],
-        "standalone": "卤"
+        "standalone": "卤",
+        "codepoint": "0x2fc4",
+        "standalone_codepoint": "0x5364",
+        "variant_codepoint": [
+            "0x2ee7",
+            "0x5364",
+            "0x9e75"
+        ]
     },
     "⿅": {
         "meaning": "deer",
@@ -4366,7 +5566,12 @@
         "variants": [
             "鹿"
         ],
-        "standalone": "鹿"
+        "standalone": "鹿",
+        "codepoint": "0x2fc5",
+        "standalone_codepoint": "0x9e7f",
+        "variant_codepoint": [
+            "0x9e7f"
+        ]
     },
     "⿆": {
         "meaning": "wheat",
@@ -4382,7 +5587,14 @@
             "麥",
             "麦"
         ],
-        "standalone": "麦"
+        "standalone": "麦",
+        "codepoint": "0x2fc6",
+        "standalone_codepoint": "0x9ea6",
+        "variant_codepoint": [
+            "0x2ee8",
+            "0x9ea5",
+            "0x9ea6"
+        ]
     },
     "⿇": {
         "meaning": "hemp",
@@ -4402,7 +5614,12 @@
         "variants": [
             "麻"
         ],
-        "standalone": "麻"
+        "standalone": "麻",
+        "codepoint": "0x2fc7",
+        "standalone_codepoint": "0x9ebb",
+        "variant_codepoint": [
+            "0x9ebb"
+        ]
     },
     "⿈": {
         "meaning": "yellow",
@@ -4424,7 +5641,14 @@
             "黃",
             "黄"
         ],
-        "standalone": "黄"
+        "standalone": "黄",
+        "codepoint": "0x2fc8",
+        "standalone_codepoint": "0x9ec4",
+        "variant_codepoint": [
+            "0x2ee9",
+            "0x9ec3",
+            "0x9ec4"
+        ]
     },
     "⿉": {
         "meaning": "millet",
@@ -4444,7 +5668,12 @@
         "variants": [
             "黍"
         ],
-        "standalone": "黍"
+        "standalone": "黍",
+        "codepoint": "0x2fc9",
+        "standalone_codepoint": "0x9ecd",
+        "variant_codepoint": [
+            "0x9ecd"
+        ]
     },
     "⿊": {
         "meaning": "black",
@@ -4467,7 +5696,13 @@
             "黑",
             "黒"
         ],
-        "standalone": "黑"
+        "standalone": "黑",
+        "codepoint": "0x2fca",
+        "standalone_codepoint": "0x9ed1",
+        "variant_codepoint": [
+            "0x9ed1",
+            "0x9ed2"
+        ]
     },
     "⿋": {
         "meaning": "embroidery",
@@ -4487,7 +5722,12 @@
         "variants": [
             "黹"
         ],
-        "standalone": "黹"
+        "standalone": "黹",
+        "codepoint": "0x2fcb",
+        "standalone_codepoint": "0x9ef9",
+        "variant_codepoint": [
+            "0x9ef9"
+        ]
     },
     "⿌": {
         "meaning": "frog",
@@ -4503,7 +5743,14 @@
             "黽",
             "黾"
         ],
-        "standalone": "黾"
+        "standalone": "黾",
+        "codepoint": "0x2fcc",
+        "standalone_codepoint": "0x9efe",
+        "variant_codepoint": [
+            "0x2eea",
+            "0x9efd",
+            "0x9efe"
+        ]
     },
     "⿍": {
         "meaning": "tripod",
@@ -4523,7 +5770,12 @@
         "variants": [
             "鼎"
         ],
-        "standalone": "鼎"
+        "standalone": "鼎",
+        "codepoint": "0x2fcd",
+        "standalone_codepoint": "0x9f0e",
+        "variant_codepoint": [
+            "0x9f0e"
+        ]
     },
     "⿎": {
         "meaning": "drum",
@@ -4543,7 +5795,12 @@
         "variants": [
             "鼓"
         ],
-        "standalone": "鼓"
+        "standalone": "鼓",
+        "codepoint": "0x2fce",
+        "standalone_codepoint": "0x9f13",
+        "variant_codepoint": [
+            "0x9f13"
+        ]
     },
     "⿏": {
         "meaning": "rat",
@@ -4566,7 +5823,13 @@
             "鼠",
             "鼡"
         ],
-        "standalone": "鼠"
+        "standalone": "鼠",
+        "codepoint": "0x2fcf",
+        "standalone_codepoint": "0x9f20",
+        "variant_codepoint": [
+            "0x9f20",
+            "0x9f21"
+        ]
     },
     "⿐": {
         "meaning": "nose",
@@ -4586,7 +5849,12 @@
         "variants": [
             "鼻"
         ],
-        "standalone": "鼻"
+        "standalone": "鼻",
+        "codepoint": "0x2fd0",
+        "standalone_codepoint": "0x9f3b",
+        "variant_codepoint": [
+            "0x9f3b"
+        ]
     },
     "⿑": {
         "meaning": "even",
@@ -4604,7 +5872,16 @@
             "齊",
             "齐"
         ],
-        "standalone": "齐"
+        "standalone": "齐",
+        "codepoint": "0x2fd1",
+        "standalone_codepoint": "0x9f50",
+        "variant_codepoint": [
+            "0x2eeb",
+            "0x2eec",
+            "0x6589",
+            "0x9f4a",
+            "0x9f50"
+        ]
     },
     "⿒": {
         "meaning": "tooth",
@@ -4622,7 +5899,16 @@
             "齒",
             "齿"
         ],
-        "standalone": "齿"
+        "standalone": "齿",
+        "codepoint": "0x2fd2",
+        "standalone_codepoint": "0x9f7f",
+        "variant_codepoint": [
+            "0x2eed",
+            "0x2eee",
+            "0x6b6f",
+            "0x9f52",
+            "0x9f7f"
+        ]
     },
     "⿓": {
         "meaning": "dragon",
@@ -4640,7 +5926,16 @@
             "龍",
             "龙"
         ],
-        "standalone": "龙"
+        "standalone": "龙",
+        "codepoint": "0x2fd3",
+        "standalone_codepoint": "0x9f99",
+        "variant_codepoint": [
+            "0x2eef",
+            "0x2ef0",
+            "0x7adc",
+            "0x9f8d",
+            "0x9f99"
+        ]
     },
     "⿔": {
         "meaning": "turtle",
@@ -4659,7 +5954,17 @@
             "龜",
             "龟"
         ],
-        "standalone": "龟"
+        "standalone": "龟",
+        "codepoint": "0x2fd4",
+        "standalone_codepoint": "0x9f9f",
+        "variant_codepoint": [
+            "0x2ef1",
+            "0x2ef2",
+            "0x2ef3",
+            "0x4e80",
+            "0x9f9c",
+            "0x9f9f"
+        ]
     },
     "⿕": {
         "meaning": "flute",
@@ -4679,6 +5984,11 @@
         "variants": [
             "龠"
         ],
-        "standalone": "龠"
+        "standalone": "龠",
+        "codepoint": "0x2fd5",
+        "standalone_codepoint": "0x9fa0",
+        "variant_codepoint": [
+            "0x9fa0"
+        ]
     }
 }

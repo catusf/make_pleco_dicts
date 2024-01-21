@@ -240,6 +240,12 @@ class Radicals:
     def is_radical_variant(self, radical):
         return radical in self.radical_nominals
 
+    def is_standalone(self, radical):
+        if not self.is_radical_variant(radical):
+            return False
+
+        return self.radical_set[self.norminal(radical)]["standalone"] == radical
+
     # Get variant forms of a radical/variant
     def get_variants(self, radical):
         return self.radical_set[self.norminal(radical)]["variants"]
@@ -286,11 +292,17 @@ class Radicals:
         #     json.dump(self.radical_nominals, file, indent=4, ensure_ascii=False)
         for rad in self.radical_set:
             self.radical_set[rad]["variants"] = sorted(self.radical_set[rad]["variants"])
+            self.radical_set[rad]["codepoint"] = hex(ord(rad))
+            self.radical_set[rad]["standalone_codepoint"] = (
+                hex(ord(self.radical_set[rad]["standalone"])) if self.radical_set[rad]["standalone"] else ""
+            )
+
+            self.radical_set[rad]["variant_codepoint"] = [hex(ord(item)) for item in self.radical_set[rad]["variants"]]
 
         with open(self.radical_set_file, "w", encoding="utf-8") as file:
             json.dump(self.radical_set, file, indent=4, ensure_ascii=False)
 
-    def load_unicode_data(self):
+    def __load_unicode_data__(self):
         """
         Loads raw data from Unicode dataand other files, then saves to processed data
         """
@@ -558,6 +570,15 @@ def build_ids_radical_perfect():
             pass
 
     print(round)
+
+    rads = Radicals()
+    rads.load_radical_data()
+
+    # Radical standalone form will has its decomposition as it's norminal form
+    for rad in rads.radical_list:
+        info = rads.lookup(rad)
+        if info["standalone"]:
+            full_char_decompositions[info["standalone"]] = rads.norminal(rad)
 
     with open("./wordlists/IDS_dictionary_radical_perfect.txt", "w", encoding="utf-8") as fwrite:
         items = full_char_decompositions.items()
