@@ -14,7 +14,7 @@ from dragonmapper.transcriptions import numbered_to_accented
 from tools_configs import *
 
 rad_database = Radicals()
-rad_database.load_unicode_data()
+rad_database.load_radical_data()
 radicals = rad_database.radicals()
 
 if rad_database.is_none():
@@ -505,17 +505,16 @@ if CONVERT_TO_PLECO:
 
                 meaning_text = ""
 
-                if comp in char_dict:
-                    pinyin = char_dict[comp]["pinyin"][0]
-                    meaning_text = ""
-                    for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
-                        meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
-                elif rad_database.is_radical_variant(comp):
+                if rad_database.is_radical_variant(comp):
                     item = rad_database.lookup(comp)
                     pinyin = item["pinyin"]
                     meaning_text = item["meaning"]
                     variants = sorted(rad_database.get_variants(comp))
-                    alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if rad_database.get_variants(comp) else ""  # fmt: skip
+
+                    if key in variants:  # If same as key headword, remove
+                        variants.remove(key)
+
+                    alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if variants else ""  # fmt: skip
                     alternatives = regex.sub(PATTERN_ZH, replace_chinese_blue, alternatives)
 
                     extra_meaning = f". Radical #{item['number']}. {alternatives}"
@@ -523,6 +522,11 @@ if CONVERT_TO_PLECO:
                     meaning_text = meaning_text.strip() + extra_meaning
 
                     pass
+                elif comp in char_dict:
+                    pinyin = char_dict[comp]["pinyin"][0]
+                    meaning_text = ""
+                    for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
+                        meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
 
                 string += f"{PC_ARROW} {pleco_make_link(comp)} {pleco_make_italic(pinyin)} {meaning_text}\n"
 
