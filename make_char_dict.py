@@ -5,7 +5,7 @@ import datetime
 
 import readchar
 import hanzidentifier
-from pinyin import pinyin as get_pinyin
+from pinyin import get as get_pinyin
 from collections import namedtuple
 from chin_dict.chindict import ChinDict
 from hanzipy.decomposer import HanziDecomposer
@@ -30,7 +30,7 @@ MAX_APPEARANCES = 20
 MAX_BUILD_ITEMS = 100
 MAX_BUILD_ITEMS = 100000
 
-BUILD_DICT_DATA = False
+BUILD_DICT_DATA = True
 CONVERT_TO_PLECO = True  #
 
 CHAR_DICT_FILE = "char_dict.json"
@@ -57,14 +57,26 @@ with open("./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8
 # with open("wordlists/dic_words_set.txt", "r", encoding="utf-8") as fread:
 #     wordset.update(fread.read())
 
+dict_wordset = set()
+with open("dic_words_set.txt", "r", encoding="utf-8") as fread:
+    dict_wordset.update(fread.read())
+
 wordset_freq = {}
+charfreq_wordset = set()
 wordset = set()
+
 
 with open("wordlists/chinese_charfreq_simpl_trad.txt", "r", encoding="utf-8") as fread:
     next(fread)
     contents = fread.read()
 
-    wordset.update(contents)
+    charfreq_wordset.update(contents)
+
+    wordset = charfreq_wordset | dict_wordset
+
+    print(f"{len(charfreq_wordset)=}")
+    print(f"{len(dict_wordset)=}")
+    print(f"{len(wordset)=}")
 
     if "\n" in wordset:
         wordset.remove("\n")
@@ -360,22 +372,38 @@ if CONVERT_TO_PLECO:
         print(f"No file {CHAR_DICT_FILE}")
         exit()
 
+    with open("mnemonics.json", "r", encoding="utf-8") as fread:
+        mnemonics = json.load(fread)
+
     fwrite.write("// Character component dictionary\n")
 
     appears_chars = {}
 
     print(f"Before {len(char_dict)=}")
-    for key in wordlist:
-        if not key or key == "?" or key.isdigit() or key not in char_dict:
+
+    new_wordlist = wordset | set(char_decompositions.keys())
+
+    print(f"{len(wordset)=}")
+    print(f"{len(char_decompositions)=}")
+    print(f"{len(new_wordlist)=}")
+    written = 0
+
+    for key in new_wordlist:
+        if not key or key == "?" or key.isdigit():  # or key not in char_dict:
             continue
 
-        char = char_dict[key]
-        components = char["components"]
+        char = None
+        components = []
+        if key in char_dict:
+            char = char_dict[key]
 
-        if rad_database.is_radical_variant(key):
-            for v in rad_database.get_variants(key):
-                if v not in char_dict:
-                    char_dict[v] = char_dict[key]
+        if key in char_decompositions:
+            components = regex.findall(PATTERN_ZH, char_decompositions[key])
+
+        # if rad_database.is_radical_variant(key):
+        #     for v in rad_database.get_variants(key):
+        #         if v not in char_dict:
+        #             char_dict[v] = char_dict[key]
 
         for comp in components:
             if comp.isdigit():
@@ -388,67 +416,42 @@ if CONVERT_TO_PLECO:
 
     print(f"After {len(char_dict)=}")
 
-    for key in wordlist:
-        if not key or key == "?" or key.isdigit() or key not in char_dict:
+    for key in new_wordlist:
+        if not key or key == "?" or key.isdigit():  # or key not in char_dict:
             continue
 
-        char = char_dict[key]
+        char = None
+        components = []
+
+        if key in char_dict:
+            char = char_dict[key]
+
+            pinyins = char["pinyin"]
+            all_meanings = char["meaning"]
+        else:
+            pinyin_str = ""
+            try:
+                pinyin_str = get_pinyin(key)
+            except Exception:
+                pass
+
+            pinyins = [pinyin_str]
+            all_meanings = [["(No meaning)"]]
+
         string = ""
-
-        # count += 1
-        # if count > 500:
-        #     break
-
-        pinyins = char["pinyin"]
-        all_meanings = char["meaning"]
-
-        # if not meanings:
-        #     meanings = ["(No meaning)"]
-        #     print(f"No meaning {key} {char}")
 
         decomp_str = ""
 
-        if char["tree"] and key not in char_decompositions and not rad_database.is_radical_variant(key):
+        if char and char["tree"] and key not in char_decompositions and not rad_database.is_radical_variant(key):
             char_tree_str = rad_database.norminal(char["tree"]) if len(char["tree"]) == 1 else char["tree"].replace("\n", "-")  # fmt: skip
 
             flog.write(f"{key}\t{'Hanzipy YES IDS No'}\t{hex(ord(key))}\t{char_tree_str}\n")  # fmt: skip
 
         is_rad = rad_database.norminal(key) if rad_database.is_radical_variant(key) else ""  # fmt: skip
 
-        # if rad_database.is_radical_variant(key):
-        #     continue
-
-        if not char["tree"] and key not in char_decompositions and not rad_database.is_radical_variant(key):  # fmt: skip
+        if char and not char["tree"] and key not in char_decompositions and not rad_database.is_radical_variant(key):  # fmt: skip
             flog.write(f"{key}\t{'Found no decompositions for'}\t{is_rad}\t{hex(ord(key))}\n")  # fmt: skip
             continue
-
-        # if char["tree"] and key not in char_decompositions:
-        #     tree_comps = sorted(set([rad_database.norminal(item) for item in char["components"] if rad_database.is_radical_variant(item)]))  # fmt: skip
-
-        #     if len(tree_comps) > 1:
-        #         log_str = f"{key}\t{'-'.join(tree_comps)}"
-        #         print(log_str)
-        #         flog.write(f"{log_str}\n")
-
-        # if key in char_decompositions:
-        #     tree_comps = set(rad_database.norminal(item) for item in char["components"] if rad_database.is_radical_variant(item))  # fmt: skip
-        #     decomp_comps = set(rad_database.norminal(item) for item in char_decompositions[key] if rad_database.is_radical_variant(item))  # fmt: skip
-
-        #     if len(tree_comps) > len(decomp_comps):
-        #         log_str = f"{key}\t{char_decompositions[key]}\n{char['tree']}\t"
-
-        #         if len(char_decompositions[key]) > 10 and not regex.search("[A-Z0-9]", char_decompositions[key]):
-        #             print(log_str)
-        #             flog.write(f"{log_str}\n")
-        #             pass
-
-        # if key not in char_decompositions and not rad_database.is_radical_variant(key):
-        #     flog.write(
-        #         f"{key}\t{'Found no NEW decompositions for'}\t{is_rad}\t{hex(ord(key))}\n"
-        #     )
-        #     continue
-
-        # components = char["components"]
 
         if key in char_decompositions:
             components = list(
@@ -473,12 +476,10 @@ if CONVERT_TO_PLECO:
         string += f"{decomp_str}"
 
         char_tree = ""
-        if char["tree"] and char["tree"] != key:
+        if char and char["tree"] and char["tree"] != key:
             if char["tree"] == key and rad_database.is_radical_variant(key):
                 char["tree"] = rad_database.norminal(key)
-                # print(
-                #     f"{key}\t{hex(ord(key))}\t{hex(ord(rad_database.norminal(key)))}\t{rad_database.norminal(key)}"
-                # )
+
                 pass
 
             string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
@@ -490,6 +491,15 @@ if CONVERT_TO_PLECO:
         string += f"{char_tree}"
 
         string += "\n"
+
+        if key in mnemonics:
+            string += f"{pleco_make_dark_gray('MENOMONICS')}\n"
+
+            mn_file, mn_key, mn_meaning, mn_mnemonics, mn_chars, others = mnemonics[key]
+            mn_meaning_str = f"{pleco_make_italic(mn_meaning)} " if mn_meaning else ""
+
+            string += f"{pleco_make_italic(mn_meaning_str)} {mn_mnemonics} {mn_chars}"
+            string += "\n"
 
         if components and components[0] != key:
             string += f"{pleco_make_dark_gray(PC_COMPONENTS_MARK)}\n"
@@ -545,7 +555,9 @@ if CONVERT_TO_PLECO:
         string = regex.sub(PATTERN_PY, replace_num_pinyin, string)
 
         # Each pronunctiation and meaning need a separate line
-        for pinyin, meanings in zip(pinyins, all_meanings):
+        for num, pinyin in enumerate(pinyins):
+            meanings = all_meanings[num]
+
             main_string = f"{key}\t{pinyin}\t"
             main_string += f"{pleco_make_dark_gray(PC_MEANING_MARK)}\n"
 
@@ -559,10 +571,15 @@ if CONVERT_TO_PLECO:
             main_string = main_string.replace("\n", PC_NEW_LINE)
             # print(string)
             fwrite.write(f"{main_string}\n")
+            written += 1
+
+        pass
 
     fwrite.close()
 
 char_dict_keys = frozenset(char_dict.keys())
+
+print(f"{written=}")
 
 print(f"In wordset but not in final list: {len(wordset - char_dict_keys)}")
 print(f"Not in wordset (new components): {len(char_dict_keys - wordset)}")
