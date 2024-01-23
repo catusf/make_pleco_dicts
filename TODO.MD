@@ -1,15 +1,22 @@
 TODO
+[ ] Add decompositions for char without definitions (searcher.definition_lookup(char) => none but decomposer.tree(char) or IDS => not None)
+[ ] Add mnemonics from https://rtega.be/chmn/
+[ ] Add radical info page
+[ ] Add Radicals order by pinyin
+[ ] Tạo lại Hanzii dict, bỏ bớt new line
+[ ] Add non-decomposable chars list
+[ ] Why decompose 朩 here while it is a ? 
 [X] Add suggested item from top 5000 HSK words
 [X] Store data in XML/JSON
 [X] Extract examples into list
 [X] Make Chinese text blue, and từ loại grey
 [X] Only include items from top_24k and top_100k
 [x] Use Taiwan MOE dictionary to find opposite words (antonyms)
-[ ] Check words that have puntuations at the end
-[ ] Add missing radical 丷
-[ ] Check missing radical in definitions such as ⺌
-[ ] Use function to find radical pinyin and meaning, use namedtuple
-[ ] Add variants from Radicals to char_dict
+[X] Check words that have puntuations at the end
+[x] Add missing radical 丷
+[x] Check missing radical in definitions such as ⺌
+[x] Use function to find radical pinyin and meaning, use namedtuple
+[x] Add variants from Radicals to char_dict
 
 # Steps
 [ ] Convert Thienchuu to same format
