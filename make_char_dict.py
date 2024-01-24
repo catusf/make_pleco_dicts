@@ -30,7 +30,7 @@ MAX_APPEARANCES = 20
 MAX_BUILD_ITEMS = 100
 MAX_BUILD_ITEMS = 100000
 
-BUILD_DICT_DATA = True
+BUILD_DICT_DATA = False
 CONVERT_TO_PLECO = True  #
 
 CHAR_DICT_FILE = "char_dict.json"
@@ -45,6 +45,19 @@ except:
 char_decompositions = {}
 
 build_ids_radical_perfect()
+
+mnemonics_words = set()
+with open("mnemonics.json", "r", encoding="utf-8") as fread:
+    mnemonics = json.load(fread)
+    mnemonics_words.update(mnemonics.keys())
+
+    for key in mnemonics:
+        text = "".join(mnemonics[key])
+
+        words = set(regex.findall(PATTERN_ZH, text))
+        mnemonics_words.update(words)
+
+    print(f"{len(mnemonics_words)=}")
 
 with open("./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8") as fread:
     lines = fread.readlines()
@@ -65,14 +78,13 @@ wordset_freq = {}
 charfreq_wordset = set()
 wordset = set()
 
-
 with open("wordlists/chinese_charfreq_simpl_trad.txt", "r", encoding="utf-8") as fread:
     next(fread)
     contents = fread.read()
 
     charfreq_wordset.update(contents)
 
-    wordset = charfreq_wordset | dict_wordset
+    wordset = charfreq_wordset | dict_wordset | mnemonics_words
 
     print(f"{len(charfreq_wordset)=}")
     print(f"{len(dict_wordset)=}")
@@ -107,8 +119,6 @@ def keyboard_handler(signum, frame):
         print(" " * len(msg), end="", flush=True)  # clear the printed line
         print("    ", end="\r", flush=True)
 
-
-print(f"{len(wordset)=}")
 
 PATTERN_PY = r"\[(.+)\]"
 
@@ -372,16 +382,13 @@ if CONVERT_TO_PLECO:
         print(f"No file {CHAR_DICT_FILE}")
         exit()
 
-    with open("mnemonics.json", "r", encoding="utf-8") as fread:
-        mnemonics = json.load(fread)
-
     fwrite.write("// Character component dictionary\n")
 
     appears_chars = {}
 
     print(f"Before {len(char_dict)=}")
 
-    new_wordlist = wordset | set(char_decompositions.keys())
+    new_wordlist = wordset  # | set(char_decompositions.keys())
 
     print(f"{len(wordset)=}")
     print(f"{len(char_decompositions)=}")
@@ -389,7 +396,7 @@ if CONVERT_TO_PLECO:
     written = 0
 
     for key in new_wordlist:
-        if not key or key == "?" or key.isdigit():  # or key not in char_dict:
+        if not key or key == "?" or key.isdigit() or key not in char_dict:
             continue
 
         char = None
@@ -417,7 +424,7 @@ if CONVERT_TO_PLECO:
     print(f"After {len(char_dict)=}")
 
     for key in new_wordlist:
-        if not key or key == "?" or key.isdigit():  # or key not in char_dict:
+        if not key or key == "?" or key.isdigit() or key not in char_dict:
             continue
 
         char = None
@@ -463,7 +470,7 @@ if CONVERT_TO_PLECO:
             components = []
 
         if key in char_decompositions:
-            decomp_str += f"{pleco_make_dark_gray('DECOMPOSITIONS')}\n"
+            decomp_str += f"{pleco_make_bold(pleco_make_dark_gray(PC_DECOMPOSITIONS_MARK))}\n"
             decomp = key + PC_WIDESPACE + char_decompositions[key].replace(" ", "")
 
             decomp = regex.sub(PATTERN_ZH, make_chinese_blue, decomp)
@@ -482,7 +489,7 @@ if CONVERT_TO_PLECO:
 
                 pass
 
-            string += f"{pleco_make_dark_gray(PC_TREE_MARK)}\n"
+            string += f"{pleco_make_bold(pleco_make_dark_gray(PC_TREE_MARK))}\n"
             char_tree = char["tree"]
 
             char_tree = regex.sub(r"(\d+)", replace_numbers, char_tree)
@@ -493,16 +500,22 @@ if CONVERT_TO_PLECO:
         string += "\n"
 
         if key in mnemonics:
-            string += f"{pleco_make_dark_gray('MENOMONICS')}\n"
+            string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MNEMONICS_MARK))}\n"
 
-            mn_file, mn_key, mn_meaning, mn_mnemonics, mn_chars, others = mnemonics[key]
+            mn_file, mn_meaning, mn_mnemonics, mn_chars, others = mnemonics[key]
+
+            mn_meaning = mn_meaning.strip().capitalize()
+            mn_mnemonics = mn_mnemonics.strip().capitalize()
+
             mn_meaning_str = f"{pleco_make_italic(mn_meaning)} " if mn_meaning else ""
 
-            string += f"{pleco_make_italic(mn_meaning_str)} {mn_mnemonics} {mn_chars}"
-            string += "\n"
+            mn_mnemonics_str = f"{pleco_make_italic(mn_meaning_str)}{mn_mnemonics} {mn_chars}\n"
+            mn_mnemonics_str = regex.sub(PATTERN_ZH, replace_chinese_blue, mn_mnemonics_str)
+
+            string += mn_mnemonics_str
 
         if components and components[0] != key:
-            string += f"{pleco_make_dark_gray(PC_COMPONENTS_MARK)}\n"
+            string += f"{pleco_make_bold(pleco_make_dark_gray(PC_COMPONENTS_MARK))}\n"
 
             for comp in components:
                 if key == comp:
@@ -530,8 +543,6 @@ if CONVERT_TO_PLECO:
                     extra_meaning = f". Radical #{item['number']}. {alternatives}"
 
                     meaning_text = meaning_text.strip() + extra_meaning
-
-                    pass
                 elif comp in char_dict:
                     pinyin = char_dict[comp]["pinyin"][0]
                     meaning_text = ""
@@ -546,8 +557,7 @@ if CONVERT_TO_PLECO:
 
             if contains:
                 blue_chars = [pleco_make_link(char) for char in contains[:MAX_APPEARANCES]]
-
-                appear_str = f"{PC_APPEARS_MARK} {len(contains)}"
+                appear_str = f"{pleco_make_bold(pleco_make_dark_gray(PC_APPEARS_MARK))} {len(contains)}"
                 string += f"{pleco_make_dark_gray(appear_str)}\n"
 
                 string += f"{PC_MIDDLE_DOT.join(blue_chars)}"
@@ -559,7 +569,7 @@ if CONVERT_TO_PLECO:
             meanings = all_meanings[num]
 
             main_string = f"{key}\t{pinyin}\t"
-            main_string += f"{pleco_make_dark_gray(PC_MEANING_MARK)}\n"
+            main_string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MEANING_MARK))}\n"
 
             for num, meaning in enumerate(meanings):
                 main_string += f"{number_in_cirle(num+1)} {meaning} "
