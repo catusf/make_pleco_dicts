@@ -38,13 +38,13 @@ signal.signal(signal.SIGINT, keyboard_handler)
 
 NEED_CONVERT = r"([^	↑ ,; 0-9a-zA-Z()一-龥])"
 
-print('Open dictionary data file')
-with open("dict_data.json", "r", encoding="utf-8") as fread:
-    dict_data = json.load(fread)
-
 print('Open new recommendation file')
 with open("new_reccommendations.json", "r", encoding="utf-8") as fread:
     new_recomend = json.load(fread)
+
+print('Open dictionary data file')
+with open("dict_data.json", "r", encoding="utf-8") as fread:
+    dict_data = json.load(fread)
 
 # print('Convert and write xml file')
 
@@ -70,7 +70,7 @@ BIGNUM = 20000000
 wordkinds_set = set()
 wordkinds_actual_set = set()
 
-pleco_import_file = open(f"{now_str}-hanzii_pleco.txt", "w", encoding="utf-8")
+pleco_import_file = open("tvb_pleco.txt", "w", encoding="utf-8")
 
 pleco_import_file.write(f"{PC_DICT_NAME}\n")
 
@@ -96,7 +96,7 @@ for num, headword in enumerate(sorted(dict_data)):
 
     if dict_item['amhanviet']:
         pleco_string += f"{pleco_make_dark_gray(pleco_make_bold(PC_HANVIET_MARK))} {
-            pleco_make_italic(dict_item['amhanviet'])}{PC_NEW_LINE}"
+            pleco_make_italic(dict_item['amhanviet'])}\n"
 
     # print(f'{chinese=} {pinyin=} {viet=}')
 
@@ -105,25 +105,25 @@ for num, headword in enumerate(sorted(dict_data)):
             PC_NEW_LINE}"
 
         for item in dict_item['wordkinds']['list_items'][wordkind]:
-            pleco_string += f"{PC_NEW_LINE}{pleco_make_dark_gray(
+            pleco_string += f"\n{pleco_make_dark_gray(
                 pleco_make_bold(number_in_cirle(int(item['definition']['number']))))} "
             pleco_string += (
                 f"{pleco_make_blue(item['definition']['chinese'])} {
-                    item['definition']['vietnamese']}{PC_NEW_LINE}{PC_NEW_LINE}"
+                    item['definition']['vietnamese']}\n"
             )
             example = item['definition']['example']
 
             if example:
                 pleco_string += f"{pleco_make_dark_gray(PC_DIAMOND)} {
-                    pleco_make_dark_gray(PC_VIDU_NEW_MARK)}{PC_NEW_LINE} "
+                    pleco_make_dark_gray(PC_VIDU_NEW_MARK)}\n "
                 pleco_string += f"{pleco_make_blue(example['example_chinese'])} {pleco_make_italic(
-                    example['example_pron'])} {example['example_meaning']}{PC_NEW_LINE}{PC_NEW_LINE}"
+                    example['example_pron'])} {example['example_meaning']}\n"
 
     reccs = new_recomend[headword]
 
     if reccs:
-        pleco_string += f"{PC_NEW_LINE}{PC_NEW_LINE}{pleco_make_dark_gray(
-            PC_CLUB_SUIT)} {pleco_make_dark_gray(PC_RELATED_MARK)}{PC_NEW_LINE}"
+        pleco_string += f"\n{pleco_make_dark_gray(
+            PC_CLUB_SUIT)} {pleco_make_dark_gray(PC_RELATED_MARK)}\n"
 
         for rec in reccs:
             key = list(rec.keys())[0]
@@ -134,11 +134,12 @@ for num, headword in enumerate(sorted(dict_data)):
 
             if key in dict_data:
                 pleco_string += f"{pleco_make_dark_gray(PC_ARROW)} {pleco_make_link(key)} {
-                    pleco_make_italic(item['pinyin'])} {item['mean']}{PC_NEW_LINE}{PC_NEW_LINE}"
+                    pleco_make_italic(item['pinyin'])} {item['mean']}\n"
             else:
                 pleco_string += f"{pleco_make_dark_gray(PC_ARROW)} {pleco_make_blue(key)} {
-                    pleco_make_italic(item['pinyin'])} {item['mean']}{PC_NEW_LINE}{PC_NEW_LINE}"
+                    pleco_make_italic(item['pinyin'])} {item['mean']}\n"
 
+    pleco_string = pleco_string.replace("\n\n", "\n")
     pleco_string = pleco_string.replace("\n", PC_NEW_LINE)
 
     pleco_import_file.write(f"{pleco_string}\n")

@@ -1,0 +1,4 @@
+dict_data.json filter=lfs diff=lfs merge=lfs -text
+new_reccommendations.json filter=lfs diff=lfs merge=lfs -text
+tvb_pleco.txt filter=lfs diff=lfs merge=lfs -text
+radical_lookup_pleco.txt filter=lfs diff=lfs merge=lfs -text

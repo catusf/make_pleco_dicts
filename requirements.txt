@@ -10,3 +10,4 @@ pinyin>=0.4.0
 readchar>=4.0.5
 regex>=2023.10.3
 unicodeblock>=0.3.1
+Levenshtein>=0.23.0

@@ -5,7 +5,9 @@ html/*.html
 old
 *.html
 *.zip
-*_pleco.txt
+*-hanzii_pleco.txt
+*_wordkinds.json
+
 dict/
 
 __pycache__/
