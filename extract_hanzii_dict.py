@@ -99,9 +99,8 @@ wordkinds_set = set()
 wordkinds_actual_set = set()
 
 log_file = open(f"{now_str}-error.log", "w", encoding="utf-8")
-pleco_import_file = open(f"tvb_pleco.txt", "w", encoding="utf-8")
-
-pleco_import_file.write(f"{PC_DICT_NAME}\n")
+# pleco_import_file = open(f"tvb_pleco.txt", "w", encoding="utf-8")
+# pleco_import_file.write(f"{PC_DICT_NAME}\n")
 
 freq = []
 
@@ -371,11 +370,11 @@ for num, filepath in enumerate(files):
 
     if num % 100:
         log_file.flush()
-        pleco_import_file.flush()
+        # pleco_import_file.flush()
 
 log_file.close()
 
-pleco_import_file.close()
+# pleco_import_file.close()
 
 with open("dict_data.json", "w", encoding="utf-8") as fwrite:
     json.dump(dict_data, fwrite, indent=4, ensure_ascii=False)
