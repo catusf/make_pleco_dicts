@@ -101,11 +101,10 @@ for num, headword in enumerate(sorted(dict_data)):
     # print(f'{chinese=} {pinyin=} {viet=}')
 
     for wordkind in dict_item['wordkinds']['list_items']:
-        pleco_string += f"{pleco_make_dark_gray(pleco_make_bold(wordkind))}{
-            PC_NEW_LINE}"
+        pleco_string += f"{pleco_make_dark_gray(pleco_make_bold(wordkind))}\n"
 
         for item in dict_item['wordkinds']['list_items'][wordkind]:
-            pleco_string += f"\n{pleco_make_dark_gray(
+            pleco_string += f"{pleco_make_dark_gray(
                 pleco_make_bold(number_in_cirle(int(item['definition']['number']))))} "
             pleco_string += (
                 f"{pleco_make_blue(item['definition']['chinese'])} {
