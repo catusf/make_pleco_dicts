@@ -25,7 +25,7 @@ for filename in dict_names:
 
         lines = contents.split("\n")
 
-        with open(name + ".tab", "w", encoding="utf-8") as fwrite:
+        with open(f"converted/{name}.tab", "w", encoding="utf-8") as fwrite:
             for line in lines[1:]:
                 if not line.strip():
                     continue
