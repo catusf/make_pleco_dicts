@@ -1,6 +1,10 @@
 import os
 
-dict_names = ["char_dict_pleco.txt", "radical_lookup_pleco.txt", "radical_name_pleco.txt", "tvb_pleco.txt"]
+dict_names = [
+    # "char_dict_pleco.txt", "radical_lookup_pleco.txt",
+    "radical_name_pleco.txt",
+    # "tvb_pleco.txt"
+]
 
 replaces = {
     chr(0xEAB1): "<br>",

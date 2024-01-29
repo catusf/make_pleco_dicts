@@ -36,7 +36,7 @@ fwrite.write(f"// Radical name dictionary (v{VERSION})\n")
 FIX_SPECIAL_PINYIN = {"sānpiēér": "sānpiěr"}
 
 rad_database = Radicals()
-rad_database.load_unicode_data()
+rad_database.load_radical_data()
 radicals = rad_database.radicals()
 
 if rad_database.is_none():
@@ -136,6 +136,8 @@ for rad in radicals:
         name_str = f"\n{pleco_make_dark_gray('NAME')} {PC_MIDDLE_DOT.join(items)}"
 
     for num, name in enumerate(names):
+        if not name:
+            continue
         string_has_name += f"{pleco_make_link(rad)} {name_pinyins[num]} {pleco_make_blue(name)} {pleco_make_bold(meaning)}\n"
     
         string_name_head = f"{name}\t{name_pinyins[num]}\tName of radical number {number} {pleco_make_link(rad)}{meaning_str}{examples_str}{back_home}"

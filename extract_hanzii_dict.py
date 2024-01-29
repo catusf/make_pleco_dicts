@@ -87,7 +87,7 @@ MAX_ITEMS = 100  # 20
 MAX_ITEMS = 1000000  # 20
 
 files = glob.glob(f"{HTML_FOLDER}/人*.html")
-files = glob.glob(f"{HTML_FOLDER}/*.html")
+files = glob.glob(f"d:/html/*.html")
 print(f"Number of existing files: {len(files)=}")
 
 # files = glob.glob(f'{HTML_FOLDER}/人面.html')
