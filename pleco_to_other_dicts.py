@@ -31,4 +31,4 @@ for filename in dict_names:
                     continue
 
                 items = line.split("\t")
-                fwrite.write(f"{items[0]}\t{items[1]}\n{items[2]}\n")
+                fwrite.write(f"{items[0]}\t{items[1]}<br>{items[2]}\n")
