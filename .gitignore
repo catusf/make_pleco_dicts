@@ -2,6 +2,7 @@
 #podcasts/*.xml
 #podcasts/*.png
 html/*.html
+converted/*.tab
 old
 *.html
 *.zip
