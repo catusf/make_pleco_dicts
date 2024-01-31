@@ -528,7 +528,10 @@ if CONVERT_TO_PLECO:
 
                 meaning_text = ""
 
+                comp_char = comp
+
                 if rad_database.is_radical_variant(comp):
+                    comp_char = rad_database.norminal(comp)
                     item = rad_database.lookup(comp)
                     pinyin = item["pinyin"]
                     meaning_text = item["meaning"]
@@ -549,7 +552,7 @@ if CONVERT_TO_PLECO:
                     for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
                         meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
 
-                string += f"{PC_ARROW} {pleco_make_link(comp)} {pleco_make_italic(pinyin)} {meaning_text}\n"
+                string += f"{pleco_make_link(comp_char)} {pleco_make_italic(pinyin)} {meaning_text}\n"
 
         if key in appears_chars and (contains := sort_by_freq(appears_chars[key])):
             if key in contains:

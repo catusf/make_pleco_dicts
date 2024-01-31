@@ -25,10 +25,13 @@ for filename in dict_names:
 
         lines = contents.split("\n")
 
-        with open(f"converted/{name}.tab", "w", encoding="utf-8") as fwrite:
+        outfile = f"converted/{name}.tab"
+        with open(outfile, "w", encoding="utf-8") as fwrite:
             for line in lines[1:]:
                 if not line.strip():
                     continue
 
                 items = line.split("\t")
                 fwrite.write(f"{items[0]}\t{items[1]}<br>{items[2]}\n")
+
+        print(f'{f"converted/{name}.tab"} written')
