@@ -15,7 +15,6 @@ PATTERN_URL = r"(https://hanzii.net/search/word/(.+?)\?hl=vi)"
 PATTERN_ZH = r"[一-龥]+"
 PATTERN_REDUNDANT = r"[.!?。！？]"
 
-HTML_FOLDER = "html"
 WORDLIST_FOLDER = "wordlists"
 
 WAIT_TIME = 7  # Seconds

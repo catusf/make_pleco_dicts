@@ -43,16 +43,14 @@ signal.signal(signal.SIGINT, keyboard_handler)
 
 NEED_CONVERT = r"([^	↑ ,; 0-9a-zA-Z()一-龥])"
 
+DATA_FILE = "dict_data.json"
 
-with open("dict_data.json", "r", encoding="utf-8") as fread:
-    dict_data = json.load(fread)
+dict_data = {}
 
-# The above code is likely defining a function or variable called "count_current_items" in the Python
-# programming language. However, without seeing the actual code, it is not possible to determine the
-# exact purpose or functionality of the code.
-# count_current_items = len(dict_data)
+if os.path.exists(DATA_FILE):
+    with open("dict_data.json", "r", encoding="utf-8") as fread:
+        dict_data = json.load(fread)
 
-# print(f'{count_current_items=}')
 
 top_words_100k_index = {
     k: v for v, k in enumerate(load_frequent_words(TOP_WORDS_1M)[:100001])
@@ -86,14 +84,13 @@ PC_SPADE_SUIT = "♠"
 MAX_ITEMS = 100  # 20
 MAX_ITEMS = 1000000  # 20
 
-files = glob.glob(f"{HTML_FOLDER}/人*.html")
-files = glob.glob(f"d:/html/*.html")
+HTML_FOLDER = "d:/htmlnew"
+
+# files = glob.glob(f"{HTML_FOLDER}/人*.html")
+files = glob.glob(f"{HTML_FOLDER}/*.html")
 print(f"Number of existing files: {len(files)=}")
 
 # files = glob.glob(f'{HTML_FOLDER}/人面.html')
-filepath = f"{HTML_FOLDER}/点.html"
-filepath = f"{HTML_FOLDER}/詗.html"
-filepath = f"{HTML_FOLDER}/人.html"
 
 wordkinds_set = set()
 wordkinds_actual_set = set()
@@ -104,7 +101,7 @@ log_file = open(f"{now_str}-error.log", "w", encoding="utf-8")
 
 freq = []
 
-# dict_data = {}
+dict_data = {}
 
 for num, filepath in enumerate(files):
     dict_item = None
