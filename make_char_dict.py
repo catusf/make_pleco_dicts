@@ -12,6 +12,7 @@ from hanzipy.decomposer import HanziDecomposer
 from hanzipy.dictionary import HanziDictionary
 from dragonmapper.transcriptions import numbered_to_accented
 from tools_configs import *
+from os.path import join
 
 rad_database = Radicals()
 rad_database.load_radical_data()
@@ -37,7 +38,7 @@ CHAR_DICT_FILE = "char_dict.json"
 
 print("Open char dictionary data file")
 try:
-    with open(CHAR_DICT_FILE, "r", encoding="utf-8") as fread:
+    with open(join(DATA_DIR, CHAR_DICT_FILE), "r", encoding="utf-8") as fread:
         char_dict = json.load(fread)
 except:
     print(f"No file {CHAR_DICT_FILE}")
@@ -47,7 +48,7 @@ char_decompositions = {}
 build_ids_radical_perfect()
 
 mnemonics_words = set()
-with open("mnemonics.json", "r", encoding="utf-8") as fread:
+with open(join(DATA_DIR, "mnemonics.json"), "r", encoding="utf-8") as fread:
     mnemonics = json.load(fread)
     mnemonics_words.update(mnemonics.keys())
 
@@ -59,7 +60,7 @@ with open("mnemonics.json", "r", encoding="utf-8") as fread:
 
     print(f"{len(mnemonics_words)=}")
 
-with open("./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8") as fread:
+with open(join(WORDLIST_DIR, "IDS_dictionary_radical_perfect.txt"), "r", encoding="utf-8") as fread:
     lines = fread.readlines()
 
     for line in lines:
@@ -67,18 +68,18 @@ with open("./wordlists/IDS_dictionary_radical_perfect.txt", "r", encoding="utf-8
 
         char_decompositions[head] = decomp.replace(" ", "")
 
-# with open("wordlists/dic_words_set.txt", "r", encoding="utf-8") as fread:
+# with open(join(WORDLIST_DIR, "dic_words_set.txt"), "r", encoding="utf-8") as fread:
 #     wordset.update(fread.read())
 
 dict_wordset = set()
-with open("dic_words_set.txt", "r", encoding="utf-8") as fread:
+with open(join(WORDLIST_DIR, "dic_words_set.txt"), "r", encoding="utf-8") as fread:
     dict_wordset.update(fread.read())
 
 wordset_freq = {}
 charfreq_wordset = set()
 wordset = set()
 
-with open("wordlists/chinese_charfreq_simpl_trad.txt", "r", encoding="utf-8") as fread:
+with open(join(WORDLIST_DIR, "chinese_charfreq_simpl_trad.txt"), "r", encoding="utf-8") as fread:
     next(fread)
     contents = fread.read()
 
@@ -373,10 +374,10 @@ def sort_by_freq(list_chars):
 count = 0
 
 if CONVERT_TO_PLECO:
-    fwrite = open(f"char_dict_pleco.txt", "w", encoding="utf-8")
+    fwrite = open(join(DICT_DIR, "char_dict_pleco.txt"), "w", encoding="utf-8")
 
     try:
-        with open(CHAR_DICT_FILE, "r", encoding="utf-8") as fread:
+        with open(join(DATA_DIR, CHAR_DICT_FILE), "r", encoding="utf-8") as fread:
             char_dict = json.load(fread)
     except:
         print(f"No file {CHAR_DICT_FILE}")

@@ -2,6 +2,7 @@
 import sys
 import json
 import signal
+from os.path import join
 import datetime
 import readchar
 # from bs4 import BeautifulSoup
@@ -39,11 +40,11 @@ signal.signal(signal.SIGINT, keyboard_handler)
 NEED_CONVERT = r"([^	↑ ,; 0-9a-zA-Z()一-龥])"
 
 print('Open new recommendation file')
-with open("new_reccommendations.json", "r", encoding="utf-8") as fread:
+with open(join(DATA_DIR, "new_reccommendations.json"), "r", encoding="utf-8") as fread:
     new_recomend = json.load(fread)
 
 print('Open dictionary data file')
-with open("dict_data.json", "r", encoding="utf-8") as fread:
+with open(join(DATA_DIR, "dict_data.json"), "r", encoding="utf-8") as fread:
     dict_data = json.load(fread)
 
 # print('Convert and write xml file')
@@ -70,7 +71,7 @@ BIGNUM = 20000000
 wordkinds_set = set()
 wordkinds_actual_set = set()
 
-pleco_import_file = open("tvb_pleco.txt", "w", encoding="utf-8")
+pleco_import_file = open(join(DICT_DIR, "tvb_pleco.txt"), "w", encoding="utf-8")
 
 pleco_import_file.write(f"{PC_DICT_NAME}\n")
 

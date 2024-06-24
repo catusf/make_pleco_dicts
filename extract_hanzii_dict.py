@@ -11,6 +11,9 @@ import datetime
 from tools_configs import *
 import shutil
 import re
+from os.path import join
+
+from tools_configs import DICT_DIR, WORDLIST_DIR, DATA_DIR
 
 
 def keyboard_handler(signum, frame):
@@ -20,7 +23,7 @@ def keyboard_handler(signum, frame):
     if res == "y":
         print("")
         print(f"Saving data and quiting {len(dict_data)} ...")
-        with open(f"dict_data.json", "w", encoding="utf-8") as fwrite:
+        with open(join(DATA_DIR, "dict_data.json"), "w", encoding="utf-8") as fwrite:
             json.dump(dict_data, fwrite, indent=4, ensure_ascii=False)
 
         print(" done.")
@@ -48,7 +51,7 @@ DATA_FILE = "dict_data.json"
 dict_data = {}
 
 if os.path.exists(DATA_FILE):
-    with open("dict_data.json", "r", encoding="utf-8") as fread:
+    with open(join(DATA_DIR, DATA_FILE), "r", encoding="utf-8") as fread:
         dict_data = json.load(fread)
 
 
@@ -373,13 +376,13 @@ log_file.close()
 
 # pleco_import_file.close()
 
-with open("dict_data.json", "w", encoding="utf-8") as fwrite:
+with open(join(DATA_DIR, DATA_FILE), "w", encoding="utf-8") as fwrite:
     json.dump(dict_data, fwrite, indent=4, ensure_ascii=False)
 
 # print(f'New items: {len(dict_data)-count_current_items}')
 print(f"New total: {len(dict_data)}")
 
-with open(f"wordkinds.json", "w", encoding="utf-8") as fwrite:
+with open(join(DATA_DIR, "wordkinds.json"), "w", encoding="utf-8") as fwrite:
     json.dump(list(wordkinds_actual_set), fwrite, indent=4, ensure_ascii=False)
 
 later_datetime = datetime.datetime.now()

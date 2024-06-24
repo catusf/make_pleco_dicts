@@ -1,6 +1,8 @@
 import sys
 import json
 import datetime
+from os.path import join
+from tools_configs import DICT_DIR, WORDLIST_DIR, DATA_DIR
 
 # import readchar
 import hanzidentifier
@@ -30,7 +32,7 @@ VERSION = "0.9"
 HOME_PAGE = "偏旁"
 NAME_PAGE = "有名字"
 
-fwrite = open(f"radical_name_pleco.txt", "w", encoding="utf-8")
+fwrite = open(join(DATA_DIR, "radical_name_pleco.txt"), "w", encoding="utf-8")
 fwrite.write(f"// Radical name dictionary (v{VERSION})\n")
 
 FIX_SPECIAL_PINYIN = {"sānpiēér": "sānpiěr"}

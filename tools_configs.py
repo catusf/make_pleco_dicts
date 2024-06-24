@@ -3,6 +3,7 @@ import os
 import regex
 import urllib.parse
 import json
+from os.path import join
 
 from dragonmapper.transcriptions import numbered_to_accented
 
@@ -11,11 +12,13 @@ TOP_WORDS_24K = "top_words_24k.txt"
 TOP_WORDS_1M = "top_1m_words.txt"
 BIGNUM = 20000000
 
+DATA_DIR = "./data"
+DICT_DIR = "./dict"
+WORDLIST_DIR = "./wordlists"
+
 PATTERN_URL = r"(https://hanzii.net/search/word/(.+?)\?hl=vi)"
 PATTERN_ZH = r"[一-龥]+"
 PATTERN_REDUNDANT = r"[.!?。！？]"
-
-WORDLIST_FOLDER = "wordlists"
 
 WAIT_TIME = 7  # Seconds
 
@@ -182,7 +185,7 @@ def pleco_make_link(text):
 
 
 def load_frequent_words(filename):
-    with open(f"{WORDLIST_FOLDER}/{filename}", "r", encoding="utf-8") as fin:
+    with open(f"{WORDLIST_DIR}/{filename}", "r", encoding="utf-8") as fin:
         # Remove first line with comments
         lines = [line.strip() for line in fin.readlines()][1:]
 
@@ -223,12 +226,12 @@ class Radicals:
         self.radical_nominals = {}
         # self.radical_variants = {}
 
-        self.radical_set_file = "./wordlists/radical_set.json"
-        self.radical_norminal_file = "./wordlists/radical_radical_norminals.json"
-        self.radical_info_file = "./wordlists/radicals.txt"
-        self.radicals_useful_info_file = "./wordlists/radicals-useful_info.txt"
-        self.kangxi_radical_file = "./wordlists/kangxi_radical_unicode.txt"
-        self.kangxi_radical_supplement_file = "./wordlists/kangxi_radical_supplement_unicode.txt"  # fmt: skip
+        self.radical_set_file = join(WORDLIST_DIR, "radical_set.json")
+        self.radical_norminal_file = join(WORDLIST_DIR, "radical_radical_norminals.json")
+        self.radical_info_file = join(WORDLIST_DIR, "radicals.txt")
+        self.radicals_useful_info_file = join(WORDLIST_DIR, "radicals-useful_info.txt")
+        self.kangxi_radical_file = join(WORDLIST_DIR, "kangxi_radical_unicode.txt")
+        self.kangxi_radical_supplement_file = join(WORDLIST_DIR, "kangxi_radical_supplement_unicode.txt")  # fmt: skip
 
     # Gets the radicals
     def radicals(self):

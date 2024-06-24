@@ -1,4 +1,7 @@
 import os
+from os.path import join
+
+from tools_configs import DICT_DIR
 
 dict_names = ["char_dict_pleco.txt", "radical_lookup_pleco.txt", "radical_name_pleco.txt", "tvb_pleco.txt"]
 
@@ -16,7 +19,7 @@ replaces = {
 }
 
 for filename in dict_names:
-    with open(filename, "r", encoding="utf-8") as fread:
+    with open(join(DICT_DIR, filename), "r", encoding="utf-8") as fread:
         name, ext = os.path.splitext(filename)
         contents = fread.read()
 
