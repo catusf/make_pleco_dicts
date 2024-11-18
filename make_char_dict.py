@@ -2,6 +2,7 @@ from collections import namedtuple
 import sys
 import json
 import datetime
+import string as string_type
 
 import readchar
 import hanzidentifier
@@ -11,6 +12,7 @@ from chin_dict.chindict import ChinDict
 from hanzipy.decomposer import HanziDecomposer
 from hanzipy.dictionary import HanziDictionary
 from dragonmapper.transcriptions import numbered_to_accented
+from extract_hanzii_dict import MAX_ITEMS
 from tools_configs import *
 from os.path import join
 
@@ -281,8 +283,8 @@ if BUILD_DICT_DATA:
             "tree": lookup.tree,
         }
 
-        # results = cd.lookup_char(char)
-        # radical = results.radical.character
+        results = cd.lookup_char(char)
+        radical = results.radical.character
         # if radical not in lookup.components:
         #     print(f'{char} added {results.radical}')
         #     lookup.components.append(radical)
@@ -370,8 +372,51 @@ def sort_by_freq(list_chars):
 
     return [word for word, order in items]
 
+import pandas as pd
+import pandas as pd
 
-count = 0
+def complex_dict_to_excel(data_dict, file_path):
+    """
+    Writes a complex dictionary to an Excel file.
+
+    Parameters:
+    - data_dict: dict
+        The dictionary to write to the Excel file. 
+        Each key will be a row with the associated fields as columns.
+    - file_path: str
+        The path where the Excel file will be saved.
+    """
+    # Prepare a list of dictionaries, each representing a row
+    rows = []
+    
+    for character, details in data_dict.items():
+        # Flatten the details dictionary for each character
+        row = {'character': character}
+        for key, value in details.items():
+            if isinstance(value, list):
+                new_list = []
+                for item in value:
+                    if isinstance(item, list):
+                        new_list.extend(item)
+                    else:
+                        new_list.append(item)
+                row[key] = ', '.join(new_list) if isinstance(new_list, list) else new_list
+                pass
+            else:
+                row[key] = value
+                pass
+        rows.append(row)
+
+    # Convert the list of dictionaries to a DataFrame
+    df = pd.DataFrame(rows)
+
+    # Write the DataFrame to an Excel file
+    df.to_excel(file_path, index=False)
+
+    print(f"{len(data_dict)} dictionary items has been written to {file_path}")
+
+
+
 
 if CONVERT_TO_PLECO:
     fwrite = open(join(DICT_DIR, "char_dict_pleco.txt"), "w", encoding="utf-8")
@@ -424,9 +469,20 @@ if CONVERT_TO_PLECO:
 
     print(f"After {len(char_dict)=}")
 
+    char_info_dict = {}
+    
+    count = 0
+
     for key in new_wordlist:
+        count+=1
+
+        if count > MAX_ITEMS:
+            break
+
         if not key or key == "?" or key.isdigit() or key not in char_dict:
             continue
+
+        char_info = {}    
 
         char = None
         components = []
@@ -436,6 +492,8 @@ if CONVERT_TO_PLECO:
 
             pinyins = char["pinyin"]
             all_meanings = char["meaning"]
+
+            char_info.update(char)
         else:
             pinyin_str = ""
             try:
@@ -461,14 +519,23 @@ if CONVERT_TO_PLECO:
             flog.write(f"{key}\t{'Found no decompositions for'}\t{is_rad}\t{hex(ord(key))}\n")  # fmt: skip
             continue
 
+        # Using set to avoid using regex for higher speed
+        IDS_CHARS = set(["⿰","⿱","⿲","⿳","⿴","⿵","⿶","⿷","⿸","⿹","⿺","⿻"," ", "&", "-", ";"])
+        IDS_CHARS.update(list(string_type.digits + string_type.ascii_uppercase))
         if key in char_decompositions:
-            components = list(
-                dict.fromkeys(regex.findall(PATTERN_ZH, char_decompositions[key]))
-            )  # Remove duplicates but keep order on insertion
+            char_info["decomposition"] = char_decompositions[key]
+            components = list(dict.fromkeys([c for c in char_decompositions[key] if c not in IDS_CHARS]))
+            # components1 = list(
+            #     dict.fromkeys(regex.findall(PATTERN_ZH, char_decompositions[key]))
+            # )  # Remove duplicates but keep order on insertion
+            # assert(components1==components)
+            pass
         elif rad_database.is_radical_variant(key):
             components = [key]
         else:
             components = []
+
+        char_info['components'] = components
 
         if key in char_decompositions:
             decomp_str += f"{pleco_make_bold(pleco_make_dark_gray(PC_DECOMPOSITIONS_MARK))}\n"
@@ -496,6 +563,8 @@ if CONVERT_TO_PLECO:
             char_tree = regex.sub(r"(\d+)", replace_numbers, char_tree)
             char_tree = regex.sub(PATTERN_ZH, replace_chinese_in_tree, char_tree)
 
+        char_info['tree'] = char["tree"]
+
         string += f"{char_tree}"
 
         string += "\n"
@@ -503,7 +572,7 @@ if CONVERT_TO_PLECO:
         if key in mnemonics:
             string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MNEMONICS_MARK))}\n"
 
-            mn_file, mn_meaning, mn_mnemonics, mn_chars, others = mnemonics[key]
+            mn_file, others, mn_meaning, mn_mnemonics, mn_chars = mnemonics[key]
 
             mn_meaning = mn_meaning.strip().capitalize()
             mn_mnemonics = mn_mnemonics.strip().capitalize()
@@ -514,6 +583,10 @@ if CONVERT_TO_PLECO:
             mn_mnemonics_str = regex.sub(PATTERN_ZH, replace_chinese_blue, mn_mnemonics_str)
 
             string += mn_mnemonics_str
+
+            char_info['story'] = mn_mnemonics
+            char_info['meaning'] = mn_meaning
+            char_info['appears_in'] = mn_chars
 
         if components and components[0] != key:
             string += f"{pleco_make_bold(pleco_make_dark_gray(PC_COMPONENTS_MARK))}\n"
@@ -587,9 +660,19 @@ if CONVERT_TO_PLECO:
             fwrite.write(f"{main_string}\n")
             written += 1
 
+        char_info["my_story"] = ""
+        char_info["picture"] = ""
+        char_info["frequency_rank"] = wordset_freq[key] if key in wordset_freq else 10000000
+    
+        # Only care about simplfied chars now
+        if hanzidentifier.is_simplified(key):
+            char_info_dict[key] = char_info
+
         pass
 
     fwrite.close()
+
+complex_dict_to_excel(char_info_dict, 'char_dict.xlsx')
 
 char_dict_keys = frozenset(char_dict.keys())
 
