@@ -155,33 +155,46 @@ def remove_see_more_examples(text):
     return regex.sub(r"Xem thêm \d+ ví dụ nữa", "", text)
 
 
-def pleco_make_bold(text):
-    return f"{chr(0xEAB2)}{text}{chr(0xEAB3)}"
+def pleco_make_bold(text, make_pleco=True):
+    return f"{chr(0xEAB2)}{text}{chr(0xEAB3)}" if make_pleco else f"<b>{text}</b>"
 
 
-def pleco_make_blue(text):
+def pleco_make_blue(text, make_pleco=True):
     # return f"{text}"  # Deep Sky Blue
-    return f"{text}"  # Dodge Blue
+    return f"{text}" if make_pleco else f"<b>{text}</b>"  # Dodge Blue
 
 
-def pleco_make_gray(text):  # Light Slate Gray
-    return f"{text}"
+def pleco_make_gray(text, make_pleco=True):  # Light Slate Gray
+    return f"{text}" if make_pleco else f"<b>{text}</b>"
 
 
-def pleco_make_dark_gray(text):  # Light Slate Gray
-    return f"{text}"
+def pleco_make_dark_gray(text, make_pleco=True):  # Light Slate Gray
+    return f"{text}" if make_pleco else f"<b>{text}</b>"
 
 
-def pleco_make_light_gray(text):  # Light Slate Gray
-    return f"{text}"
+def pleco_make_light_gray(text, make_pleco=True):  # Light Slate Gray
+    return f"{text}" if make_pleco else f"<b>{text}</b>"
 
 
-def pleco_make_italic(text):
-    return f"{chr(0xEAB4)}{text}{chr(0xEAB5)}"
+def pleco_make_italic(text, make_pleco=True):
+    return f"{chr(0xEAB4)}{text}{chr(0xEAB5)}" if make_pleco else f"<i>{text}</i>"
 
 
-def pleco_make_link(text):
-    return f"{chr(0xEAB8)}{text}{chr(0xEABB)}"
+def pleco_make_link(text, make_pleco=True):
+    return f"{chr(0xEAB8)}{text}{chr(0xEABB)}" if make_pleco else f"<b>{text}</b>"
+
+
+def pleco_make_new_line(text, make_pleco=True):
+    if make_pleco:
+        return text.replace("\n", PC_NEW_LINE)
+    else:
+        return (
+            text.replace("\n", "<br>")
+            .replace("<b><b>", "<b>")
+            .replace("</b></b>", "</b>")
+            .replace("<i><i>", "<i>")
+            .replace("</i></i>", "</i>")
+        )
 
 
 def load_frequent_words(filename):
@@ -206,7 +219,7 @@ def replace_blue(match_obj):
 
 def replace_num_pinyin(match_obj):
     if match_obj.group(1) is not None:
-        return pleco_make_italic(numbered_to_accented(match_obj.group(1)))
+        return numbered_to_accented(match_obj.group(1))
 
 
 import json

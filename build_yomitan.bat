@@ -1,0 +1,1 @@
+pyglossary --cmd --read-format=Tabfile  --write-format=Yomichan dict/char_dict_pleco.txt chardict.zip
