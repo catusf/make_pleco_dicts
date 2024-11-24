@@ -39,13 +39,21 @@ def main():
         required=False,
         help="Dictionary size: 'small' for Vietnamese definitions, 'mid' for definitions and examples, 'big' for all definitions including Chinese.",
     )
+    parser.add_argument(
+        "--make-pleco",
+        action="store_true",
+        default=False,
+        required=False,
+        help="Make Pleco dictionary, instead of HTML one.",
+    )
     args = parser.parse_args()
-
+    print(args)
+    
     dict_size = args.dict_size
     num_items = args.num_items
+    MAKE_PLECO = args.make_pleco
 
     now_datetime = datetime.datetime.now()
-    now_str = now_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 
     signal.signal(signal.SIGINT, keyboard_handler)
 
@@ -61,12 +69,12 @@ def main():
     this_dic_words_set = set(load_frequent_words("dic_words_set.txt"))
     current_word_list = this_dic_words_set
 
-    PC_DICT_NAME = "//Trung-Viet Beta Dict"
     # MAX_ITEMS = 1000000
     # MAX_ITEMS = 100
     REPORT_COUNT = 1000
 
-    output_file = join(DICT_DIR, f"TrungViet-{dict_size}_pleco.txt")
+    output_file = join(DICT_DIR, f"TrungViet-{dict_size}{"_Pleco" if MAKE_PLECO else ""}.txt")
+    PC_DICT_NAME = f"//TrungViet Beta {dict_size} Dict"
     with open(output_file, "w", encoding="utf-8") as pleco_import_file:
         if MAKE_PLECO:
             pleco_import_file.write(f"{PC_DICT_NAME}\n")
@@ -90,7 +98,7 @@ def main():
             pleco_string += f"{dict_item['chinese']}\t"
 
             if MAKE_PLECO:
-                f"{dict_item['pinyin']}\t"
+                pleco_string += f"{dict_item['pinyin']}\t"
 
             if dict_item["amhanviet"]:
                 pleco_string += f"{pleco_make_dark_gray(pleco_make_bold(dict_item['amhanviet'], make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)}\n"
