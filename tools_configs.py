@@ -71,6 +71,32 @@ PATTERN_ZH_MUL = (
 )
 
 
+
+def remove_chinese_with_pipe(text):
+    """
+    Remove the Traditional Chinese characters before the '|' and the '|' itself in the input string.
+    
+    Args:
+        text (str): The input text to be cleaned.
+        
+    Returns:
+        str: The cleaned text.
+    """
+    return re.sub(r'[\u4e00-\u9fff]+\|', '', text)
+
+
+def convert_to_mark_pinyin(text):
+    # Define the regex as a constant
+    BRACKETS_REGEX = r'(\[[^\]]+\])'
+    
+    # Function to convert matched text to uppercase
+    def replace_with_uppercase(match):
+        # return match.group(1)
+        return f" {numbered_to_accented(match.group(1))[1:-1]}"
+        
+    return re.sub(BRACKETS_REGEX, replace_with_uppercase, text)
+    
+
 def find_freq(word):
     return wordset_freq[word] if word in wordset_freq else BIGNUM
 
@@ -530,12 +556,13 @@ def build_ids_radical_perfect():
                 char_decompositions[head] = expression
 
             else:
-                print(f"{head} is a radical already")
+                # print(f"{head} is a radical already")
                 radical_found.add(head)
                 radical_norminal_found.add(rad_db.norminal(head))
 
             if len(expression) < 2:
-                print(f"Single {head}\t{expression}")
+                # print(f"Single {head}\t{expression}")
+                pass
 
             pass
 
@@ -555,8 +582,8 @@ def build_ids_radical_perfect():
                     non_rad_components.setdefault(comp, set())
                     non_rad_components[comp].add(head)
 
-    print("Non-radical tokens found")
-    print("\n".join(sorted(non_rad_components.keys())))
+    # print("Non-radical tokens found")
+    # print("\n".join(sorted(non_rad_components.keys())))
     pass
 
     full_char_decompositions = char_decompositions

@@ -60,7 +60,7 @@ with open(join(DATA_DIR, "mnemonics.json"), "r", encoding="utf-8") as fread:
         words = set(regex.findall(PATTERN_ZH, text))
         mnemonics_words.update(words)
 
-    print(f"{len(mnemonics_words)=}")
+    # print(f"{len(mnemonics_words)=}")
 
 with open(join(WORDLIST_DIR, "IDS_dictionary_radical_perfect.txt"), "r", encoding="utf-8") as fread:
     lines = fread.readlines()
@@ -89,9 +89,9 @@ with open(join(WORDLIST_DIR, "chinese_charfreq_simpl_trad.txt"), "r", encoding="
 
     wordset = charfreq_wordset | dict_wordset | mnemonics_words
 
-    print(f"{len(charfreq_wordset)=}")
-    print(f"{len(dict_wordset)=}")
-    print(f"{len(wordset)=}")
+    # print(f"{len(charfreq_wordset)=}")
+    # print(f"{len(dict_wordset)=}")
+    # print(f"{len(wordset)=}")
 
     if "\n" in wordset:
         wordset.remove("\n")
@@ -263,7 +263,7 @@ if BUILD_DICT_DATA:
         if not char:
             continue
 
-        print(f"{num+1}/{len(wordlist)}: {char}")
+        # print(f"{num+1}/{len(wordlist)}: {char}")
 
         lookup = lookup_symbol(char)
 
@@ -310,7 +310,7 @@ if BUILD_DICT_DATA:
                         "tree": comp_lookup.tree,
                     }
 
-    print(f"{len(char_dict)=}")
+    # print(f"{len(char_dict)=}")
     with open(CHAR_DICT_FILE, "w", encoding="utf-8") as fwrite:
         json.dump(char_dict, fwrite, indent=4, ensure_ascii=False, sort_keys=True)
 
@@ -447,8 +447,20 @@ def fix_for_html(text):
     """
     return "\n".join([f"<pre>{line}</pre>" for line in text.split("\n")])
 
+import argparse
 
-if CONVERT_TO_PLECO:
+# if CONVERT_TO_PLECO:
+def main():
+    global MAKE_PLECO
+
+    # Set up the argument parser
+    parser = argparse.ArgumentParser(description="Command line options for the script.")
+    parser.add_argument("--make-pleco", action="store_true", help="Convert to Pleco format.")
+    args = parser.parse_args()
+
+    # Access the make-pleco argument
+    MAKE_PLECO = args.make_pleco
+
     fwrite = open(join(DICT_DIR, "char_dict_pleco.txt"), "w", encoding="utf-8")
 
     try:
@@ -459,17 +471,17 @@ if CONVERT_TO_PLECO:
         exit()
 
     if MAKE_PLECO:
-        fwrite.write("// Character component dictionary\n")
+        fwrite.write("//Character component dictionary\n")
 
     appears_chars = {}
 
-    print(f"Before {len(char_dict)=}")
+    # print(f"Before {len(char_dict)=}")
 
     new_wordlist = wordset  # | set(char_decompositions.keys())
 
-    print(f"{len(wordset)=}")
-    print(f"{len(char_decompositions)=}")
-    print(f"{len(new_wordlist)=}")
+    # print(f"{len(wordset)=}")
+    # print(f"{len(char_decompositions)=}")
+    # print(f"{len(new_wordlist)=}")
     written = 0
 
     for key in new_wordlist:
@@ -498,7 +510,7 @@ if CONVERT_TO_PLECO:
             else:
                 appears_chars[comp].add(key)
 
-    print(f"After {len(char_dict)=}")
+    # print(f"After {len(char_dict)=}")
 
     char_info_dict = {}
 
@@ -643,7 +655,7 @@ if CONVERT_TO_PLECO:
                     comp_char = rad_database.norminal(comp)
                     item = rad_database.lookup(comp)
                     pinyin = item["pinyin"]
-                    meaning_text = item["meaning"]
+                    meaning_text = f"{item["meaning"]} / {item["viet-pron"]}: {item["viet-meaning"]}" 
                     variants = sorted(rad_database.get_variants(comp))
 
                     if key in variants:  # If same as key headword, remove
@@ -654,7 +666,7 @@ if CONVERT_TO_PLECO:
                     if MAKE_PLECO:
                         alternatives = regex.sub(PATTERN_ZH, replace_chinese_blue, alternatives)
 
-                    extra_meaning = f". Radical #{item['number']}. {alternatives}"
+                    extra_meaning = f" (#{item['number']}). {alternatives}"
 
                     meaning_text = meaning_text.strip() + extra_meaning
                 elif comp in char_dict:
@@ -663,7 +675,7 @@ if CONVERT_TO_PLECO:
                     for num, com_meaning in enumerate(char_dict[comp]["meaning"][0]):
                         meaning_text += f"{number_in_cirle(num+1)} {com_meaning} "
 
-                string += f"{pleco_make_link(comp_char, make_pleco=MAKE_PLECO)} {pleco_make_italic(pinyin, make_pleco=MAKE_PLECO)} {meaning_text}\n"
+                string += f"{pleco_make_link(comp_char, make_pleco=MAKE_PLECO)} {pleco_make_italic(pinyin, make_pleco=MAKE_PLECO)}: {meaning_text}\n"
 
         if key in appears_chars and (contains := sort_by_freq(appears_chars[key])):
             if key in contains:
@@ -671,7 +683,7 @@ if CONVERT_TO_PLECO:
 
             if contains:
                 blue_chars = [pleco_make_link(char) for char in contains[:MAX_APPEARANCES]]
-                appear_str = f"{pleco_make_bold(pleco_make_dark_gray(PC_APPEARS_MARK))} {len(contains)}"
+                appear_str = f"{pleco_make_bold(pleco_make_dark_gray(PC_APPEARS_MARK, make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)} {len(contains)}"
                 string += f"{pleco_make_dark_gray(appear_str)}\n"
 
                 string += f"{PC_MIDDLE_DOT.join(blue_chars)}"
@@ -682,13 +694,20 @@ if CONVERT_TO_PLECO:
         for num, pinyin in enumerate(pinyins):
             meanings = all_meanings[num]
 
-            main_string = f"{key}\t{pinyin}\t"
+            main_string = f"{key}\t"
+            
+            if MAKE_PLECO:
+                main_string = f"{pinyin}\t"
+    
             main_string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MEANING_MARK, make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)}\n"
 
             for num, meaning in enumerate(meanings):
-                main_string += f"{number_in_cirle(num+1)} {meaning} "
+                if len(meanings) > 1:
+                    main_string += f"{number_in_cirle(num+1)} {remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
+                else:
+                    main_string += f"{remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
 
-            main_string += "\n"
+            main_string += main_string.strip() + "\n"
 
             main_string += string
 
@@ -709,16 +728,21 @@ if CONVERT_TO_PLECO:
 
     fwrite.close()
 
-# complex_dict_to_excel(char_info_dict, "char_dict.xlsx")
+    print(f"{written=}")
 
-char_dict_keys = frozenset(char_dict.keys())
+if __name__ == "__main__":
+    main()
 
-print(f"{written=}")
 
-print(f"In wordset but not in final list: {len(wordset - char_dict_keys)}")
-print(f"Not in wordset (new components): {len(char_dict_keys - wordset)}")
+    # complex_dict_to_excel(char_info_dict, "char_dict.xlsx")
 
-end_datetime = datetime.datetime.now()
+    # char_dict_keys = frozenset(char_dict.keys())
 
-print(end_datetime - start_datetime)
-flog.close()
+
+    # print(f"In wordset but not in final list: {len(wordset - char_dict_keys)}")
+    # print(f"Not in wordset (new components): {len(char_dict_keys - wordset)}")
+
+    end_datetime = datetime.datetime.now()
+
+    print(f"Elapsed time: {end_datetime - start_datetime}")
+    flog.close()

@@ -91,7 +91,7 @@ HTML_FOLDER = "d:/htmlnew"
 
 # files = glob.glob(f"{HTML_FOLDER}/人*.html")
 files = glob.glob(f"{HTML_FOLDER}/*.html")
-print(f"Number of existing files: {len(files)=}")
+# print(f"Number of existing files: {len(files)=}")
 
 # files = glob.glob(f'{HTML_FOLDER}/人面.html')
 
