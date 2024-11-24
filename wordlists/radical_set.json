@@ -27,7 +27,9 @@
         "standalone_codepoint": "0x4e00",
         "variant_codepoint": [
             "0x4e00"
-        ]
+        ],
+        "viet-pron": "nhất",
+        "viet-meaning": "số một"
     },
     "⼁": {
         "meaning": "line",
@@ -54,7 +56,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x4e28"
-        ]
+        ],
+        "viet-pron": "cổn",
+        "viet-meaning": "nét sổ"
     },
     "⼂": {
         "meaning": "dot",
@@ -81,7 +85,9 @@
         "variant_codepoint": [
             "0x2e80",
             "0x4e36"
-        ]
+        ],
+        "viet-pron": "chủ",
+        "viet-meaning": "điểm, chấm"
     },
     "⼃": {
         "meaning": "slash",
@@ -113,7 +119,9 @@
             "0x4e3f",
             "0x4e40",
             "0x4e41"
-        ]
+        ],
+        "viet-pron": "phiệt",
+        "viet-meaning": "nét sổ xiên qua trái"
     },
     "⼄": {
         "meaning": "second",
@@ -151,7 +159,9 @@
             "0x4e59",
             "0x4e5a",
             "0x4e5b"
-        ]
+        ],
+        "viet-pron": "ất",
+        "viet-meaning": "vị trí thứ hai trong thiên can"
     },
     "⼅": {
         "meaning": "hook",
@@ -180,7 +190,9 @@
         "variant_codepoint": [
             "0x4e85",
             "0x2010c"
-        ]
+        ],
+        "viet-pron": "quyết",
+        "viet-meaning": "nét sổ có móc"
     },
     "⼆": {
         "meaning": "two",
@@ -205,7 +217,9 @@
         "standalone_codepoint": "0x4e8c",
         "variant_codepoint": [
             "0x4e8c"
-        ]
+        ],
+        "viet-pron": "nhị",
+        "viet-meaning": "số hai"
     },
     "⼇": {
         "meaning": "lid",
@@ -235,7 +249,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x4ea0"
-        ]
+        ],
+        "viet-pron": "đầu",
+        "viet-meaning": "không có ý nghĩa"
     },
     "⼈": {
         "meaning": "man",
@@ -268,7 +284,9 @@
             "0x2e85",
             "0x4eba",
             "0x4ebb"
-        ]
+        ],
+        "viet-pron": "nhân",
+        "viet-meaning": "người"
     },
     "⼉": {
         "meaning": "son, legs",
@@ -293,7 +311,9 @@
         "standalone_codepoint": "0x513f",
         "variant_codepoint": [
             "0x513f"
-        ]
+        ],
+        "viet-pron": "nhi",
+        "viet-meaning": "trẻ con"
     },
     "⼊": {
         "meaning": "enter",
@@ -320,7 +340,9 @@
         "standalone_codepoint": "0x5165",
         "variant_codepoint": [
             "0x5165"
-        ]
+        ],
+        "viet-pron": "nhập",
+        "viet-meaning": "vào"
     },
     "⼋": {
         "meaning": "eight",
@@ -351,7 +373,9 @@
         "variant_codepoint": [
             "0x4e37",
             "0x516b"
-        ]
+        ],
+        "viet-pron": "bát",
+        "viet-meaning": "số tám"
     },
     "⼌": {
         "meaning": "wide",
@@ -378,7 +402,9 @@
         "variant_codepoint": [
             "0x2e86",
             "0x5182"
-        ]
+        ],
+        "viet-pron": "quynh",
+        "viet-meaning": "vùng biên giới xa; hoang địa"
     },
     "⼍": {
         "meaning": "cloth cover",
@@ -408,7 +434,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5196"
-        ]
+        ],
+        "viet-pron": "mịch",
+        "viet-meaning": "trùm khăn lên"
     },
     "⼎": {
         "meaning": "ice",
@@ -435,7 +463,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x51ab"
-        ]
+        ],
+        "viet-pron": "băng",
+        "viet-meaning": "nước đá"
     },
     "⼏": {
         "meaning": "table",
@@ -466,7 +496,9 @@
             "0x51e0",
             "0x20627",
             "0x20628"
-        ]
+        ],
+        "viet-pron": "kỷ",
+        "viet-meaning": "ghế dựa"
     },
     "⼐": {
         "meaning": "receptacle",
@@ -491,7 +523,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x51f5"
-        ]
+        ],
+        "viet-pron": "khảm",
+        "viet-meaning": "há miệng"
     },
     "⼑": {
         "meaning": "knife",
@@ -532,7 +566,9 @@
             "0x5201",
             "0x5202",
             "0x2008a"
-        ]
+        ],
+        "viet-pron": "đao",
+        "viet-meaning": "con dao, cây đao (vũ khí)"
     },
     "⼒": {
         "meaning": "power",
@@ -559,7 +595,9 @@
         "standalone_codepoint": "0x529b",
         "variant_codepoint": [
             "0x529b"
-        ]
+        ],
+        "viet-pron": "lực",
+        "viet-meaning": "sức mạnh"
     },
     "⼓": {
         "meaning": "wrap",
@@ -586,7 +624,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x52f9"
-        ]
+        ],
+        "viet-pron": "bao",
+        "viet-meaning": "bao bọc"
     },
     "⼔": {
         "meaning": "spoon",
@@ -611,7 +651,9 @@
         "standalone_codepoint": "0x5315",
         "variant_codepoint": [
             "0x5315"
-        ]
+        ],
+        "viet-pron": "chủy",
+        "viet-meaning": "cái thìa (cái muỗng)"
     },
     "⼕": {
         "meaning": "box",
@@ -638,7 +680,9 @@
         "standalone_codepoint": "0x531a",
         "variant_codepoint": [
             "0x531a"
-        ]
+        ],
+        "viet-pron": "phương",
+        "viet-meaning": "tủ đựng"
     },
     "⼖": {
         "meaning": "hiding enclosure",
@@ -665,7 +709,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5338"
-        ]
+        ],
+        "viet-pron": "hệ",
+        "viet-meaning": "che đậy, giấu giếm"
     },
     "⼗": {
         "meaning": "ten",
@@ -690,7 +736,9 @@
         "standalone_codepoint": "0x5341",
         "variant_codepoint": [
             "0x5341"
-        ]
+        ],
+        "viet-pron": "thập",
+        "viet-meaning": "số mười"
     },
     "⼘": {
         "meaning": "divination",
@@ -719,7 +767,9 @@
         "variant_codepoint": [
             "0x2e8a",
             "0x535c"
-        ]
+        ],
+        "viet-pron": "bốc",
+        "viet-meaning": "xem bói"
     },
     "⼙": {
         "meaning": "seal (device)",
@@ -750,7 +800,9 @@
             "0x2e8b",
             "0x353e",
             "0x5369"
-        ]
+        ],
+        "viet-pron": "tiết",
+        "viet-meaning": "đốt tre"
     },
     "⼚": {
         "meaning": "cliff",
@@ -781,7 +833,9 @@
             "0x2e81",
             "0x5382",
             "0x20086"
-        ]
+        ],
+        "viet-pron": "hán",
+        "viet-meaning": "sườn núi, vách đá"
     },
     "⼛": {
         "meaning": "private",
@@ -806,7 +860,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x53b6"
-        ]
+        ],
+        "viet-pron": "tư/khư",
+        "viet-meaning": "riêng tư"
     },
     "⼜": {
         "meaning": "again",
@@ -833,7 +889,9 @@
         "standalone_codepoint": "0x53c8",
         "variant_codepoint": [
             "0x53c8"
-        ]
+        ],
+        "viet-pron": "hựu",
+        "viet-meaning": "lại nữa, một lần nữa"
     },
     "⼝": {
         "meaning": "mouth",
@@ -860,7 +918,9 @@
         "standalone_codepoint": "0x53e3",
         "variant_codepoint": [
             "0x53e3"
-        ]
+        ],
+        "viet-pron": "khẩu",
+        "viet-meaning": "cái miệng"
     },
     "⼞": {
         "meaning": "enclosure",
@@ -887,7 +947,9 @@
         "standalone_codepoint": "0x56d7",
         "variant_codepoint": [
             "0x56d7"
-        ]
+        ],
+        "viet-pron": "vi",
+        "viet-meaning": "vây quanh"
     },
     "⼟": {
         "meaning": "earth",
@@ -916,7 +978,9 @@
         "standalone_codepoint": "0x571f",
         "variant_codepoint": [
             "0x571f"
-        ]
+        ],
+        "viet-pron": "thổ",
+        "viet-meaning": "đất"
     },
     "⼠": {
         "meaning": "scholar",
@@ -945,7 +1009,9 @@
         "standalone_codepoint": "0x58eb",
         "variant_codepoint": [
             "0x58eb"
-        ]
+        ],
+        "viet-pron": "sĩ",
+        "viet-meaning": "kẻ sĩ"
     },
     "⼡": {
         "meaning": "go",
@@ -972,7 +1038,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5902"
-        ]
+        ],
+        "viet-pron": "tuy",
+        "viet-meaning": "đi chậm"
     },
     "⼢": {
         "meaning": "go slowly",
@@ -999,7 +1067,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x590a"
-        ]
+        ],
+        "viet-pron": "truy",
+        "viet-meaning": "đến sau"
     },
     "⼣": {
         "meaning": "evening",
@@ -1026,7 +1096,9 @@
         "standalone_codepoint": "0x5915",
         "variant_codepoint": [
             "0x5915"
-        ]
+        ],
+        "viet-pron": "tịch",
+        "viet-meaning": "đêm tối"
     },
     "⼤": {
         "meaning": "big",
@@ -1051,7 +1123,9 @@
         "standalone_codepoint": "0x5927",
         "variant_codepoint": [
             "0x5927"
-        ]
+        ],
+        "viet-pron": "đại",
+        "viet-meaning": "to lớn"
     },
     "⼥": {
         "meaning": "woman",
@@ -1076,7 +1150,9 @@
         "standalone_codepoint": "0x5973",
         "variant_codepoint": [
             "0x5973"
-        ]
+        ],
+        "viet-pron": "nữ",
+        "viet-meaning": "nữ giới, con gái, đàn bà"
     },
     "⼦": {
         "meaning": "child",
@@ -1101,7 +1177,9 @@
         "standalone_codepoint": "0x5b50",
         "variant_codepoint": [
             "0x5b50"
-        ]
+        ],
+        "viet-pron": "tử",
+        "viet-meaning": "con; tiếng tôn xưng: thầy, ngài"
     },
     "⼧": {
         "meaning": "roof",
@@ -1131,7 +1209,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5b80"
-        ]
+        ],
+        "viet-pron": "miên",
+        "viet-meaning": "mái nhà mái che"
     },
     "⼨": {
         "meaning": "inch",
@@ -1156,7 +1236,9 @@
         "standalone_codepoint": "0x5bf8",
         "variant_codepoint": [
             "0x5bf8"
-        ]
+        ],
+        "viet-pron": "thốn",
+        "viet-meaning": "đơn vị tấc (đo chiều dài)"
     },
     "⼩": {
         "meaning": "small",
@@ -1189,7 +1271,9 @@
             "0x2e8d",
             "0x5c0f",
             "0x2d544"
-        ]
+        ],
+        "viet-pron": "tiểu",
+        "viet-meaning": "nhỏ bé"
     },
     "⼪": {
         "meaning": "lame",
@@ -1233,7 +1317,9 @@
             "0x5c23",
             "0x21bc1",
             "0x21bc2"
-        ]
+        ],
+        "viet-pron": "uông",
+        "viet-meaning": "yếu đuối"
     },
     "⼫": {
         "meaning": "corpse",
@@ -1260,7 +1346,9 @@
         "standalone_codepoint": "0x5c38",
         "variant_codepoint": [
             "0x5c38"
-        ]
+        ],
+        "viet-pron": "thi",
+        "viet-meaning": "xác chết, thây ma"
     },
     "⼬": {
         "meaning": "sprout",
@@ -1285,7 +1373,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5c6e"
-        ]
+        ],
+        "viet-pron": "triệt",
+        "viet-meaning": "mầm non"
     },
     "⼭": {
         "meaning": "mountain",
@@ -1310,7 +1400,9 @@
         "standalone_codepoint": "0x5c71",
         "variant_codepoint": [
             "0x5c71"
-        ]
+        ],
+        "viet-pron": "sơn",
+        "viet-meaning": "núi non"
     },
     "⼮": {
         "meaning": "river",
@@ -1342,7 +1434,9 @@
             "0x5ddb",
             "0x5ddc",
             "0x5ddd"
-        ]
+        ],
+        "viet-pron": "xuyên",
+        "viet-meaning": "sông ngòi"
     },
     "⼯": {
         "meaning": "work",
@@ -1367,7 +1461,9 @@
         "standalone_codepoint": "0x5de5",
         "variant_codepoint": [
             "0x5de5"
-        ]
+        ],
+        "viet-pron": "công",
+        "viet-meaning": "người thợ, công việc"
     },
     "⼰": {
         "meaning": "oneself",
@@ -1401,7 +1497,9 @@
             "0x5df1",
             "0x5df2",
             "0x5df3"
-        ]
+        ],
+        "viet-pron": "kỷ",
+        "viet-meaning": "bản thân mình"
     },
     "⼱": {
         "meaning": "turban",
@@ -1426,7 +1524,9 @@
         "standalone_codepoint": "0x5dfe",
         "variant_codepoint": [
             "0x5dfe"
-        ]
+        ],
+        "viet-pron": "cân",
+        "viet-meaning": "cái khăn"
     },
     "⼲": {
         "meaning": "dry",
@@ -1451,7 +1551,9 @@
         "standalone_codepoint": "0x5e72",
         "variant_codepoint": [
             "0x5e72"
-        ]
+        ],
+        "viet-pron": "can",
+        "viet-meaning": "thiên can, can dự"
     },
     "⼳": {
         "meaning": "short thread",
@@ -1485,7 +1587,9 @@
             "0x2e93",
             "0x4e61",
             "0x5e7a"
-        ]
+        ],
+        "viet-pron": "yêu",
+        "viet-meaning": "nhỏ nhắn"
     },
     "⼴": {
         "meaning": "dotted cliff",
@@ -1510,7 +1614,9 @@
         "standalone_codepoint": "0x5e7f",
         "variant_codepoint": [
             "0x5e7f"
-        ]
+        ],
+        "viet-pron": "nghiễm",
+        "viet-meaning": "mái nhà"
     },
     "⼵": {
         "meaning": "long stride",
@@ -1539,7 +1645,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5ef4"
-        ]
+        ],
+        "viet-pron": "dẫn",
+        "viet-meaning": "bước dài"
     },
     "⼶": {
         "meaning": "arch",
@@ -1564,7 +1672,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5efe"
-        ]
+        ],
+        "viet-pron": "củng",
+        "viet-meaning": "chắp tay"
     },
     "⼷": {
         "meaning": "shoot",
@@ -1589,7 +1699,9 @@
         "standalone_codepoint": "0x5f0b",
         "variant_codepoint": [
             "0x5f0b"
-        ]
+        ],
+        "viet-pron": "dặc",
+        "viet-meaning": "bắn, chiếm lấy"
     },
     "⼸": {
         "meaning": "bow",
@@ -1614,7 +1726,9 @@
         "standalone_codepoint": "0x5f13",
         "variant_codepoint": [
             "0x5f13"
-        ]
+        ],
+        "viet-pron": "cung",
+        "viet-meaning": "cái cung (để bắn tên)"
     },
     "⼹": {
         "meaning": "snout",
@@ -1647,7 +1761,9 @@
             "0x2e95",
             "0x5f50",
             "0x5f51"
-        ]
+        ],
+        "viet-pron": "kệ",
+        "viet-meaning": "đầu con nhím"
     },
     "⼺": {
         "meaning": "bristle",
@@ -1675,7 +1791,9 @@
         "standalone_codepoint": "0x5f61",
         "variant_codepoint": [
             "0x5f61"
-        ]
+        ],
+        "viet-pron": "sam",
+        "viet-meaning": "lông tóc dài"
     },
     "⼻": {
         "meaning": "step",
@@ -1702,7 +1820,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x5f73"
-        ]
+        ],
+        "viet-pron": "xích",
+        "viet-meaning": "bước chân trái."
     },
     "⼼": {
         "meaning": "heart",
@@ -1738,7 +1858,9 @@
             "0x38fa",
             "0x5fc3",
             "0x5fc4"
-        ]
+        ],
+        "viet-pron": "tâm",
+        "viet-meaning": "quả tim, tâm trí, tấm lòng"
     },
     "⼽": {
         "meaning": "halberd",
@@ -1765,7 +1887,9 @@
         "standalone_codepoint": "0x6208",
         "variant_codepoint": [
             "0x6208"
-        ]
+        ],
+        "viet-pron": "qua",
+        "viet-meaning": "cây qua (một thứ binh khí dài)"
     },
     "⼾": {
         "meaning": "door",
@@ -1788,7 +1912,9 @@
             "0x6236",
             "0x6237",
             "0x6238"
-        ]
+        ],
+        "viet-pron": "hộ",
+        "viet-meaning": "cửa một cánh"
     },
     "⼿": {
         "meaning": "hand",
@@ -1826,7 +1952,9 @@
             "0x624c",
             "0x624d",
             "0x9fb5"
-        ]
+        ],
+        "viet-pron": "thủ",
+        "viet-meaning": "tay"
     },
     "⽀": {
         "meaning": "branch",
@@ -1851,7 +1979,9 @@
         "standalone_codepoint": "0x652f",
         "variant_codepoint": [
             "0x652f"
-        ]
+        ],
+        "viet-pron": "chi",
+        "viet-meaning": "cành nhánh"
     },
     "⽁": {
         "meaning": "rap, tap",
@@ -1884,7 +2014,9 @@
             "0x2e99",
             "0x6534",
             "0x6535"
-        ]
+        ],
+        "viet-pron": "phộc",
+        "viet-meaning": "đánh khẽ"
     },
     "⽂": {
         "meaning": "script",
@@ -1912,7 +2044,9 @@
         "standalone_codepoint": "0x6587",
         "variant_codepoint": [
             "0x6587"
-        ]
+        ],
+        "viet-pron": "văn",
+        "viet-meaning": "nét vằn"
     },
     "⽃": {
         "meaning": "dipper",
@@ -1937,7 +2071,9 @@
         "standalone_codepoint": "0x6597",
         "variant_codepoint": [
             "0x6597"
-        ]
+        ],
+        "viet-pron": "đẩu",
+        "viet-meaning": "cái đấu để đong"
     },
     "⽄": {
         "meaning": "axe",
@@ -1962,7 +2098,9 @@
         "standalone_codepoint": "0x65a4",
         "variant_codepoint": [
             "0x65a4"
-        ]
+        ],
+        "viet-pron": "cân",
+        "viet-meaning": "cái búa, rìu"
     },
     "⽅": {
         "meaning": "square",
@@ -1987,7 +2125,9 @@
         "standalone_codepoint": "0x65b9",
         "variant_codepoint": [
             "0x65b9"
-        ]
+        ],
+        "viet-pron": "phương",
+        "viet-meaning": "vuông"
     },
     "⽆": {
         "meaning": "not",
@@ -2018,7 +2158,9 @@
             "0x2e9b",
             "0x65e0",
             "0x65e1"
-        ]
+        ],
+        "viet-pron": "vô",
+        "viet-meaning": "không"
     },
     "⽇": {
         "meaning": "sun",
@@ -2053,7 +2195,9 @@
             "0x2e9c",
             "0x5183",
             "0x65e5"
-        ]
+        ],
+        "viet-pron": "nhật",
+        "viet-meaning": "ngày, mặt trời"
     },
     "⽈": {
         "meaning": "say",
@@ -2082,7 +2226,9 @@
         "standalone_codepoint": "0x66f0",
         "variant_codepoint": [
             "0x66f0"
-        ]
+        ],
+        "viet-pron": "viết",
+        "viet-meaning": "nói rằng"
     },
     "⽉": {
         "meaning": "moon",
@@ -2111,7 +2257,9 @@
         "variant_codepoint": [
             "0x2e9d",
             "0x6708"
-        ]
+        ],
+        "viet-pron": "nguyệt",
+        "viet-meaning": "tháng, mặt trăng"
     },
     "⽊": {
         "meaning": "tree",
@@ -2144,7 +2292,9 @@
         "variant_codepoint": [
             "0x6728",
             "0x6729"
-        ]
+        ],
+        "viet-pron": "mộc",
+        "viet-meaning": "gỗ, cây cối"
     },
     "⽋": {
         "meaning": "lack",
@@ -2169,7 +2319,9 @@
         "standalone_codepoint": "0x6b20",
         "variant_codepoint": [
             "0x6b20"
-        ]
+        ],
+        "viet-pron": "khiếm",
+        "viet-meaning": "khiếm khuyết, thiếu vắng"
     },
     "⽌": {
         "meaning": "stop",
@@ -2196,7 +2348,9 @@
         "variant_codepoint": [
             "0x6b62",
             "0x9fb0"
-        ]
+        ],
+        "viet-pron": "chỉ",
+        "viet-meaning": "dừng lại"
     },
     "⽍": {
         "meaning": "death",
@@ -2227,7 +2381,9 @@
             "0x2e9e",
             "0x6b79",
             "0x6b7a"
-        ]
+        ],
+        "viet-pron": "ngạt",
+        "viet-meaning": "xấu xa, tệ hại"
     },
     "⽎": {
         "meaning": "weapon",
@@ -2252,7 +2408,9 @@
         "standalone_codepoint": "0x6bb3",
         "variant_codepoint": [
             "0x6bb3"
-        ]
+        ],
+        "viet-pron": "thù",
+        "viet-meaning": "binh khí dài"
     },
     "⽏": {
         "meaning": "do not",
@@ -2286,7 +2444,9 @@
             "0x6bcb",
             "0x6bcc",
             "0x6bcd"
-        ]
+        ],
+        "viet-pron": "vô",
+        "viet-meaning": "chớ, đừng"
     },
     "⽐": {
         "meaning": "compare",
@@ -2311,7 +2471,9 @@
         "standalone_codepoint": "0x6bd4",
         "variant_codepoint": [
             "0x6bd4"
-        ]
+        ],
+        "viet-pron": "tỷ",
+        "viet-meaning": "so sánh"
     },
     "⽑": {
         "meaning": "fur",
@@ -2338,7 +2500,9 @@
         "standalone_codepoint": "0x6bdb",
         "variant_codepoint": [
             "0x6bdb"
-        ]
+        ],
+        "viet-pron": "mao",
+        "viet-meaning": "lông"
     },
     "⽒": {
         "meaning": "clan",
@@ -2367,7 +2531,9 @@
             "0x2ea0",
             "0x6c0f",
             "0x6c11"
-        ]
+        ],
+        "viet-pron": "thị",
+        "viet-meaning": "họ"
     },
     "⽓": {
         "meaning": "steam",
@@ -2392,7 +2558,9 @@
         "standalone_codepoint": "0x6c14",
         "variant_codepoint": [
             "0x6c14"
-        ]
+        ],
+        "viet-pron": "khí",
+        "viet-meaning": "hơi nước"
     },
     "⽔": {
         "meaning": "water",
@@ -2428,7 +2596,9 @@
             "0x6c34",
             "0x6c35",
             "0x6c3a"
-        ]
+        ],
+        "viet-pron": "thủy",
+        "viet-meaning": "nước"
     },
     "⽕": {
         "meaning": "fire",
@@ -2459,7 +2629,9 @@
             "0x2ea3",
             "0x706b",
             "0x706c"
-        ]
+        ],
+        "viet-pron": "hỏa",
+        "viet-meaning": "lửa"
     },
     "⽖": {
         "meaning": "claw",
@@ -2492,7 +2664,9 @@
             "0x2ea5",
             "0x722a",
             "0x722b"
-        ]
+        ],
+        "viet-pron": "trảo",
+        "viet-meaning": "móng vuốt cầm thú"
     },
     "⽗": {
         "meaning": "father",
@@ -2517,7 +2691,9 @@
         "standalone_codepoint": "0x7236",
         "variant_codepoint": [
             "0x7236"
-        ]
+        ],
+        "viet-pron": "phụ",
+        "viet-meaning": "cha"
     },
     "⽘": {
         "meaning": "Trigrams",
@@ -2542,7 +2718,9 @@
         "standalone_codepoint": "0x723b",
         "variant_codepoint": [
             "0x723b"
-        ]
+        ],
+        "viet-pron": "hào",
+        "viet-meaning": "hào âm, hào dương (kinh dịch)"
     },
     "⽙": {
         "meaning": "split wood",
@@ -2573,7 +2751,9 @@
             "0x2ea6",
             "0x4e2c",
             "0x723f"
-        ]
+        ],
+        "viet-pron": "tường",
+        "viet-meaning": "mảnh gỗ, cái giường"
     },
     "⽚": {
         "meaning": "slice",
@@ -2600,7 +2780,9 @@
         "standalone_codepoint": "0x7247",
         "variant_codepoint": [
             "0x7247"
-        ]
+        ],
+        "viet-pron": "phiến",
+        "viet-meaning": "mảnh, tấm, miếng"
     },
     "⽛": {
         "meaning": "fang",
@@ -2625,7 +2807,9 @@
         "standalone_codepoint": "0x7259",
         "variant_codepoint": [
             "0x7259"
-        ]
+        ],
+        "viet-pron": "nha",
+        "viet-meaning": "răng"
     },
     "⽜": {
         "meaning": "cow",
@@ -2659,7 +2843,9 @@
             "0x725b",
             "0x725c",
             "0x20092"
-        ]
+        ],
+        "viet-pron": "ngưu",
+        "viet-meaning": "trâu"
     },
     "⽝": {
         "meaning": "dog",
@@ -2692,7 +2878,9 @@
             "0x2ea8",
             "0x72ac",
             "0x72ad"
-        ]
+        ],
+        "viet-pron": "khuyển",
+        "viet-meaning": "con chó"
     },
     "⽞": {
         "meaning": "profound",
@@ -2719,7 +2907,9 @@
         "standalone_codepoint": "0x7384",
         "variant_codepoint": [
             "0x7384"
-        ]
+        ],
+        "viet-pron": "huyền",
+        "viet-meaning": "màu đen huyền, huyền bí"
     },
     "⽟": {
         "meaning": "jade",
@@ -2754,7 +2944,9 @@
             "0x738a",
             "0x738b",
             "0x248e9"
-        ]
+        ],
+        "viet-pron": "ngọc",
+        "viet-meaning": "đá quý, ngọc"
     },
     "⽠": {
         "meaning": "melon",
@@ -2779,7 +2971,9 @@
         "standalone_codepoint": "0x74dc",
         "variant_codepoint": [
             "0x74dc"
-        ]
+        ],
+        "viet-pron": "qua",
+        "viet-meaning": "quả dưa"
     },
     "⽡": {
         "meaning": "tile",
@@ -2804,7 +2998,9 @@
         "standalone_codepoint": "0x74e6",
         "variant_codepoint": [
             "0x74e6"
-        ]
+        ],
+        "viet-pron": "ngõa",
+        "viet-meaning": "ngói"
     },
     "⽢": {
         "meaning": "sweet",
@@ -2829,7 +3025,9 @@
         "standalone_codepoint": "0x7518",
         "variant_codepoint": [
             "0x7518"
-        ]
+        ],
+        "viet-pron": "cam",
+        "viet-meaning": "ngọt"
     },
     "⽣": {
         "meaning": "life",
@@ -2854,7 +3052,9 @@
         "standalone_codepoint": "0x751f",
         "variant_codepoint": [
             "0x751f"
-        ]
+        ],
+        "viet-pron": "sinh",
+        "viet-meaning": "sinh sôi,nảy nở"
     },
     "⽤": {
         "meaning": "use",
@@ -2883,7 +3083,9 @@
         "variant_codepoint": [
             "0x7528",
             "0x7529"
-        ]
+        ],
+        "viet-pron": "dụng",
+        "viet-meaning": "dùng"
     },
     "⽥": {
         "meaning": "field",
@@ -2921,7 +3123,9 @@
             "0x7532",
             "0x7533",
             "0x7535"
-        ]
+        ],
+        "viet-pron": "điền",
+        "viet-meaning": "ruộng"
     },
     "⽦": {
         "meaning": "bolt of cloth",
@@ -2952,7 +3156,9 @@
             "0x2eaa",
             "0x758b",
             "0x24d14"
-        ]
+        ],
+        "viet-pron": "thất/sơ",
+        "viet-meaning": "đơn vị đo chiều dài, tấm (vải)"
     },
     "⽧": {
         "meaning": "sickness",
@@ -2977,7 +3183,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x7592"
-        ]
+        ],
+        "viet-pron": "nạch",
+        "viet-meaning": "bệnh tật"
     },
     "⽨": {
         "meaning": "footsteps",
@@ -3002,7 +3210,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x7676"
-        ]
+        ],
+        "viet-pron": "bát",
+        "viet-meaning": "gạt ngược lại, trở lại"
     },
     "⽩": {
         "meaning": "white",
@@ -3032,7 +3242,9 @@
         "standalone_codepoint": "0x767d",
         "variant_codepoint": [
             "0x767d"
-        ]
+        ],
+        "viet-pron": "bạch",
+        "viet-meaning": "màu trắng"
     },
     "⽪": {
         "meaning": "skin",
@@ -3057,7 +3269,9 @@
         "standalone_codepoint": "0x76ae",
         "variant_codepoint": [
             "0x76ae"
-        ]
+        ],
+        "viet-pron": "bì",
+        "viet-meaning": "da"
     },
     "⽫": {
         "meaning": "dish",
@@ -3082,7 +3296,9 @@
         "standalone_codepoint": "0x76bf",
         "variant_codepoint": [
             "0x76bf"
-        ]
+        ],
+        "viet-pron": "mãnh",
+        "viet-meaning": "bát dĩa"
     },
     "⽬": {
         "meaning": "eye",
@@ -3111,7 +3327,9 @@
         "standalone_codepoint": "0x76ee",
         "variant_codepoint": [
             "0x76ee"
-        ]
+        ],
+        "viet-pron": "mục",
+        "viet-meaning": "mắt"
     },
     "⽭": {
         "meaning": "spear",
@@ -3136,7 +3354,9 @@
         "standalone_codepoint": "0x77db",
         "variant_codepoint": [
             "0x77db"
-        ]
+        ],
+        "viet-pron": "mâu",
+        "viet-meaning": "cây giáo để đâm"
     },
     "⽮": {
         "meaning": "arrow",
@@ -3161,7 +3381,9 @@
         "standalone_codepoint": "0x77e2",
         "variant_codepoint": [
             "0x77e2"
-        ]
+        ],
+        "viet-pron": "thỉ",
+        "viet-meaning": "cây tên, mũi tên"
     },
     "⽯": {
         "meaning": "stone",
@@ -3186,7 +3408,9 @@
         "standalone_codepoint": "0x77f3",
         "variant_codepoint": [
             "0x77f3"
-        ]
+        ],
+        "viet-pron": "thạch",
+        "viet-meaning": "đá"
     },
     "⽰": {
         "meaning": "spirit",
@@ -3221,7 +3445,9 @@
             "0x2ead",
             "0x793a",
             "0x793b"
-        ]
+        ],
+        "viet-pron": "thị/kỳ",
+        "viet-meaning": "chỉ thị; thần đất"
     },
     "⽱": {
         "meaning": "track",
@@ -3246,7 +3472,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x79b8"
-        ]
+        ],
+        "viet-pron": "nhựu",
+        "viet-meaning": "vết chân, lốt chân"
     },
     "⽲": {
         "meaning": "grain",
@@ -3275,7 +3503,9 @@
         "standalone_codepoint": "0x79be",
         "variant_codepoint": [
             "0x79be"
-        ]
+        ],
+        "viet-pron": "hòa",
+        "viet-meaning": "lúa"
     },
     "⽳": {
         "meaning": "cave",
@@ -3300,7 +3530,9 @@
         "standalone_codepoint": "0x7a74",
         "variant_codepoint": [
             "0x7a74"
-        ]
+        ],
+        "viet-pron": "huyệt",
+        "viet-meaning": "hang lỗ"
     },
     "⽴": {
         "meaning": "stand",
@@ -3325,7 +3557,9 @@
         "standalone_codepoint": "0x7acb",
         "variant_codepoint": [
             "0x7acb"
-        ]
+        ],
+        "viet-pron": "lập",
+        "viet-meaning": "đứng, thành lập"
     },
     "⽵": {
         "meaning": "bamboo",
@@ -3356,7 +3590,9 @@
             "0x2eae",
             "0x7af9",
             "0x25ad7"
-        ]
+        ],
+        "viet-pron": "trúc",
+        "viet-meaning": "tre trúc"
     },
     "⽶": {
         "meaning": "rice",
@@ -3381,7 +3617,9 @@
         "standalone_codepoint": "0x7c73",
         "variant_codepoint": [
             "0x7c73"
-        ]
+        ],
+        "viet-pron": "mễ",
+        "viet-meaning": "gạo"
     },
     "⽷": {
         "meaning": "silk",
@@ -3420,7 +3658,9 @@
             "0x7cf8",
             "0x7cf9",
             "0x7e9f"
-        ]
+        ],
+        "viet-pron": "mịch",
+        "viet-meaning": "sợi tơ nhỏ"
     },
     "⽸": {
         "meaning": "jar",
@@ -3445,7 +3685,9 @@
         "standalone_codepoint": "0x7f36",
         "variant_codepoint": [
             "0x7f36"
-        ]
+        ],
+        "viet-pron": "phẫu",
+        "viet-meaning": "đồ sành"
     },
     "⽹": {
         "meaning": "net",
@@ -3494,7 +3736,9 @@
             "0x7f52",
             "0x7f53",
             "0x2626b"
-        ]
+        ],
+        "viet-pron": "võng",
+        "viet-meaning": "cái lưới"
     },
     "⽺": {
         "meaning": "sheep",
@@ -3535,7 +3779,9 @@
             "0x7f8b",
             "0x2634b",
             "0x2634c"
-        ]
+        ],
+        "viet-pron": "dương",
+        "viet-meaning": "con dê"
     },
     "⽻": {
         "meaning": "feather",
@@ -3564,7 +3810,9 @@
         "variant_codepoint": [
             "0x7fbd",
             "0xfa1e"
-        ]
+        ],
+        "viet-pron": "vũ",
+        "viet-meaning": "lông vũ"
     },
     "⽼": {
         "meaning": "old",
@@ -3595,7 +3843,9 @@
             "0x2eb9",
             "0x8001",
             "0x8002"
-        ]
+        ],
+        "viet-pron": "lão",
+        "viet-meaning": "già"
     },
     "⽽": {
         "meaning": "and",
@@ -3620,7 +3870,9 @@
         "standalone_codepoint": "0x800c",
         "variant_codepoint": [
             "0x800c"
-        ]
+        ],
+        "viet-pron": "nhi",
+        "viet-meaning": "mà, và"
     },
     "⽾": {
         "meaning": "plough",
@@ -3645,7 +3897,9 @@
         "standalone_codepoint": "0x8012",
         "variant_codepoint": [
             "0x8012"
-        ]
+        ],
+        "viet-pron": "lỗi",
+        "viet-meaning": "cái cày"
     },
     "⽿": {
         "meaning": "ear",
@@ -3670,7 +3924,9 @@
         "standalone_codepoint": "0x8033",
         "variant_codepoint": [
             "0x8033"
-        ]
+        ],
+        "viet-pron": "nhĩ",
+        "viet-meaning": "lỗ tai"
     },
     "⾀": {
         "meaning": "brush",
@@ -3704,7 +3960,9 @@
             "0x2ebb",
             "0x807f",
             "0x8080"
-        ]
+        ],
+        "viet-pron": "duật",
+        "viet-meaning": "cây bút"
     },
     "⾁": {
         "meaning": "meat",
@@ -3733,7 +3991,9 @@
         "variant_codepoint": [
             "0x2ebc",
             "0x8089"
-        ]
+        ],
+        "viet-pron": "nhục",
+        "viet-meaning": "thịt"
     },
     "⾂": {
         "meaning": "minister",
@@ -3760,7 +4020,9 @@
         "variant_codepoint": [
             "0x81e3",
             "0x268dd"
-        ]
+        ],
+        "viet-pron": "thần",
+        "viet-meaning": "bầy tôi"
     },
     "⾃": {
         "meaning": "self",
@@ -3785,7 +4047,9 @@
         "standalone_codepoint": "0x81ea",
         "variant_codepoint": [
             "0x81ea"
-        ]
+        ],
+        "viet-pron": "tự",
+        "viet-meaning": "tự bản thân, kể từ"
     },
     "⾄": {
         "meaning": "arrive",
@@ -3810,7 +4074,9 @@
         "standalone_codepoint": "0x81f3",
         "variant_codepoint": [
             "0x81f3"
-        ]
+        ],
+        "viet-pron": "chí",
+        "viet-meaning": "đến"
     },
     "⾅": {
         "meaning": "mortar",
@@ -3843,7 +4109,9 @@
             "0x2ebd",
             "0x81fc",
             "0x26951"
-        ]
+        ],
+        "viet-pron": "cữu",
+        "viet-meaning": "cái cối giã gạo"
     },
     "⾆": {
         "meaning": "tongue",
@@ -3868,7 +4136,9 @@
         "standalone_codepoint": "0x820c",
         "variant_codepoint": [
             "0x820c"
-        ]
+        ],
+        "viet-pron": "thiệt",
+        "viet-meaning": "cái lưỡi"
     },
     "⾇": {
         "meaning": "oppose",
@@ -3893,7 +4163,9 @@
         "standalone_codepoint": "0x821b",
         "variant_codepoint": [
             "0x821b"
-        ]
+        ],
+        "viet-pron": "suyễn",
+        "viet-meaning": "sai lầm"
     },
     "⾈": {
         "meaning": "boat",
@@ -3918,7 +4190,9 @@
         "standalone_codepoint": "0x821f",
         "variant_codepoint": [
             "0x821f"
-        ]
+        ],
+        "viet-pron": "chu",
+        "viet-meaning": "cái thuyền"
     },
     "⾉": {
         "meaning": "stopping",
@@ -3943,7 +4217,9 @@
         "standalone_codepoint": "0x826e",
         "variant_codepoint": [
             "0x826e"
-        ]
+        ],
+        "viet-pron": "cấn",
+        "viet-meaning": "quẻ cấn (kinh dịch), dừng, bền cứng"
     },
     "⾊": {
         "meaning": "colour",
@@ -3970,7 +4246,9 @@
         "standalone_codepoint": "0x8272",
         "variant_codepoint": [
             "0x8272"
-        ]
+        ],
+        "viet-pron": "sắc",
+        "viet-meaning": "màu, dáng vẻ, nữ sắc"
     },
     "⾋": {
         "meaning": "grass",
@@ -4007,7 +4285,9 @@
             "0x8278",
             "0x8279",
             "0xfa5d"
-        ]
+        ],
+        "viet-pron": "thảo",
+        "viet-meaning": "cỏ"
     },
     "⾌": {
         "meaning": "tiger",
@@ -4038,7 +4318,9 @@
             "0x2ec1",
             "0x864d",
             "0x864e"
-        ]
+        ],
+        "viet-pron": "hổ",
+        "viet-meaning": "vằn vện của con hổ"
     },
     "⾍": {
         "meaning": "insect",
@@ -4063,7 +4345,9 @@
         "standalone_codepoint": "0x866b",
         "variant_codepoint": [
             "0x866b"
-        ]
+        ],
+        "viet-pron": "trùng",
+        "viet-meaning": "sâu bọ"
     },
     "⾎": {
         "meaning": "blood",
@@ -4088,7 +4372,9 @@
         "standalone_codepoint": "0x8840",
         "variant_codepoint": [
             "0x8840"
-        ]
+        ],
+        "viet-pron": "huyết",
+        "viet-meaning": "máu"
     },
     "⾏": {
         "meaning": "walk enclosure",
@@ -4115,7 +4401,9 @@
         "standalone_codepoint": "0x884c",
         "variant_codepoint": [
             "0x884c"
-        ]
+        ],
+        "viet-pron": "hành/hàng",
+        "viet-meaning": "đi, thi hành, làm được"
     },
     "⾐": {
         "meaning": "clothes",
@@ -4148,7 +4436,9 @@
             "0x8863",
             "0x8864",
             "0x27607"
-        ]
+        ],
+        "viet-pron": "y",
+        "viet-meaning": "áo"
     },
     "⾑": {
         "meaning": "cover",
@@ -4184,7 +4474,9 @@
             "0x897e",
             "0x897f",
             "0x8980"
-        ]
+        ],
+        "viet-pron": "á",
+        "viet-meaning": "che đậy, úp lên"
     },
     "⾒": {
         "meaning": "see",
@@ -4207,7 +4499,9 @@
             "0x2ec5",
             "0x898b",
             "0x89c1"
-        ]
+        ],
+        "viet-pron": "kiến",
+        "viet-meaning": "trông thấy"
     },
     "⾓": {
         "meaning": "horn",
@@ -4240,7 +4534,9 @@
             "0x2ec7",
             "0x89d2",
             "0x278b2"
-        ]
+        ],
+        "viet-pron": "giác",
+        "viet-meaning": "góc, sừng thú"
     },
     "⾔": {
         "meaning": "speech",
@@ -4271,7 +4567,9 @@
             "0x8a00",
             "0x8a01",
             "0x8ba0"
-        ]
+        ],
+        "viet-pron": "ngôn",
+        "viet-meaning": "nói"
     },
     "⾕": {
         "meaning": "valley",
@@ -4296,7 +4594,9 @@
         "standalone_codepoint": "0x8c37",
         "variant_codepoint": [
             "0x8c37"
-        ]
+        ],
+        "viet-pron": "cốc",
+        "viet-meaning": "khe nước chảy giữa hai núi, thung lũng"
     },
     "⾖": {
         "meaning": "bean",
@@ -4321,7 +4621,9 @@
         "standalone_codepoint": "0x8c46",
         "variant_codepoint": [
             "0x8c46"
-        ]
+        ],
+        "viet-pron": "đậu",
+        "viet-meaning": "hạt đậu, cây đậu"
     },
     "⾗": {
         "meaning": "pig",
@@ -4349,7 +4651,9 @@
         "standalone_codepoint": "0x8c55",
         "variant_codepoint": [
             "0x8c55"
-        ]
+        ],
+        "viet-pron": "thỉ",
+        "viet-meaning": "con heo, con lợn"
     },
     "⾘": {
         "meaning": "badger",
@@ -4377,7 +4681,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x8c78"
-        ]
+        ],
+        "viet-pron": "trãi",
+        "viet-meaning": "loài sâu không chân"
     },
     "⾙": {
         "meaning": "shell",
@@ -4400,7 +4706,9 @@
             "0x2ec9",
             "0x8c9d",
             "0x8d1d"
-        ]
+        ],
+        "viet-pron": "bối",
+        "viet-meaning": "vật báu"
     },
     "⾚": {
         "meaning": "red",
@@ -4425,7 +4733,9 @@
         "standalone_codepoint": "0x8d64",
         "variant_codepoint": [
             "0x8d64"
-        ]
+        ],
+        "viet-pron": "xích",
+        "viet-meaning": "màu đỏ"
     },
     "⾛": {
         "meaning": "run",
@@ -4452,7 +4762,9 @@
         "variant_codepoint": [
             "0x8d70",
             "0x8d71"
-        ]
+        ],
+        "viet-pron": "tẩu",
+        "viet-meaning": "đi, chạy"
     },
     "⾜": {
         "meaning": "foot",
@@ -4483,7 +4795,9 @@
             "0x2eca",
             "0x8db3",
             "0x27fb7"
-        ]
+        ],
+        "viet-pron": "túc",
+        "viet-meaning": "chân, đầy đủ"
     },
     "⾝": {
         "meaning": "body",
@@ -4508,7 +4822,9 @@
         "standalone_codepoint": "0x8eab",
         "variant_codepoint": [
             "0x8eab"
-        ]
+        ],
+        "viet-pron": "thân",
+        "viet-meaning": "thân thể, thân mình"
     },
     "⾞": {
         "meaning": "cart",
@@ -4531,7 +4847,9 @@
             "0x2ecb",
             "0x8eca",
             "0x8f66"
-        ]
+        ],
+        "viet-pron": "xa",
+        "viet-meaning": "chiếc xe"
     },
     "⾟": {
         "meaning": "bitter",
@@ -4558,7 +4876,9 @@
         "standalone_codepoint": "0x8f9b",
         "variant_codepoint": [
             "0x8f9b"
-        ]
+        ],
+        "viet-pron": "tân",
+        "viet-meaning": "cay"
     },
     "⾠": {
         "meaning": "morning",
@@ -4583,7 +4903,9 @@
         "standalone_codepoint": "0x8fb0",
         "variant_codepoint": [
             "0x8fb0"
-        ]
+        ],
+        "viet-pron": "thần/thìn",
+        "viet-meaning": "nhật, nguyệt, tinh; thìn (12 chi)"
     },
     "⾡": {
         "meaning": "walk",
@@ -4620,7 +4942,9 @@
             "0x2ece",
             "0x8fb5",
             "0x8fb6"
-        ]
+        ],
+        "viet-pron": "sước",
+        "viet-meaning": "chợt bước đi chợt dừng lại"
     },
     "⾢": {
         "meaning": "city",
@@ -4652,7 +4976,9 @@
         "variant_codepoint": [
             "0x2ecf",
             "0x9091"
-        ]
+        ],
+        "viet-pron": "ấp",
+        "viet-meaning": "vùng đất, đất phong cho quan"
     },
     "⾣": {
         "meaning": "wine",
@@ -4679,7 +5005,9 @@
         "standalone_codepoint": "0x9149",
         "variant_codepoint": [
             "0x9149"
-        ]
+        ],
+        "viet-pron": "dậu",
+        "viet-meaning": "một trong 12 địa chi"
     },
     "⾤": {
         "meaning": "distinguish",
@@ -4708,7 +5036,9 @@
         "standalone_codepoint": "0x91c6",
         "variant_codepoint": [
             "0x91c6"
-        ]
+        ],
+        "viet-pron": "biện",
+        "viet-meaning": "phân biệt"
     },
     "⾥": {
         "meaning": "village",
@@ -4735,7 +5065,9 @@
         "standalone_codepoint": "0x91cc",
         "variant_codepoint": [
             "0x91cc"
-        ]
+        ],
+        "viet-pron": "lý",
+        "viet-meaning": "dặm; làng xóm"
     },
     "⾦": {
         "meaning": "gold",
@@ -4766,7 +5098,9 @@
             "0x91d1",
             "0x91d2",
             "0x9485"
-        ]
+        ],
+        "viet-pron": "kim",
+        "viet-meaning": "kim loại nói chung, vàng"
     },
     "⾧": {
         "meaning": "long",
@@ -4795,7 +5129,9 @@
             "0x9577",
             "0x9578",
             "0x957f"
-        ]
+        ],
+        "viet-pron": "trường/trưởng",
+        "viet-meaning": "dài, lớn (trưởng)"
     },
     "⾨": {
         "meaning": "gate",
@@ -4818,7 +5154,9 @@
             "0x2ed4",
             "0x9580",
             "0x95e8"
-        ]
+        ],
+        "viet-pron": "môn",
+        "viet-meaning": "cửa hai cánh"
     },
     "⾩": {
         "meaning": "mound",
@@ -4853,7 +5191,9 @@
             "0x961c",
             "0x961d",
             "0x28e0f"
-        ]
+        ],
+        "viet-pron": "phụ",
+        "viet-meaning": "đống đất, gò đất"
     },
     "⾪": {
         "meaning": "slave",
@@ -4878,7 +5218,9 @@
         "standalone_codepoint": "0x96b6",
         "variant_codepoint": [
             "0x96b6"
-        ]
+        ],
+        "viet-pron": "đãi",
+        "viet-meaning": "kịp, kịp đến"
     },
     "⾫": {
         "meaning": "short-tailed bird",
@@ -4903,7 +5245,9 @@
         "standalone_codepoint": "0x96b9",
         "variant_codepoint": [
             "0x96b9"
-        ]
+        ],
+        "viet-pron": "chuy",
+        "viet-meaning": "chim non"
     },
     "⾬": {
         "meaning": "rain",
@@ -4932,7 +5276,9 @@
         "variant_codepoint": [
             "0x2ed7",
             "0x96e8"
-        ]
+        ],
+        "viet-pron": "vũ",
+        "viet-meaning": "mưa"
     },
     "⾭": {
         "meaning": "blue",
@@ -4963,7 +5309,9 @@
             "0x2ed8",
             "0x9751",
             "0x9752"
-        ]
+        ],
+        "viet-pron": "thanh",
+        "viet-meaning": "màu xanh"
     },
     "⾮": {
         "meaning": "wrong",
@@ -4990,7 +5338,9 @@
         "standalone_codepoint": "0x975e",
         "variant_codepoint": [
             "0x975e"
-        ]
+        ],
+        "viet-pron": "phi",
+        "viet-meaning": "không"
     },
     "⾯": {
         "meaning": "face",
@@ -5017,7 +5367,9 @@
         "variant_codepoint": [
             "0x9762",
             "0x9763"
-        ]
+        ],
+        "viet-pron": "diện",
+        "viet-meaning": "mặt, bề mặt"
     },
     "⾰": {
         "meaning": "leather",
@@ -5042,7 +5394,9 @@
         "standalone_codepoint": "0x9769",
         "variant_codepoint": [
             "0x9769"
-        ]
+        ],
+        "viet-pron": "cách",
+        "viet-meaning": "da thú, thay đổi"
     },
     "⾱": {
         "meaning": "tanned leather",
@@ -5065,7 +5419,9 @@
             "0x2ed9",
             "0x97cb",
             "0x97e6"
-        ]
+        ],
+        "viet-pron": "vi",
+        "viet-meaning": "da đã thuộc rồi"
     },
     "⾲": {
         "meaning": "leek",
@@ -5092,7 +5448,9 @@
         "standalone_codepoint": "0x97ed",
         "variant_codepoint": [
             "0x97ed"
-        ]
+        ],
+        "viet-pron": "phỉ",
+        "viet-meaning": "rau hẹ"
     },
     "⾳": {
         "meaning": "sound",
@@ -5117,7 +5475,9 @@
         "standalone_codepoint": "0x97f3",
         "variant_codepoint": [
             "0x97f3"
-        ]
+        ],
+        "viet-pron": "âm",
+        "viet-meaning": "âm thanh, tiếng"
     },
     "⾴": {
         "meaning": "leaf",
@@ -5140,7 +5500,9 @@
             "0x2eda",
             "0x9801",
             "0x9875"
-        ]
+        ],
+        "viet-pron": "hiệt",
+        "viet-meaning": "đầu; trang giấy"
     },
     "⾵": {
         "meaning": "wind",
@@ -5163,7 +5525,9 @@
             "0x2edb",
             "0x98a8",
             "0x98ce"
-        ]
+        ],
+        "viet-pron": "phong",
+        "viet-meaning": "gió"
     },
     "⾶": {
         "meaning": "fly",
@@ -5186,7 +5550,9 @@
             "0x2edc",
             "0x98db",
             "0x98de"
-        ]
+        ],
+        "viet-pron": "phi",
+        "viet-meaning": "bay"
     },
     "⾷": {
         "meaning": "eat",
@@ -5225,7 +5591,9 @@
             "0x98e0",
             "0x9963",
             "0x2967f"
-        ]
+        ],
+        "viet-pron": "thực",
+        "viet-meaning": "ăn"
     },
     "⾸": {
         "meaning": "head",
@@ -5254,7 +5622,9 @@
             "0x2ee1",
             "0x9996",
             "0x29810"
-        ]
+        ],
+        "viet-pron": "thủ",
+        "viet-meaning": "đầu"
     },
     "⾹": {
         "meaning": "fragrant",
@@ -5279,7 +5649,9 @@
         "standalone_codepoint": "0x9999",
         "variant_codepoint": [
             "0x9999"
-        ]
+        ],
+        "viet-pron": "hương",
+        "viet-meaning": "mùi thơm"
     },
     "⾺": {
         "meaning": "horse",
@@ -5302,7 +5674,9 @@
             "0x2ee2",
             "0x99ac",
             "0x9a6c"
-        ]
+        ],
+        "viet-pron": "mã",
+        "viet-meaning": "con ngựa"
     },
     "⾻": {
         "meaning": "bone",
@@ -5329,7 +5703,9 @@
         "variant_codepoint": [
             "0x2ee3",
             "0x9aa8"
-        ]
+        ],
+        "viet-pron": "cốt",
+        "viet-meaning": "xương"
     },
     "⾼": {
         "meaning": "tall",
@@ -5356,7 +5732,9 @@
         "variant_codepoint": [
             "0x9ad8",
             "0x9ad9"
-        ]
+        ],
+        "viet-pron": "cao",
+        "viet-meaning": "cao"
     },
     "⾽": {
         "meaning": "hair",
@@ -5381,7 +5759,9 @@
         "standalone_codepoint": "0x9adf",
         "variant_codepoint": [
             "0x9adf"
-        ]
+        ],
+        "viet-pron": "bưu/tiêu",
+        "viet-meaning": "tóc dài"
     },
     "⾾": {
         "meaning": "fight",
@@ -5400,7 +5780,9 @@
         "standalone_codepoint": "",
         "variant_codepoint": [
             "0x9b25"
-        ]
+        ],
+        "viet-pron": "đấu",
+        "viet-meaning": "đánh nhau"
     },
     "⾿": {
         "meaning": "sacrificial wine",
@@ -5425,7 +5807,9 @@
         "standalone_codepoint": "0x9b2f",
         "variant_codepoint": [
             "0x9b2f"
-        ]
+        ],
+        "viet-pron": "sưởng",
+        "viet-meaning": "ủ rượu nếp"
     },
     "⿀": {
         "meaning": "cauldron",
@@ -5450,7 +5834,9 @@
         "standalone_codepoint": "0x9b32",
         "variant_codepoint": [
             "0x9b32"
-        ]
+        ],
+        "viet-pron": "cách",
+        "viet-meaning": "nồi, chõ"
     },
     "⿁": {
         "meaning": "ghost",
@@ -5477,7 +5863,9 @@
         "variant_codepoint": [
             "0x2ee4",
             "0x9b3c"
-        ]
+        ],
+        "viet-pron": "quỷ",
+        "viet-meaning": "con quỷ"
     },
     "⿂": {
         "meaning": "fish",
@@ -5500,7 +5888,9 @@
             "0x2ee5",
             "0x9b5a",
             "0x9c7c"
-        ]
+        ],
+        "viet-pron": "ngư",
+        "viet-meaning": "con cá"
     },
     "⿃": {
         "meaning": "bird",
@@ -5523,7 +5913,9 @@
             "0x2ee6",
             "0x9ce5",
             "0x9e1f"
-        ]
+        ],
+        "viet-pron": "điểu",
+        "viet-meaning": "con chim"
     },
     "⿄": {
         "meaning": "salt",
@@ -5546,7 +5938,9 @@
             "0x2ee7",
             "0x5364",
             "0x9e75"
-        ]
+        ],
+        "viet-pron": "lỗ",
+        "viet-meaning": "đất mặn"
     },
     "⿅": {
         "meaning": "deer",
@@ -5571,7 +5965,9 @@
         "standalone_codepoint": "0x9e7f",
         "variant_codepoint": [
             "0x9e7f"
-        ]
+        ],
+        "viet-pron": "lộc",
+        "viet-meaning": "con hươu"
     },
     "⿆": {
         "meaning": "wheat",
@@ -5594,7 +5990,9 @@
             "0x2ee8",
             "0x9ea5",
             "0x9ea6"
-        ]
+        ],
+        "viet-pron": "mạch",
+        "viet-meaning": "lúa mạch"
     },
     "⿇": {
         "meaning": "hemp",
@@ -5619,7 +6017,9 @@
         "standalone_codepoint": "0x9ebb",
         "variant_codepoint": [
             "0x9ebb"
-        ]
+        ],
+        "viet-pron": "ma",
+        "viet-meaning": "cây gai"
     },
     "⿈": {
         "meaning": "yellow",
@@ -5648,7 +6048,9 @@
             "0x2ee9",
             "0x9ec3",
             "0x9ec4"
-        ]
+        ],
+        "viet-pron": "hoàng",
+        "viet-meaning": "màu vàng"
     },
     "⿉": {
         "meaning": "millet",
@@ -5673,7 +6075,9 @@
         "standalone_codepoint": "0x9ecd",
         "variant_codepoint": [
             "0x9ecd"
-        ]
+        ],
+        "viet-pron": "thử",
+        "viet-meaning": "lúa nếp"
     },
     "⿊": {
         "meaning": "black",
@@ -5702,7 +6106,9 @@
         "variant_codepoint": [
             "0x9ed1",
             "0x9ed2"
-        ]
+        ],
+        "viet-pron": "hắc",
+        "viet-meaning": "màu đen"
     },
     "⿋": {
         "meaning": "embroidery",
@@ -5727,7 +6133,9 @@
         "standalone_codepoint": "0x9ef9",
         "variant_codepoint": [
             "0x9ef9"
-        ]
+        ],
+        "viet-pron": "chỉ",
+        "viet-meaning": "may áo, khâu vá"
     },
     "⿌": {
         "meaning": "frog",
@@ -5750,7 +6158,9 @@
             "0x2eea",
             "0x9efd",
             "0x9efe"
-        ]
+        ],
+        "viet-pron": "mãnh",
+        "viet-meaning": "loài bò sát"
     },
     "⿍": {
         "meaning": "tripod",
@@ -5775,7 +6185,9 @@
         "standalone_codepoint": "0x9f0e",
         "variant_codepoint": [
             "0x9f0e"
-        ]
+        ],
+        "viet-pron": "đỉnh",
+        "viet-meaning": "cái đỉnh"
     },
     "⿎": {
         "meaning": "drum",
@@ -5800,7 +6212,9 @@
         "standalone_codepoint": "0x9f13",
         "variant_codepoint": [
             "0x9f13"
-        ]
+        ],
+        "viet-pron": "cổ",
+        "viet-meaning": "cái trống"
     },
     "⿏": {
         "meaning": "rat",
@@ -5829,7 +6243,9 @@
         "variant_codepoint": [
             "0x9f20",
             "0x9f21"
-        ]
+        ],
+        "viet-pron": "thử",
+        "viet-meaning": "con chuột"
     },
     "⿐": {
         "meaning": "nose",
@@ -5854,7 +6270,9 @@
         "standalone_codepoint": "0x9f3b",
         "variant_codepoint": [
             "0x9f3b"
-        ]
+        ],
+        "viet-pron": "tỵ",
+        "viet-meaning": "cái mũi"
     },
     "⿑": {
         "meaning": "even",
@@ -5881,7 +6299,9 @@
             "0x6589",
             "0x9f4a",
             "0x9f50"
-        ]
+        ],
+        "viet-pron": "tề",
+        "viet-meaning": "bằng nhau"
     },
     "⿒": {
         "meaning": "tooth",
@@ -5908,7 +6328,9 @@
             "0x6b6f",
             "0x9f52",
             "0x9f7f"
-        ]
+        ],
+        "viet-pron": "xỉ",
+        "viet-meaning": "răng"
     },
     "⿓": {
         "meaning": "dragon",
@@ -5935,7 +6357,9 @@
             "0x7adc",
             "0x9f8d",
             "0x9f99"
-        ]
+        ],
+        "viet-pron": "long",
+        "viet-meaning": "con rồng"
     },
     "⿔": {
         "meaning": "turtle",
@@ -5964,7 +6388,9 @@
             "0x4e80",
             "0x9f9c",
             "0x9f9f"
-        ]
+        ],
+        "viet-pron": "quy",
+        "viet-meaning": "con rùa"
     },
     "⿕": {
         "meaning": "flute",
@@ -5989,6 +6415,8 @@
         "standalone_codepoint": "0x9fa0",
         "variant_codepoint": [
             "0x9fa0"
-        ]
+        ],
+        "viet-pron": "dược",
+        "viet-meaning": "sáo ba lỗ"
     }
 }
