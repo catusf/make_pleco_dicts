@@ -8,6 +8,10 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false,
+            "args": [
+                "--dict-size=big",
+                "--num-items=200"
+            ],
             "purpose": [
                 "debug-in-terminal"
             ],
