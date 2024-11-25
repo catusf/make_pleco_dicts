@@ -693,27 +693,50 @@ def main():
 
         string = regex.sub(PATTERN_PY, replace_num_pinyin, string)
 
+
         # Each pronunctiation and meaning need a separate line
-        for num, pinyin in enumerate(pinyins):
-            meanings = all_meanings[num]
 
-            main_string = f"{key}\t"
-            
-            if MAKE_PLECO:
+        if MAKE_PLECO:
+            for num, pinyin in enumerate(pinyins):
+                meanings = all_meanings[num]
+
+                main_string = f"{key}\t"
+                
                 main_string += f"{pinyin}\t"
-            else:
-                main_string += f"{pinyin}\n"
-    
-            main_string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MEANING_MARK, make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)}\n"
+        
+                main_string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MEANING_MARK, make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)}\n"
 
-            for num, meaning in enumerate(meanings):
-                if len(meanings) > 1:
-                    main_string += f"{number_in_cirle(num+1)} {remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
-                else:
-                    main_string += f"{remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
+                for num, meaning in enumerate(meanings):
+                    if len(meanings) > 1:
+                        main_string += f"{number_in_cirle(num+1)} {remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
+                    else:
+                        main_string += f"{remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
 
-            main_string = main_string.strip()
-            main_string += "\n"
+                main_string = main_string.strip()
+                main_string += "\n"
+
+            main_string += string
+
+            main_string = pleco_make_new_line(main_string, make_pleco=MAKE_PLECO)
+            # print(string)
+            fwrite.write(f"{main_string}\n")
+            written += 1
+        else:
+            main_string = f"{key}\t"
+                
+            for num, pinyin in enumerate(pinyins):
+                meanings = all_meanings[num]
+
+                main_string += f"[{pinyin}]\n"
+        
+                for num, meaning in enumerate(meanings):
+                    if len(meanings) > 1:
+                        main_string += f"{number_in_cirle(num+1)} {remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
+                    else:
+                        main_string += f"{remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
+
+                main_string = main_string.strip()
+                main_string += "\n"
 
             main_string += string
 
