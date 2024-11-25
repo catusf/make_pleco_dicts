@@ -248,6 +248,9 @@ def replace_num_pinyin(match_obj):
     if match_obj.group(1) is not None:
         return numbered_to_accented(match_obj.group(1))
 
+def replace_num_pinyin_fs(match_obj): # Add front space
+    if match_obj.group(1) is not None:
+        return " " + numbered_to_accented(match_obj.group(1))
 
 import json
 import re
