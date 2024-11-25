@@ -215,11 +215,12 @@ def pleco_make_new_line(text, make_pleco=True):
         return text.replace("\n", PC_NEW_LINE)
     else:
         return (
-            text.replace("\n", "<br>")
+            text.replace("\n\n", "\n")
             .replace("<b><b>", "<b>")
             .replace("</b></b>", "</b>")
             .replace("<i><i>", "<i>")
             .replace("</i></i>", "</i>")
+            .replace("\n", "<br>")
         )
 
 
@@ -613,7 +614,7 @@ def build_ids_radical_perfect():
 
             pass
 
-    print(round)
+    # print(round)
 
     rads = Radicals()
     rads.load_radical_data()

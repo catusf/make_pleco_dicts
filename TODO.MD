@@ -1,9 +1,12 @@
 TODO
+[ ] Với các từ có nhiều cách đọc và nghĩa khác, khi export ra non-pleco thì chỉ export ra 1 line
+[ ] Creats json file
+[ ] Use json file to create dict
 [ ] Add decompositions for char without definitions (searcher.definition_lookup(char) => none but decomposer.tree(char) or IDS => not None)
-[ ] Add mnemonics from https://rtega.be/chmn/
-[ ] Add radical info page
-[ ] Add Radicals order by pinyin
-[ ] Tạo lại Hanzii dict, bỏ bớt new line
+[X] Add mnemonics from https://rtega.be/chmn/
+[X] Add radical info page
+[X] Add Radicals order by pinyin
+[X] Tạo lại Hanzii dict, bỏ bớt new line
 [ ] Add non-decomposable chars list
 [ ] Why decompose 朩 here while it is a ? 
 [X] Add suggested item from top 5000 HSK words
@@ -22,56 +25,7 @@ TODO
 [ ] Convert Thienchuu to same format
 [ ] Add remaining Thienchuu
 [ ] Get list on un-covered items in 75k list
-
 [ ] Add list of HSK: All level
 [ ] Lấy danh sách OpenSubstitles 
 [ ] Check lenght of definitions, examples and recommedations
-
-BeauttifulSoup
-
-- Find by id
-
-results = soup.find(id="ResultsContainer")
-
-- Find Elements by HTML Class Name
-
-job_elements = results.find_all("div", class_="card-content")
-
-first_elem = results.find("div", class_="card-content")
-
-- Iterate over the elements
-
-for job_element in job_elements:
-    title_element = job_element.find("h2", class_="title")
-    company_element = job_element.find("h3", class_="company")
-    location_element = job_element.find("p", class_="location")
-    print(title_element)
-    print(company_element)
-    print(location_element)
-    print()
-
-- Extract Text From HTML Elements
-
-
-for job_element in job_elements:
-    title_element = job_element.find("h2", class_="title")
-    company_element = job_element.find("h3", class_="company")
-    location_element = job_element.find("p", class_="location")
-    print(title_element.text.strip())
-    print(company_element.text.strip())
-    print(location_element.text.strip())
-    print()
-
-- Extract Attributes From HTML Elements
-
-for job_element in python_job_elements:
-    # -- snip --
-    links = job_element.find_all("a")
-    for link in links:
-        link_url = link["href"]
-        print(f"Apply here: {link_url}\n")
-
-		
-
-
 

@@ -406,16 +406,18 @@ def replace_chinese_in_tree(match_obj):
         pinyin = ""
         meaning = ""
 
+        viet_pron = ""
         if rad_database.is_radical_variant(key):
             item = rad_database.lookup(key)
             pinyin = item["pinyin"]
-            meaning = f"{item['meaning']} (#{item['number']})"
+            viet_pron = f" / {item["viet-pron"]} "
+            # meaning = f"{item['meaning']} (#{item['number']})"
         elif key in char_dict:
             item = char_dict[key]
             meaning = item["meaning"][0][0] if item["meaning"] else "(no meaning)"
             pinyin = item["pinyin"][0]
 
-        return f"{pleco_make_blue(key, make_pleco=MAKE_PLECO)} {pleco_make_italic(pinyin, make_pleco=MAKE_PLECO)}"
+        return f"{pleco_make_blue(key, make_pleco=MAKE_PLECO)} {pleco_make_italic(pinyin, make_pleco=MAKE_PLECO)}{viet_pron}"
 
 
 def replace_leading_spaces_with_dots(text):
@@ -461,7 +463,8 @@ def main():
     # Access the make-pleco argument
     MAKE_PLECO = args.make_pleco
 
-    fwrite = open(join(DICT_DIR, "char_dict_pleco.txt"), "w", encoding="utf-8")
+    dict_filepath = join(DICT_DIR, f"Char-Dict_pleco.{"txt" if MAKE_PLECO else "tab"}")
+    fwrite = open(dict_filepath, "w", encoding="utf-8")
 
     try:
         with open(join(DATA_DIR, CHAR_DICT_FILE), "r", encoding="utf-8") as fread:
@@ -661,7 +664,7 @@ def main():
                     if key in variants:  # If same as key headword, remove
                         variants.remove(key)
 
-                    alternatives = "Alternative(s): " + PC_MIDDLE_DOT.join(variants) if variants else ""  # fmt: skip
+                    alternatives = "Alternatives: " + PC_MIDDLE_DOT.join(variants) if variants else ""  # fmt: skip
 
                     if MAKE_PLECO:
                         alternatives = regex.sub(PATTERN_ZH, replace_chinese_blue, alternatives)
@@ -682,9 +685,9 @@ def main():
                 contains.remove(key)
 
             if contains:
-                blue_chars = [pleco_make_link(char) for char in contains[:MAX_APPEARANCES]]
+                blue_chars = [pleco_make_link(char, make_pleco=MAKE_PLECO) for char in contains[:MAX_APPEARANCES]]
                 appear_str = f"{pleco_make_bold(pleco_make_dark_gray(PC_APPEARS_MARK, make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)} {len(contains)}"
-                string += f"{pleco_make_dark_gray(appear_str)}\n"
+                string += f"{pleco_make_dark_gray(appear_str, make_pleco=MAKE_PLECO)}\n"
 
                 string += f"{PC_MIDDLE_DOT.join(blue_chars)}"
 
@@ -697,7 +700,9 @@ def main():
             main_string = f"{key}\t"
             
             if MAKE_PLECO:
-                main_string = f"{pinyin}\t"
+                main_string += f"{pinyin}\t"
+            else:
+                main_string += f"{pinyin}\n"
     
             main_string += f"{pleco_make_bold(pleco_make_dark_gray(PC_MEANING_MARK, make_pleco=MAKE_PLECO), make_pleco=MAKE_PLECO)}\n"
 
@@ -707,7 +712,8 @@ def main():
                 else:
                     main_string += f"{remove_chinese_with_pipe(convert_to_mark_pinyin(meaning))} "
 
-            main_string += main_string.strip() + "\n"
+            main_string = main_string.strip()
+            main_string += "\n"
 
             main_string += string
 
@@ -729,7 +735,8 @@ def main():
     fwrite.close()
 
     print(f"{written=}")
-
+    print(f"Dictionary written {dict_filepath}")
+    
 if __name__ == "__main__":
     main()
 
@@ -746,3 +753,4 @@ if __name__ == "__main__":
 
     print(f"Elapsed time: {end_datetime - start_datetime}")
     flog.close()
+
